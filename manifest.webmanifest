@@ -1,14 +1,14 @@
 {
   "id": "./",
-  "name": "復活邪神：吟遊詩人之歌｜2005 PS2 攻略",
+  "name": "復活邪神：吟遊詩人之歌｜2005 PS2 離線攻略",
   "short_name": "吟遊詩人PS2",
-  "description": "2005 年 PS2 原版攻略、任務、金手指、來源索引",
+  "description": "2005 PS2 原版攻略及金手指（內建內容，不用連外）",
   "lang": "zh-TW",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#fbf7ed",
-  "theme_color": "#812f39",
+  "background_color": "#faf7f3",
+  "theme_color": "#501d29",
   "icons": [
     {
       "src": "assets/icon-192.png",
@@ -22,6 +22,5 @@
       "type": "image/png",
       "purpose": "any"
     }
-  ],
-  "orientation": "any"
+  ]
 }
