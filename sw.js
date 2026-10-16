@@ -1,11 +1,31 @@
-/* Self-contained PS2 2005 guide: navigation cached after first visit. */
-const KEY='minstrel-ps2-2005-v0.4.3';
-const FILES=["./index.html","./","./data.json","./manifest.webmanifest","./assets/ps2-original-cover.webp","./assets/icon-192.png","./assets/icon-512.png","./assets/apple-touch-icon.png","./assets/diagrams/dinosaur-eggs.svg","./assets/diagrams/final-trial.svg","./assets/diagrams/fortress-ruins.svg","./assets/diagrams/frozen-castle.svg","./assets/diagrams/heretic-ruins.svg","./assets/diagrams/region-01.svg","./assets/diagrams/region-02.svg","./assets/diagrams/region-03.svg","./assets/diagrams/region-04.svg","./assets/diagrams/region-05.svg","./assets/diagrams/region-06.svg","./assets/diagrams/region-07.svg","./assets/diagrams/region-08.svg","./assets/diagrams/region-09.svg","./assets/diagrams/region-10.svg","./assets/diagrams/region-11.svg","./assets/diagrams/three-destinations.svg","./assets/diagrams/treasure-cave.svg","./assets/diagrams/twinmoon-temple.svg","./assets/diagrams/underworld.svg","./assets/diagrams/water-dragon-temple.svg"];
-async function preload(){const cache=await caches.open(KEY);const page=await fetch('./index.html',{cache:'reload'});if(!page.ok)throw Error('攻略首頁載入失敗');await cache.put('./index.html',page.clone());const others=await Promise.allSettled(FILES.filter(f=>f!=='./index.html').map(async f=>{const res=await fetch(f,{cache:'reload'});if(res.ok)await cache.put(f,res.clone())}));return others.filter(r=>r.status==='rejected').length}
-self.addEventListener('install',event=>{event.waitUntil(preload().then(()=>self.skipWaiting()))});
-self.addEventListener('activate',event=>event.waitUntil((async()=>{await Promise.all((await caches.keys()).filter(k=>k.startsWith('minstrel-ps2-')&&k!==KEY).map(k=>caches.delete(k)));await self.clients.claim()})()));
-self.addEventListener('message',event=>{if(event.data?.type!=='CACHE_GUIDE')return;event.waitUntil(preload().then(()=>event.ports[0]?.postMessage({ok:true})).catch(e=>event.ports[0]?.postMessage({ok:false,error:e.message})))});
-self.addEventListener('fetch',event=>{if(event.request.method!=='GET')return;const url=new URL(event.request.url);if(url.origin!==self.location.origin||!url.pathname.startsWith(new URL('./',self.location.href).pathname))return;
-if(event.request.mode==='navigate'){event.respondWith((async()=>{const cache=await caches.open(KEY);try{const res=await fetch(event.request);if(res.ok){cache.put('./index.html',res.clone()).catch(()=>{});return res}}catch(e){}return await cache.match('./index.html')||Response.error()})());return}
-event.respondWith((async()=>{let cached=await caches.match(event.request);if(cached)return cached;try{const res=await fetch(event.request);if(res.ok)(await caches.open(KEY)).put(event.request,res.clone()).catch(()=>{});return res}catch(e){return Response.error()}})());
+/* 2005 PS2 guide, offline installation v0.4.4. */
+const KEY='minstrel-ps2-2005-v0.4.4';
+const FILES=["./","./index.html","./data.json","./manifest.webmanifest","./assets/ps2-original-cover.webp","./assets/icon-192.png","./assets/icon-512.png","./assets/apple-touch-icon.png","./assets/diagrams/dinosaur-eggs.svg","./assets/diagrams/final-trial.svg","./assets/diagrams/fortress-ruins.svg","./assets/diagrams/frozen-castle.svg","./assets/diagrams/heretic-ruins.svg","./assets/diagrams/region-01.svg","./assets/diagrams/region-02.svg","./assets/diagrams/region-03.svg","./assets/diagrams/region-04.svg","./assets/diagrams/region-05.svg","./assets/diagrams/region-06.svg","./assets/diagrams/region-07.svg","./assets/diagrams/region-08.svg","./assets/diagrams/region-09.svg","./assets/diagrams/region-10.svg","./assets/diagrams/region-11.svg","./assets/diagrams/three-destinations.svg","./assets/diagrams/treasure-cave.svg","./assets/diagrams/twinmoon-temple.svg","./assets/diagrams/underworld.svg","./assets/diagrams/water-dragon-temple.svg"];
+async function preload(){
+ const cache=await caches.open(KEY);
+ const result=await fetch('./index.html',{cache:'reload'});
+ if(!result.ok)throw Error('攻略首頁載入失敗');
+ await cache.put('./index.html',result.clone());
+ const fail=[];
+ const others=FILES.filter(f=>f!=='./index.html');
+ for(let i=0;i<others.length;i+=8){
+  const batch=others.slice(i,i+8);
+  await Promise.all(batch.map(async f=>{
+   try{const res=await fetch(f,{cache:'reload'}); if(!res.ok)throw Error(String(res.status)); await cache.put(f,res.clone())}
+   catch(e){fail.push(f)}
+  }));
+ }
+ if(fail.length)throw Error('離線資源未完整儲存：'+fail.join(', '));
+ return FILES.length;
+}
+self.addEventListener('install',e=>e.waitUntil(preload().then(()=>self.skipWaiting())));
+self.addEventListener('activate',e=>e.waitUntil((async()=>{await Promise.all((await caches.keys()).filter(k=>k.startsWith('minstrel-ps2-')&&k!==KEY).map(k=>caches.delete(k))); await self.clients.claim()})()));
+self.addEventListener('message',e=>{if(e.data?.type!=='CACHE_GUIDE')return; e.waitUntil(preload().then(n=>e.ports[0]?.postMessage({ok:true,count:n})).catch(err=>e.ports[0]?.postMessage({ok:false,error:err.message})))});
+self.addEventListener('fetch',e=>{
+ if(e.request.method!=='GET')return;
+ const url=new URL(e.request.url);if(url.origin!==self.location.origin||!url.pathname.startsWith(new URL('./',self.location.href).pathname))return;
+ if(e.request.mode==='navigate'){
+  e.respondWith((async()=>{const cache=await caches.open(KEY);try{const res=await fetch(e.request);if(res.ok){cache.put('./index.html',res.clone()).catch(()=>{});return res}}catch(x){}return await cache.match('./index.html')||Response.error()})());return;
+ }
+ e.respondWith((async()=>{const cached=await caches.match(e.request);if(cached)return cached;try{const res=await fetch(e.request);if(res.ok)(await caches.open(KEY)).put(e.request,res.clone()).catch(()=>{});return res}catch(x){return Response.error()}})());
 });
