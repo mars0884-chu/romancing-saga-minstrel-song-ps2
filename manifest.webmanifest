@@ -1,7 +1,7 @@
 {
   "id": "./",
-  "name": "吟遊詩人之歌｜2005 PS2 攻略",
-  "short_name": "Minstrel PS2",
+  "name": "復活邪神：吟遊詩人之歌｜2005 PS2 攻略",
+  "short_name": "吟遊詩人PS2",
   "description": "2005 年 PS2 原版攻略、任務、金手指、來源索引",
   "lang": "zh-TW",
   "start_url": "./index.html",
@@ -14,19 +14,14 @@
       "src": "assets/icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
     },
     {
       "src": "assets/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "assets/icon.svg",
-      "sizes": "any",
-      "type": "image/svg+xml",
       "purpose": "any"
     }
-  ]
+  ],
+  "orientation": "any"
 }
