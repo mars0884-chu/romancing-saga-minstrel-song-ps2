@@ -1,0 +1,25 @@
+name: Inspect original PS2 dungeon map layout sources
+on:
+  push:
+    paths:
+      - '.github/workflows/crawl-ps2-map-pages.yml'
+      - 'tools/crawl_ps2_maps.py'
+  workflow_dispatch:
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install requests beautifulsoup4 pillow
+      - run: python tools/crawl_ps2_maps.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: ps2-map-layout-private-source-study
+          path: source-study-all/*
+          retention-days: 1
