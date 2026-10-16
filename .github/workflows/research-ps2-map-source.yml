@@ -1,0 +1,25 @@
+name: PS2 historical map source research
+on:
+  push:
+    paths:
+      - '.github/workflows/research-ps2-map-source.yml'
+      - 'tools/probe_ps2_map_sources.py'
+  workflow_dispatch:
+jobs:
+  source-audit:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install pillow
+      - run: python tools/probe_ps2_map_sources.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: historic-map-sources-private-study
+          path: source-study-only/*
+          retention-days: 1
