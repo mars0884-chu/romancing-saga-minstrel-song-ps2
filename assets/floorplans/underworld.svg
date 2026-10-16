@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1580" height="1110" viewBox="0 0 1580 1110" role="img" aria-label="冥府，以2005 PS2原版通道輪廓資料獨立重繪的迷宮地圖">
+<rect width="1580" height="1110" rx="34" fill="#f8f2e9"/>
+<rect width="1580" height="110" rx="34" fill="#58202b"/><rect x="0" y="77" width="1580" height="34" fill="#58202b"/>
+<text x="46" y="55" font-family="Noto Sans CJK TC, Noto Sans, Microsoft JhengHei, PingFang TC, sans-serif" font-size="43" font-weight="bold" fill="#fff">冥府｜PS2 原版通道地圖</text>
+<text x="50" y="91" font-family="Noto Sans CJK TC, Noto Sans, Microsoft JhengHei, PingFang TC, sans-serif" font-size="23" fill="#efd9cb">冥府｜保留樓層相對方位，非原圖翻印</text>
+<rect x="30" y="128" width="980" height="936" rx="24" fill="#fffefd" stroke="#d9c6bd" stroke-width="4"/>
+<rect x="1040" y="128" width="504" height="936" rx="24" fill="#fffefd" stroke="#d9c6bd" stroke-width="4"/>
+<g transform="translate(70 178) scale(2.95)">
+<path d="M147,213 149,215 148,217 149,219 147,220 154,220 154,213 153,215 151,214 149,215Z" fill="#356f91" stroke="#173d5b" stroke-width="0.65" stroke-linejoin="round"/>
+<path d="M138,213 138,220 145,220 143,219 144,217 143,215 145,213 143,215 141,214 139,215Z" fill="#356f91" stroke="#173d5b" stroke-width="0.65" stroke-linejoin="round"/>
+<path d="M147,204 149,205 148,207 149,209 147,211 149,209 151,210 153,209 154,211 154,204Z" fill="#356f91" stroke="#173d5b" stroke-width="0.65" stroke-linejoin="round"/>
+<path d="M138,204 138,211 139,209 141,210 143,209 145,211 143,209 144,207 143,205 145,204Z" fill="#356f91" stroke="#173d5b" stroke-width="0.65" stroke-linejoin="round"/>
+<path d="M236,150 236,169 243,169 244,173 247,173 248,169 255,169 255,150Z" fill="#356f91" stroke="#173d5b" stroke-width="0.65" stroke-linejoin="round"/>
+<path d="M219,150 219,191 213,192 212,198 198,198 197,194 194,194 194,201 212,201 213,207 228,207 229,201 247,201 247,192 244,192 243,198 229,198 228,192 222,191 222,150Z" fill="#356f91" stroke="#173d5b" stroke-width="0.65" stroke-linejoin="round"/>
+<path d="M189,150 189,155 186,156 186,172 188,172 188,159 190,158 191,155 194,156 194,159 190,160 190,172 193,172 194,175 197,175 198,172 201,172 201,160 197,159 198,155 200,155 201,158 203,159 203,172 205,172 205,156 202,155 202,150Z" fill="#356f91" stroke="#173d5b" stroke-width="0.65" stroke-linejoin="round"/>
+<path d="M115,127 110,127 110,131 106,132 106,142 111,146 110,148 108,148 108,151 111,152 111,164 110,165 95,165 95,183 94,184 88,184 87,180 84,180 84,183 80,184 79,178 64,178 64,193 79,193 80,187 83,187 84,191 87,191 88,187 98,187 98,169 99,168 114,168 114,152 118,151 118,148 115,148 114,146 117,143 119,137 119,132 115,131Z" fill="#356f91" stroke="#173d5b" stroke-width="0.65" stroke-linejoin="round"/>
+<path d="M74,107 75,122 64,126 64,131 69,130 73,133 78,133 82,130 83,127 83,113 80,111 79,107Z" fill="#356f91" stroke="#173d5b" stroke-width="0.65" stroke-linejoin="round"/>
+<path d="M215,88 215,90 219,91 219,96 215,99 215,115 219,116 219,124 222,124 222,116 226,115 226,99 224,99 221,96 221,88Z" fill="#356f91" stroke="#173d5b" stroke-width="0.65" stroke-linejoin="round"/>
+<path d="M130,88 130,91 173,91 173,88 158,88 157,84 155,84 154,86 151,84 148,86 146,84 145,88Z" fill="#356f91" stroke="#173d5b" stroke-width="0.65" stroke-linejoin="round"/>
+<path d="M150,62 151,66 150,77 151,76 153,79 153,68 152,67 153,62Z" fill="#356f91" stroke="#173d5b" stroke-width="0.65" stroke-linejoin="round"/>
+</g>
+<text x="453.5" y="319.6" text-anchor="middle" font-family="Noto Sans CJK TC, Noto Sans, Microsoft JhengHei, PingFang TC, sans-serif" font-weight="bold" font-size="20" fill="#215169" >煉獄橋</text>
+<text x="241.1" y="452.4" text-anchor="middle" font-family="Noto Sans CJK TC, Noto Sans, Microsoft JhengHei, PingFang TC, sans-serif" font-weight="bold" font-size="20" fill="#215169" >出片場</text>
+<text x="474.2" y="405.1" text-anchor="middle" font-family="Noto Sans CJK TC, Noto Sans, Microsoft JhengHei, PingFang TC, sans-serif" font-weight="bold" font-size="20" fill="#215169" >死神之間</text>
+<text x="707.2" y="508.4" text-anchor="middle" font-family="Noto Sans CJK TC, Noto Sans, Microsoft JhengHei, PingFang TC, sans-serif" font-weight="bold" font-size="20" fill="#215169" >死者之門</text>
+<text x="515.5" y="682.5" text-anchor="middle" font-family="Noto Sans CJK TC, Noto Sans, Microsoft JhengHei, PingFang TC, sans-serif" font-weight="bold" font-size="20" fill="#215169" >法官之間</text>
+<text x="751.5" y="650.0" text-anchor="middle" font-family="Noto Sans CJK TC, Noto Sans, Microsoft JhengHei, PingFang TC, sans-serif" font-weight="bold" font-size="20" fill="#215169" >戰士之間</text>
+<text x="589.2" y="794.6" text-anchor="middle" font-family="Noto Sans CJK TC, Noto Sans, Microsoft JhengHei, PingFang TC, sans-serif" font-weight="bold" font-size="20" fill="#215169" >地下層</text>
+<text x="1071" y="188" font-family="Noto Sans CJK TC, Noto Sans, Microsoft JhengHei, PingFang TC, sans-serif" font-size="36" fill="#58202b" font-weight="bold">地圖判讀</text>
+<rect x="1078" y="225" width="33" height="33" rx="5" fill="#356f91" stroke="#173d5b" stroke-width="2"/>
+<text x="1125" y="251" font-family="Noto Sans CJK TC, Noto Sans, Microsoft JhengHei, PingFang TC, sans-serif" font-size="26" fill="#292323">可通行區域輪廓</text>
+<text x="1078" y="319" font-family="Noto Sans CJK TC, Noto Sans, Microsoft JhengHei, PingFang TC, sans-serif" font-size="27" fill="#292323" font-weight="bold">PS2 原版查證重點</text>
+<circle cx="1095" cy="350" r="7" fill="#a56b3c"/>
+<text x="1117" y="359" font-family="Noto Sans CJK TC, Noto Sans, Microsoft JhengHei, PingFang TC, sans-serif" font-size="25" fill="#292323">依原版通道與房間方位重新描出</text>
+<circle cx="1095" cy="421" r="7" fill="#a56b3c"/>
+<text x="1117" y="430" font-family="Noto Sans CJK TC, Noto Sans, Microsoft JhengHei, PingFang TC, sans-serif" font-size="25" fill="#292323">此區有橋、死亡之門、法官之間等分區</text>
+<circle cx="1095" cy="492" r="7" fill="#a56b3c"/>
+<text x="1117" y="501" font-family="Noto Sans CJK TC, Noto Sans, Microsoft JhengHei, PingFang TC, sans-serif" font-size="25" fill="#292323">途中需要跳躍能力，進入前確認回程路線</text>
+<circle cx="1095" cy="563" r="7" fill="#a56b3c"/>
+<text x="1117" y="572" font-family="Noto Sans CJK TC, Noto Sans, Microsoft JhengHei, PingFang TC, sans-serif" font-size="25" fill="#292323">原版攻略地圖有隨機寶箱，位置不能全部當</text>
+<text x="1117" y="611" font-family="Noto Sans CJK TC, Noto Sans, Microsoft JhengHei, PingFang TC, sans-serif" font-size="25" fill="#292323">固定點</text>
+<line x1="1068" y1="835" x2="1514" y2="835" stroke="#d9c6bd" stroke-width="3"/>
+<text x="1078" y="882" font-family="Noto Sans CJK TC, Noto Sans, Microsoft JhengHei, PingFang TC, sans-serif" font-size="22" fill="#806b64">地圖呈現：本站獨立重繪</text>
+<text x="1078" y="922" font-family="Noto Sans CJK TC, Noto Sans, Microsoft JhengHei, PingFang TC, sans-serif" font-size="22" fill="#806b64">通道相對位置依 PS2 原版資料</text>
+<text x="1078" y="962" font-family="Noto Sans CJK TC, Noto Sans, Microsoft JhengHei, PingFang TC, sans-serif" font-size="22" fill="#806b64">不是一般流程框／資訊卡</text>
+<text x="1078" y="1002" font-family="Noto Sans CJK TC, Noto Sans, Microsoft JhengHei, PingFang TC, sans-serif" font-size="22" fill="#806b64">部分寶箱為隨機生成，未標固定點</text>
+</svg>

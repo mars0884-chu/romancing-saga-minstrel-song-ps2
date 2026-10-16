@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1580" height="1110" viewBox="0 0 1580 1110" role="img" aria-label="艾斯塔米爾下水道 PS2 原版迷宮地形與通道重繪圖">
+<rect width="1580" height="1110" rx="30" fill="#f8f2e9"/>
+<rect width="1580" height="112" rx="30" fill="#58202b"/><rect y="72" width="1580" height="40" fill="#58202b"/>
+<text x="42" y="59" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="43" font-weight="bold" fill="white">艾斯塔米爾下水道｜PS2 地形通道圖</text>
+<text x="46" y="94" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#f2d7cb">エスタミル地下道 ｜依原版地圖資料獨立重繪</text>
+<rect x="30" y="132" width="980" height="922" rx="24" fill="#fffefd" stroke="#d8c5bc" stroke-width="3"/>
+<rect x="1035" y="132" width="505" height="922" rx="24" fill="#fffefd" stroke="#d8c5bc" stroke-width="3"/>
+<g transform="translate(70 171) scale(2.95)">
+<path d="M31,202 31,214 32,213 34,214 34,208 35,207 36,208 36,216 31,219 29,218 28,219 28,224 26,226 21,226 21,229 26,229 28,231 28,236 47,236 47,229 48,228 47,227 47,219 40,219 39,218 39,202Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M202,146 202,159 206,159 207,162 205,164 196,164 195,165 195,202 223,202 223,164 212,164 210,162 212,159 215,159 215,146Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M96,142 97,144 97,155 111,155 110,153 110,144 111,142Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M98,115 97,116 97,128 110,128 110,115Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M228,106 226,107 226,124 231,124 231,107Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M97,51 97,69 106,69 108,71 107,72 107,86 111,86 112,87 112,72 111,70 112,69 122,69 122,51Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M195,42 195,53 198,53 198,47 199,46 200,47 200,55 199,56 199,119 204,119 204,83 206,81 215,81 216,82 216,93 223,93 226,96 226,99 228,100 231,98 231,88 223,88 221,86 221,83 223,81 250,81 250,77 249,76 240,76 237,74 237,64 238,63 241,63 241,51 232,51 233,52 233,63 232,64 232,75 231,76 207,76 204,74 203,42Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M26,40 26,54 25,55 25,135 30,135 30,99 31,98 53,98 54,97 53,96 54,93 53,92 54,91 53,89 54,88 56,89 59,84 79,84 82,87 82,103 79,105 72,105 73,106 73,109 72,110 79,110 82,112 82,125 83,126 83,135 82,136 84,137 86,136 86,126 87,125 87,48 82,48 82,76 79,79 71,79 67,77 67,60 62,60 62,77 60,79 57,77 57,74 55,75 46,75 45,74 44,75 44,87 43,88 47,88 48,89 48,92 47,93 31,93 30,92 30,72 31,71 32,73 38,73 38,68 32,68 31,69 30,68 29,46 30,45 31,46 31,53 33,53 34,52 34,40 31,41 27,41Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+</g>
+<text x="1065" y="186" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="34" fill="#58202b" font-weight="bold">地圖判讀</text>
+<rect x="1075" y="221" width="32" height="32" rx="4" fill="#356f91" stroke="#173d5b" stroke-width="2"/>
+<text x="1120" y="247" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="25" fill="#292323">原版通道／房間輪廓</text>
+<line x1="1066" y1="288" x2="1513" y2="288" stroke="#d8c5bc" stroke-width="2"/>
+<text x="1065" y="333" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="28" fill="#58202b" font-weight="bold">對照提示</text>
+<circle cx="1083" cy="370" r="6" fill="#a56b3c"/>
+<text x="1104" y="380" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">開放進度：庫賈拉特</text>
+<circle cx="1083" cy="430" r="6" fill="#a56b3c"/>
+<text x="1104" y="440" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">木乃伊商人／吸血鬼／暗殺公會。北南艾斯</text>
+<text x="1104" y="476" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">塔米爾可透過下水道移動；部分任務藏有入</text>
+<text x="1104" y="512" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">口。</text>
+<circle cx="1083" cy="562" r="6" fill="#a56b3c"/>
+<text x="1104" y="572" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">地圖技能：寶箱搜尋Lv3、跳躍Lv2、</text>
+<text x="1104" y="608" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">解除陷阱、開鎖。</text>
+<circle cx="1083" cy="658" r="6" fill="#a56b3c"/>
+<text x="1104" y="668" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">關聯事件：木乃伊商人／吸血鬼／暗殺公會</text>
+<text x="1104" y="704" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">。</text>
+<line x1="1065" y1="887" x2="1513" y2="887" stroke="#d8c5bc" stroke-width="2"/>
+<text x="1071" y="935" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="22" fill="#7b6760">已重繪遊戲原版通道輪廓</text>
+<text x="1071" y="972" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="22" fill="#7b6760">非原攻略網站圖檔翻印</text>
+<text x="1071" y="1009" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="22" fill="#7b6760">未核對的寶箱固定位置不亂標</text>
+</svg>

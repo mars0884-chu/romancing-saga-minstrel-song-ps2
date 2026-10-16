@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1580" height="1110" viewBox="0 0 1580 1110" role="img" aria-label="紹基洞窟 PS2 原版迷宮地形與通道重繪圖">
+<rect width="1580" height="1110" rx="30" fill="#f8f2e9"/>
+<rect width="1580" height="112" rx="30" fill="#58202b"/><rect y="72" width="1580" height="40" fill="#58202b"/>
+<text x="42" y="59" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="43" font-weight="bold" fill="white">紹基洞窟｜PS2 地形通道圖</text>
+<text x="46" y="94" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#f2d7cb">サオキの洞窟 ｜依原版地圖資料獨立重繪</text>
+<rect x="30" y="132" width="980" height="922" rx="24" fill="#fffefd" stroke="#d8c5bc" stroke-width="3"/>
+<rect x="1035" y="132" width="505" height="922" rx="24" fill="#fffefd" stroke="#d8c5bc" stroke-width="3"/>
+<g transform="translate(70 171) scale(2.95)">
+<path d="M196,174 195,177 202,184 202,186 197,189 194,195 190,199 190,202 193,204 196,204 195,202 196,201 198,202 196,199 199,192 205,188 213,197 213,199 209,202 201,203 200,204 201,205 200,207 201,208 201,218 200,219 189,219 187,217 187,203 183,203 183,218 182,219 182,222 184,224 187,224 188,223 200,223 202,225 205,225 207,223 207,220 205,218 205,208 209,205 215,203 218,198 216,193 210,187 210,186 215,182 213,181 211,182 210,181 207,183 198,174Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M152,111 151,119 153,121 163,120 163,116 158,116 156,114 156,111 155,110Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M140,102 140,106 152,106 153,105 155,106 157,105 161,107 164,107 167,105 170,105 180,108 190,108 196,112 203,112 204,113 203,114 205,113 206,114 206,118 204,119 203,118 204,116 203,117 204,119 194,125 186,124 169,116 168,118 169,120 167,121 169,121 172,123 167,129 166,139 168,140 171,140 172,139 187,139 191,143 194,144 194,152 198,152 198,142 194,137 188,135 173,135 171,132 171,130 177,124 188,129 195,129 202,125 205,122 211,121 211,118 212,117 211,114 212,112 208,112 201,107 198,107 193,105 193,102 196,98 199,96 203,96 202,95 202,92 198,92 194,94 190,98 190,100 187,104 181,104 180,103 171,102 170,101Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M208,91 208,95 211,95 212,96 215,96 216,95 216,91 215,90Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M115,87 114,85 112,85 111,86 112,88 111,89 108,89 114,89Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M121,84 119,87 121,90 124,90 126,88 126,86 124,84Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M97,77 98,81 96,83 97,84 99,83 100,85 102,84 106,87 107,86 106,84 108,83 104,80 101,76 100,76 99,78Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M88,67 88,72 89,73 95,75 94,73 95,72 97,73 98,72 95,67Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M53,67 52,88 55,91 58,91 59,89 70,89 73,93 73,101 72,102 72,107 73,108 78,108 80,106 91,106 91,103 79,103 77,101 77,94 80,89 95,89 94,88 95,86 94,85 80,85 77,83 77,80 74,79 77,78 77,77 74,76 77,75 78,73 78,68 77,67 73,67 72,68 73,83 71,85 58,85 57,84 57,67Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+</g>
+<text x="1065" y="186" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="34" fill="#58202b" font-weight="bold">地圖判讀</text>
+<rect x="1075" y="221" width="32" height="32" rx="4" fill="#356f91" stroke="#173d5b" stroke-width="2"/>
+<text x="1120" y="247" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="25" fill="#292323">原版通道／房間輪廓</text>
+<line x1="1066" y1="288" x2="1513" y2="288" stroke="#d8c5bc" stroke-width="2"/>
+<text x="1065" y="333" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="28" fill="#58202b" font-weight="bold">對照提示</text>
+<circle cx="1083" cy="370" r="6" fill="#a56b3c"/>
+<text x="1104" y="380" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">開放進度：邊境</text>
+<circle cx="1083" cy="430" r="6" fill="#a56b3c"/>
+<text x="1104" y="440" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">紹基的魔物。紹基開拓村取得消息後進入；</text>
+<text x="1104" y="476" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">有高等級地圖技能需求，可能需要回訪。</text>
+<circle cx="1083" cy="526" r="6" fill="#a56b3c"/>
+<text x="1104" y="536" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">地圖技能：跳躍Lv3、攀爬Lv3、寶箱</text>
+<text x="1104" y="572" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">搜尋、解除陷阱、採礦。</text>
+<circle cx="1083" cy="622" r="6" fill="#a56b3c"/>
+<text x="1104" y="632" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">關聯事件：紹基的魔物。</text>
+<line x1="1065" y1="887" x2="1513" y2="887" stroke="#d8c5bc" stroke-width="2"/>
+<text x="1071" y="935" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="22" fill="#7b6760">已重繪遊戲原版通道輪廓</text>
+<text x="1071" y="972" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="22" fill="#7b6760">非原攻略網站圖檔翻印</text>
+<text x="1071" y="1009" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="22" fill="#7b6760">未核對的寶箱固定位置不亂標</text>
+</svg>

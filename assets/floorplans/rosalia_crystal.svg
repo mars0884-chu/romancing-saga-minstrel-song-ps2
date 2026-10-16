@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1580" height="1110" viewBox="0 0 1580 1110" role="img" aria-label="水晶湖 PS2 原版迷宮地形與通道重繪圖">
+<rect width="1580" height="1110" rx="30" fill="#f8f2e9"/>
+<rect width="1580" height="112" rx="30" fill="#58202b"/><rect y="72" width="1580" height="40" fill="#58202b"/>
+<text x="42" y="59" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="43" font-weight="bold" fill="white">水晶湖｜PS2 地形通道圖</text>
+<text x="46" y="94" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#f2d7cb">クリスタルレイク ｜依原版地圖資料獨立重繪</text>
+<rect x="30" y="132" width="980" height="922" rx="24" fill="#fffefd" stroke="#d8c5bc" stroke-width="3"/>
+<rect x="1035" y="132" width="505" height="922" rx="24" fill="#fffefd" stroke="#d8c5bc" stroke-width="3"/>
+<g transform="translate(70 171) scale(2.95)">
+<path d="M192,246 189,248 189,263 194,263 194,248Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M262,234 264,236 266,236 269,234 267,233 264,235 263,234 264,232Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M253,232 248,236 240,245 251,257 259,249 256,248 256,242 257,241 261,241 262,242 261,243 258,243 258,244 261,244 262,245 261,246 258,246 258,247 261,247 262,245 261,243 262,242 264,243 264,245 265,243 261,240 263,239 259,235 258,237Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M154,211 156,215 159,215 159,211Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M140,212 148,212 149,211 147,209 142,209Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M115,208 111,208 103,215 101,215 95,211 92,211 89,213 89,218 95,222 95,231 98,235 100,242 104,246 109,246 111,244 111,242 108,238 104,237 102,235 102,232 100,230 101,222 107,218 112,212 114,212 113,210Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M227,175 222,175 220,177 220,181 218,184 218,195 219,198 218,194 219,193 222,195 223,194 222,184 223,182 226,180Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M265,170 263,169 258,169 256,171 256,176 261,183 261,186 257,192 251,195 247,195 244,193 240,186 238,184 236,184 236,188 239,192 239,199 235,203 232,203 231,204 227,201 224,201 222,199 221,200 226,210 224,216 221,220 216,224 207,221 203,217 208,204 207,193 205,190 205,188 201,184 196,181 193,181 193,185 196,186 201,192 201,194 203,197 203,204 202,205 201,212 198,215 193,212 187,212 187,217 188,218 197,218 198,219 198,225 194,230 194,232 189,240 192,242 196,239 196,237 198,235 198,233 203,225 206,227 210,227 211,228 219,228 221,227 223,224 225,223 231,213 231,211 233,209 237,209 241,207 247,200 253,200 260,196 261,194 264,192 267,193 272,198 274,204 274,216 268,225 268,227 272,229 274,227 279,215 279,204 275,197 269,190 269,187 268,186 268,176Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M103,158 103,160 104,160 105,158 107,160 107,157 104,157Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M124,148 122,149 121,151 121,156 123,159 124,167 120,170 117,170 116,171 110,170 105,167 104,168 104,171 106,175 119,175 123,173 128,176 130,182 128,187 128,191 123,202 124,203 123,204 118,204 121,205 119,208 120,209 124,209 127,207 128,209 130,209 135,212 138,212 137,211 138,210 137,208 138,207 134,206 130,201 130,198 134,187 134,179 135,176 139,172 146,172 148,170 149,166 146,163 141,163 138,166 136,166 135,168 133,167 129,163 130,151 128,148Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M180,44 180,75 185,75 185,44Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M124,43 119,46 118,52 123,53 127,50 130,50 134,56 133,60 127,65 128,70 133,74 135,80 135,95 139,95 139,78 145,69 145,65 140,61 138,55 138,50 136,46 132,43Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M224,33 223,34 223,41 226,48 226,52 228,57 230,59 230,61 234,64 236,70 233,84 230,89 225,89 224,88 217,88 216,89 216,97 219,102 220,108 224,113 225,131 228,131 229,130 229,113 228,112 229,110 229,104 226,100 226,98 229,95 237,93 241,96 241,104 248,111 248,113 250,115 250,123 247,126 244,127 242,130 244,133 246,134 249,133 251,135 248,139 248,144 252,147 256,147 259,144 259,137 258,136 260,134 266,134 272,132 275,130 278,124 275,122 268,127 260,128 259,127 259,123 257,119 257,116 255,114 255,112 252,106 247,100 247,97 254,92 262,92 272,99 274,99 274,95 270,90 268,90 263,87 254,87 245,90 242,86 240,85 239,60 234,55 232,51 230,36 228,34Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M51,29 50,30 45,30 43,32 38,33 32,37 32,39 29,40 24,46 24,48 20,56 19,70 20,71 21,79 24,83 24,86 32,95 36,98 45,102 59,103 60,102 70,100 72,98 76,97 76,96 84,89 87,84 87,80 89,79 90,76 91,64 90,63 90,56 87,51 87,48 78,37 71,32 67,32 59,29Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+</g>
+<text x="1065" y="186" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="34" fill="#58202b" font-weight="bold">地圖判讀</text>
+<rect x="1075" y="221" width="32" height="32" rx="4" fill="#356f91" stroke="#173d5b" stroke-width="2"/>
+<text x="1120" y="247" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="25" fill="#292323">原版通道／房間輪廓</text>
+<line x1="1066" y1="288" x2="1513" y2="288" stroke="#d8c5bc" stroke-width="2"/>
+<text x="1065" y="333" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="28" fill="#58202b" font-weight="bold">對照提示</text>
+<circle cx="1083" cy="370" r="6" fill="#a56b3c"/>
+<text x="1104" y="380" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">開放進度：羅薩利亞</text>
+<circle cx="1083" cy="430" r="6" fill="#a56b3c"/>
+<text x="1104" y="440" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">搜尋海藍寶石。需透過任務取得海藍寶石相</text>
+<text x="1104" y="476" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">關線索，再從湖區進入洞窟。</text>
+<circle cx="1083" cy="526" r="6" fill="#a56b3c"/>
+<text x="1104" y="536" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">地圖技能：跳躍、礦石搜尋與採礦。</text>
+<circle cx="1083" cy="586" r="6" fill="#a56b3c"/>
+<text x="1104" y="596" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">關聯事件：搜尋海藍寶石。</text>
+<line x1="1065" y1="887" x2="1513" y2="887" stroke="#d8c5bc" stroke-width="2"/>
+<text x="1071" y="935" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="22" fill="#7b6760">已重繪遊戲原版通道輪廓</text>
+<text x="1071" y="972" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="22" fill="#7b6760">非原攻略網站圖檔翻印</text>
+<text x="1071" y="1009" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="22" fill="#7b6760">未核對的寶箱固定位置不亂標</text>
+</svg>

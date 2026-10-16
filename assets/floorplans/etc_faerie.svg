@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1580" height="1110" viewBox="0 0 1580 1110" role="img" aria-label="妖精森林 PS2 原版迷宮地形與通道重繪圖">
+<rect width="1580" height="1110" rx="30" fill="#f8f2e9"/>
+<rect width="1580" height="112" rx="30" fill="#58202b"/><rect y="72" width="1580" height="40" fill="#58202b"/>
+<text x="42" y="59" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="43" font-weight="bold" fill="white">妖精森林｜PS2 地形通道圖</text>
+<text x="46" y="94" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#f2d7cb">妖精の森 ｜依原版地圖資料獨立重繪</text>
+<rect x="30" y="132" width="980" height="922" rx="24" fill="#fffefd" stroke="#d8c5bc" stroke-width="3"/>
+<rect x="1035" y="132" width="505" height="922" rx="24" fill="#fffefd" stroke="#d8c5bc" stroke-width="3"/>
+<g transform="translate(70 171) scale(2.95)">
+<path d="M120,161 110,161 107,163 107,168 110,171 108,177 110,177 112,179 115,179 116,178 112,178 111,177 111,173 112,172 116,172 117,173 117,176 120,174 120,172 117,167 117,164 120,163Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M112,114 112,117 114,118 114,122 117,127 117,129 121,129 121,127 124,122 124,118 126,117 126,114Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M162,91 154,95 154,106 157,107 160,110 161,113 164,113 166,109 171,106 171,95Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M99,77 87,77 85,79 86,84 88,86 88,88 86,89 85,91 90,95 93,95 96,92 98,92 98,87 96,81 99,80Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M91,30 91,34 94,38 92,41 92,43 98,48 101,48 104,42 104,32 103,30Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+</g>
+<text x="1065" y="186" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="34" fill="#58202b" font-weight="bold">地圖判讀</text>
+<rect x="1075" y="221" width="32" height="32" rx="4" fill="#356f91" stroke="#173d5b" stroke-width="2"/>
+<text x="1120" y="247" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="25" fill="#292323">原版通道／房間輪廓</text>
+<line x1="1066" y1="288" x2="1513" y2="288" stroke="#d8c5bc" stroke-width="2"/>
+<text x="1065" y="333" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="28" fill="#58202b" font-weight="bold">對照提示</text>
+<circle cx="1083" cy="370" r="6" fill="#a56b3c"/>
+<text x="1104" y="380" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">開放進度：特殊地區</text>
+<circle cx="1083" cy="430" r="6" fill="#a56b3c"/>
+<text x="1104" y="440" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">妖精森林。原版特殊地圖，可因紫水晶或木</text>
+<text x="1104" y="476" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">乃伊商船事件開啟。</text>
+<circle cx="1083" cy="526" r="6" fill="#a56b3c"/>
+<text x="1104" y="536" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">地圖技能：尚待確認。</text>
+<circle cx="1083" cy="586" r="6" fill="#a56b3c"/>
+<text x="1104" y="596" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">關聯事件：妖精森林。</text>
+<line x1="1065" y1="887" x2="1513" y2="887" stroke="#d8c5bc" stroke-width="2"/>
+<text x="1071" y="935" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="22" fill="#7b6760">已重繪遊戲原版通道輪廓</text>
+<text x="1071" y="972" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="22" fill="#7b6760">非原攻略網站圖檔翻印</text>
+<text x="1071" y="1009" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="22" fill="#7b6760">未核對的寶箱固定位置不亂標</text>
+</svg>

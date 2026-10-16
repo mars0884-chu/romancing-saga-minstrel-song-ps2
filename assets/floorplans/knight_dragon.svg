@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1580" height="1110" viewBox="0 0 1580 1110" role="img" aria-label="龍之谷 PS2 原版迷宮地形與通道重繪圖">
+<rect width="1580" height="1110" rx="30" fill="#f8f2e9"/>
+<rect width="1580" height="112" rx="30" fill="#58202b"/><rect y="72" width="1580" height="40" fill="#58202b"/>
+<text x="42" y="59" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="43" font-weight="bold" fill="white">龍之谷｜PS2 地形通道圖</text>
+<text x="46" y="94" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#f2d7cb">竜の谷 ｜依原版地圖資料獨立重繪</text>
+<rect x="30" y="132" width="980" height="922" rx="24" fill="#fffefd" stroke="#d8c5bc" stroke-width="3"/>
+<rect x="1035" y="132" width="505" height="922" rx="24" fill="#fffefd" stroke="#d8c5bc" stroke-width="3"/>
+<g transform="translate(70 171) scale(2.95)">
+<path d="M155,109 152,109 145,121 142,123 141,126 141,135 139,137 139,143 141,146 147,144 152,144 158,151 158,153 154,158 143,161 142,169 138,177 126,179 125,178 125,173 121,168 118,167 113,160 109,160 108,159 110,155 121,150 131,150 134,153 136,153 135,148 130,142 122,142 118,145 116,149 112,151 110,151 108,148 104,145 97,143 90,143 85,147 85,153 86,154 89,154 95,151 98,148 102,149 105,153 105,156 102,162 95,165 87,166 81,163 79,163 78,161 75,160 67,160 64,163 64,167 66,169 66,172 65,173 57,168 52,168 53,171 60,177 67,177 68,172 71,169 74,169 76,167 80,168 87,174 88,180 87,181 86,189 83,195 83,198 86,200 93,200 96,202 96,208 95,211 89,217 84,219 83,221 87,221 94,217 101,208 103,203 103,198 100,193 95,193 91,195 89,193 91,189 91,183 93,180 98,181 104,190 106,190 108,187 108,185 104,181 100,180 94,176 94,172 96,170 104,169 106,165 110,165 112,167 112,171 108,175 107,180 112,183 118,183 120,181 122,182 127,182 128,181 140,180 144,171 148,169 159,169 162,170 162,167 159,166 149,166 148,167 146,166 146,165 149,163 157,161 163,154 163,152 161,151 162,149 162,144 159,136 150,136 146,138 143,137 143,128 145,124 153,116Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M207,30 204,30 204,33 208,34 211,37 213,42 208,45 205,50 208,54 213,55 216,57 217,68 220,72 220,74 219,75 218,74 209,74 206,75 205,78 203,78 207,86 214,92 215,95 213,97 211,102 208,105 201,107 196,107 196,112 204,111 211,108 217,104 220,98 220,91 216,90 212,86 210,82 210,80 212,78 218,78 221,84 221,86 223,86 223,80 224,79 234,79 232,77 227,76 221,69 219,56 226,51 226,47 219,43 217,43 210,32Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+</g>
+<text x="1065" y="186" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="34" fill="#58202b" font-weight="bold">地圖判讀</text>
+<rect x="1075" y="221" width="32" height="32" rx="4" fill="#356f91" stroke="#173d5b" stroke-width="2"/>
+<text x="1120" y="247" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="25" fill="#292323">原版通道／房間輪廓</text>
+<line x1="1066" y1="288" x2="1513" y2="288" stroke="#d8c5bc" stroke-width="2"/>
+<text x="1065" y="333" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="28" fill="#58202b" font-weight="bold">對照提示</text>
+<circle cx="1083" cy="370" r="6" fill="#a56b3c"/>
+<text x="1104" y="380" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">開放進度：騎士團領</text>
+<circle cx="1083" cy="430" r="6" fill="#a56b3c"/>
+<text x="1104" y="440" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">傳說的龍騎士。提奧多爾任務完成且隊伍未</text>
+<text x="1104" y="476" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">滿5人時，回奧伊根施塔特城與騎士接洽。</text>
+<circle cx="1083" cy="526" r="6" fill="#a56b3c"/>
+<text x="1104" y="536" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">地圖技能：礦石搜尋與採礦。</text>
+<circle cx="1083" cy="586" r="6" fill="#a56b3c"/>
+<text x="1104" y="596" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">關聯事件：傳說的龍騎士。</text>
+<line x1="1065" y1="887" x2="1513" y2="887" stroke="#d8c5bc" stroke-width="2"/>
+<text x="1071" y="935" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="22" fill="#7b6760">已重繪遊戲原版通道輪廓</text>
+<text x="1071" y="972" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="22" fill="#7b6760">非原攻略網站圖檔翻印</text>
+<text x="1071" y="1009" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="22" fill="#7b6760">未核對的寶箱固定位置不亂標</text>
+</svg>

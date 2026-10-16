@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1580" height="1110" viewBox="0 0 1580 1110" role="img" aria-label="伊莉莎白宮殿 PS2 原版迷宮地形與通道重繪圖">
+<rect width="1580" height="1110" rx="30" fill="#f8f2e9"/>
+<rect width="1580" height="112" rx="30" fill="#58202b"/><rect y="72" width="1580" height="40" fill="#58202b"/>
+<text x="42" y="59" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="43" font-weight="bold" fill="white">伊莉莎白宮殿｜PS2 地形通道圖</text>
+<text x="46" y="94" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#f2d7cb">メルビル・エリザベス宮殿 ｜依原版地圖資料獨立重繪</text>
+<rect x="30" y="132" width="980" height="922" rx="24" fill="#fffefd" stroke="#d8c5bc" stroke-width="3"/>
+<rect x="1035" y="132" width="505" height="922" rx="24" fill="#fffefd" stroke="#d8c5bc" stroke-width="3"/>
+<g transform="translate(70 171) scale(2.95)">
+<path d="M160,185 160,189 163,191 163,194 160,195 160,205 170,205 170,195 167,194 167,190 168,189 192,189 193,190 193,194 190,195 190,205 200,205 200,195 197,194 197,191 199,189 207,189 208,190 208,202 209,204 211,205 212,202 212,185 183,185 182,184 182,170 179,170 178,171 178,183 176,185Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M92,104 92,118 89,120 89,122 92,124 92,137 93,138 100,138 102,140 102,147 103,148 113,148 114,149 114,156 141,156 141,149 142,148 152,148 152,140 154,138 156,138 158,140 158,147 159,148 162,147 162,124 165,123 165,120 162,118 162,104 152,104 151,103 151,99 138,99 137,100 137,113 151,113 151,109 152,108 156,108 158,110 158,133 157,134 153,134 151,129 143,129 141,127 141,122 113,122 113,127 111,129 102,129 102,133 101,134 97,134 96,133 96,109 97,108 102,108 104,113 117,113 118,112 117,111 117,99 103,99 103,103 102,104Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M100,27 100,40 97,42 97,45 100,47 100,61 123,61 124,62 124,69 128,69 129,68 129,62 130,61 153,61 153,47 156,45 156,42 153,41 153,27 144,27 144,31 148,31 149,32 149,55 145,58 144,57 106,57 104,55 104,32 105,31 109,31 109,27Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+</g>
+<text x="1065" y="186" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="34" fill="#58202b" font-weight="bold">地圖判讀</text>
+<rect x="1075" y="221" width="32" height="32" rx="4" fill="#356f91" stroke="#173d5b" stroke-width="2"/>
+<text x="1120" y="247" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="25" fill="#292323">原版通道／房間輪廓</text>
+<line x1="1066" y1="288" x2="1513" y2="288" stroke="#d8c5bc" stroke-width="2"/>
+<text x="1065" y="333" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="28" fill="#58202b" font-weight="bold">對照提示</text>
+<circle cx="1083" cy="370" r="6" fill="#a56b3c"/>
+<text x="1104" y="380" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">開放進度：巴法爾帝國</text>
+<circle cx="1083" cy="430" r="6" fill="#a56b3c"/>
+<text x="1104" y="440" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">梅爾維爾襲擊計畫。後期海賊襲擊與宮殿B</text>
+<text x="1104" y="476" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">oss事件，勿與早期金礦襲擊混淆。</text>
+<circle cx="1083" cy="526" r="6" fill="#a56b3c"/>
+<text x="1104" y="536" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">地圖技能：解除陷阱。</text>
+<circle cx="1083" cy="586" r="6" fill="#a56b3c"/>
+<text x="1104" y="596" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">關聯事件：梅爾維爾襲擊計畫。</text>
+<line x1="1065" y1="887" x2="1513" y2="887" stroke="#d8c5bc" stroke-width="2"/>
+<text x="1071" y="935" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="22" fill="#7b6760">已重繪遊戲原版通道輪廓</text>
+<text x="1071" y="972" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="22" fill="#7b6760">非原攻略網站圖檔翻印</text>
+<text x="1071" y="1009" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="22" fill="#7b6760">未核對的寶箱固定位置不亂標</text>
+</svg>

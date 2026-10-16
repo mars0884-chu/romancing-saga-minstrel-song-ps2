@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1580" height="1110" viewBox="0 0 1580 1110" role="img" aria-label="巴爾哈蘭特雪原 PS2 原版迷宮地形與通道重繪圖">
+<rect width="1580" height="1110" rx="30" fill="#f8f2e9"/>
+<rect width="1580" height="112" rx="30" fill="#58202b"/><rect y="72" width="1580" height="40" fill="#58202b"/>
+<text x="42" y="59" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="43" font-weight="bold" fill="white">巴爾哈蘭特雪原｜PS2 地形通道圖</text>
+<text x="46" y="94" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#f2d7cb">バルハラント・フィールド ｜依原版地圖資料獨立重繪</text>
+<rect x="30" y="132" width="980" height="922" rx="24" fill="#fffefd" stroke="#d8c5bc" stroke-width="3"/>
+<rect x="1035" y="132" width="505" height="922" rx="24" fill="#fffefd" stroke="#d8c5bc" stroke-width="3"/>
+<g transform="translate(70 171) scale(2.95)">
+<path d="M187,232 183,232 180,239 180,247 183,253 183,260 182,261 182,265 180,268 180,272 183,272 185,270 187,263 187,250 186,249 186,240 188,235Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M270,164 267,164 265,166 265,172 263,177 260,177 259,178 245,178 238,180 238,183 239,183 240,185 244,183 249,183 256,181 261,181 262,182 259,188 259,192 254,207 261,206 261,200 263,195 264,186 268,179 268,174 271,166Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M196,156 192,168 190,179 188,181 176,181 176,185 187,185 188,186 188,191 185,200 184,209 190,209 193,205 194,190 197,183 211,183 212,182 212,179 201,179 200,180 198,179 200,167 201,166 201,159 202,157Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M210,105 206,105 205,106 204,112 202,116 202,121 196,135 201,135 207,125 207,120 211,113 211,106Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M247,75 233,75 220,79 217,81 214,81 209,84 196,84 195,85 195,90 211,90 216,87 223,86 231,82 244,82 247,80Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M56,24 51,35 51,44 52,46 55,47 56,49 68,51 70,53 70,61 62,66 55,58 51,58 49,60 48,64 51,65 60,74 65,77 72,72 76,71 78,69 80,69 85,80 85,90 81,94 77,94 76,95 66,94 63,96 60,101 60,107 59,108 60,111 63,111 66,113 67,112 67,107 68,105 72,102 93,103 98,100 101,97 102,94 108,88 112,88 113,87 117,87 120,92 128,100 129,103 136,109 141,111 151,111 153,108 153,106 143,107 139,105 135,100 134,96 136,94 139,94 140,95 163,95 173,90 174,87 173,84 171,84 164,88 157,89 156,90 144,90 139,87 145,82 150,81 153,79 157,74 168,70 168,64 166,62 160,61 158,59 151,59 139,70 137,68 137,66 135,64 133,58 129,53 144,44 147,41 147,38 149,36 161,38 169,45 177,48 180,44 179,41 176,40 169,34 164,32 162,30 154,26 152,26 150,24 145,23 140,19 135,17 131,19 124,20 119,24 109,25 105,27 101,27 94,24 91,24 75,17 65,17 64,19 62,19Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+</g>
+<text x="1065" y="186" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="34" fill="#58202b" font-weight="bold">地圖判讀</text>
+<rect x="1075" y="221" width="32" height="32" rx="4" fill="#356f91" stroke="#173d5b" stroke-width="2"/>
+<text x="1120" y="247" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="25" fill="#292323">原版通道／房間輪廓</text>
+<line x1="1066" y1="288" x2="1513" y2="288" stroke="#d8c5bc" stroke-width="2"/>
+<text x="1065" y="333" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="28" fill="#58202b" font-weight="bold">對照提示</text>
+<circle cx="1083" cy="370" r="6" fill="#a56b3c"/>
+<text x="1104" y="380" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">開放進度：巴爾哈蘭特</text>
+<circle cx="1083" cy="430" r="6" fill="#a56b3c"/>
+<text x="1104" y="440" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">巴爾哈蘭怪物／凍結湖妖精。希芙入隊可得</text>
+<text x="1104" y="476" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">雪原；移動加托村通常必須經雪原地區。</text>
+<circle cx="1083" cy="526" r="6" fill="#a56b3c"/>
+<text x="1104" y="536" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">地圖技能：寶箱搜尋、藥草搜尋採集。</text>
+<circle cx="1083" cy="586" r="6" fill="#a56b3c"/>
+<text x="1104" y="596" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">關聯事件：巴爾哈蘭怪物／凍結湖妖精。</text>
+<line x1="1065" y1="887" x2="1513" y2="887" stroke="#d8c5bc" stroke-width="2"/>
+<text x="1071" y="935" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="22" fill="#7b6760">已重繪遊戲原版通道輪廓</text>
+<text x="1071" y="972" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="22" fill="#7b6760">非原攻略網站圖檔翻印</text>
+<text x="1071" y="1009" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="22" fill="#7b6760">未核對的寶箱固定位置不亂標</text>
+</svg>

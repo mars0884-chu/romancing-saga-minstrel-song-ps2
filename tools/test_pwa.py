@@ -8,7 +8,7 @@ D=json.loads((root/'data.json').read_text(encoding='utf-8'))
 html=(root/'index.html').read_text(encoding='utf-8')
 match=re.search(r'<script id="guide-data" type="application/json">(.*?)</script>',html,re.S)
 assert match and json.loads(match.group(1))==D
-assert D['version'].startswith('0.4.4'),D['version']
+assert D['version'].startswith('0.4.5'),D['version']
 assert len([r for r in D['records'] if r['section']=='新手'])==20
 assert len({s['url'] for s in D['sources']})==len(D['sources'])
 sourceids={s['id'] for s in D['sources']}

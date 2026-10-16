@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1580" height="1110" viewBox="0 0 1580 1110" role="img" aria-label="古老之城 PS2 原版迷宮地形與通道重繪圖">
+<rect width="1580" height="1110" rx="30" fill="#f8f2e9"/>
+<rect width="1580" height="112" rx="30" fill="#58202b"/><rect y="72" width="1580" height="40" fill="#58202b"/>
+<text x="42" y="59" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="43" font-weight="bold" fill="white">古老之城｜PS2 地形通道圖</text>
+<text x="46" y="94" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#f2d7cb">オールドキャッスル ｜依原版地圖資料獨立重繪</text>
+<rect x="30" y="132" width="980" height="922" rx="24" fill="#fffefd" stroke="#d8c5bc" stroke-width="3"/>
+<rect x="1035" y="132" width="505" height="922" rx="24" fill="#fffefd" stroke="#d8c5bc" stroke-width="3"/>
+<g transform="translate(70 171) scale(2.95)">
+<path d="M257,240 251,236 246,236 242,239 242,243 247,248 247,251 245,254 240,255 240,257 246,256 249,253 250,248 254,244 257,243Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M232,202 232,207 237,211 240,211 245,207 245,203 241,200 236,200Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M229,185 229,189 233,192 238,192 243,188 245,188 245,186 243,186 238,182 233,182Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M209,185 209,189 213,192 218,192 222,189 222,185 218,182 213,182Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M249,171 249,175 253,178 258,178 262,175 262,171 258,168 253,168Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M198,170 198,174 202,177 207,177 211,174 211,170 207,167 202,167Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M230,159 228,159 227,161 225,161 222,164 222,168 225,170 228,174 238,166 238,164 235,164 231,161Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M123,154 111,154 110,153 107,153 104,156 104,158 106,160 106,168 105,169 97,169 95,167 95,159 96,158 96,154 95,153 91,153 90,154 79,153 78,154 78,158 79,159 89,158 91,160 91,167 89,169 86,169 85,170 86,173 89,173 91,175 91,183 89,185 76,184 75,185 76,199 75,200 66,200 66,204 80,205 82,202 82,200 80,198 80,191 82,189 95,190 96,189 95,175 97,173 110,174 111,173 110,160 112,158 123,158Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M113,100 113,111 116,111 117,112 117,117 120,117 120,112 121,111 124,111 124,100 121,100 120,99Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M165,99 165,110 176,110 176,107 177,106 181,106 182,107 182,110 193,110 193,107 194,106 197,106 197,103 194,103 193,102 193,99 182,99 182,102 181,103 178,103 176,105 175,104 176,102 175,100 176,99 173,100 171,96 169,97 170,99 169,100Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M276,99 273,99 272,96 269,95 269,98 268,99 265,99 265,102 264,103 260,103 259,102 259,99 256,99 254,96 252,97 252,98 254,99 253,100 248,99 249,100 248,101 249,103 248,105 248,110 259,110 259,107 260,106 264,106 265,107 265,110 276,110Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M248,83 248,94 251,94 252,91 256,91 257,92 256,94 259,94 259,83Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M199,83 199,94 202,94 203,95 203,98 206,98 206,95 207,94 210,94 210,83 207,83 208,84 207,86 205,85 203,86 202,83Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M169,79 169,82 168,83 165,83 165,94 169,94 168,93 169,91 173,91 174,92 173,94 176,94 176,83 173,83 172,82 172,79Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M117,77 117,80 120,80 120,77Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M96,69 96,80 99,80 100,81 100,85 98,86 98,93 100,94 100,99 99,100 96,100 96,111 107,111 107,100 104,100 103,99 103,94 105,93 106,91 112,91 113,92 113,95 116,95 117,96 124,95 124,92 125,91 131,91 132,93 134,94 134,99 133,100 130,100 130,103 129,104 128,103 128,100 126,100 126,107 129,107 130,108 130,111 141,111 141,100 138,100 137,99 137,94 139,93 139,86 138,86 137,84 134,84 131,88 125,88 124,87 124,84 117,83 116,84 113,84 113,87 112,88 106,88 105,86 103,85 103,81 104,80 107,80 107,77 108,76 112,76 112,73 108,73 107,72 107,69Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M231,68 231,79 234,79 235,80 235,83 238,83 238,80 239,79 242,79 242,76 243,75 247,75 248,76 248,79 259,79 259,76 260,75 264,75 265,76 265,79 272,79 272,76 273,75 276,75 276,68 265,68 265,71 264,72 260,72 259,71 259,68 248,68 248,71 247,72 243,72 242,71 242,68Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M177,72 177,75 181,75 182,76 182,79 185,79 186,80 185,83 182,83 182,94 193,94 193,83 190,83 189,80 190,79 193,79 193,76 194,75 198,75 199,76 199,79 202,79 205,81 206,80 203,80 202,79 202,73 203,72 207,72 208,73 207,74 204,74 204,75 207,75 207,74 209,73 210,74 210,78 208,79 207,77 204,77 204,78 207,78 208,79 210,78 210,74 209,73 210,72 210,68 199,68 199,71 198,72 194,72 193,71 193,68 182,68 182,71 181,72Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M132,57 132,64 134,65 134,68 133,69 130,69 130,80 133,80 134,81 141,80 141,69 138,69 137,68 137,65 139,64 139,57Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M49,49 49,60 55,60 55,49Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M118,39 116,40 116,49 117,50 117,53 120,53 121,40Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+</g>
+<text x="1065" y="186" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="34" fill="#58202b" font-weight="bold">地圖判讀</text>
+<rect x="1075" y="221" width="32" height="32" rx="4" fill="#356f91" stroke="#173d5b" stroke-width="2"/>
+<text x="1120" y="247" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="25" fill="#292323">原版通道／房間輪廓</text>
+<line x1="1066" y1="288" x2="1513" y2="288" stroke="#d8c5bc" stroke-width="2"/>
+<text x="1065" y="333" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="28" fill="#58202b" font-weight="bold">對照提示</text>
+<circle cx="1083" cy="370" r="6" fill="#a56b3c"/>
+<text x="1104" y="380" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">開放進度：乾燥地帶</text>
+<circle cx="1083" cy="430" r="6" fill="#a56b3c"/>
+<text x="1104" y="440" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">三地點之一：古老之城。烏索聽完線索進入</text>
+<text x="1104" y="476" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">古城；調整三座龍頭機關開門，擊敗三名守</text>
+<text x="1104" y="512" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">衛後由井底通往巨人村。</text>
+<circle cx="1083" cy="562" r="6" fill="#a56b3c"/>
+<text x="1104" y="572" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">地圖技能：藥草搜尋、採集。</text>
+<circle cx="1083" cy="622" r="6" fill="#a56b3c"/>
+<text x="1104" y="632" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">關聯事件：三地點之一：古老之城。</text>
+<line x1="1065" y1="887" x2="1513" y2="887" stroke="#d8c5bc" stroke-width="2"/>
+<text x="1071" y="935" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="22" fill="#7b6760">已重繪遊戲原版通道輪廓</text>
+<text x="1071" y="972" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="22" fill="#7b6760">非原攻略網站圖檔翻印</text>
+<text x="1071" y="1009" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="22" fill="#7b6760">未核對的寶箱固定位置不亂標</text>
+</svg>

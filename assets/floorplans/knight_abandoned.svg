@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1580" height="1110" viewBox="0 0 1580 1110" role="img" aria-label="要塞遺跡 PS2 原版迷宮地形與通道重繪圖">
+<rect width="1580" height="1110" rx="30" fill="#f8f2e9"/>
+<rect width="1580" height="112" rx="30" fill="#58202b"/><rect y="72" width="1580" height="40" fill="#58202b"/>
+<text x="42" y="59" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="43" font-weight="bold" fill="white">要塞遺跡｜PS2 地形通道圖</text>
+<text x="46" y="94" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#f2d7cb">砦跡 ｜依原版地圖資料獨立重繪</text>
+<rect x="30" y="132" width="980" height="922" rx="24" fill="#fffefd" stroke="#d8c5bc" stroke-width="3"/>
+<rect x="1035" y="132" width="505" height="922" rx="24" fill="#fffefd" stroke="#d8c5bc" stroke-width="3"/>
+<g transform="translate(70 171) scale(2.95)">
+<path d="M169,144 168,148 172,152 167,155 167,169 168,170 175,170 179,173 177,176 177,178 179,180 181,180 183,178 183,176 181,173 185,171 185,152 187,150 187,147 186,146 185,147 182,146 181,147 181,150 183,152 183,169 180,171 174,167 174,164 172,164 172,167 171,168 169,167 169,161 170,160 173,160 174,162 177,163 177,161 174,158 170,158 169,157 177,148 177,145 176,144 177,147 176,149 173,147 170,149 169,147 171,145Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M258,80 256,80 255,78 254,79 256,81 255,83 252,81 249,83 248,81 250,79 246,80 246,92 258,92Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M54,67 56,68 54,69 56,68 63,69 63,67 61,67 60,69 59,67Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M158,67 158,69 163,69 164,70 164,74 176,74 176,62 164,62 164,66 163,67Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M246,51 246,63 248,63 249,65 255,65 256,63 258,63 258,51Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M80,49 68,49 68,52 67,53 59,53 58,54 46,54 45,53 43,54 40,53 40,57 45,57 46,56 49,57 49,66 46,67 46,69 49,70 49,74 48,75 43,75 43,85 46,85 47,86 47,89 49,90 48,91 48,97 52,97 51,95 52,92 51,92 50,90 54,88 53,87 55,85 56,88 57,88 57,84 58,83 67,83 67,81 58,81 57,80 57,75 52,75 51,74 51,57 52,56 67,57 68,58 68,61 72,61 73,62 73,89 84,89 85,90 82,91 82,93 87,93 87,87 76,87 75,86 75,62 76,61 80,61Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M25,49 25,61 37,61 37,49Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M198,66 186,66 186,70 185,71 182,71 181,70 181,61 182,60 186,60 186,48 174,48 174,51 173,52 146,53 145,54 143,53 143,55 146,55 147,54 152,56 152,66 149,68 148,67 147,68 146,67 143,68 142,67 142,62 130,62 130,74 142,74 142,70 146,67 148,69 149,68 152,70 151,89 150,90 127,91 127,93 136,93 137,94 189,93 189,91 172,91 171,90 156,90 155,89 155,80 154,79 154,70 156,69 156,67 154,66 154,56 155,55 165,55 166,56 172,56 173,55 174,56 174,60 178,60 179,61 179,73 185,73 186,74 186,78 198,78Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M124,48 124,60 136,60 136,48Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+</g>
+<text x="1065" y="186" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="34" fill="#58202b" font-weight="bold">地圖判讀</text>
+<rect x="1075" y="221" width="32" height="32" rx="4" fill="#356f91" stroke="#173d5b" stroke-width="2"/>
+<text x="1120" y="247" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="25" fill="#292323">原版通道／房間輪廓</text>
+<line x1="1066" y1="288" x2="1513" y2="288" stroke="#d8c5bc" stroke-width="2"/>
+<text x="1065" y="333" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="28" fill="#58202b" font-weight="bold">對照提示</text>
+<circle cx="1083" cy="370" r="6" fill="#a56b3c"/>
+<text x="1104" y="380" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">開放進度：騎士團領</text>
+<circle cx="1083" cy="430" r="6" fill="#a56b3c"/>
+<text x="1104" y="440" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">騎士團的榮耀。騎士團會議同意參戰，或從</text>
+<text x="1104" y="476" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">米爾札布爾港口人士取得遺跡資訊。</text>
+<circle cx="1083" cy="526" r="6" fill="#a56b3c"/>
+<text x="1104" y="536" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">地圖技能：跳躍、機關搜尋。</text>
+<circle cx="1083" cy="586" r="6" fill="#a56b3c"/>
+<text x="1104" y="596" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">關聯事件：騎士團的榮耀。</text>
+<line x1="1065" y1="887" x2="1513" y2="887" stroke="#d8c5bc" stroke-width="2"/>
+<text x="1071" y="935" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="22" fill="#7b6760">已重繪遊戲原版通道輪廓</text>
+<text x="1071" y="972" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="22" fill="#7b6760">非原攻略網站圖檔翻印</text>
+<text x="1071" y="1009" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="22" fill="#7b6760">未核對的寶箱固定位置不亂標</text>
+</svg>

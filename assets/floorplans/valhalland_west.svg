@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1580" height="1110" viewBox="0 0 1580 1110" role="img" aria-label="西之洞窟 PS2 原版迷宮地形與通道重繪圖">
+<rect width="1580" height="1110" rx="30" fill="#f8f2e9"/>
+<rect width="1580" height="112" rx="30" fill="#58202b"/><rect y="72" width="1580" height="40" fill="#58202b"/>
+<text x="42" y="59" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="43" font-weight="bold" fill="white">西之洞窟｜PS2 地形通道圖</text>
+<text x="46" y="94" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#f2d7cb">西の洞窟 ｜依原版地圖資料獨立重繪</text>
+<rect x="30" y="132" width="980" height="922" rx="24" fill="#fffefd" stroke="#d8c5bc" stroke-width="3"/>
+<rect x="1035" y="132" width="505" height="922" rx="24" fill="#fffefd" stroke="#d8c5bc" stroke-width="3"/>
+<g transform="translate(70 171) scale(2.95)">
+<path d="M73,173 71,178 71,197 79,209 79,212 75,217 75,221 79,221 81,219 84,219 88,223 88,227 90,229 92,229 94,226 94,224 96,222 100,222 107,217 107,213 104,213 99,216 92,218 87,215 86,210 88,208 100,207 103,205 105,200 107,200 110,204 115,207 122,215 124,216 132,216 133,215 133,207 129,203 120,204 111,197 109,191 109,180 107,176 103,176 102,177 103,189 100,192 91,193 89,194 84,200 82,200 77,194 76,191 76,181 78,175 81,173 81,169 78,168Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M152,133 152,135 157,139 162,139 163,137 162,134 156,130 154,131 155,132 154,134Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M172,101 170,103 170,105 171,106 172,113 176,118 186,119 187,120 186,123 186,127 187,128 192,127 196,122 198,123 201,128 201,131 194,137 191,145 191,148 195,150 204,145 205,139 207,136 207,127 201,117 202,111 200,109 196,110 194,113 192,113 191,115 188,116 185,113 185,109 181,103Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M89,101 89,104 92,107 94,107 93,105 94,101 93,99Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M135,57 132,61 134,63 137,61 138,62 137,64 139,63 139,58 138,57Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M96,38 96,44 100,47 102,53 105,52 105,45 101,40Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M60,61 58,64 58,75 59,78 62,81 66,79 66,75 64,69 69,62 76,62 79,63 80,65 87,65 90,69 93,86 98,89 98,91 100,94 97,98 98,99 99,98 101,99 100,103 105,103 108,107 108,113 109,115 111,116 117,114 117,111 119,109 121,109 125,113 126,119 128,120 128,122 135,122 138,124 140,124 146,130 148,130 147,127 148,126 150,127 150,126 140,117 139,112 135,110 136,109 134,110 133,108 130,108 130,109 133,109 134,110 133,111 129,111 128,110 128,106 126,103 129,97 129,94 128,93 124,92 119,99 113,102 111,101 111,99 108,96 109,92 112,90 117,90 124,87 128,82 137,87 146,88 150,86 155,78 155,75 154,74 152,74 144,82 136,81 134,79 136,69 133,68 130,69 129,74 127,77 118,76 114,78 110,83 104,83 103,81 100,79 100,77 98,74 98,66 97,64 96,64 93,60 87,59 84,57 84,52 90,45 93,44 93,38 89,38 92,39 92,42 91,43 88,43 87,40 85,41 81,45 78,50 78,52 75,55 66,56Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+</g>
+<text x="1065" y="186" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="34" fill="#58202b" font-weight="bold">地圖判讀</text>
+<rect x="1075" y="221" width="32" height="32" rx="4" fill="#356f91" stroke="#173d5b" stroke-width="2"/>
+<text x="1120" y="247" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="25" fill="#292323">原版通道／房間輪廓</text>
+<line x1="1066" y1="288" x2="1513" y2="288" stroke="#d8c5bc" stroke-width="2"/>
+<text x="1065" y="333" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="28" fill="#58202b" font-weight="bold">對照提示</text>
+<circle cx="1083" cy="370" r="6" fill="#a56b3c"/>
+<text x="1104" y="380" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">開放進度：巴爾哈蘭特</text>
+<circle cx="1083" cy="430" r="6" fill="#a56b3c"/>
+<text x="1104" y="440" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">巴爾哈蘭怪物。同一系列委託，和南之洞窟</text>
+<text x="1104" y="476" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">不同階段區分。</text>
+<circle cx="1083" cy="526" r="6" fill="#a56b3c"/>
+<text x="1104" y="536" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">地圖技能：跳躍Lv2、寶箱搜尋。</text>
+<circle cx="1083" cy="586" r="6" fill="#a56b3c"/>
+<text x="1104" y="596" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">關聯事件：巴爾哈蘭怪物。</text>
+<line x1="1065" y1="887" x2="1513" y2="887" stroke="#d8c5bc" stroke-width="2"/>
+<text x="1071" y="935" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="22" fill="#7b6760">已重繪遊戲原版通道輪廓</text>
+<text x="1071" y="972" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="22" fill="#7b6760">非原攻略網站圖檔翻印</text>
+<text x="1071" y="1009" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="22" fill="#7b6760">未核對的寶箱固定位置不亂標</text>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1580" height="1110" viewBox="0 0 1580 1110" role="img" aria-label="黑暗宮殿 PS2 原版迷宮地形與通道重繪圖">
+<rect width="1580" height="1110" rx="30" fill="#f8f2e9"/>
+<rect width="1580" height="112" rx="30" fill="#58202b"/><rect y="72" width="1580" height="40" fill="#58202b"/>
+<text x="42" y="59" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="43" font-weight="bold" fill="white">黑暗宮殿｜PS2 地形通道圖</text>
+<text x="46" y="94" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#f2d7cb">闇の宮殿 ｜依原版地圖資料獨立重繪</text>
+<rect x="30" y="132" width="980" height="922" rx="24" fill="#fffefd" stroke="#d8c5bc" stroke-width="3"/>
+<rect x="1035" y="132" width="505" height="922" rx="24" fill="#fffefd" stroke="#d8c5bc" stroke-width="3"/>
+<g transform="translate(70 171) scale(2.95)">
+<path d="M208,164 206,168 205,167 200,167 200,188 205,188 206,189 206,194 205,195 201,195 201,199 205,199 206,200 206,209 210,209 210,200 211,199 215,199 215,195 211,195 210,194 210,189 211,188 216,188 216,168 215,167 211,167 210,168Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M206,57 206,66 205,67 201,67 201,71 205,71 206,72 206,77 205,78 200,78 200,84 199,85 198,84 193,84 192,85 191,82 183,82 183,90 191,90 192,87 193,88 198,88 199,87 200,88 200,94 206,94 207,95 206,96 206,100 205,101 201,101 201,105 205,105 206,106 206,115 210,115 210,106 211,105 215,105 215,101 211,101 209,95 210,94 216,94 216,88 217,87 218,88 225,88 226,87 227,88 227,92 239,92 239,88 240,87 241,88 247,88 248,87 249,90 250,90 249,88 251,86 249,85 249,83 251,82 253,84 255,82 249,82 248,85 247,84 240,84 239,83 239,80 227,80 227,83 226,84 217,84 216,83 216,78 211,78 210,77 210,72 211,71 215,71 215,67 211,67 210,66 210,57Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M122,57 122,66 121,67 117,67 117,71 121,71 122,72 122,77 121,78 116,78 116,83 115,84 109,84 108,83 108,80 96,80 96,92 108,92 108,88 109,87 110,88 114,88 115,87 116,88 116,94 122,94 123,95 122,96 122,100 121,101 117,101 117,105 121,105 122,106 122,115 126,115 126,106 127,105 131,105 131,101 127,101 125,95 126,94 132,94 132,88 133,87 134,88 141,88 142,87 143,90 151,90 151,82 144,82 142,84 133,84 132,83 132,78 127,78 126,77 126,72 127,71 131,71 131,67 127,67 126,66 126,57Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M42,56 42,65 41,66 37,66 37,70 41,70 43,76 42,77 36,77 36,93 42,93 43,94 42,95 42,99 41,100 37,100 37,104 41,104 42,105 43,119 45,119 46,105 47,104 51,104 51,100 47,100 46,99 46,94 47,93 52,93 52,77 46,77 45,76 46,75 46,71 47,70 51,70 51,66 47,66 46,65 46,56Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+</g>
+<text x="1065" y="186" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="34" fill="#58202b" font-weight="bold">地圖判讀</text>
+<rect x="1075" y="221" width="32" height="32" rx="4" fill="#356f91" stroke="#173d5b" stroke-width="2"/>
+<text x="1120" y="247" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="25" fill="#292323">原版通道／房間輪廓</text>
+<line x1="1066" y1="288" x2="1513" y2="288" stroke="#d8c5bc" stroke-width="2"/>
+<text x="1065" y="333" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="28" fill="#58202b" font-weight="bold">對照提示</text>
+<circle cx="1083" cy="370" r="6" fill="#a56b3c"/>
+<text x="1104" y="380" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">開放進度：特殊地區</text>
+<circle cx="1083" cy="430" r="6" fill="#a56b3c"/>
+<text x="1104" y="440" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">招來不幸的女人（謝麗爾）。PS2原版存</text>
+<text x="1104" y="476" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">在；不要因與Remastered角色有</text>
+<text x="1104" y="512" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">關而誤排除整項原版任務。</text>
+<circle cx="1083" cy="562" r="6" fill="#a56b3c"/>
+<text x="1104" y="572" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">地圖技能：尚待確認。</text>
+<circle cx="1083" cy="622" r="6" fill="#a56b3c"/>
+<text x="1104" y="632" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">關聯事件：招來不幸的女人（謝麗爾）。</text>
+<line x1="1065" y1="887" x2="1513" y2="887" stroke="#d8c5bc" stroke-width="2"/>
+<text x="1071" y="935" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="22" fill="#7b6760">已重繪遊戲原版通道輪廓</text>
+<text x="1071" y="972" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="22" fill="#7b6760">非原攻略網站圖檔翻印</text>
+<text x="1071" y="1009" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="22" fill="#7b6760">未核對的寶箱固定位置不亂標</text>
+</svg>

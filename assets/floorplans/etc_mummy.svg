@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1580" height="1110" viewBox="0 0 1580 1110" role="img" aria-label="木乃伊商船 PS2 原版迷宮地形與通道重繪圖">
+<rect width="1580" height="1110" rx="30" fill="#f8f2e9"/>
+<rect width="1580" height="112" rx="30" fill="#58202b"/><rect y="72" width="1580" height="40" fill="#58202b"/>
+<text x="42" y="59" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="43" font-weight="bold" fill="white">木乃伊商船｜PS2 地形通道圖</text>
+<text x="46" y="94" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#f2d7cb">ミイライベントの商船 ｜依原版地圖資料獨立重繪</text>
+<rect x="30" y="132" width="980" height="922" rx="24" fill="#fffefd" stroke="#d8c5bc" stroke-width="3"/>
+<rect x="1035" y="132" width="505" height="922" rx="24" fill="#fffefd" stroke="#d8c5bc" stroke-width="3"/>
+<g transform="translate(70 171) scale(2.95)">
+<path d="M53,89 53,101 52,102 49,102 49,113 53,113 54,114 53,115 53,121 56,122 56,123 54,124 55,127 53,128 53,129 56,129 56,115 55,114 56,113 60,113 60,102 56,102 55,101 56,100 56,93 57,92 64,92 65,91 66,92 66,96 69,96 70,97 70,113 69,114 66,114 66,125 77,125 77,122 78,121 82,121 83,122 83,141 84,142 83,143 80,143 80,150 82,152 87,152 87,151 85,150 82,152 81,151 82,148 80,146 83,145 84,142 86,141 86,122 87,121 91,121 92,122 92,125 103,125 103,114 99,114 98,113 99,112 99,97 100,96 103,96 103,92 104,91 105,92 112,92 113,93 113,100 114,101 113,102 109,102 109,113 113,113 114,114 113,115 113,129 116,129 116,115 115,114 116,113 120,113 120,102 116,102 115,101 116,100 116,89 110,89 109,90 108,89 105,89 104,90 103,89 103,85 92,85 92,96 96,96 97,97 96,98 96,112 97,113 96,114 92,114 92,117 91,118 79,118 78,119 77,118 77,114 73,114 72,113 73,112 73,97 74,96 77,96 77,85 66,85 66,89 65,90 64,89Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M201,77 201,79 203,80 203,84 201,85 201,88 204,88 205,89 205,102 204,103 201,103 201,107 200,108 196,106 196,95 193,96 190,95 189,96 187,94 188,91 177,91 177,102 188,102 188,99 187,98 188,96 193,99 193,122 194,123 193,124 189,124 189,128 188,129 184,127 184,120 181,120 181,131 187,131 188,130 189,131 189,135 200,135 200,124 197,124 196,123 196,111 200,109 201,110 201,114 212,114 212,110 213,109 217,111 217,122 218,123 217,124 213,124 213,135 217,135 218,136 217,137 217,143 218,145 217,146 216,145 213,146 211,144 212,141 201,141 201,152 212,152 212,149 211,148 212,146 214,148 216,148 217,146 218,148 220,148 220,137 219,136 220,135 224,135 224,131 225,130 226,131 232,131 232,120 229,120 229,127 225,129 224,128 224,124 221,124 220,123 220,99 224,97 225,98 225,102 236,102 236,91 225,91 225,95 224,96 223,95 217,95 217,106 213,108 212,107 212,103 208,103 207,102 208,101 208,90 207,89 208,88 212,88 212,86 209,85 212,84 212,83 209,82 212,81 212,80 209,79 212,78 212,77Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+</g>
+<text x="1065" y="186" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="34" fill="#58202b" font-weight="bold">地圖判讀</text>
+<rect x="1075" y="221" width="32" height="32" rx="4" fill="#356f91" stroke="#173d5b" stroke-width="2"/>
+<text x="1120" y="247" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="25" fill="#292323">原版通道／房間輪廓</text>
+<line x1="1066" y1="288" x2="1513" y2="288" stroke="#d8c5bc" stroke-width="2"/>
+<text x="1065" y="333" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="28" fill="#58202b" font-weight="bold">對照提示</text>
+<circle cx="1083" cy="370" r="6" fill="#a56b3c"/>
+<text x="1104" y="380" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">開放進度：特殊地區</text>
+<circle cx="1083" cy="430" r="6" fill="#a56b3c"/>
+<text x="1104" y="440" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">木乃伊商人。部分事件可能由商船戰鬥接至</text>
+<text x="1104" y="476" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">妖精森林。</text>
+<circle cx="1083" cy="526" r="6" fill="#a56b3c"/>
+<text x="1104" y="536" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">地圖技能：尚待確認。</text>
+<circle cx="1083" cy="586" r="6" fill="#a56b3c"/>
+<text x="1104" y="596" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">關聯事件：木乃伊商人。</text>
+<line x1="1065" y1="887" x2="1513" y2="887" stroke="#d8c5bc" stroke-width="2"/>
+<text x="1071" y="935" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="22" fill="#7b6760">已重繪遊戲原版通道輪廓</text>
+<text x="1071" y="972" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="22" fill="#7b6760">非原攻略網站圖檔翻印</text>
+<text x="1071" y="1009" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="22" fill="#7b6760">未核對的寶箱固定位置不亂標</text>
+</svg>

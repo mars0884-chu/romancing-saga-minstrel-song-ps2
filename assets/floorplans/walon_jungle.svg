@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1580" height="1110" viewBox="0 0 1580 1110" role="img" aria-label="瓦隆叢林 PS2 原版迷宮地形與通道重繪圖">
+<rect width="1580" height="1110" rx="30" fill="#f8f2e9"/>
+<rect width="1580" height="112" rx="30" fill="#58202b"/><rect y="72" width="1580" height="40" fill="#58202b"/>
+<text x="42" y="59" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="43" font-weight="bold" fill="white">瓦隆叢林｜PS2 地形通道圖</text>
+<text x="46" y="94" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#f2d7cb">ジャングル ｜依原版地圖資料獨立重繪</text>
+<rect x="30" y="132" width="980" height="922" rx="24" fill="#fffefd" stroke="#d8c5bc" stroke-width="3"/>
+<rect x="1035" y="132" width="505" height="922" rx="24" fill="#fffefd" stroke="#d8c5bc" stroke-width="3"/>
+<g transform="translate(70 171) scale(2.95)">
+<path d="M202,270 202,272 204,274 204,277 208,280 212,280 215,278 218,278 220,275 222,275 220,270 213,265 209,265 207,266 204,270Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M181,199 178,203 178,218 184,226 184,228 179,237 173,240 173,247 175,249 182,252 189,259 191,259 191,257 178,245 180,243 181,237 188,231 190,231 197,238 196,244 202,243 213,249 222,248 225,250 227,254 227,257 230,257 230,251 226,246 224,245 212,245 206,241 211,233 211,213 216,210 220,209 227,213 227,222 230,222 230,212 221,207 218,207 217,206 213,206 209,208 206,211 206,214 208,216 208,231 205,234 200,235 194,230 193,226 191,224 191,222 189,223 185,221 182,218 181,215 181,206 184,202 197,202 197,199Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M254,204 256,204 258,201 260,204 264,204 270,199 272,202 274,203 275,209 277,210 286,210 286,205 278,198 278,196 273,191 273,188 269,188 264,192 264,194 266,196 264,198 263,197 258,198Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M35,199 35,203 41,203 42,202 51,201 54,203 56,206 64,206 72,202 76,202 82,206 85,206 85,203 77,198 70,198 69,199 66,198 66,195 73,191 78,190 78,183 72,183 66,185 59,185 57,183 57,181 54,181 54,185 53,186 53,194 54,197 53,198 45,197 44,198Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M267,139 267,143 269,147 269,159 268,160 265,160 265,164 270,164 272,166 276,166 278,162 278,152 276,149 275,142 269,139Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M61,133 51,133 51,134 49,135 50,142 44,144 40,149 37,149 37,152 39,155 39,162 41,163 46,163 47,162 47,157 45,155 45,153 48,149 55,148 57,141 61,137Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M216,109 208,109 203,113 199,113 195,119 193,120 187,120 185,123 185,126 179,132 177,139 166,139 163,136 163,126 160,126 160,138 164,142 190,142 197,147 198,153 186,164 186,166 188,168 193,168 202,172 213,172 213,169 202,169 197,165 194,165 193,164 197,160 199,156 201,155 201,149 207,142 211,142 212,143 223,142 229,137 235,142 240,144 243,144 243,141 240,140 230,133 227,133 220,139 217,139 216,138 207,139 203,136 201,137 196,136 192,138 187,138 186,139 182,139 181,138 181,135 185,130 189,128 194,129 195,128 195,123 197,121 202,120 205,115 208,113 215,112 217,114 217,124 220,124 220,114 219,111Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M206,85 203,82 201,82 199,80 196,80 186,84 183,87 180,87 176,85 168,86 166,87 166,92 170,92 174,90 184,91 188,88 193,88 195,90 201,90 205,88Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M82,57 106,61 107,64 111,67 108,69 106,72 106,74 96,83 96,85 100,85 104,81 111,78 111,77 113,76 115,72 115,69 113,66 116,64 116,62 111,63 109,61 111,58 113,58 112,57 108,57 106,59 102,59 101,58 97,58 91,56 85,56 84,55 84,56Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M60,13 54,13 51,15 48,15 47,18 44,20 38,28 39,34 43,38 46,44 44,47 44,49 40,53 37,54 37,56 34,60 34,67 38,72 38,75 43,77 52,86 54,86 54,83 46,75 45,71 40,69 37,66 37,62 40,58 43,57 43,55 49,49 53,48 55,45 55,39 54,38 50,38 49,39 46,38 41,31 42,27 47,24 47,22 49,20 51,20 55,15 57,15 62,19 60,25 63,30 63,37 65,37 65,30 67,26 67,22 65,18Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M225,9 221,9 219,11 219,14 221,16 227,17 229,19 228,30 226,32 228,33 226,34 226,38 229,40 228,46 221,53 212,48 203,48 202,47 195,47 191,50 191,52 197,55 197,64 200,63 200,54 201,53 207,51 211,51 217,55 217,58 223,58 231,46 231,43 234,39 233,38 234,35 230,33 233,32 232,31 232,16 231,14Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+</g>
+<text x="1065" y="186" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="34" fill="#58202b" font-weight="bold">地圖判讀</text>
+<rect x="1075" y="221" width="32" height="32" rx="4" fill="#356f91" stroke="#173d5b" stroke-width="2"/>
+<text x="1120" y="247" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="25" fill="#292323">原版通道／房間輪廓</text>
+<line x1="1066" y1="288" x2="1513" y2="288" stroke="#d8c5bc" stroke-width="2"/>
+<text x="1065" y="333" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="28" fill="#58202b" font-weight="bold">對照提示</text>
+<circle cx="1083" cy="370" r="6" fill="#a56b3c"/>
+<text x="1104" y="380" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">開放進度：瓦隆島</text>
+<circle cx="1083" cy="430" r="6" fill="#a56b3c"/>
+<text x="1104" y="440" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">壁虎族／銀的財寶／皇帝病危。從維普或戈</text>
+<text x="1104" y="476" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">東哥出口進叢林，通往銀洞窟與雙月神殿。</text>
+<circle cx="1083" cy="526" r="6" fill="#a56b3c"/>
+<text x="1104" y="536" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">入口：由韋普（ウェイプ）或戈頓戈（ゴド</text>
+<text x="1104" y="572" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">ンゴ）離開城鎮進入叢林（ジャングル）。</text>
+<circle cx="1083" cy="622" r="6" fill="#a56b3c"/>
+<text x="1104" y="632" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">關聯事件：壁虎族（ゲッコ族）、海賊席爾</text>
+<text x="1104" y="668" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">瓦寶藏（海賊シルバーの財宝）、古文書（</text>
+<text x="1104" y="704" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">古文書）。</text>
+<line x1="1065" y1="887" x2="1513" y2="887" stroke="#d8c5bc" stroke-width="2"/>
+<text x="1071" y="935" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="22" fill="#7b6760">已重繪遊戲原版通道輪廓</text>
+<text x="1071" y="972" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="22" fill="#7b6760">非原攻略網站圖檔翻印</text>
+<text x="1071" y="1009" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="22" fill="#7b6760">未核對的寶箱固定位置不亂標</text>
+</svg>

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1580" height="1110" viewBox="0 0 1580 1110" role="img" aria-label="托馬耶火山 PS2 原版迷宮地形與通道重繪圖">
+<rect width="1580" height="1110" rx="30" fill="#f8f2e9"/>
+<rect width="1580" height="112" rx="30" fill="#58202b"/><rect y="72" width="1580" height="40" fill="#58202b"/>
+<text x="42" y="59" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="43" font-weight="bold" fill="white">托馬耶火山｜PS2 地形通道圖</text>
+<text x="46" y="94" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#f2d7cb">トマエ火山 ｜依原版地圖資料獨立重繪</text>
+<rect x="30" y="132" width="980" height="922" rx="24" fill="#fffefd" stroke="#d8c5bc" stroke-width="3"/>
+<rect x="1035" y="132" width="505" height="922" rx="24" fill="#fffefd" stroke="#d8c5bc" stroke-width="3"/>
+<g transform="translate(70 171) scale(2.95)">
+<path d="M62,180 58,180 56,182 53,182 52,181 50,183 50,186 49,187 50,188 50,191 51,192 54,192 62,184Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M32,156 31,157 30,177 25,182 25,184 32,187 30,189 31,192 35,192 39,188 41,188 44,186 45,184 44,182 45,181 44,180 40,180 36,184 37,185 36,187 32,187 31,186 32,184 31,182 32,181 36,181 37,178 37,163 35,159 35,156Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M48,153 49,159 45,162 45,170 48,172 49,178 50,176 52,177 54,176 55,177 54,179 55,178 55,172 57,170 56,153 54,154Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M52,145 49,147 52,149 55,147Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M116,158 116,162 121,171 122,179 126,179 127,162 129,160 132,160 135,158 159,158 162,160 165,160 167,162 168,179 172,179 172,175 174,169 178,162 178,158 174,152 166,151 165,153 160,155 150,155 149,154 149,143 145,143 145,154 144,155 134,155 129,153 127,151 124,151 123,152 120,152Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M47,143 43,145 43,149 44,149 45,151 46,151 47,149 46,150 44,149 44,145 45,144 47,145Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M79,137 74,137 74,144 73,145 59,144 60,145 59,151 63,151 68,149 73,149 76,151 78,151 79,150Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M224,136 223,151 225,155 226,162 230,164 241,166 243,168 241,170 237,171 237,179 239,186 250,192 263,193 263,190 254,189 248,186 246,186 243,183 241,178 241,176 247,171 251,164 251,156 250,155 251,141 243,136 238,136 237,135 237,131 233,131 233,135 232,136Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M249,56 249,59 253,61 251,60 252,58 251,56Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M50,55 50,59 48,64 56,64 54,55Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M236,47 237,64 241,64 241,50 237,50 236,49 237,47Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M263,43 262,43 261,45 256,45 255,46 256,48 255,55 257,56 256,58 257,60 255,61 256,62 255,64 256,70 252,75 245,75 241,71 237,71 231,77 226,77 220,74 218,71 219,60 212,59 211,60 211,69 214,76 217,79 219,79 224,82 233,82 236,85 237,89 239,90 241,93 245,92 245,89 242,84 245,81 256,79 260,74 261,66 257,66 256,65 257,63 256,61 257,60 259,61 261,60 262,62 265,62 266,61 266,56 261,53 261,51 263,48Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M239,41 236,43 239,45 242,43Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M184,40 183,39 180,40 179,48 173,55 170,55 165,51 163,48 160,48 158,45 153,44 152,47 150,48 143,56 141,55 136,56 133,61 134,64 130,69 129,76 127,78 120,80 118,85 109,80 104,75 101,77 102,81 110,88 113,93 115,94 122,94 126,91 127,84 129,80 140,70 141,71 144,71 149,74 151,79 148,84 148,87 149,87 150,89 154,89 156,87 163,88 166,86 166,82 164,79 165,74 167,73 167,71 172,68 180,68 181,67 181,62 179,58 184,49Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M266,40 261,34 258,34 253,40 245,40 244,41 245,40 247,41 246,43 247,45 252,45 257,39 261,39 262,41 266,41Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M32,35 32,41 28,43 31,44 34,49 31,53 24,54 23,56 20,57 20,69 28,85 32,88 39,89 45,93 50,93 54,95 60,95 64,93 72,93 74,95 74,99 78,99 78,74 80,71 80,66 74,66 71,68 60,68 59,67 47,67 46,68 42,68 42,73 50,79 55,79 59,74 64,72 71,72 74,75 74,87 73,88 67,88 63,86 56,86 50,90 44,88 35,77 25,71 25,69 23,66 23,62 27,59 32,62 41,62 43,59 43,56 41,55 40,47 45,43 52,42 53,41 65,42 68,45 68,59 72,59 72,50 75,45 75,39 73,35 66,35 65,36 55,37 54,36 45,35 41,33 35,33Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+</g>
+<text x="1065" y="186" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="34" fill="#58202b" font-weight="bold">地圖判讀</text>
+<rect x="1075" y="221" width="32" height="32" rx="4" fill="#356f91" stroke="#173d5b" stroke-width="2"/>
+<text x="1120" y="247" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="25" fill="#292323">原版通道／房間輪廓</text>
+<line x1="1066" y1="288" x2="1513" y2="288" stroke="#d8c5bc" stroke-width="2"/>
+<text x="1065" y="333" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="28" fill="#58202b" font-weight="bold">對照提示</text>
+<circle cx="1083" cy="370" r="6" fill="#a56b3c"/>
+<text x="1104" y="380" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">開放進度：里高島</text>
+<circle cx="1083" cy="430" r="6" fill="#a56b3c"/>
+<text x="1104" y="440" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">火山怪物／冰劍／火神防禦輪／冥府。通往</text>
+<text x="1104" y="476" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">四天王火焰暴君與冥府入口，需區分完成四</text>
+<text x="1104" y="512" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">天王條件與三地點的信仰條件。</text>
+<circle cx="1083" cy="562" r="6" fill="#a56b3c"/>
+<text x="1104" y="572" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">入口：里高島→托馬艾火山（トマエ火山）</text>
+<text x="1104" y="608" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">；關聯火神防御輪、冰之劍、冥府相關支線</text>
+<text x="1104" y="644" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">。</text>
+<circle cx="1083" cy="694" r="6" fill="#a56b3c"/>
+<text x="1104" y="704" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">必要地圖技能：跳躍（ジャンプ）Lv1；</text>
+<text x="1104" y="740" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">依原版地圖表，必要跳躍機會 9 次，建</text>
+<text x="1104" y="776" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">議多備使用次數。</text>
+<line x1="1065" y1="887" x2="1513" y2="887" stroke="#d8c5bc" stroke-width="2"/>
+<text x="1071" y="935" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="22" fill="#7b6760">已重繪遊戲原版通道輪廓</text>
+<text x="1071" y="972" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="22" fill="#7b6760">非原攻略網站圖檔翻印</text>
+<text x="1071" y="1009" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="22" fill="#7b6760">未核對的寶箱固定位置不亂標</text>
+</svg>

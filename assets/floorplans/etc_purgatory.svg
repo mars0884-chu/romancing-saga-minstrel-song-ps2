@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1580" height="1110" viewBox="0 0 1580 1110" role="img" aria-label="煉獄 PS2 原版迷宮地形與通道重繪圖">
+<rect width="1580" height="1110" rx="30" fill="#f8f2e9"/>
+<rect width="1580" height="112" rx="30" fill="#58202b"/><rect y="72" width="1580" height="40" fill="#58202b"/>
+<text x="42" y="59" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="43" font-weight="bold" fill="white">煉獄｜PS2 地形通道圖</text>
+<text x="46" y="94" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#f2d7cb">煉獄 ｜依原版地圖資料獨立重繪</text>
+<rect x="30" y="132" width="980" height="922" rx="24" fill="#fffefd" stroke="#d8c5bc" stroke-width="3"/>
+<rect x="1035" y="132" width="505" height="922" rx="24" fill="#fffefd" stroke="#d8c5bc" stroke-width="3"/>
+<g transform="translate(70 171) scale(2.95)">
+<path d="M151,173 149,173 148,175 146,191 144,193 143,192 143,188 141,190 141,193 143,196 141,197 139,195 135,195 133,191 133,196 130,198 130,200 134,203 136,202 139,203 149,194 150,187 153,186 153,184 151,183Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M77,170 75,170 76,174 70,182 69,191 65,199 62,199 53,191 51,196 54,199 62,203 69,203 76,199 77,185 79,180 79,172Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M129,109 128,111 132,115 130,117 127,117 126,118 126,121 128,123 131,123 131,120 134,116 136,115 140,116 143,120 144,125 149,126 153,132 153,139 155,139 157,130 152,124 152,120 154,118 153,117 152,118 150,116 147,122 146,121 146,115 140,113 135,106 134,106 135,106 136,108 133,113 132,112 132,108Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M59,106 57,109 57,112 56,113 54,112 52,114 53,116 51,118 51,121 53,121 55,116 57,114 60,116 63,116 64,115 68,116 71,120 72,125 70,127 67,127 66,128 66,131 67,132 70,132 73,127 77,126 81,132 81,139 83,139 85,130 80,124 80,118 78,116 75,122 74,121 74,115 70,114 66,111 69,107 67,108 64,106 61,112 60,111 60,106Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M222,47 220,47 220,54 219,56 215,60 211,62 207,62 202,60 199,56 199,53 196,53 196,61 197,63 203,68 206,69 212,69 220,65 225,59 225,54Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M51,46 51,48 49,51 49,56 51,59 51,62 50,63 51,68 58,73 68,73 68,72 72,69 73,63 71,62 70,63 71,64 67,69 61,70 59,69 56,65 56,59 60,53 63,52 75,53 75,52 71,48 68,47 60,47 58,48 54,53 53,52 53,46Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M127,44 127,51 129,56 145,71 144,72 139,72 125,68 118,68 118,71 122,73 129,73 130,74 137,74 138,75 157,75 159,74 159,72 155,72 148,69 132,53 130,49 130,44Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+</g>
+<text x="1065" y="186" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="34" fill="#58202b" font-weight="bold">地圖判讀</text>
+<rect x="1075" y="221" width="32" height="32" rx="4" fill="#356f91" stroke="#173d5b" stroke-width="2"/>
+<text x="1120" y="247" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="25" fill="#292323">原版通道／房間輪廓</text>
+<line x1="1066" y1="288" x2="1513" y2="288" stroke="#d8c5bc" stroke-width="2"/>
+<text x="1065" y="333" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="28" fill="#58202b" font-weight="bold">對照提示</text>
+<circle cx="1083" cy="370" r="6" fill="#a56b3c"/>
+<text x="1104" y="380" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">開放進度：特殊地區</text>
+<circle cx="1083" cy="430" r="6" fill="#a56b3c"/>
+<text x="1104" y="440" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">我到底是誰（Dark）。跨周目原版Da</text>
+<text x="1104" y="476" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">rk支線，需與2022新增任務區分。</text>
+<circle cx="1083" cy="526" r="6" fill="#a56b3c"/>
+<text x="1104" y="536" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">地圖技能：尚待確認。</text>
+<circle cx="1083" cy="586" r="6" fill="#a56b3c"/>
+<text x="1104" y="596" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">關聯事件：我到底是誰（Dark）。</text>
+<line x1="1065" y1="887" x2="1513" y2="887" stroke="#d8c5bc" stroke-width="2"/>
+<text x="1071" y="935" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="22" fill="#7b6760">已重繪遊戲原版通道輪廓</text>
+<text x="1071" y="972" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="22" fill="#7b6760">非原攻略網站圖檔翻印</text>
+<text x="1071" y="1009" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="22" fill="#7b6760">未核對的寶箱固定位置不亂標</text>
+</svg>

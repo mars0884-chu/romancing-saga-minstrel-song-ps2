@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1580" height="1110" viewBox="0 0 1580 1110" role="img" aria-label="康斯坦茲 PS2 原版迷宮地形與通道重繪圖">
+<rect width="1580" height="1110" rx="30" fill="#f8f2e9"/>
+<rect width="1580" height="112" rx="30" fill="#58202b"/><rect y="72" width="1580" height="40" fill="#58202b"/>
+<text x="42" y="59" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="43" font-weight="bold" fill="white">康斯坦茲｜PS2 地形通道圖</text>
+<text x="46" y="94" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#f2d7cb">コンスタンツ ｜依原版地圖資料獨立重繪</text>
+<rect x="30" y="132" width="980" height="922" rx="24" fill="#fffefd" stroke="#d8c5bc" stroke-width="3"/>
+<rect x="1035" y="132" width="505" height="922" rx="24" fill="#fffefd" stroke="#d8c5bc" stroke-width="3"/>
+<g transform="translate(70 171) scale(2.95)">
+<path d="M130,186 127,188 125,188 121,193 121,198 123,201 126,203 132,201 134,198 134,190 133,188Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M150,182 150,184 151,183 154,183 156,188 158,189 164,189 166,188 168,183 167,181 162,181 156,177Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M168,177 168,179 171,176 172,178 173,177 174,179 176,180 174,183 175,183 176,185 178,185 180,183 180,179 178,176 170,176Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M158,149 156,148 152,150 148,157 148,159 150,162 153,162 153,161 156,159 158,154Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M99,78 99,85 118,85 118,80 117,78Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M62,76 59,79 61,80 58,82 58,85 60,87 63,87 64,88 69,87 69,86 71,85 71,80 69,80 66,77Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M81,44 79,48 80,49 82,49 84,46 86,49 89,50 87,52 88,53 87,56 86,55 82,55 83,59 81,62 80,67 82,69 83,73 81,76 74,79 74,83 76,86 79,86 81,88 81,92 84,98 84,101 88,107 88,111 90,113 90,115 95,118 106,117 112,122 112,125 115,129 115,133 116,134 116,138 114,140 111,140 109,138 109,134 108,133 104,134 104,135 98,140 96,140 96,143 95,144 96,145 96,148 97,148 98,145 96,143 101,139 102,141 106,143 104,145 105,148 104,149 103,148 100,149 103,151 104,153 107,153 109,151 111,151 112,149 115,148 117,150 117,156 118,159 120,160 120,164 127,169 132,175 131,176 131,182 136,186 145,183 145,182 151,177 151,173 149,172 150,170 149,165 148,165 146,162 135,164 130,161 128,161 125,158 123,152 123,148 126,146 132,150 136,150 148,145 162,146 163,145 166,145 165,143 166,139 146,140 142,138 138,138 135,136 131,136 131,137 127,140 124,140 122,133 122,126 121,124 119,123 119,120 112,112 100,111 98,109 95,109 91,103 91,88 96,85 96,79 95,78 96,77 95,76 92,76 90,73 90,60 89,59 89,56 90,55 89,53 90,51 89,48 87,47 87,45Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+</g>
+<text x="1065" y="186" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="34" fill="#58202b" font-weight="bold">地圖判讀</text>
+<rect x="1075" y="221" width="32" height="32" rx="4" fill="#356f91" stroke="#173d5b" stroke-width="2"/>
+<text x="1120" y="247" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="25" fill="#292323">原版通道／房間輪廓</text>
+<line x1="1066" y1="288" x2="1513" y2="288" stroke="#d8c5bc" stroke-width="2"/>
+<text x="1065" y="333" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="28" fill="#58202b" font-weight="bold">對照提示</text>
+<circle cx="1083" cy="370" r="6" fill="#a56b3c"/>
+<text x="1104" y="380" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">開放進度：騎士團領</text>
+<circle cx="1083" cy="430" r="6" fill="#a56b3c"/>
+<text x="1104" y="440" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">康斯坦茲遭綁架。經拜澤爾海姆的弗拉瑪取</text>
+<text x="1104" y="476" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">得線索才會開啟迷宮。</text>
+<circle cx="1083" cy="526" r="6" fill="#a56b3c"/>
+<text x="1104" y="536" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">地圖技能：解除陷阱。</text>
+<circle cx="1083" cy="586" r="6" fill="#a56b3c"/>
+<text x="1104" y="596" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">關聯事件：康斯坦茲遭綁架。</text>
+<line x1="1065" y1="887" x2="1513" y2="887" stroke="#d8c5bc" stroke-width="2"/>
+<text x="1071" y="935" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="22" fill="#7b6760">已重繪遊戲原版通道輪廓</text>
+<text x="1071" y="972" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="22" fill="#7b6760">非原攻略網站圖檔翻印</text>
+<text x="1071" y="1009" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="22" fill="#7b6760">未核對的寶箱固定位置不亂標</text>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1580" height="1110" viewBox="0 0 1580 1110" role="img" aria-label="財寶洞穴 PS2 原版迷宮地形與通道重繪圖">
+<rect width="1580" height="1110" rx="30" fill="#f8f2e9"/>
+<rect width="1580" height="112" rx="30" fill="#58202b"/><rect y="72" width="1580" height="40" fill="#58202b"/>
+<text x="42" y="59" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="43" font-weight="bold" fill="white">財寶洞穴｜PS2 地形通道圖</text>
+<text x="46" y="94" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#f2d7cb">財宝の穴 ｜依原版地圖資料獨立重繪</text>
+<rect x="30" y="132" width="980" height="922" rx="24" fill="#fffefd" stroke="#d8c5bc" stroke-width="3"/>
+<rect x="1035" y="132" width="505" height="922" rx="24" fill="#fffefd" stroke="#d8c5bc" stroke-width="3"/>
+<g transform="translate(70 171) scale(2.95)">
+<path d="M73,184 73,186 76,189 86,190 86,185 85,184 76,183 77,184 76,186Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M149,174 149,183 152,186 155,195 159,196 160,194 168,194 170,196 174,196 175,197 215,197 220,193 228,189 230,189 235,195 237,196 242,196 243,188 232,187 229,186 228,183 230,178 234,175 248,175 247,172 240,172 236,169 232,168 231,165 223,165 219,168 218,173 223,177 224,179 224,184 217,189 208,189 205,192 199,194 181,194 173,191 169,187 168,182 166,180 163,180 161,182 157,183 152,180 152,177 158,170 182,168 184,170 184,173 182,176 179,178 172,178 172,181 183,181 185,180 185,178 187,175 187,168 184,164 180,164 176,166 167,166 164,162 162,166 158,166 156,168 154,168Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M149,152 149,155 152,157 161,155 164,158 168,155 171,155 174,157 177,157 180,155 180,152 177,150 174,150 171,152 158,152 155,150 152,150Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M111,138 108,136 106,136 97,139 87,149 82,158 84,159 95,144 106,141 107,142 108,154 109,155 109,167 106,169 97,168 92,171 84,171 83,172 78,172 77,173 60,176 58,174 58,171 54,167 45,167 38,170 31,178 26,187 26,190 25,191 26,195 33,199 39,196 46,196 48,194 65,194 65,191 38,191 36,189 34,185 34,182 37,178 44,172 52,172 56,175 56,180 53,183 53,187 59,187 61,180 68,178 71,178 73,180 77,176 84,174 103,173 105,175 108,175 110,177 115,177 119,175 121,171 121,167 118,164 115,163 113,150 111,145 112,142Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M84,100 84,105 86,106 89,106 94,104 109,104 109,101 90,101 89,100 89,94 86,95 86,99Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M112,78 112,73 111,72 107,72 104,74 100,74 99,75 101,77 105,77 106,79 111,79Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M86,71 86,79 93,77 95,75 91,74 87,70Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M89,86 87,84 85,88 76,88 72,85 73,84 73,80 72,79 73,78 73,61 71,61 70,62 69,87 58,92 53,100 42,97 25,89 25,87 28,81 37,75 37,70 33,67 29,67 26,69 27,78 20,89 20,92 28,96 37,99 40,99 42,101 46,102 48,105 56,105 57,104 60,104 61,98 63,97 64,95 77,94 80,92 85,92 86,93 87,91 86,91 85,89 88,88Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M80,43 79,44 79,47 84,50 91,57 90,59 88,59 86,61 86,65 87,66 91,62 97,60 97,57 92,54 84,44Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+</g>
+<text x="1065" y="186" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="34" fill="#58202b" font-weight="bold">地圖判讀</text>
+<rect x="1075" y="221" width="32" height="32" rx="4" fill="#356f91" stroke="#173d5b" stroke-width="2"/>
+<text x="1120" y="247" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="25" fill="#292323">原版通道／房間輪廓</text>
+<line x1="1066" y1="288" x2="1513" y2="288" stroke="#d8c5bc" stroke-width="2"/>
+<text x="1065" y="333" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="28" fill="#58202b" font-weight="bold">對照提示</text>
+<circle cx="1083" cy="370" r="6" fill="#a56b3c"/>
+<text x="1104" y="380" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">開放進度：里高島</text>
+<circle cx="1083" cy="430" r="6" fill="#a56b3c"/>
+<text x="1104" y="440" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">草原寶藏。2005 巴哈指出部分通路須</text>
+<text x="1104" y="476" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">使用高等級跳躍與攀爬。</text>
+<circle cx="1083" cy="526" r="6" fill="#a56b3c"/>
+<text x="1104" y="536" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">入口：里高島草原→財寶洞穴（財宝の穴）</text>
+<text x="1104" y="572" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">，出發前準備寶箱搜尋 Lv2、攀爬 L</text>
+<text x="1104" y="608" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">v3、跳躍 Lv4。</text>
+<circle cx="1083" cy="658" r="6" fill="#a56b3c"/>
+<text x="1104" y="668" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">B1：可取得 Jewel、隨機武器／防</text>
+<text x="1104" y="704" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">具及地圖寶箱；地圖已持有時內容可能改為</text>
+<text x="1104" y="740" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">金錢。</text>
+<line x1="1065" y1="887" x2="1513" y2="887" stroke="#d8c5bc" stroke-width="2"/>
+<text x="1071" y="935" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="22" fill="#7b6760">已重繪遊戲原版通道輪廓</text>
+<text x="1071" y="972" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="22" fill="#7b6760">非原攻略網站圖檔翻印</text>
+<text x="1071" y="1009" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="22" fill="#7b6760">未核對的寶箱固定位置不亂標</text>
+</svg>

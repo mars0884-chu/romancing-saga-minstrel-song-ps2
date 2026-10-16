@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1580" height="1110" viewBox="0 0 1580 1110" role="img" aria-label="塞克特宮殿 PS2 原版迷宮地形與通道重繪圖">
+<rect width="1580" height="1110" rx="30" fill="#f8f2e9"/>
+<rect width="1580" height="112" rx="30" fill="#58202b"/><rect y="72" width="1580" height="40" fill="#58202b"/>
+<text x="42" y="59" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="43" font-weight="bold" fill="white">塞克特宮殿｜PS2 地形通道圖</text>
+<text x="46" y="94" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#f2d7cb">セケト宮殿 ｜依原版地圖資料獨立重繪</text>
+<rect x="30" y="132" width="980" height="922" rx="24" fill="#fffefd" stroke="#d8c5bc" stroke-width="3"/>
+<rect x="1035" y="132" width="505" height="922" rx="24" fill="#fffefd" stroke="#d8c5bc" stroke-width="3"/>
+<g transform="translate(70 171) scale(2.95)">
+<path d="M231,140 231,150 239,150 239,140 237,142 239,144 238,146 235,144 234,146 232,146 231,144 233,142Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M154,114 154,125 157,125 158,126 158,129 156,131 146,135 143,132 146,129 144,128 138,121 130,129 138,137 140,135 142,135 145,138 145,169 144,170 139,170 139,173 148,173 148,138 152,135 154,135 159,132 165,135 167,135 171,138 171,149 160,155 154,152 150,152 150,154 152,154 158,158 158,161 157,162 154,162 154,173 157,173 158,174 158,179 157,180 156,179 156,175 154,175 154,182 161,182 161,174 162,173 165,173 165,162 162,162 161,161 161,158 163,156 171,152 173,152 176,155 173,158 175,159 181,166 189,158 181,150 179,152 177,152 174,149 174,138 177,135 179,135 181,137 189,129 181,121 176,127 173,129 176,132 173,135 171,135 161,129 161,126 162,125 165,125 165,114Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M63,114 63,125 66,125 67,126 67,129 65,131 57,135 55,135 52,132 55,129 52,126 60,118 60,116 58,116 56,119 50,124 47,121 40,128 40,130 47,137 51,135 52,137 54,138 54,149 51,152 49,152 47,150 40,157 40,159 47,166 55,158 52,155 55,152 57,152 65,156 67,158 67,161 66,162 63,162 63,173 66,173 67,174 67,182 74,182 74,162 71,162 70,161 70,158 72,156 80,152 82,152 85,155 82,158 90,166 95,160 98,158 90,150 87,153 85,150 83,149 83,138 85,137 87,134 90,137 98,129 96,128 90,121 82,129 85,132 82,135 80,135 70,129 70,126 71,125 74,125 74,114Z" fill="#356f91" stroke="#173d5b" stroke-width="0.6" stroke-linejoin="round"/>
+</g>
+<text x="1065" y="186" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="34" fill="#58202b" font-weight="bold">地圖判讀</text>
+<rect x="1075" y="221" width="32" height="32" rx="4" fill="#356f91" stroke="#173d5b" stroke-width="2"/>
+<text x="1120" y="247" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="25" fill="#292323">原版通道／房間輪廓</text>
+<line x1="1066" y1="288" x2="1513" y2="288" stroke="#d8c5bc" stroke-width="2"/>
+<text x="1065" y="333" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="28" fill="#58202b" font-weight="bold">對照提示</text>
+<circle cx="1083" cy="370" r="6" fill="#a56b3c"/>
+<text x="1104" y="380" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">開放進度：庫賈拉特</text>
+<circle cx="1083" cy="430" r="6" fill="#a56b3c"/>
+<text x="1104" y="440" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">水龍神殿。塔爾米塔夜間水位退下後，從階</text>
+<text x="1104" y="476" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">梯前往地下並追查偽太守。</text>
+<circle cx="1083" cy="526" r="6" fill="#a56b3c"/>
+<text x="1104" y="536" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">地圖技能：尚待確認。</text>
+<circle cx="1083" cy="586" r="6" fill="#a56b3c"/>
+<text x="1104" y="596" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="24" fill="#292323">關聯事件：水龍神殿。</text>
+<line x1="1065" y1="887" x2="1513" y2="887" stroke="#d8c5bc" stroke-width="2"/>
+<text x="1071" y="935" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="22" fill="#7b6760">已重繪遊戲原版通道輪廓</text>
+<text x="1071" y="972" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="22" fill="#7b6760">非原攻略網站圖檔翻印</text>
+<text x="1071" y="1009" font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif" font-size="22" fill="#7b6760">未核對的寶箱固定位置不亂標</text>
+</svg>
