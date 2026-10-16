@@ -9,7 +9,7 @@ D=json.loads((root/'data.json').read_text(encoding='utf-8'))
 html=(root/'index.html').read_text(encoding='utf-8')
 match=re.search(r'<script id="guide-data" type="application/json">(.*?)</script>',html,re.S)
 assert match and json.loads(match.group(1))==D
-assert D['version'].startswith('0.4.2')
+assert D['version'].startswith('0.4.3')
 assert not any(x['section']=='來源' for x in D['records'])
 assert len({s['url'] for s in D['sources']})==len(D['sources'])
 assert all(set(x['sources'])<=set(s['id'] for s in D['sources']) for x in D['records'])
@@ -36,7 +36,8 @@ try:
    page.locator('#search').fill('財宝の穴')
    assert '財寶洞穴' in page.locator('#cards').inner_text()
    assert 'B3' in page.locator('#cards').inner_text()
-   assert page.locator('.details').first.get_attribute('open') is not None
+   assert page.locator('.guide-flow li').count() >= 1
+   assert page.locator('.guide-diagram img').count() >= 1
    page.locator('#search').fill('XYZ不存在的測試值')
    assert '找到 0 筆' in page.locator('#count').inner_text()
    page.locator('#search').fill('')
@@ -53,6 +54,10 @@ try:
    page.reload(wait_until='domcontentloaded')
    page.locator('#search').fill('アクアマリン')
    assert '水晶湖' in page.locator('#cards').inner_text() or '海藍寶石' in page.locator('#cards').inner_text()
+   page.locator('#search').fill('水竜の神殿')
+   img=page.locator('.guide-diagram img').first
+   img.scroll_into_view_if_needed()
+   page.wait_for_function("document.querySelector('.guide-diagram img')?.complete && document.querySelector('.guide-diagram img')?.naturalWidth>0",timeout=10000)
    assert not errors,errors
    print('OFFLINE reboot, native guide steps and no external links: PASS',width,height)
    ctx.close()

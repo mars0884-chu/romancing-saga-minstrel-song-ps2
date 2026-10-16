@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="676" viewBox="0 0 1200 676" role="img" aria-label="恐龍蛋｜戰鬥勝利區間">
+<rect width="1200" height="676" rx="22" fill="#f7f2e9"/>
+<rect x="22" y="18" width="1156" height="94" rx="16" fill="#792b39"/>
+<text x="48" y="60" font-family="sans-serif" font-size="33" font-weight="700" fill="#fff">恐龍蛋｜戰鬥勝利區間</text>
+<text x="48" y="92" font-family="sans-serif" font-size="21" fill="#f6d7d4">恐竜のたまご</text>
+<rect x="40" y="138" width="266" height="136" rx="16" fill="#fff" stroke="#d4bcb2" stroke-width="2"/>
+<circle cx="68" cy="168" r="16" fill="#792b39"/>
+<text x="68" y="175" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="700" fill="#fff">1</text>
+<text x="93" y="173" font-family="sans-serif" font-size="22" font-weight="700" fill="#662b34">150–160</text>
+<text x="58" y="228" font-family="sans-serif" font-size="19" fill="#4c4240">西南部</text>
+<path d="M308 207 h23 l-9 -8 m9 8 l-9 8" fill="none" stroke="#ad8679" stroke-width="3"/>
+<rect x="336" y="138" width="266" height="136" rx="16" fill="#fff" stroke="#d4bcb2" stroke-width="2"/>
+<circle cx="364" cy="168" r="16" fill="#792b39"/>
+<text x="364" y="175" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="700" fill="#fff">2</text>
+<text x="389" y="173" font-family="sans-serif" font-size="22" font-weight="700" fill="#662b34">200–210</text>
+<text x="354" y="228" font-family="sans-serif" font-size="19" fill="#4c4240">中央部 1</text>
+<path d="M604 207 h23 l-9 -8 m9 8 l-9 8" fill="none" stroke="#ad8679" stroke-width="3"/>
+<rect x="632" y="138" width="266" height="136" rx="16" fill="#fff" stroke="#d4bcb2" stroke-width="2"/>
+<circle cx="660" cy="168" r="16" fill="#792b39"/>
+<text x="660" y="175" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="700" fill="#fff">3</text>
+<text x="685" y="173" font-family="sans-serif" font-size="22" font-weight="700" fill="#662b34">250–260</text>
+<text x="650" y="228" font-family="sans-serif" font-size="19" fill="#4c4240">中央部 2</text>
+<path d="M900 207 h23 l-9 -8 m9 8 l-9 8" fill="none" stroke="#ad8679" stroke-width="3"/>
+<rect x="928" y="138" width="266" height="136" rx="16" fill="#fff" stroke="#d4bcb2" stroke-width="2"/>
+<circle cx="956" cy="168" r="16" fill="#792b39"/>
+<text x="956" y="175" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="700" fill="#fff">4</text>
+<text x="981" y="173" font-family="sans-serif" font-size="22" font-weight="700" fill="#662b34">330–340</text>
+<text x="946" y="228" font-family="sans-serif" font-size="19" fill="#4c4240">東部</text>
+<path d="M1058 276 v22" stroke="#ad8679" stroke-width="3"/>
+<rect x="40" y="316" width="266" height="136" rx="16" fill="#fff" stroke="#d4bcb2" stroke-width="2"/>
+<circle cx="68" cy="346" r="16" fill="#792b39"/>
+<text x="68" y="353" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="700" fill="#fff">5</text>
+<text x="93" y="351" font-family="sans-serif" font-size="22" font-weight="700" fill="#662b34">380–390</text>
+<text x="58" y="406" font-family="sans-serif" font-size="19" fill="#4c4240">北部</text>
+<path d="M308 385 h23 l-9 -8 m9 8 l-9 8" fill="none" stroke="#ad8679" stroke-width="3"/>
+<rect x="336" y="316" width="266" height="136" rx="16" fill="#fff" stroke="#d4bcb2" stroke-width="2"/>
+<circle cx="364" cy="346" r="16" fill="#792b39"/>
+<text x="364" y="353" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="700" fill="#fff">6</text>
+<text x="389" y="351" font-family="sans-serif" font-size="22" font-weight="700" fill="#662b34">430–440</text>
+<text x="354" y="406" font-family="sans-serif" font-size="19" fill="#4c4240">東北部</text>
+<rect x="40" y="494" width="1120" height="69" rx="14" fill="#f0e1d9"/>
+<text x="62" y="523" font-family="sans-serif" font-size="20" fill="#682f39">舊研究數值，尚未另行實機確認；注意連鎖戰鬥計數。</text>
+<text x="40" y="661" font-family="sans-serif" font-size="17" fill="#8b706a">本站依 2005 PS2 版資訊重繪 · 流程示意，非遊戲畫面實際方位圖</text>
+</svg>
