@@ -31,6 +31,7 @@ assert len(gear)==9
 assert len([r for r in gear if r.get('equipmentPhotoSource') and r.get('gallery')])==6
 assert len([r for r in gear if not r.get('gallery')])==3
 assert len([r for r in recs if r['section']=='迷宮' and r.get('landmarks')])>=30
+assert len([r for r in recs if r.get('imageHotspots')])==3
 assert not any(g['src'].endswith('.svg') for r in heroes+regions+dungeons+gear for g in r.get('gallery',[]))
 assert len({s['url'] for s in D['sources']})==len(D['sources'])
 sourceids={s['id'] for s in D['sources']}
@@ -94,6 +95,16 @@ try:
    assert int(page.locator('#zoomLabel').inner_text().strip('%')) >= (375 if width<700 else 180)
    page.locator('#mapClose').click()
    assert not page.locator('#mapDialog').evaluate('(x)=>x.open')
+   page.get_by_role('button',name='迷宮',exact=True).click()
+   page.locator('#search').fill('財宝の穴')
+   assert page.locator('.dungeon-card .image-pin').count()>=1
+   page.locator('.dungeon-card .image-pin').first.click()
+   assert 'さびた古刀' in page.locator('.dungeon-card .hotspot-explain').inner_text()
+   page.locator('.dungeon-card .map-open').first.click()
+   assert page.locator('#mapPins .image-pin').count()>=1
+   page.locator('#mapPins .image-pin').first.click()
+   assert 'さびた古刀' in page.locator('#mapPinDetail').inner_text()
+   page.locator('#mapClose').click()
    page.locator('#search').fill('')
    page.locator('#saveOffline').click()
    page.wait_for_function("document.querySelector('#offlineStatus').textContent.includes('已儲存')",timeout=45000)

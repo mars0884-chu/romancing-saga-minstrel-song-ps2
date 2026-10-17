@@ -6963,6 +6963,15 @@
           "item": "武器／防具／Jewel",
           "note": "部分需要寶箱搜尋Lv1～4，不固定出現。"
         }
+      ],
+      "imageHotspots": [
+        {
+          "x": 83.8,
+          "y": 26.8,
+          "label": "BOSS",
+          "detail": "原圖右上3F 的 BOSS 記號；同圖還有 1F 地板陷阱及 P→D 通道。",
+          "provenance": "https://kyokugen.info/minsaga/map/knight_abandoned.jpeg"
+        }
       ]
     },
     {
@@ -8017,6 +8026,15 @@
           "item": "ゾディアック、ムーンストーン",
           "note": "皇帝怪病支線，原版時限要留意。"
         }
+      ],
+      "imageHotspots": [
+        {
+          "x": 83.3,
+          "y": 65.6,
+          "label": "BOSS",
+          "detail": "原圖右下鳥巢部標出 BOSS；雙月神殿末段頭目與ムーンストーン任務。",
+          "provenance": "https://kyokugen.info/minsaga/map/walon_pyramid.jpeg"
+        }
       ]
     },
     {
@@ -8182,6 +8200,15 @@
           "type": "隨機",
           "item": "隨機武器／防具／金錢",
           "note": "可能重生，部分需寶箱搜尋Lv1或Lv2。"
+        }
+      ],
+      "imageHotspots": [
+        {
+          "x": 30.2,
+          "y": 30.5,
+          "label": "古刀",
+          "detail": "B3 圖中紅色星號＝さびた古刀（格雷「刀の声」任務）；來源原圖以此紅星標示。",
+          "provenance": "https://kyokugen.info/minsaga/map/ligau_treasure.jpeg"
         }
       ]
     },
