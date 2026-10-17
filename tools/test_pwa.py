@@ -1,4 +1,4 @@
-"""Regression checks: 2005 PS2 v0.4.4 beginner guide, map labels and offline search."""
+"""Regression checks: v0.4.6 character art, equipment icons, zoomable local maps, and offline search."""
 from pathlib import Path
 import json,re,subprocess,time
 from PIL import Image
@@ -45,6 +45,29 @@ try:
    page.locator('#search').fill('フロンティア不存在')
    assert '找到 0 筆' in page.locator('#count').inner_text()
    page.locator('#search').fill('')
+   # Illustrated protagonists: 8 character entries contain practical opening steps and a local visual.
+   page.get_by_role('button',name='主角',exact=True).click()
+   page.locator('#search').fill('アルベルト')
+   assert '伊斯瑪斯' in page.locator('#cards').inner_text()
+   assert page.locator('.hero-art img').count()==1
+   page.wait_for_function("document.querySelector('.hero-art img')?.complete && document.querySelector('.hero-art img')?.naturalWidth>0",timeout=15000)
+   # Equipment illustrations must exist locally; opening advice must be readable.
+   page.get_by_role('button',name='裝備資料',exact=True).click()
+   page.locator('#search').fill('レフトハンドソード')
+   assert page.locator('.equip-gallery img').count()==1
+   page.wait_for_function("document.querySelector('.equip-gallery img')?.complete && document.querySelector('.equip-gallery img')?.naturalWidth>0",timeout=15000)
+   assert '實用配裝' in page.locator('#cards').inner_text()
+   # Geographic atlas opens into a zoomable, pannable in-app viewer.
+   page.get_by_role('button',name='區域索引',exact=True).click()
+   page.locator('#search').fill('フロンティア')
+   assert page.locator('.region-card').count()>=1
+   page.locator('.map-open').first.click()
+   assert page.locator('#mapDialog').evaluate('(x)=>x.open')
+   page.locator('#zoomIn').click()
+   assert page.locator('#zoomLabel').inner_text()=='150%'
+   page.locator('#mapClose').click()
+   assert not page.locator('#mapDialog').evaluate('(x)=>x.open')
+   page.locator('#search').fill('')
    page.locator('#saveOffline').click()
    page.wait_for_function("document.querySelector('#offlineStatus').textContent.includes('已儲存')",timeout=45000)
    ctx.set_offline(True)
@@ -57,6 +80,13 @@ try:
    assert '水龍神殿' in page.locator('#cards').inner_text()
    img=page.locator('.guide-diagram img').first
    img.scroll_into_view_if_needed()
+   # Real traced dungeon floorplan is viewable full-screen without loading an external site.
+   page.locator('.dungeon-card .map-open').first.click()
+   assert page.locator('#mapDialog').evaluate('(x)=>x.open')
+   page.locator('#zoomIn').click()
+   assert page.locator('#zoomLabel').inner_text()=='150%'
+   page.wait_for_function("document.querySelector('#mapZoomImg')?.complete && document.querySelector('#mapZoomImg')?.naturalWidth>0",timeout=12000)
+   page.locator('#mapClose').click()
    page.wait_for_function("document.querySelector('.guide-diagram img')?.complete && document.querySelector('.guide-diagram img')?.naturalWidth>0",timeout=10000)
    assert not page.evaluate('document.documentElement.scrollWidth > window.innerWidth')
    assert not errors,errors
