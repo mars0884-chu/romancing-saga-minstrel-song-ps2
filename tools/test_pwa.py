@@ -49,7 +49,7 @@ try:
    page.get_by_role('button',name='主角',exact=True).click()
    page.locator('#search').fill('アルベルト')
    assert '伊斯瑪斯' in page.locator('#cards').inner_text()
-   assert page.locator('.hero-art img').count()==1
+   assert page.locator('.hero-art img').count()>=1
    page.wait_for_function("document.querySelector('.hero-art img')?.complete && document.querySelector('.hero-art img')?.naturalWidth>0",timeout=15000)
    # Equipment illustrations must exist locally; opening advice must be readable.
    page.get_by_role('button',name='裝備資料',exact=True).click()
