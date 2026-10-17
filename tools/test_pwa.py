@@ -1,4 +1,4 @@
-"""v0.4.7 quality gates: original source imagery, full hero routes, offline text, responsive viewer."""
+"""v0.4.8 quality gates: original source imagery, full hero routes, offline text, responsive viewer."""
 from pathlib import Path
 import json, re, subprocess, time
 from urllib.parse import urlparse
@@ -12,20 +12,25 @@ sw=(root/'sw.js').read_text(encoding='utf-8')
 match=re.search(r'<script id="guide-data" type="application/json">(.*?)</script>',html,re.S)
 assert match and json.loads(match.group(1))==D, "Embedded JSON differs from data.json"
 assert D['version'].startswith('0.4.7'),D['version']
-assert 'minstrel-ps2-2005-v0.4.7' in sw and 'minstrel-ps2-2005-v0.4.7' in html
+assert 'minstrel-ps2-2005-v0.4.8' in sw and 'minstrel-ps2-2005-v0.4.8' in html
 recs=D['records']
 heroes=[r for r in recs if r['section']=='主角']
 regions=[r for r in recs if r['section']=='地圖']
 dungeons=[r for r in recs if r['section']=='迷宮' and r.get('gallery')]
 gear=[r for r in recs if r['section']=='資料庫' and re.fullmatch(r'G1(?:0[5-9]|1[0-3])',r['id'])]
 assert len(heroes)==8 and all(len(r['steps'])>=9 for r in heroes)
-assert all(r['gallery'][0]['src'].startswith('https://fyre.cdn.sewest.net/saga-hub/') for r in heroes)
+assert all(r['gallery'][0]['src'].startswith('https://www.jp.square-enix.com/saga_minstrelsong/assets/img/chara') for r in heroes)
+assert all(len(r.get('heroChapters',[]))==5 for r in heroes)
+assert all(all('ids' in chapter and chapter['ids'] for chapter in r['heroChapters']) for r in heroes)
 assert all('square-enix.com' in r['heroSource'] for r in heroes)
 assert len(regions)==11 and all(r['gallery'][0]['src']=='https://kyokugen.info/minsaga/pic/13853.jpg' for r in regions)
 assert len(dungeons)==52, len(dungeons)
 assert all(r['gallery'][0]['src'].startswith('https://kyokugen.info/minsaga/map/') and r['gallery'][0]['src'].endswith('.jpeg') for r in dungeons)
 assert all(r.get('mapSourceUrl','').startswith('https://kyokugen.info/minsaga/') for r in dungeons)
-assert len(gear)==9 and all(not r.get('gallery') for r in gear)
+assert len(gear)==9
+assert len([r for r in gear if r.get('equipmentPhotoSource') and r.get('gallery')])==6
+assert len([r for r in gear if not r.get('gallery')])==3
+assert len([r for r in recs if r['section']=='迷宮' and r.get('landmarks')])>=30
 assert not any(g['src'].endswith('.svg') for r in heroes+regions+dungeons+gear for g in r.get('gallery',[]))
 assert len({s['url'] for s in D['sources']})==len(D['sources'])
 sourceids={s['id'] for s in D['sources']}
@@ -36,7 +41,7 @@ for name,size in [('icon-192.png',192),('icon-512.png',512),('apple-touch-icon.p
  with Image.open(root/'assets'/name) as im: assert im.size==(size,size)
 assert (root/'assets/ps2-original-cover.webp').is_file()
 assert json.loads((root/'manifest.webmanifest').read_text(encoding='utf-8'))['display']=='standalone'
-print('DATA official portraits, real map references, 8 detailed routes, no fake gallery: PASS')
+print('DATA official game screenshots, six real equipment menus, original maps, chapter navigator, floor loot index: PASS')
 
 server=subprocess.Popen(['python','-m','http.server','8765','--bind','127.0.0.1','--directory',str(root)],stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL)
 try:
@@ -57,14 +62,26 @@ try:
    page.get_by_role('button',name='主角',exact=True).click()
    page.locator('#search').fill('アルベルト')
    assert page.locator('.hero-art img').count()==1
-   assert 'Square' not in page.locator('.hero-art img').get_attribute('src')
-   assert page.locator('.hero-art img').get_attribute('src').startswith('https://fyre.cdn.sewest.net')
+   assert page.locator('.hero-art img').get_attribute('src').startswith('https://www.jp.square-enix.com/saga_minstrelsong/assets/img/chara')
+   assert page.locator('.hero-chapters .chapter').count()==5
+   assert page.locator('.hero-art .map-open').count()==1
+   assert page.locator('.quest-jump').count()>15
    assert page.locator('.hero-card .guide-flow li').count()>=9
    assert '城陷落' in page.locator('#cards').inner_text()
+   page.locator('.quest-jump[data-jump="G009"]').first.click()
+   assert '開拓村誘拐事件' in page.locator('#cards').inner_text()
    page.get_by_role('button',name='裝備資料',exact=True).click()
    page.locator('#search').fill('レフトハンドソード')
    assert page.locator('.gear-no-photo').count()==1
    assert page.locator('.equip-gallery img').count()==0
+   page.locator('#search').fill('竜鱗の剣')
+   assert page.locator('.equip-gallery img').count()==1
+   assert page.locator('.equip-gallery .map-open').count()==1
+   page.locator('.equip-gallery .map-open').click()
+   assert page.locator('#mapRaw').get_attribute('href').startswith('https://')
+   page.locator('#mapContrast').click()
+   assert 'contrast(1.65)' in page.locator('#mapZoomImg').get_attribute('style')
+   page.locator('#mapClose').click()
    page.get_by_role('button',name='區域索引',exact=True).click()
    page.locator('#search').fill('フロンティア')
    assert page.locator('.region-card').count()>=1
@@ -87,6 +104,8 @@ try:
    page.locator('#search').fill('水竜の神殿')
    assert '水龍神殿' in page.locator('#cards').inner_text()
    assert '瀑布' in page.locator('#cards').inner_text()
+   assert page.locator('.dungeon-card .marker-legend').count()>=1
+   assert page.locator('.dungeon-card .landmark-row').count()>=8
    assert page.locator('.source-photo-link').count()>=1
    page.locator('.dungeon-card .map-open').first.click()
    assert page.locator('#mapDialog').evaluate('(x)=>x.open')
