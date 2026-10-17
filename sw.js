@@ -1,5 +1,5 @@
-/* 2005 PS2 guide, offline installation v0.4.7. */
-const KEY='minstrel-ps2-2005-v0.4.7';
+/* 2005 PS2 guide, offline installation v0.4.8. */
+const KEY='minstrel-ps2-2005-v0.4.8';
 const FILES=["./","./index.html","./data.json","./manifest.webmanifest","./assets/ps2-original-cover.webp","./assets/icon-192.png","./assets/icon-512.png","./assets/apple-touch-icon.png"];
 async function preload(){
  const cache=await caches.open(KEY);

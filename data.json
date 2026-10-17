@@ -1,6 +1,6 @@
 {
   "project": "2005 PS2 Romancing SaGa Minstrel Song — Traditional Chinese Taiwan",
-  "version": "0.4.7-ps2-source-imagery-expanded-chests",
+  "version": "0.4.8-ps2-legible-map-index-real-game-images-chapter-guides",
   "updated": "2026-10-17",
   "sources": [
     {
@@ -1395,6 +1395,41 @@
       "url": "https://www.square-enix.com/saga/en-us/games/romancing-saga-minstrel-song-remastered/characters/barbara/",
       "kind": "官方角色原畫連結",
       "note": "圖片由 Square Enix 官方 CDN 直接提供，未在 GitHub 複製保存；顯示需連線，著作權歸原權利人。"
+    },
+    {
+      "id": "OFFICIAL-GAME-SCREENS",
+      "name": "Square Enix《吟遊詩人之歌 Remastered》官方遊戲實機畫面",
+      "url": "https://www.jp.square-enix.com/saga_minstrelsong/",
+      "kind": "官方真實遊戲截圖來源",
+      "note": "圖片是Remastered真實遊戲畫面，而非2005 PS2 直接擷取；僅連線顯示，著作權歸原權利人。"
+    },
+    {
+      "id": "GEAR-IMAGE-DRAGON",
+      "name": "玩家實際遊戲裝備畫面｜GEAR-IMAGE-DRAGON",
+      "url": "https://hotaruru.hatenablog.com/entry/2025/01/22/112936",
+      "kind": "真實遊戲截圖，非自製圖",
+      "note": "僅遠端引用玩家圖片連結；不是本站所有圖，若原站禁止外站載入以來源頁為準。"
+    },
+    {
+      "id": "GEAR-IMAGE-BLUE",
+      "name": "玩家實際遊戲裝備畫面｜GEAR-IMAGE-BLUE",
+      "url": "https://antitekipaki.blog.fc2.com/blog-entry-505.html",
+      "kind": "真實遊戲截圖，非自製圖",
+      "note": "僅遠端引用玩家圖片連結；不是本站所有圖，若原站禁止外站載入以來源頁為準。"
+    },
+    {
+      "id": "GEAR-IMAGE-POET",
+      "name": "玩家實際遊戲裝備畫面｜GEAR-IMAGE-POET",
+      "url": "https://sekaijyusaya.hatenablog.com/entry/2023/03/02/180637",
+      "kind": "真實遊戲截圖，非自製圖",
+      "note": "僅遠端引用玩家圖片連結；不是本站所有圖，若原站禁止外站載入以來源頁為準。"
+    },
+    {
+      "id": "GEAR-IMAGE-ESPADA",
+      "name": "玩家實際遊戲裝備畫面｜GEAR-IMAGE-ESPADA",
+      "url": "https://ameblo.jp/manaitan1/entry-12885756740.html",
+      "kind": "真實遊戲截圖，非自製圖",
+      "note": "僅遠端引用玩家圖片連結；不是本站所有圖，若原站禁止外站載入以來源頁為準。"
     }
   ],
   "records": [
@@ -1901,7 +1936,8 @@
         "BH-CHAR",
         "FAQ-WALK",
         "HERO-ROUTE-1",
-        "HERO-ART-1"
+        "HERO-ART-1",
+        "OFFICIAL-GAME-SCREENS"
       ],
       "tags": [
         "貴族",
@@ -1909,16 +1945,79 @@
       ],
       "stage": "伊斯瑪斯城（イスマス）",
       "risk": "",
-      "quality": "序章路線參照極限攻略 2005 PS2 原版舊資料，逐段整理；官方圖片屬 Remastered 官方宣傳角色原畫，人物造型原型一致；未經 PS2 實機再測。",
+      "quality": "2005 PS2原版角色開場流程另列；圖為Square Enix 官方 Remastered 實際遊戲畫面。序章不等於全劇情破關，周目章節另連至本站任務分支。",
       "gallery": [
         {
-          "src": "https://fyre.cdn.sewest.net/saga-hub/6503b23caed7bb35a2b88b29/albert-5EjeXVSsr.png",
-          "caption": "官方《Minstrel Song Remastered》亞魯貝魯特（アルベルト）角色原畫，© SQUARE ENIX；線上載入，非本站生成"
+          "src": "https://www.jp.square-enix.com/saga_minstrelsong/assets/img/chara1_img.jpg",
+          "caption": "Square Enix《Minstrel Song Remastered》官方遊戲內畫面：亞魯貝魯特（アルベルト）。非自製圖片；與2005 PS2原版畫質、UI不同。"
         }
       ],
       "role": "守護前列／長劍與盾牌；優先防具、再擴充治療手段。",
       "job": "貴族騎士",
-      "heroSource": "https://www.square-enix.com/saga/en-us/games/romancing-saga-minstrel-song-remastered/characters/albert/"
+      "heroSource": "https://www.jp.square-enix.com/saga_minstrelsong/",
+      "heroChapters": [
+        {
+          "title": "第一章｜專屬開場事件",
+          "description": "上面的逐條流程只是這位主角的序章，完成後才會正式進入世界自由探索。請先完成或確認下列主角關聯事件；不代表已經全破。",
+          "ids": [
+            "G075",
+            "G080"
+          ]
+        },
+        {
+          "title": "第二章｜早期時限委託（進度約 0～40%）",
+          "description": "各主角共用同一大世界，但任務可因戰鬥累積而消失。先找酒館、確認地名、準備回復術和地圖能力，再做限時支線；這些是可選任務，不是每項強制。",
+          "ids": [
+            "G009",
+            "G010",
+            "G011",
+            "G012",
+            "G013",
+            "G014",
+            "PS2-GUIDE-002"
+          ]
+        },
+        {
+          "title": "第三章｜中期連鎖與命運石（約 40～70%）",
+          "description": "古文書→兩種象徵→雙月神殿→皇帝怪病務必趕在失效前完成；水龍神殿、雨雲手鐲、四天王也有相互影響。開鎖／跳躍／寶箱搜尋需事先修習。",
+          "ids": [
+            "G084",
+            "G085",
+            "G019",
+            "G023",
+            "G074",
+            "G024",
+            "G020",
+            "PS2-ROUTE-016"
+          ]
+        },
+        {
+          "title": "第四章｜後期危險地區（約 70～100%）",
+          "description": "視周目狀態選擇暗殺者公會、金礦、梅爾維爾襲擊、提奧多爾與魔之島；先預留存檔，逐一讀取迷宮寶箱、機關及頭目策略，不要只看地圖走最短路。",
+          "ids": [
+            "G026",
+            "G028",
+            "G029",
+            "G031",
+            "G034",
+            "G095",
+            "G030"
+          ]
+        },
+        {
+          "title": "第五章｜三地點、最終迷宮、沙魯因",
+          "description": "最終試煉／冥府／古老之城由詩人情報和信仰路線決定，並非三座都是每輪強制。先確認三地點情報、隊伍回復和裝備，再進最終迷宮；一般沙魯因與獻十顆命運石的強化型難度不同。",
+          "ids": [
+            "G046",
+            "G035",
+            "G036",
+            "G037",
+            "D-11-06",
+            "G038",
+            "STR-002"
+          ]
+        }
+      ]
     },
     {
       "id": "G002",
@@ -1942,7 +2041,8 @@
         "BH-CHAR",
         "KYO-CHAR",
         "HERO-ROUTE-2",
-        "HERO-ART-2"
+        "HERO-ART-2",
+        "OFFICIAL-GAME-SCREENS"
       ],
       "tags": [
         "遊牧民",
@@ -1950,16 +2050,79 @@
       ],
       "stage": "蓋雷薩草原（ガレサステップ）",
       "risk": "",
-      "quality": "序章路線參照極限攻略 2005 PS2 原版舊資料，逐段整理；官方圖片屬 Remastered 官方宣傳角色原畫，人物造型原型一致；未經 PS2 實機再測。",
+      "quality": "2005 PS2原版角色開場流程另列；圖為Square Enix 官方 Remastered 實際遊戲畫面。序章不等於全劇情破關，周目章節另連至本站任務分支。",
       "gallery": [
         {
-          "src": "https://fyre.cdn.sewest.net/saga-hub/6503b14498774a5fd688bf7f/aisha-srOpd0KNA.png",
-          "caption": "官方《Minstrel Song Remastered》艾莎（アイシャ）角色原畫，© SQUARE ENIX；線上載入，非本站生成"
+          "src": "https://www.jp.square-enix.com/saga_minstrelsong/assets/img/chara2_img.jpg",
+          "caption": "Square Enix《Minstrel Song Remastered》官方遊戲內畫面：艾莎（アイシャ）。非自製圖片；與2005 PS2原版畫質、UI不同。"
         }
       ],
       "role": "輕型前衛／優先補防具；不要單人挑戰高難度敵人。",
       "job": "塔拉爾遊牧民",
-      "heroSource": "https://www.square-enix.com/saga/en-us/games/romancing-saga-minstrel-song-remastered/characters/aisha/"
+      "heroSource": "https://www.jp.square-enix.com/saga_minstrelsong/",
+      "heroChapters": [
+        {
+          "title": "第一章｜專屬開場事件",
+          "description": "上面的逐條流程只是這位主角的序章，完成後才會正式進入世界自由探索。請先完成或確認下列主角關聯事件；不代表已經全破。",
+          "ids": [
+            "G018",
+            "G089"
+          ]
+        },
+        {
+          "title": "第二章｜早期時限委託（進度約 0～40%）",
+          "description": "各主角共用同一大世界，但任務可因戰鬥累積而消失。先找酒館、確認地名、準備回復術和地圖能力，再做限時支線；這些是可選任務，不是每項強制。",
+          "ids": [
+            "G009",
+            "G010",
+            "G011",
+            "G012",
+            "G013",
+            "G014",
+            "PS2-GUIDE-002"
+          ]
+        },
+        {
+          "title": "第三章｜中期連鎖與命運石（約 40～70%）",
+          "description": "古文書→兩種象徵→雙月神殿→皇帝怪病務必趕在失效前完成；水龍神殿、雨雲手鐲、四天王也有相互影響。開鎖／跳躍／寶箱搜尋需事先修習。",
+          "ids": [
+            "G084",
+            "G085",
+            "G019",
+            "G023",
+            "G074",
+            "G024",
+            "G020",
+            "PS2-ROUTE-016"
+          ]
+        },
+        {
+          "title": "第四章｜後期危險地區（約 70～100%）",
+          "description": "視周目狀態選擇暗殺者公會、金礦、梅爾維爾襲擊、提奧多爾與魔之島；先預留存檔，逐一讀取迷宮寶箱、機關及頭目策略，不要只看地圖走最短路。",
+          "ids": [
+            "G026",
+            "G028",
+            "G029",
+            "G031",
+            "G034",
+            "G095",
+            "G030"
+          ]
+        },
+        {
+          "title": "第五章｜三地點、最終迷宮、沙魯因",
+          "description": "最終試煉／冥府／古老之城由詩人情報和信仰路線決定，並非三座都是每輪強制。先確認三地點情報、隊伍回復和裝備，再進最終迷宮；一般沙魯因與獻十顆命運石的強化型難度不同。",
+          "ids": [
+            "G046",
+            "G035",
+            "G036",
+            "G037",
+            "D-11-06",
+            "G038",
+            "STR-002"
+          ]
+        }
+      ]
     },
     {
       "id": "G003",
@@ -1983,7 +2146,8 @@
         "BH-CHAR",
         "FAQ-GRAY",
         "HERO-ROUTE-3",
-        "HERO-ART-3"
+        "HERO-ART-3",
+        "OFFICIAL-GAME-SCREENS"
       ],
       "tags": [
         "冒險者",
@@ -1991,16 +2155,79 @@
       ],
       "stage": "傑爾頓（ジェルトン）／里高島",
       "risk": "",
-      "quality": "序章路線參照極限攻略 2005 PS2 原版舊資料，逐段整理；官方圖片屬 Remastered 官方宣傳角色原畫，人物造型原型一致；未經 PS2 實機再測。",
+      "quality": "2005 PS2原版角色開場流程另列；圖為Square Enix 官方 Remastered 實際遊戲畫面。序章不等於全劇情破關，周目章節另連至本站任務分支。",
       "gallery": [
         {
-          "src": "https://fyre.cdn.sewest.net/saga-hub/6503b280aed7bb35a2b88d7b/gray-XMqlwcmhp.png",
-          "caption": "官方《Minstrel Song Remastered》格雷（グレイ）角色原畫，© SQUARE ENIX；線上載入，非本站生成"
+          "src": "https://www.jp.square-enix.com/saga_minstrelsong/assets/img/chara3_img.jpg",
+          "caption": "Square Enix《Minstrel Song Remastered》官方遊戲內畫面：格雷（グレイ）。非自製圖片；與2005 PS2原版畫質、UI不同。"
         }
       ],
       "role": "物理主攻／劍系技能；古刀培育另作長期路線。",
       "job": "尋寶冒險家",
-      "heroSource": "https://www.square-enix.com/saga/en-us/games/romancing-saga-minstrel-song-remastered/characters/gray/"
+      "heroSource": "https://www.jp.square-enix.com/saga_minstrelsong/",
+      "heroChapters": [
+        {
+          "title": "第一章｜專屬開場事件",
+          "description": "上面的逐條流程只是這位主角的序章，完成後才會正式進入世界自由探索。請先完成或確認下列主角關聯事件；不代表已經全破。",
+          "ids": [
+            "G079",
+            "G087"
+          ]
+        },
+        {
+          "title": "第二章｜早期時限委託（進度約 0～40%）",
+          "description": "各主角共用同一大世界，但任務可因戰鬥累積而消失。先找酒館、確認地名、準備回復術和地圖能力，再做限時支線；這些是可選任務，不是每項強制。",
+          "ids": [
+            "G009",
+            "G010",
+            "G011",
+            "G012",
+            "G013",
+            "G014",
+            "PS2-GUIDE-002"
+          ]
+        },
+        {
+          "title": "第三章｜中期連鎖與命運石（約 40～70%）",
+          "description": "古文書→兩種象徵→雙月神殿→皇帝怪病務必趕在失效前完成；水龍神殿、雨雲手鐲、四天王也有相互影響。開鎖／跳躍／寶箱搜尋需事先修習。",
+          "ids": [
+            "G084",
+            "G085",
+            "G019",
+            "G023",
+            "G074",
+            "G024",
+            "G020",
+            "PS2-ROUTE-016"
+          ]
+        },
+        {
+          "title": "第四章｜後期危險地區（約 70～100%）",
+          "description": "視周目狀態選擇暗殺者公會、金礦、梅爾維爾襲擊、提奧多爾與魔之島；先預留存檔，逐一讀取迷宮寶箱、機關及頭目策略，不要只看地圖走最短路。",
+          "ids": [
+            "G026",
+            "G028",
+            "G029",
+            "G031",
+            "G034",
+            "G095",
+            "G030"
+          ]
+        },
+        {
+          "title": "第五章｜三地點、最終迷宮、沙魯因",
+          "description": "最終試煉／冥府／古老之城由詩人情報和信仰路線決定，並非三座都是每輪強制。先確認三地點情報、隊伍回復和裝備，再進最終迷宮；一般沙魯因與獻十顆命運石的強化型難度不同。",
+          "ids": [
+            "G046",
+            "G035",
+            "G036",
+            "G037",
+            "D-11-06",
+            "G038",
+            "STR-002"
+          ]
+        }
+      ]
     },
     {
       "id": "G004",
@@ -2024,7 +2251,8 @@
         "BH-CHAR",
         "KYO-CHAR",
         "HERO-ROUTE-4",
-        "HERO-ART-4"
+        "HERO-ART-4",
+        "OFFICIAL-GAME-SCREENS"
       ],
       "tags": [
         "森林",
@@ -2032,16 +2260,79 @@
       ],
       "stage": "迷路森林（迷いの森）",
       "risk": "",
-      "quality": "序章路線參照極限攻略 2005 PS2 原版舊資料，逐段整理；官方圖片屬 Remastered 官方宣傳角色原畫，人物造型原型一致；未經 PS2 實機再測。",
+      "quality": "2005 PS2原版角色開場流程另列；圖為Square Enix 官方 Remastered 實際遊戲畫面。序章不等於全劇情破關，周目章節另連至本站任務分支。",
       "gallery": [
         {
-          "src": "https://fyre.cdn.sewest.net/saga-hub/6503caa0aed7bb35a2b8904a/claudia-zywrFeTE1.png",
-          "caption": "官方《Minstrel Song Remastered》克蘿蒂雅（クローディア）角色原畫，© SQUARE ENIX；線上載入，非本站生成"
+          "src": "https://www.jp.square-enix.com/saga_minstrelsong/assets/img/chara4_img.jpg",
+          "caption": "Square Enix《Minstrel Song Remastered》官方遊戲內畫面：克蘿蒂雅（クローディア）。非自製圖片；與2005 PS2原版畫質、UI不同。"
         }
       ],
       "role": "弓箭遠程／後列；搭配一名防禦型前衛。",
       "job": "迷路森林守護者",
-      "heroSource": "https://www.square-enix.com/saga/en-us/games/romancing-saga-minstrel-song-remastered/characters/claudia/"
+      "heroSource": "https://www.jp.square-enix.com/saga_minstrelsong/",
+      "heroChapters": [
+        {
+          "title": "第一章｜專屬開場事件",
+          "description": "上面的逐條流程只是這位主角的序章，完成後才會正式進入世界自由探索。請先完成或確認下列主角關聯事件；不代表已經全破。",
+          "ids": [
+            "G081",
+            "G017"
+          ]
+        },
+        {
+          "title": "第二章｜早期時限委託（進度約 0～40%）",
+          "description": "各主角共用同一大世界，但任務可因戰鬥累積而消失。先找酒館、確認地名、準備回復術和地圖能力，再做限時支線；這些是可選任務，不是每項強制。",
+          "ids": [
+            "G009",
+            "G010",
+            "G011",
+            "G012",
+            "G013",
+            "G014",
+            "PS2-GUIDE-002"
+          ]
+        },
+        {
+          "title": "第三章｜中期連鎖與命運石（約 40～70%）",
+          "description": "古文書→兩種象徵→雙月神殿→皇帝怪病務必趕在失效前完成；水龍神殿、雨雲手鐲、四天王也有相互影響。開鎖／跳躍／寶箱搜尋需事先修習。",
+          "ids": [
+            "G084",
+            "G085",
+            "G019",
+            "G023",
+            "G074",
+            "G024",
+            "G020",
+            "PS2-ROUTE-016"
+          ]
+        },
+        {
+          "title": "第四章｜後期危險地區（約 70～100%）",
+          "description": "視周目狀態選擇暗殺者公會、金礦、梅爾維爾襲擊、提奧多爾與魔之島；先預留存檔，逐一讀取迷宮寶箱、機關及頭目策略，不要只看地圖走最短路。",
+          "ids": [
+            "G026",
+            "G028",
+            "G029",
+            "G031",
+            "G034",
+            "G095",
+            "G030"
+          ]
+        },
+        {
+          "title": "第五章｜三地點、最終迷宮、沙魯因",
+          "description": "最終試煉／冥府／古老之城由詩人情報和信仰路線決定，並非三座都是每輪強制。先確認三地點情報、隊伍回復和裝備，再進最終迷宮；一般沙魯因與獻十顆命運石的強化型難度不同。",
+          "ids": [
+            "G046",
+            "G035",
+            "G036",
+            "G037",
+            "D-11-06",
+            "G038",
+            "STR-002"
+          ]
+        }
+      ]
     },
     {
       "id": "G005",
@@ -2065,7 +2356,8 @@
         "BH-CHAR",
         "KYO-CHAR",
         "HERO-ROUTE-5",
-        "HERO-ART-5"
+        "HERO-ART-5",
+        "OFFICIAL-GAME-SCREENS"
       ],
       "tags": [
         "盜賊",
@@ -2073,16 +2365,79 @@
       ],
       "stage": "南艾斯塔米爾（南エスタミル）",
       "risk": "",
-      "quality": "序章路線參照極限攻略 2005 PS2 原版舊資料，逐段整理；官方圖片屬 Remastered 官方宣傳角色原畫，人物造型原型一致；未經 PS2 實機再測。",
+      "quality": "2005 PS2原版角色開場流程另列；圖為Square Enix 官方 Remastered 實際遊戲畫面。序章不等於全劇情破關，周目章節另連至本站任務分支。",
       "gallery": [
         {
-          "src": "https://fyre.cdn.sewest.net/saga-hub/6503cbf5aed7bb35a2b898d7/jamil-hAgXg7UMb.png",
-          "caption": "官方《Minstrel Song Remastered》賈米爾（ジャミル）角色原畫，© SQUARE ENIX；線上載入，非本站生成"
+          "src": "https://www.jp.square-enix.com/saga_minstrelsong/assets/img/chara5_img.jpg",
+          "caption": "Square Enix《Minstrel Song Remastered》官方遊戲內畫面：賈米爾（ジャミル）。非自製圖片；與2005 PS2原版畫質、UI不同。"
         }
       ],
       "role": "速度型攻擊／細劍；搭配控場與回復。",
       "job": "南艾斯塔米爾盜賊",
-      "heroSource": "https://www.square-enix.com/saga/en-us/games/romancing-saga-minstrel-song-remastered/characters/jamil/"
+      "heroSource": "https://www.jp.square-enix.com/saga_minstrelsong/",
+      "heroChapters": [
+        {
+          "title": "第一章｜專屬開場事件",
+          "description": "上面的逐條流程只是這位主角的序章，完成後才會正式進入世界自由探索。請先完成或確認下列主角關聯事件；不代表已經全破。",
+          "ids": [
+            "G013",
+            "G091"
+          ]
+        },
+        {
+          "title": "第二章｜早期時限委託（進度約 0～40%）",
+          "description": "各主角共用同一大世界，但任務可因戰鬥累積而消失。先找酒館、確認地名、準備回復術和地圖能力，再做限時支線；這些是可選任務，不是每項強制。",
+          "ids": [
+            "G009",
+            "G010",
+            "G011",
+            "G012",
+            "G013",
+            "G014",
+            "PS2-GUIDE-002"
+          ]
+        },
+        {
+          "title": "第三章｜中期連鎖與命運石（約 40～70%）",
+          "description": "古文書→兩種象徵→雙月神殿→皇帝怪病務必趕在失效前完成；水龍神殿、雨雲手鐲、四天王也有相互影響。開鎖／跳躍／寶箱搜尋需事先修習。",
+          "ids": [
+            "G084",
+            "G085",
+            "G019",
+            "G023",
+            "G074",
+            "G024",
+            "G020",
+            "PS2-ROUTE-016"
+          ]
+        },
+        {
+          "title": "第四章｜後期危險地區（約 70～100%）",
+          "description": "視周目狀態選擇暗殺者公會、金礦、梅爾維爾襲擊、提奧多爾與魔之島；先預留存檔，逐一讀取迷宮寶箱、機關及頭目策略，不要只看地圖走最短路。",
+          "ids": [
+            "G026",
+            "G028",
+            "G029",
+            "G031",
+            "G034",
+            "G095",
+            "G030"
+          ]
+        },
+        {
+          "title": "第五章｜三地點、最終迷宮、沙魯因",
+          "description": "最終試煉／冥府／古老之城由詩人情報和信仰路線決定，並非三座都是每輪強制。先確認三地點情報、隊伍回復和裝備，再進最終迷宮；一般沙魯因與獻十顆命運石的強化型難度不同。",
+          "ids": [
+            "G046",
+            "G035",
+            "G036",
+            "G037",
+            "D-11-06",
+            "G038",
+            "STR-002"
+          ]
+        }
+      ]
     },
     {
       "id": "G006",
@@ -2107,7 +2462,8 @@
         "BH-CHAR",
         "KYO-CHAR",
         "HERO-ROUTE-6",
-        "HERO-ART-6"
+        "HERO-ART-6",
+        "OFFICIAL-GAME-SCREENS"
       ],
       "tags": [
         "雪原",
@@ -2115,16 +2471,79 @@
       ],
       "stage": "加托村（ガトの村）",
       "risk": "",
-      "quality": "序章路線參照極限攻略 2005 PS2 原版舊資料，逐段整理；官方圖片屬 Remastered 官方宣傳角色原畫，人物造型原型一致；未經 PS2 實機再測。",
+      "quality": "2005 PS2原版角色開場流程另列；圖為Square Enix 官方 Remastered 實際遊戲畫面。序章不等於全劇情破關，周目章節另連至本站任務分支。",
       "gallery": [
         {
-          "src": "https://fyre.cdn.sewest.net/saga-hub/6503cb0e98774a5fd688c81d/sif-CwTdgOzB1.png",
-          "caption": "官方《Minstrel Song Remastered》席芙（シフ）角色原畫，© SQUARE ENIX；線上載入，非本站生成"
+          "src": "https://www.jp.square-enix.com/saga_minstrelsong/assets/img/chara6_img.jpg",
+          "caption": "Square Enix《Minstrel Song Remastered》官方遊戲內畫面：席芙（シフ）。非自製圖片；與2005 PS2原版畫質、UI不同。"
         }
       ],
       "role": "高耐久近戰／大劍或斧；前線承傷。",
       "job": "巴爾哈蘭特女戰士",
-      "heroSource": "https://www.square-enix.com/saga/en-us/games/romancing-saga-minstrel-song-remastered/characters/sif/"
+      "heroSource": "https://www.jp.square-enix.com/saga_minstrelsong/",
+      "heroChapters": [
+        {
+          "title": "第一章｜專屬開場事件",
+          "description": "上面的逐條流程只是這位主角的序章，完成後才會正式進入世界自由探索。請先完成或確認下列主角關聯事件；不代表已經全破。",
+          "ids": [
+            "G092",
+            "G097"
+          ]
+        },
+        {
+          "title": "第二章｜早期時限委託（進度約 0～40%）",
+          "description": "各主角共用同一大世界，但任務可因戰鬥累積而消失。先找酒館、確認地名、準備回復術和地圖能力，再做限時支線；這些是可選任務，不是每項強制。",
+          "ids": [
+            "G009",
+            "G010",
+            "G011",
+            "G012",
+            "G013",
+            "G014",
+            "PS2-GUIDE-002"
+          ]
+        },
+        {
+          "title": "第三章｜中期連鎖與命運石（約 40～70%）",
+          "description": "古文書→兩種象徵→雙月神殿→皇帝怪病務必趕在失效前完成；水龍神殿、雨雲手鐲、四天王也有相互影響。開鎖／跳躍／寶箱搜尋需事先修習。",
+          "ids": [
+            "G084",
+            "G085",
+            "G019",
+            "G023",
+            "G074",
+            "G024",
+            "G020",
+            "PS2-ROUTE-016"
+          ]
+        },
+        {
+          "title": "第四章｜後期危險地區（約 70～100%）",
+          "description": "視周目狀態選擇暗殺者公會、金礦、梅爾維爾襲擊、提奧多爾與魔之島；先預留存檔，逐一讀取迷宮寶箱、機關及頭目策略，不要只看地圖走最短路。",
+          "ids": [
+            "G026",
+            "G028",
+            "G029",
+            "G031",
+            "G034",
+            "G095",
+            "G030"
+          ]
+        },
+        {
+          "title": "第五章｜三地點、最終迷宮、沙魯因",
+          "description": "最終試煉／冥府／古老之城由詩人情報和信仰路線決定，並非三座都是每輪強制。先確認三地點情報、隊伍回復和裝備，再進最終迷宮；一般沙魯因與獻十顆命運石的強化型難度不同。",
+          "ids": [
+            "G046",
+            "G035",
+            "G036",
+            "G037",
+            "D-11-06",
+            "G038",
+            "STR-002"
+          ]
+        }
+      ]
     },
     {
       "id": "G007",
@@ -2148,7 +2567,8 @@
         "BH-CHAR",
         "KYO-CHAR",
         "HERO-ROUTE-7",
-        "HERO-ART-7"
+        "HERO-ART-7",
+        "OFFICIAL-GAME-SCREENS"
       ],
       "tags": [
         "船長",
@@ -2156,16 +2576,79 @@
       ],
       "stage": "珊瑚海（サンゴ海）",
       "risk": "",
-      "quality": "序章路線參照極限攻略 2005 PS2 原版舊資料，逐段整理；官方圖片屬 Remastered 官方宣傳角色原畫，人物造型原型一致；未經 PS2 實機再測。",
+      "quality": "2005 PS2原版角色開場流程另列；圖為Square Enix 官方 Remastered 實際遊戲畫面。序章不等於全劇情破關，周目章節另連至本站任務分支。",
       "gallery": [
         {
-          "src": "https://fyre.cdn.sewest.net/saga-hub/6503cbb4aed7bb35a2b89577/hawke-exBJv7Y6d.png",
-          "caption": "官方《Minstrel Song Remastered》霍克（ホーク）角色原畫，© SQUARE ENIX；線上載入，非本站生成"
+          "src": "https://www.jp.square-enix.com/saga_minstrelsong/assets/img/chara7_img.jpg",
+          "caption": "Square Enix《Minstrel Song Remastered》官方遊戲內畫面：霍克（ホーク）。非自製圖片；與2005 PS2原版畫質、UI不同。"
         }
       ],
       "role": "斧／曲刀類主攻；利用前後列與隊友補血穩定戰線。",
       "job": "海盜船長",
-      "heroSource": "https://www.square-enix.com/saga/en-us/games/romancing-saga-minstrel-song-remastered/characters/hawke/"
+      "heroSource": "https://www.jp.square-enix.com/saga_minstrelsong/",
+      "heroChapters": [
+        {
+          "title": "第一章｜專屬開場事件",
+          "description": "上面的逐條流程只是這位主角的序章，完成後才會正式進入世界自由探索。請先完成或確認下列主角關聯事件；不代表已經全破。",
+          "ids": [
+            "G082",
+            "G034"
+          ]
+        },
+        {
+          "title": "第二章｜早期時限委託（進度約 0～40%）",
+          "description": "各主角共用同一大世界，但任務可因戰鬥累積而消失。先找酒館、確認地名、準備回復術和地圖能力，再做限時支線；這些是可選任務，不是每項強制。",
+          "ids": [
+            "G009",
+            "G010",
+            "G011",
+            "G012",
+            "G013",
+            "G014",
+            "PS2-GUIDE-002"
+          ]
+        },
+        {
+          "title": "第三章｜中期連鎖與命運石（約 40～70%）",
+          "description": "古文書→兩種象徵→雙月神殿→皇帝怪病務必趕在失效前完成；水龍神殿、雨雲手鐲、四天王也有相互影響。開鎖／跳躍／寶箱搜尋需事先修習。",
+          "ids": [
+            "G084",
+            "G085",
+            "G019",
+            "G023",
+            "G074",
+            "G024",
+            "G020",
+            "PS2-ROUTE-016"
+          ]
+        },
+        {
+          "title": "第四章｜後期危險地區（約 70～100%）",
+          "description": "視周目狀態選擇暗殺者公會、金礦、梅爾維爾襲擊、提奧多爾與魔之島；先預留存檔，逐一讀取迷宮寶箱、機關及頭目策略，不要只看地圖走最短路。",
+          "ids": [
+            "G026",
+            "G028",
+            "G029",
+            "G031",
+            "G034",
+            "G095",
+            "G030"
+          ]
+        },
+        {
+          "title": "第五章｜三地點、最終迷宮、沙魯因",
+          "description": "最終試煉／冥府／古老之城由詩人情報和信仰路線決定，並非三座都是每輪強制。先確認三地點情報、隊伍回復和裝備，再進最終迷宮；一般沙魯因與獻十顆命運石的強化型難度不同。",
+          "ids": [
+            "G046",
+            "G035",
+            "G036",
+            "G037",
+            "D-11-06",
+            "G038",
+            "STR-002"
+          ]
+        }
+      ]
     },
     {
       "id": "G008",
@@ -2188,7 +2671,8 @@
         "BH-CHAR",
         "NEOSEEK",
         "HERO-ROUTE-8",
-        "HERO-ART-8"
+        "HERO-ART-8",
+        "OFFICIAL-GAME-SCREENS"
       ],
       "tags": [
         "舞者",
@@ -2196,16 +2680,79 @@
       ],
       "stage": "旅藝人一行／新道路（ニューロード）",
       "risk": "",
-      "quality": "序章路線參照極限攻略 2005 PS2 原版舊資料，逐段整理；官方圖片屬 Remastered 官方宣傳角色原畫，人物造型原型一致；未經 PS2 實機再測。",
+      "quality": "2005 PS2原版角色開場流程另列；圖為Square Enix 官方 Remastered 實際遊戲畫面。序章不等於全劇情破關，周目章節另連至本站任務分支。",
       "gallery": [
         {
-          "src": "https://fyre.cdn.sewest.net/saga-hub/6503cb57aed7bb35a2b89409/barbara-xbI0it3e9.png",
-          "caption": "官方《Minstrel Song Remastered》芭芭拉（バーバラ）角色原畫，© SQUARE ENIX；線上載入，非本站生成"
+          "src": "https://www.jp.square-enix.com/saga_minstrelsong/assets/img/chara8_img.jpg",
+          "caption": "Square Enix《Minstrel Song Remastered》官方遊戲內畫面：芭芭拉（バーバラ）。非自製圖片；與2005 PS2原版畫質、UI不同。"
         }
       ],
       "role": "靈活支援／可視隊伍缺口補法術、回復與地圖技能。",
       "job": "巡迴舞者",
-      "heroSource": "https://www.square-enix.com/saga/en-us/games/romancing-saga-minstrel-song-remastered/characters/barbara/"
+      "heroSource": "https://www.jp.square-enix.com/saga_minstrelsong/",
+      "heroChapters": [
+        {
+          "title": "第一章｜專屬開場事件",
+          "description": "上面的逐條流程只是這位主角的序章，完成後才會正式進入世界自由探索。請先完成或確認下列主角關聯事件；不代表已經全破。",
+          "ids": [
+            "G021",
+            "G009"
+          ]
+        },
+        {
+          "title": "第二章｜早期時限委託（進度約 0～40%）",
+          "description": "各主角共用同一大世界，但任務可因戰鬥累積而消失。先找酒館、確認地名、準備回復術和地圖能力，再做限時支線；這些是可選任務，不是每項強制。",
+          "ids": [
+            "G009",
+            "G010",
+            "G011",
+            "G012",
+            "G013",
+            "G014",
+            "PS2-GUIDE-002"
+          ]
+        },
+        {
+          "title": "第三章｜中期連鎖與命運石（約 40～70%）",
+          "description": "古文書→兩種象徵→雙月神殿→皇帝怪病務必趕在失效前完成；水龍神殿、雨雲手鐲、四天王也有相互影響。開鎖／跳躍／寶箱搜尋需事先修習。",
+          "ids": [
+            "G084",
+            "G085",
+            "G019",
+            "G023",
+            "G074",
+            "G024",
+            "G020",
+            "PS2-ROUTE-016"
+          ]
+        },
+        {
+          "title": "第四章｜後期危險地區（約 70～100%）",
+          "description": "視周目狀態選擇暗殺者公會、金礦、梅爾維爾襲擊、提奧多爾與魔之島；先預留存檔，逐一讀取迷宮寶箱、機關及頭目策略，不要只看地圖走最短路。",
+          "ids": [
+            "G026",
+            "G028",
+            "G029",
+            "G031",
+            "G034",
+            "G095",
+            "G030"
+          ]
+        },
+        {
+          "title": "第五章｜三地點、最終迷宮、沙魯因",
+          "description": "最終試煉／冥府／古老之城由詩人情報和信仰路線決定，並非三座都是每輪強制。先確認三地點情報、隊伍回復和裝備，再進最終迷宮；一般沙魯因與獻十顆命運石的強化型難度不同。",
+          "ids": [
+            "G046",
+            "G035",
+            "G036",
+            "G037",
+            "D-11-06",
+            "G038",
+            "STR-002"
+          ]
+        }
+      ]
     },
     {
       "id": "G009",
@@ -2214,9 +2761,13 @@
       "ja": "開拓村の誘拐事件",
       "summary": "弗隆提亞・亞西開拓村",
       "steps": [
-        "在亞西開拓村向母親詢問→前往亞西洞窟→擊敗深處怪物→返回交差。",
-        "15%前先處理雅西開拓村綁架，以免進度推進後錯過。",
-        "出發前先向開拓村吟遊詩人附近女性取得洞窟情報；洞內 B1/B2 寶箱可順路回收。"
+        "【觸發】從西端進雅西開拓村（ヤシ開拓村），向吟遊詩人旁女性詢問小孩被誘拐事件。",
+        "【時限】原版進度約15%以內優先做，若刷怪太多事件可能已過期。",
+        "【出發】取得雅西洞窟（ヤシの洞窟）位置後補滿 HP，建議寶箱搜尋 Lv1 並留獨立存檔。",
+        "【地下 B1】先拿固定洞窟地圖，跟著原始洞窟圖辨識通往地下2層的出口。",
+        "【地下 B2】固定寶箱可得100金＋Jewel、500金＋Jewel，別與隨機箱混淆。",
+        "【深處】擊敗誘拐事件相關魔物，確認 NPC 與事件狀態更新。",
+        "【回村】返回亞西開拓村與委託人交談、確認玩家筆記完成事件；早期 Jewel 可留給地圖能力。"
       ],
       "sources": [
         "EV-01",
@@ -2231,7 +2782,7 @@
       ],
       "stage": "0%可開始；15%附近結束",
       "risk": "早期會消失；越早越好。",
-      "quality": "PS2原版暫定事件研究；進度點受連鎖事件與時間經過點影響",
+      "quality": "以原版事件、原版樓層與時限來源整理；具進度或周目差異的選項會個別註明。",
       "gallery": []
     },
     {
@@ -2326,7 +2877,13 @@
       "ja": "ウハンジの秘密",
       "summary": "南／北艾斯塔米爾",
       "steps": [
-        "南艾斯塔米爾酒館接委託→北艾斯塔米爾阿姆托神殿→救出法拉。"
+        "【接任務】南艾斯塔米爾 PUB 和女性委託人交談，取得烏漢吉相關情報。",
+        "【法拉】到法拉（ファラ）的住處確認事件與被誘拐的線索。",
+        "【奴隸商人】向北調查奴隸商人家，遇戰鬥若扛不住先組滿隊。",
+        "【神殿入口】轉往北艾斯塔米爾阿姆特神殿（アムト神殿）調查秘密房間。",
+        "【解救】擊敗烏漢吉守衛並救出被囚禁者。",
+        "【分歧】烏漢吉的生死選擇可能影響後續，第一次遊玩建議先另存再決定。",
+        "【交差】回法拉家與酒館委託人，確認 Jewel 及金錢報酬是否入帳。"
       ],
       "sources": [
         "EV-05",
@@ -2338,7 +2895,7 @@
       ],
       "stage": "早期・酒館接任務未滿30%",
       "risk": "賈米爾的重要初期事件，處置烏漢吉會影響後續。",
-      "quality": "已核對共通事件；進度條與新版便利功能不適用PS2",
+      "quality": "以原版事件、原版樓層與時限來源整理；具進度或周目差異的選項會個別註明。",
       "gallery": []
     },
     {
@@ -2959,9 +3516,14 @@
       "ja": "決戦！サルーイン",
       "summary": "伊斯瑪斯東洞窟／最終迷宮",
       "steps": [
-        "取得三地點之一情報→進入伊斯瑪斯東洞窟→穿越最終迷宮→擊敗沙魯因。",
-        "2005巴哈記載十顆命運石獻祭後挑戰真沙魯因的實戰配裝；不等同2022新增的極沙魯因。",
-        "對特殊挑戰請先保存進入最終迷宮前的存檔；普通沙魯因與十石強化沙魯因難度不同。"
+        "【最終情報】在詩人提示中取得三地點之一資訊（最終試煉／冥府／古老之城），推進能得知沙魯因所在地的路線。",
+        "【事前存檔】回城分開保存正常通關與十石挑戰存檔，備妥全隊 HP／LP、術法、消耗型武器 EP。",
+        "【隊伍編制】至少一名回復主力及第二回復者、兩名前排護衛、支援隊員負責異常狀態及補給；避免全員只會單體高耗技。",
+        "【入口】由伊斯瑪斯往東邊洞窟到最終迷宮（ラストダンジョン），依地圖進入深處。",
+        "【第一形態】被擊倒可能遭アニメート干擾，保持活人數並控制 BP／EP 耗損。",
+        "【第二形態】心の闇與ヴォーテクス等攻擊會打亂防禦／狀態；盡量留有即時回復的人手。",
+        "【特殊強化】十顆命運石獻祭的真沙魯因強度不同，不是第一次通關的必做條件，也不可拿2022追加的極沙魯因規則套用。",
+        "【通關】勝利後看結局，其他主角、支線與不同抉擇可另開周目探索，沒有每位主角只需十步便完成所有內容的設定。"
       ],
       "sources": [
         "EV-19",
@@ -2975,7 +3537,7 @@
       ],
       "stage": "三地點取得所在地後",
       "risk": "強化王打法是單位玩家配裝心得，尚未自行實機重現。",
-      "quality": "已核對共通事件；進度條與新版便利功能不適用PS2",
+      "quality": "以原版事件、原版樓層與時限來源整理；具進度或周目差異的選項會個別註明。",
       "gallery": []
     },
     {
@@ -3865,10 +4427,14 @@
       "ja": "皇帝の奇病",
       "summary": "皇帝陷入怪病，需進入二つの月の神殿取得ムーンストーン。",
       "steps": [
-        "先完成古文書及象徵準備，穿越叢林進月之神殿擊敗守衛，回到メルビル交差。",
-        "原版研究約45%起觸發、70%附近失去正常完成旗標；盡早處理。",
-        "古文書→阿姆特象徵（アムトのシンボル）→迷途森林艾莉絲象徵（エリスのシンボル）→雙月神殿→月亮石（ムーンストーン）→回報。",
-        "抵達梅爾維爾前留意相關事件，神殿內需依指定敵人解除門檻。"
+        "【時限】2005 PS2 原版皇帝怪病通常需進度約45%後展開，70%前完成較保險。",
+        "【前置】處理壁虎族（ゲッコ族）取得古文書，再到梅爾維爾圖書館查讀。",
+        "【象徵一】北艾斯塔米爾阿姆特神殿取得アムトのシンボル。",
+        "【象徵二】到迷途森林取得エリスのシンボル，確認兩件象徵皆在隊伍。",
+        "【神殿入口】穿越叢林抵雙月神殿（二つの月の神殿），對照迷宮原圖 B1～B7 樓層。",
+        "【機關】每層指定敵種與地面機關有關，勿只往下走、跳過必要戰鬥。",
+        "【底層】擊敗ゾディアック，取得ムーンストーン（月亮石）。",
+        "【交差】返回梅爾維爾宮殿完成皇帝治病；若已超時，取得月石也不等於原事件正常完成。"
       ],
       "sources": [
         "KYO-EVENTS",
@@ -3885,7 +4451,7 @@
       ],
       "stage": "45%起；70%附近風險",
       "risk": "時限事件！過度戰鬥使劇情進度提高可能導致皇帝怪病未完成。",
-      "quality": "PS2 事件名稱及大方向有原版史料；個別路徑尚待第二來源核實",
+      "quality": "以原版事件、原版樓層與時限來源整理；具進度或周目差異的選項會個別註明。",
       "gallery": []
     },
     {
@@ -4407,7 +4973,7 @@
       "gallery": [],
       "loadout": "搭配長劍職業與高防禦前衛，先確認EP與取得流程。",
       "equipType": "主線報酬型長劍",
-      "equipImageStatus": "尚無已核實、可公開使用的本武器實機截圖；不使用自畫假裝備圖片。",
+      "equipImageStatus": "尚未核對到顯示這件武器名稱的清楚遊戲截圖。不可拿其他武器或自繪圖冒充。",
       "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_item_weapons.html"
     },
     {
@@ -4423,7 +4989,8 @@
         "性能數值參照舊版裝備資料；不同版本、模式與補強材料不可直接混用。"
       ],
       "sources": [
-        "ROMA-ARCH-WEAPON"
+        "ROMA-ARCH-WEAPON",
+        "GEAR-IMAGE-DRAGON"
       ],
       "tags": [
         "武器",
@@ -4432,12 +4999,18 @@
       ],
       "stage": "財寶挖掘／金龍",
       "risk": "舊站資料尚未本工具獨立實機查核。",
-      "quality": "武器數值參考2005原版史料；目前沒有可合法重刊的個別遊戲裝備原圖，因此不顯示冒牌圖。",
-      "gallery": [],
+      "quality": "裝備數值沿用原版史料；截圖取自實際 Remastered 遊戲畫面，非本武器獨立建模，補強差異需區分。",
+      "gallery": [
+        {
+          "src": "https://cdn-ak.f.st-hatena.com/images/fotolife/H/HOTARURU/20250422/20250422052021.jpg",
+          "caption": "竜鱗の剣｜遊戲道具清單右側多行「竜鱗の剣」；這是2025玩家實際 Remastered 介面截圖，非單獨武器3D模型，也非PS2原版UI。 圖片權利歸原作者。"
+        }
+      ],
       "loadout": "搭配速度型角色；稀有裝備不必當作第一輪必要目標。",
       "equipType": "短劍機動型",
-      "equipImageStatus": "尚無已核實、可公開使用的本武器實機截圖；不使用自畫假裝備圖片。",
-      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_item_weapons.html"
+      "equipImageStatus": "真實遊戲裝備選單截圖。遊戲道具清單右側多行「竜鱗の剣」。",
+      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_item_weapons.html",
+      "equipmentPhotoSource": "https://hotaruru.hatenablog.com/entry/2025/01/22/112936"
     },
     {
       "id": "G107",
@@ -4452,7 +5025,8 @@
         "性能數值參照舊版裝備資料；不同版本、模式與補強材料不可直接混用。"
       ],
       "sources": [
-        "ROMA-ARCH-WEAPON"
+        "ROMA-ARCH-WEAPON",
+        "GEAR-IMAGE-BLUE"
       ],
       "tags": [
         "武器",
@@ -4461,12 +5035,18 @@
       ],
       "stage": "高階財寶",
       "risk": "舊站資料尚未本工具獨立實機查核。",
-      "quality": "武器數值參考2005原版史料；目前沒有可合法重刊的個別遊戲裝備原圖，因此不顯示冒牌圖。",
-      "gallery": [],
+      "quality": "裝備數值沿用原版史料；截圖取自實際 Remastered 遊戲畫面，非本武器獨立建模，補強差異需區分。",
+      "gallery": [
+        {
+          "src": "https://blog-imgs-161.fc2.com/a/n/t/antitekipaki/202304011408323b5.jpg",
+          "caption": "青の剣｜裝備清單左上第一列「青の剣」；2023玩家實際 Remastered 遊戲選單畫面；不是本網站自繪圖。 圖片權利歸原作者。"
+        }
+      ],
       "loadout": "大型劍前衛輸出；先準備防具與回復再追高階寶圖。",
       "equipType": "稀有大型劍",
-      "equipImageStatus": "尚無已核實、可公開使用的本武器實機截圖；不使用自畫假裝備圖片。",
-      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_item_weapons.html"
+      "equipImageStatus": "真實遊戲裝備選單截圖。裝備清單左上第一列「青の剣」。",
+      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_item_weapons.html",
+      "equipmentPhotoSource": "https://antitekipaki.blog.fc2.com/blog-entry-505.html"
     },
     {
       "id": "G108",
@@ -4494,7 +5074,7 @@
       "gallery": [],
       "loadout": "搭配技巧型角色，優先以技能成本與武器性能平衡。",
       "equipType": "細劍技巧型",
-      "equipImageStatus": "尚無已核實、可公開使用的本武器實機截圖；不使用自畫假裝備圖片。",
+      "equipImageStatus": "尚未核對到顯示這件武器名稱的清楚遊戲截圖。不可拿其他武器或自繪圖冒充。",
       "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_item_weapons.html"
     },
     {
@@ -4523,7 +5103,7 @@
       "gallery": [],
       "loadout": "支援／術法與近戰都可評估，別把水龍委託鏈打斷。",
       "equipType": "四天王任務獎勵",
-      "equipImageStatus": "尚無已核實、可公開使用的本武器實機截圖；不使用自畫假裝備圖片。",
+      "equipImageStatus": "尚未核對到顯示這件武器名稱的清楚遊戲截圖。不可拿其他武器或自繪圖冒充。",
       "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_item_weapons.html"
     },
     {
@@ -4539,7 +5119,8 @@
         "性能數值參照舊版裝備資料；不同版本、模式與補強材料不可直接混用。"
       ],
       "sources": [
-        "ROMA-ARCH-WEAPON"
+        "ROMA-ARCH-WEAPON",
+        "GEAR-IMAGE-POET"
       ],
       "tags": [
         "武器",
@@ -4548,12 +5129,18 @@
       ],
       "stage": "吟遊詩人初裝",
       "risk": "舊站資料尚未本工具獨立實機查核。",
-      "quality": "武器數值參考2005原版史料；目前沒有可合法重刊的個別遊戲裝備原圖，因此不顯示冒牌圖。",
-      "gallery": [],
+      "quality": "裝備數值沿用原版史料；截圖取自實際 Remastered 遊戲畫面，非本武器獨立建模，補強差異需區分。",
+      "gallery": [
+        {
+          "src": "https://cdn-ak.f.st-hatena.com/images/fotolife/s/sekaijyusaya/20230302/20230302175014.jpg",
+          "caption": "詩人の剣｜武器清單中「詩人の剣」一列（畫面非該武器專屬模型）；2023玩家 Remastered 遊戲裝備畫面。 圖片權利歸原作者。"
+        }
+      ],
       "loadout": "前期過渡用武器，依隊伍需求選是否更換。",
       "equipType": "初期長劍",
-      "equipImageStatus": "尚無已核實、可公開使用的本武器實機截圖；不使用自畫假裝備圖片。",
-      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_item_weapons.html"
+      "equipImageStatus": "真實遊戲裝備選單截圖。武器清單中「詩人の剣」一列（畫面非該武器專屬模型）。",
+      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_item_weapons.html",
+      "equipmentPhotoSource": "https://sekaijyusaya.hatenablog.com/entry/2023/03/02/180637"
     },
     {
       "id": "G111",
@@ -4568,7 +5155,8 @@
         "性能數值參照舊版裝備資料；不同版本、模式與補強材料不可直接混用。"
       ],
       "sources": [
-        "ROMA-ARCH-WEAPON"
+        "ROMA-ARCH-WEAPON",
+        "GEAR-IMAGE-ESPADA"
       ],
       "tags": [
         "武器",
@@ -4577,12 +5165,18 @@
       ],
       "stage": "皇帝怪病",
       "risk": "舊站資料尚未本工具獨立實機查核。",
-      "quality": "武器數值參考2005原版史料；目前沒有可合法重刊的個別遊戲裝備原圖，因此不顯示冒牌圖。",
-      "gallery": [],
+      "quality": "裝備數值沿用原版史料；截圖取自實際 Remastered 遊戲畫面，非本武器獨立建模，補強差異需區分。",
+      "gallery": [
+        {
+          "src": "https://stat.ameba.jp/user_images/20250209/12/manaitan1/4a/fb/j/o3840216015542240123.jpg",
+          "caption": "エスパーダロペラ｜裝備清單第一列「エスパーダ・ロペラ+3」；玩家 Remastered 實際裝備畫面（補強後+3，和資料列基礎性能不能直接比較）。 圖片權利歸原作者。"
+        }
+      ],
       "loadout": "優先完成限時皇帝怪病，再考慮哪個角色能發揮細劍。",
       "equipType": "細劍事件獎勵",
-      "equipImageStatus": "尚無已核實、可公開使用的本武器實機截圖；不使用自畫假裝備圖片。",
-      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_item_weapons.html"
+      "equipImageStatus": "真實遊戲裝備選單截圖。裝備清單第一列「エスパーダ・ロペラ+3」。",
+      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_item_weapons.html",
+      "equipmentPhotoSource": "https://ameblo.jp/manaitan1/entry-12885756740.html"
     },
     {
       "id": "G112",
@@ -4597,7 +5191,8 @@
         "性能數值參照舊版裝備資料；不同版本、模式與補強材料不可直接混用。"
       ],
       "sources": [
-        "ROMA-ARCH-WEAPON"
+        "ROMA-ARCH-WEAPON",
+        "GEAR-IMAGE-ESPADA"
       ],
       "tags": [
         "武器",
@@ -4606,12 +5201,18 @@
       ],
       "stage": "財寶挖掘",
       "risk": "舊站資料尚未本工具獨立實機查核。",
-      "quality": "武器數值參考2005原版史料；目前沒有可合法重刊的個別遊戲裝備原圖，因此不顯示冒牌圖。",
-      "gallery": [],
+      "quality": "裝備數值沿用原版史料；截圖取自實際 Remastered 遊戲畫面，非本武器獨立建模，補強差異需區分。",
+      "gallery": [
+        {
+          "src": "https://stat.ameba.jp/user_images/20250209/12/manaitan1/4a/fb/j/o3840216015542240123.jpg",
+          "caption": "ファランギー｜裝備清單第二列「フランシスカ+3」；玩家 Remastered 實際裝備畫面（補強後+3）。 圖片權利歸原作者。"
+        }
+      ],
       "loadout": "物理輸出候選；實戰需同時考慮 EP 與防禦面。",
       "equipType": "長劍高階財寶",
-      "equipImageStatus": "尚無已核實、可公開使用的本武器實機截圖；不使用自畫假裝備圖片。",
-      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_item_weapons.html"
+      "equipImageStatus": "真實遊戲裝備選單截圖。裝備清單第二列「フランシスカ+3」。",
+      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_item_weapons.html",
+      "equipmentPhotoSource": "https://ameblo.jp/manaitan1/entry-12885756740.html"
     },
     {
       "id": "G113",
@@ -4626,7 +5227,8 @@
         "性能數值參照舊版裝備資料；不同版本、模式與補強材料不可直接混用。"
       ],
       "sources": [
-        "ROMA-ARCH-WEAPON"
+        "ROMA-ARCH-WEAPON",
+        "GEAR-IMAGE-POET"
       ],
       "tags": [
         "武器",
@@ -4635,12 +5237,18 @@
       ],
       "stage": "黛安娜初裝",
       "risk": "舊站資料尚未本工具獨立實機查核。",
-      "quality": "武器數值參考2005原版史料；目前沒有可合法重刊的個別遊戲裝備原圖，因此不顯示冒牌圖。",
-      "gallery": [],
+      "quality": "裝備數值沿用原版史料；截圖取自實際 Remastered 遊戲畫面，非本武器獨立建模，補強差異需區分。",
+      "gallery": [
+        {
+          "src": "https://cdn-ak.f.st-hatena.com/images/fotolife/s/sekaijyusaya/20230302/20230302175014.jpg",
+          "caption": "剣の女王｜武器清單末列「剣の女王」；玩家 Remastered 實際武器裝備畫面，非3D武器模型。 圖片權利歸原作者。"
+        }
+      ],
       "loadout": "角色限定初期裝備，取得情況依主角／入隊而異。",
       "equipType": "初期短劍",
-      "equipImageStatus": "尚無已核實、可公開使用的本武器實機截圖；不使用自畫假裝備圖片。",
-      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_item_weapons.html"
+      "equipImageStatus": "真實遊戲裝備選單截圖。武器清單末列「剣の女王」。",
+      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_item_weapons.html",
+      "equipmentPhotoSource": "https://sekaijyusaya.hatenablog.com/entry/2023/03/02/180637"
     },
     {
       "id": "G120",
@@ -5259,7 +5867,33 @@
         }
       ],
       "mapType": "external_original_reference_image",
-      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_map_1_05.html"
+      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_map_1_05.html",
+      "landmarks": [
+        {
+          "floor": "B1",
+          "type": "固定",
+          "item": "地圖",
+          "note": "雅西洞窟地下1層。"
+        },
+        {
+          "floor": "B2",
+          "type": "固定",
+          "item": "100金＋Jewel",
+          "note": "固定箱。"
+        },
+        {
+          "floor": "B2",
+          "type": "固定",
+          "item": "500金＋Jewel",
+          "note": "固定箱。"
+        },
+        {
+          "floor": "B1／B2",
+          "type": "隨機",
+          "item": "可重生的金錢／裝備箱",
+          "note": "寶箱搜尋Lv1。"
+        }
+      ]
     },
     {
       "id": "D-01-03",
@@ -5297,7 +5931,39 @@
         }
       ],
       "mapType": "external_original_reference_image",
-      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_map_1_06.html"
+      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_map_1_06.html",
+      "landmarks": [
+        {
+          "floor": "區域待核",
+          "type": "機關",
+          "item": "跳躍Lv3 5次、攀爬Lv3 12次、寶箱搜尋Lv1 4次、解除陷阱Lv2 3次；可另備採礦。",
+          "note": "依本站已有來源攻略文字歸類，未核對原始地圖精確座標。"
+        },
+        {
+          "floor": "B1",
+          "type": "攻略提示",
+          "item": "優先取洞窟地圖與護甲プロテクター（後者需要寶箱搜尋Lv1）。",
+          "note": "依本站已有來源攻略文字歸類，未核對原始地圖精確座標。"
+        },
+        {
+          "floor": "B2",
+          "type": "攻略提示",
+          "item": "依原圖通路往下層，可收500金＋Jewel。",
+          "note": "依本站已有來源攻略文字歸類，未核對原始地圖精確座標。"
+        },
+        {
+          "floor": "B3",
+          "type": "隨機",
+          "item": "最深處有700金＋隨機武器，武器種類會變。",
+          "note": "依本站已有來源攻略文字歸類，未核對原始地圖精確座標。"
+        },
+        {
+          "floor": "B1",
+          "type": "機關",
+          "item": "最多三組200金＋隨機防具／Jewel，需寶箱搜尋Lv1，陷阱隨機且可能再生，與固定箱分開。",
+          "note": "依本站已有來源攻略文字歸類，未核對原始地圖精確座標。"
+        }
+      ]
     },
     {
       "id": "D-01-04",
@@ -5336,7 +6002,39 @@
         }
       ],
       "mapType": "external_original_reference_image",
-      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_map_1_07.html"
+      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_map_1_07.html",
+      "landmarks": [
+        {
+          "floor": "區域待核",
+          "type": "機關",
+          "item": "建議寶箱搜尋Lv2 2次、解除陷阱5次；解除陷阱所需Lv會隨劇情進度上升。",
+          "note": "依本站已有來源攻略文字歸類，未核對原始地圖精確座標。"
+        },
+        {
+          "floor": "B1",
+          "type": "機關",
+          "item": "固定10金箱有隨機陷阱，不要把低額金錢當成完全安全的箱。",
+          "note": "依本站已有來源攻略文字歸類，未核對原始地圖精確座標。"
+        },
+        {
+          "floor": "B2",
+          "type": "機關",
+          "item": "可取固定20金＋骨胸甲、50金＋骨胸甲；還有40金＋Jewel、カイラルの木靴，後兩箱涉及警報陷阱。",
+          "note": "依本站已有來源攻略文字歸類，未核對原始地圖精確座標。"
+        },
+        {
+          "floor": "B1",
+          "type": "隨機",
+          "item": "寶箱搜尋Lv2可發現部分300金＋骨胸甲、100金＋隨機防具／Jewel箱；位置隨機、可能再生。",
+          "note": "依本站已有來源攻略文字歸類，未核對原始地圖精確座標。"
+        },
+        {
+          "floor": "B4",
+          "type": "頭目",
+          "item": "固定地圖寶箱帶遭遇型陷阱（エンカウンター），建議優先處理後再往頭目區。",
+          "note": "依本站已有來源攻略文字歸類，未核對原始地圖精確座標。"
+        }
+      ]
     },
     {
       "id": "D-01-05",
@@ -5375,7 +6073,21 @@
         }
       ],
       "mapType": "external_original_reference_image",
-      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_map_1_08.html"
+      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_map_1_08.html",
+      "landmarks": [
+        {
+          "floor": "區域待核",
+          "type": "頭目",
+          "item": "原站記載暗殺者公會到75%以上才結束可能不會直接出現洞窟地名，別錯把頭目甦醒條件當成地名解鎖。",
+          "note": "依本站已有來源攻略文字歸類，未核對原始地圖精確座標。"
+        },
+        {
+          "floor": "區域待核",
+          "type": "頭目",
+          "item": "寶石獸是高難度敵人，開戰前保留存檔、安排補師與抗性，首次造訪不必硬拚。",
+          "note": "依本站已有來源攻略文字歸類，未核對原始地圖精確座標。"
+        }
+      ]
     },
     {
       "id": "D-02-01",
@@ -5458,7 +6170,57 @@
         }
       ],
       "mapType": "external_original_reference_image",
-      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_map_2_07.html"
+      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_map_2_07.html",
+      "landmarks": [
+        {
+          "floor": "B1",
+          "type": "固定",
+          "item": "地圖",
+          "note": "地下1層固定地圖位置；依原圖入口與水龍瀑布入口區分。"
+        },
+        {
+          "floor": "水龍瀑布",
+          "type": "固定",
+          "item": "水龍赤玉（水竜の赤玉）",
+          "note": "限時可進；四玉全部裝上或打倒水龍後可能封路。"
+        },
+        {
+          "floor": "B2",
+          "type": "固定",
+          "item": "水龍綠玉（水竜の緑玉）",
+          "note": "地下2層的固定寶玉。"
+        },
+        {
+          "floor": "B2",
+          "type": "固定",
+          "item": "水龍黃玉（水竜の黄玉）",
+          "note": "地下2層另一顆固定寶玉。"
+        },
+        {
+          "floor": "B3",
+          "type": "固定",
+          "item": "水龍青玉（水竜の青玉）",
+          "note": "地下3層固定寶玉。"
+        },
+        {
+          "floor": "B3",
+          "type": "固定",
+          "item": "水之精靈珠（水の精霊珠）",
+          "note": "妖精森林任務，需跳躍Lv3。"
+        },
+        {
+          "floor": "瀑布／B3",
+          "type": "隨機",
+          "item": "金錢＋Jewel／武器／精靈石杖",
+          "note": "需寶箱搜尋，陷阱與箱位隨機；不是每次固定出現。"
+        },
+        {
+          "floor": "深處",
+          "type": "機關",
+          "item": "四顆水龍玉（赤・緑・黄・青）",
+          "note": "依原版地圖放入四玉開門，會影響瀑布回訪。"
+        }
+      ]
     },
     {
       "id": "D-02-03",
@@ -5495,7 +6257,15 @@
         }
       ],
       "mapType": "external_original_reference_image",
-      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_map_2_07.html"
+      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_map_2_07.html",
+      "landmarks": [
+        {
+          "floor": "區域待核",
+          "type": "機關",
+          "item": "地圖技能：解除陷阱。",
+          "note": "依本站已有來源攻略文字歸類，未核對原始地圖精確座標。"
+        }
+      ]
     },
     {
       "id": "D-02-04",
@@ -5533,7 +6303,33 @@
         }
       ],
       "mapType": "external_original_reference_image",
-      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_map_2_05.html"
+      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_map_2_05.html",
+      "landmarks": [
+        {
+          "floor": "區域待核",
+          "type": "機關",
+          "item": "地圖技能：寶箱搜尋Lv3、跳躍Lv2、解除陷阱、開鎖。",
+          "note": "依本站已有來源攻略文字歸類，未核對原始地圖精確座標。"
+        },
+        {
+          "floor": "B1",
+          "type": "攻略提示",
+          "item": "B1：有固定地圖與 Jewel；若要找 1000 金的寶箱，準備寶箱搜尋 Lv3。",
+          "note": "依本站已有來源攻略文字歸類，未核對原始地圖精確座標。"
+        },
+        {
+          "floor": "B2",
+          "type": "機關",
+          "item": "B2：部分箱有機關或鎖，宜備解除陷阱 Lv1、開鎖；另有橡膠鞋（ラバーソウル）寶箱。",
+          "note": "依本站已有來源攻略文字歸類，未核對原始地圖精確座標。"
+        },
+        {
+          "floor": "B3",
+          "type": "攻略提示",
+          "item": "B3：藏有細劍「シルバーフルーレ」；別把不同層的暗殺公會支線入口混在一起。",
+          "note": "依本站已有來源攻略文字歸類，未核對原始地圖精確座標。"
+        }
+      ]
     },
     {
       "id": "D-03-01",
@@ -5578,7 +6374,27 @@
         }
       ],
       "mapType": "external_original_reference_image",
-      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_map_3_06.html"
+      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_map_3_06.html",
+      "landmarks": [
+        {
+          "floor": "區域待核",
+          "type": "機關",
+          "item": "2005實走：在湖中探索洞窟D與E時，通道機關曾因玩家忽略蒸氣位置而停住；注意蒸氣旁的岔路。",
+          "note": "依本站已有來源攻略文字歸類，未核對原始地圖精確座標。"
+        },
+        {
+          "floor": "區域待核",
+          "type": "頭目",
+          "item": "沿蒸氣旁轉角調查水晶開啟石門，擊敗內部頭目尋找水之海藍寶石。",
+          "note": "依本站已有來源攻略文字歸類，未核對原始地圖精確座標。"
+        },
+        {
+          "floor": "區域待核",
+          "type": "攻略提示",
+          "item": "洞窟 D 的「アクアマリン」是固定劇情物品；其餘多數裝備與金錢寶箱不是每次全出現。",
+          "note": "依本站已有來源攻略文字歸類，未核對原始地圖精確座標。"
+        }
+      ]
     },
     {
       "id": "D-03-02",
@@ -5653,7 +6469,27 @@
         }
       ],
       "mapType": "external_original_reference_image",
-      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_map_3_08.html"
+      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_map_3_08.html",
+      "landmarks": [
+        {
+          "floor": "區域待核",
+          "type": "機關",
+          "item": "準備解除陷阱約4次、開鎖約4次、跳躍Lv1約4次；開鎖與解除陷阱等級隨進度變動。",
+          "note": "依本站已有來源攻略文字歸類，未核對原始地圖精確座標。"
+        },
+        {
+          "floor": "區域待核",
+          "type": "機關",
+          "item": "還可能出現多組2000金＋Jewel；箱位、開鎖與陷阱要求皆不固定。",
+          "note": "依本站已有來源攻略文字歸類，未核對原始地圖精確座標。"
+        },
+        {
+          "floor": "區域待核",
+          "type": "機關",
+          "item": "此區來源註明箱子的陷阱都是遭遇戰（エンカウンター），要保留回復資源。",
+          "note": "依本站已有來源攻略文字歸類，未核對原始地圖精確座標。"
+        }
+      ]
     },
     {
       "id": "D-03-04",
@@ -5691,7 +6527,21 @@
         }
       ],
       "mapType": "external_original_reference_image",
-      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_map_3_05.html"
+      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_map_3_05.html",
+      "landmarks": [
+        {
+          "floor": "區域待核",
+          "type": "攻略提示",
+          "item": "帶寶箱搜尋Lv1至少1次，可取得100金＋Jewel固定寶箱。",
+          "note": "依本站已有來源攻略文字歸類，未核對原始地圖精確座標。"
+        },
+        {
+          "floor": "區域待核",
+          "type": "頭目",
+          "item": "亞魯貝魯特序章需擊退東洞窟魔族斥候，隊員血量不足時用藥箱急救。",
+          "note": "依本站已有來源攻略文字歸類，未核對原始地圖精確座標。"
+        }
+      ]
     },
     {
       "id": "D-03-05",
@@ -5729,7 +6579,27 @@
         }
       ],
       "mapType": "external_original_reference_image",
-      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_map_3_05.html"
+      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_map_3_05.html",
+      "landmarks": [
+        {
+          "floor": "區域待核",
+          "type": "攻略提示",
+          "item": "黛安娜房間有キットンソックス、魯道夫房間有スマートガード。",
+          "note": "依本站已有來源攻略文字歸類，未核對原始地圖精確座標。"
+        },
+        {
+          "floor": "區域待核",
+          "type": "頭目",
+          "item": "城內有1000金＋パールリング箱（附隨機陷阱）與500金＋Jewel箱，需擊倒相應頭目才可取得。",
+          "note": "依本站已有來源攻略文字歸類，未核對原始地圖精確座標。"
+        },
+        {
+          "floor": "區域待核",
+          "type": "機關",
+          "item": "建議寶箱搜尋Lv1至少1次、解除陷阱Lv2約3次。",
+          "note": "依本站已有來源攻略文字歸類，未核對原始地圖精確座標。"
+        }
+      ]
     },
     {
       "id": "D-04-01",
@@ -5878,7 +6748,15 @@
         }
       ],
       "mapType": "external_original_reference_image",
-      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_map_4_05.html"
+      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_map_4_05.html",
+      "landmarks": [
+        {
+          "floor": "區域待核",
+          "type": "頭目",
+          "item": "試煉內共有十二組頭目，依序清除；中途無法隨意退出，進入前先儲存進度。",
+          "note": "依本站已有來源攻略文字歸類，未核對原始地圖精確座標。"
+        }
+      ]
     },
     {
       "id": "D-04-05",
@@ -5917,7 +6795,21 @@
         }
       ],
       "mapType": "external_original_reference_image",
-      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_map_4_06.html"
+      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_map_4_06.html",
+      "landmarks": [
+        {
+          "floor": "區域待核",
+          "type": "機關",
+          "item": "進入與探索：烏索聽完線索進入古城；調整三座龍頭機關開門，擊敗三名守衛後由井底通往巨人村。",
+          "note": "依本站已有來源攻略文字歸類，未核對原始地圖精確座標。"
+        },
+        {
+          "floor": "區域待核",
+          "type": "機關",
+          "item": "依城內機關抵達井底後，能通往巨人之里。",
+          "note": "依本站已有來源攻略文字歸類，未核對原始地圖精確座標。"
+        }
+      ]
     },
     {
       "id": "D-05-01",
@@ -5960,7 +6852,51 @@
         }
       ],
       "mapType": "external_original_reference_image",
-      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_map_5_04.html"
+      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_map_5_04.html",
+      "landmarks": [
+        {
+          "floor": "1F",
+          "type": "固定",
+          "item": "地圖、200金＋武器、500金＋Jewel",
+          "note": "先拿地圖，留意崩落地板。"
+        },
+        {
+          "floor": "1F／B1",
+          "type": "機關",
+          "item": "P／Q／R／S 崩落地板",
+          "note": "十字鍵慢走不坍塌；在 P 點奔跑可抵地下。"
+        },
+        {
+          "floor": "2F",
+          "type": "固定",
+          "item": "ガントレット、100金＋武器、100金＋Jewel",
+          "note": "另有一箱隨機金＋武器／防具。"
+        },
+        {
+          "floor": "B1",
+          "type": "固定",
+          "item": "500金＋武器或Jewel",
+          "note": "需要寶箱搜尋能力。"
+        },
+        {
+          "floor": "3F",
+          "type": "固定",
+          "item": "グレートソード、騎士の盾、シルバーマスク",
+          "note": "固定寶箱。"
+        },
+        {
+          "floor": "3F",
+          "type": "機關",
+          "item": "○×△□ 四符號",
+          "note": "各符號需正確完成；失敗需重新計算，來源記載至少連續7次。"
+        },
+        {
+          "floor": "全層",
+          "type": "隨機",
+          "item": "武器／防具／Jewel",
+          "note": "部分需要寶箱搜尋Lv1～4，不固定出現。"
+        }
+      ]
     },
     {
       "id": "D-05-02",
@@ -5998,7 +6934,15 @@
         }
       ],
       "mapType": "external_original_reference_image",
-      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_map_5_05.html"
+      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_map_5_05.html",
+      "landmarks": [
+        {
+          "floor": "區域待核",
+          "type": "機關",
+          "item": "地圖技能：解除陷阱。",
+          "note": "依本站已有來源攻略文字歸類，未核對原始地圖精確座標。"
+        }
+      ]
     },
     {
       "id": "D-05-03",
@@ -6075,7 +7019,33 @@
         }
       ],
       "mapType": "external_original_reference_image",
-      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_map_5_06.html"
+      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_map_5_06.html",
+      "landmarks": [
+        {
+          "floor": "2F",
+          "type": "固定",
+          "item": "666金、幻獣剣、地圖",
+          "note": "666金箱有隨機陷阱。"
+        },
+        {
+          "floor": "3F",
+          "type": "固定",
+          "item": "羅刹の剛剣、3000金",
+          "note": "開箱可能遇到隨機陷阱。"
+        },
+        {
+          "floor": "3F",
+          "type": "機關",
+          "item": "三、六燭台分岔通道",
+          "note": "對照原始迷宮圖選路，確認隱藏門。"
+        },
+        {
+          "floor": "2F／3F",
+          "type": "隨機",
+          "item": "隨機武器、防具、金錢",
+          "note": "可能重生。"
+        }
+      ]
     },
     {
       "id": "D-05-05",
@@ -6179,7 +7149,15 @@
         }
       ],
       "mapType": "external_original_reference_image",
-      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_map_6_05.html"
+      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_map_6_05.html",
+      "landmarks": [
+        {
+          "floor": "區域待核",
+          "type": "頭目",
+          "item": "進入與探索：2005 巴哈攻略註記有一名小頭目。",
+          "note": "依本站已有來源攻略文字歸類，未核對原始地圖精確座標。"
+        }
+      ]
     },
     {
       "id": "D-06-03",
@@ -6217,7 +7195,33 @@
         }
       ],
       "mapType": "external_original_reference_image",
-      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_map_6_03.html"
+      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_map_6_03.html",
+      "landmarks": [
+        {
+          "floor": "B1",
+          "type": "攻略提示",
+          "item": "地圖、Jewel、500金＋哥德式鎧甲（ゴシックアーマー）。",
+          "note": "依本站已有來源攻略文字歸類，未核對原始地圖精確座標。"
+        },
+        {
+          "floor": "B1",
+          "type": "隨機",
+          "item": "100金＋隨機武器或防具、100金＋Jewel、300金＋隨機武器，需搜尋Lv1，可能再生且不一定同時出現。",
+          "note": "依本站已有來源攻略文字歸類，未核對原始地圖精確座標。"
+        },
+        {
+          "floor": "B1",
+          "type": "攻略提示",
+          "item": "原站指出B1傳送後的區域沒有道具，不必為那段繞路浪費補給。",
+          "note": "依本站已有來源攻略文字歸類，未核對原始地圖精確座標。"
+        },
+        {
+          "floor": "區域待核",
+          "type": "頭目",
+          "item": "配合席芙開場掃蕩事件擊退洞穴魔物，再返加托村確認進度。",
+          "note": "依本站已有來源攻略文字歸類，未核對原始地圖精確座標。"
+        }
+      ]
     },
     {
       "id": "D-06-04",
@@ -6257,7 +7261,33 @@
         }
       ],
       "mapType": "external_original_reference_image",
-      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_map_6_04.html"
+      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_map_6_04.html",
+      "landmarks": [
+        {
+          "floor": "第1階段",
+          "type": "固定",
+          "item": "地圖、300金＋Jewel、翼のお守り",
+          "note": "最初的南之洞窟版本。"
+        },
+        {
+          "floor": "第2階段",
+          "type": "固定",
+          "item": "上級傷藥、1600金＋バトルスタッフ",
+          "note": "高級傷薬可能爆炸陷阱。"
+        },
+        {
+          "floor": "第3階段",
+          "type": "固定",
+          "item": "地圖、呪印のスカーフ、霊花の首飾り",
+          "note": "出發前跳躍Lv3且6次。"
+        },
+        {
+          "floor": "第3階段",
+          "type": "頭目",
+          "item": "西南方不定系敵人",
+          "note": "容易漏打，仔細查原圖。"
+        }
+      ]
     },
     {
       "id": "D-06-05",
@@ -6296,7 +7326,15 @@
         }
       ],
       "mapType": "external_original_reference_image",
-      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_map_6_06.html"
+      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_map_6_06.html",
+      "landmarks": [
+        {
+          "floor": "區域待核",
+          "type": "機關",
+          "item": "地圖技能：寶箱搜尋、解除陷阱、開鎖。",
+          "note": "依本站已有來源攻略文字歸類，未核對原始地圖精確座標。"
+        }
+      ]
     },
     {
       "id": "D-07-01",
@@ -6369,7 +7407,15 @@
         }
       ],
       "mapType": "external_original_reference_image",
-      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_map_7_01.html"
+      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_map_7_01.html",
+      "landmarks": [
+        {
+          "floor": "區域待核",
+          "type": "機關",
+          "item": "地圖技能：解除陷阱。",
+          "note": "依本站已有來源攻略文字歸類，未核對原始地圖精確座標。"
+        }
+      ]
     },
     {
       "id": "D-07-03",
@@ -6579,7 +7625,15 @@
         }
       ],
       "mapType": "external_original_reference_image",
-      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_map_7_07.html"
+      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_map_7_07.html",
+      "landmarks": [
+        {
+          "floor": "區域待核",
+          "type": "機關",
+          "item": "進入與探索：由高原進入螺旋式迷宮，踏機關開門，底部見阿迪利斯討論四天王交換條件。",
+          "note": "依本站已有來源攻略文字歸類，未核對原始地圖精確座標。"
+        }
+      ]
     },
     {
       "id": "D-08-01",
@@ -6647,7 +7701,33 @@
         }
       ],
       "mapType": "external_original_reference_image",
-      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_map_9_05.html"
+      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_map_9_05.html",
+      "landmarks": [
+        {
+          "floor": "區域待核",
+          "type": "機關",
+          "item": "地圖技能：機關搜尋、解除陷阱、礦石搜尋採礦、開鎖。",
+          "note": "依本站已有來源攻略文字歸類，未核對原始地圖精確座標。"
+        },
+        {
+          "floor": "區域待核",
+          "type": "機關",
+          "item": "壁虎族洞窟石頭機關：將岩石推到有光射入的位置。2005巴哈順序是左側光線再左下光線，鐵門才會打開。",
+          "note": "依本站已有來源攻略文字歸類，未核對原始地圖精確座標。"
+        },
+        {
+          "floor": "B1",
+          "type": "隨機",
+          "item": "洞窟 B1 有固定地圖與大盾；B2 有金錢＋Jewel、隨機裝備及皮甲寶箱。",
+          "note": "依本站已有來源攻略文字歸類，未核對原始地圖精確座標。"
+        },
+        {
+          "floor": "B2",
+          "type": "機關",
+          "item": "B2 的部分固定位置寶箱會附帶隨機陷阱或鎖；建議解除陷阱 Lv1、開鎖 Lv0，另備機關搜尋 Lv1。",
+          "note": "依本站已有來源攻略文字歸類，未核對原始地圖精確座標。"
+        }
+      ]
     },
     {
       "id": "D-09-02",
@@ -6685,7 +7765,21 @@
         }
       ],
       "mapType": "external_original_reference_image",
-      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_map_9_03.html"
+      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_map_9_03.html",
+      "landmarks": [
+        {
+          "floor": "區域待核",
+          "type": "隨機",
+          "item": "中央部、洞窟 B/C 有地圖寶箱；洞窟 D 有 1000 金＋隨機武器的固定位置寶箱。",
+          "note": "依本站已有來源攻略文字歸類，未核對原始地圖精確座標。"
+        },
+        {
+          "floor": "區域待核",
+          "type": "隨機",
+          "item": "中央部與洞窟 B/C 有地圖；洞窟 D 固定有 1000 金＋隨機武器；東部可以透過寶箱搜尋 Lv1 找到錢與",
+          "note": "依本站已有來源攻略文字歸類，未核對原始地圖精確座標。"
+        }
+      ]
     },
     {
       "id": "D-09-03",
@@ -6726,7 +7820,39 @@
         }
       ],
       "mapType": "external_original_reference_image",
-      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_map_9_06.html"
+      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_map_9_06.html",
+      "landmarks": [
+        {
+          "floor": "入口",
+          "type": "機關",
+          "item": "隱藏牆：仕掛けサーチ Lv1",
+          "note": "從叢林東部進銀之洞窟。"
+        },
+        {
+          "floor": "B1",
+          "type": "固定",
+          "item": "地圖、1000金＋隨機武器",
+          "note": "固定箱。"
+        },
+        {
+          "floor": "B1",
+          "type": "固定",
+          "item": "3000金＋シルバーハンマー",
+          "note": "寶箱搜尋Lv5與開鎖。"
+        },
+        {
+          "floor": "B2",
+          "type": "固定",
+          "item": "100金＋Jewel 等固定箱",
+          "note": "留意警報、遭遇陷阱。"
+        },
+        {
+          "floor": "B3",
+          "type": "隨機",
+          "item": "飾品／500–2000金箱",
+          "note": "多組可能再生。"
+        }
+      ]
     },
     {
       "id": "D-09-04",
@@ -6780,7 +7906,51 @@
         }
       ],
       "mapType": "external_original_reference_image",
-      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_map_9_07.html"
+      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_map_9_07.html",
+      "landmarks": [
+        {
+          "floor": "B1",
+          "type": "機關",
+          "item": "不定系指定敵人組",
+          "note": "擊敗指定敵種啟動寶箱，地板條件依原圖。"
+        },
+        {
+          "floor": "B1",
+          "type": "固定",
+          "item": "霊獣石の腕輪",
+          "note": "指定事件／敵種條件後取得。"
+        },
+        {
+          "floor": "B2",
+          "type": "固定",
+          "item": "体力の薬、プロテクトリング",
+          "note": "不死系／不定系機關門檻。"
+        },
+        {
+          "floor": "B3",
+          "type": "固定",
+          "item": "霊獣石の具足、ガーディアンリング",
+          "note": "需依敵種清除機關。"
+        },
+        {
+          "floor": "B4",
+          "type": "固定",
+          "item": "霊獣石の兜、素早さの薬",
+          "note": "依樓層原圖走；混合特定敵種。"
+        },
+        {
+          "floor": "B6",
+          "type": "固定",
+          "item": "霊獣石の鎧",
+          "note": "獸系指定神獸戰。"
+        },
+        {
+          "floor": "B7",
+          "type": "頭目",
+          "item": "ゾディアック、ムーンストーン",
+          "note": "皇帝怪病支線，原版時限要留意。"
+        }
+      ]
     },
     {
       "id": "D-10-01",
@@ -6902,7 +8072,51 @@
         }
       ],
       "mapType": "external_original_reference_image",
-      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_map_10_04.html"
+      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_map_10_04.html",
+      "landmarks": [
+        {
+          "floor": "B1",
+          "type": "固定",
+          "item": "Jewel、100金＋隨機武器、200金＋隨機防具",
+          "note": "寶箱內容中武器／防具類型隨機。"
+        },
+        {
+          "floor": "B1",
+          "type": "隨機",
+          "item": "地圖",
+          "note": "格雷當主角時原站註明可能變成隨機金錢。"
+        },
+        {
+          "floor": "B2",
+          "type": "固定",
+          "item": "300金＋隨機武器",
+          "note": "往地下2層，先辨認連通樓梯。"
+        },
+        {
+          "floor": "B3",
+          "type": "固定",
+          "item": "1000金、500金＋Jewel",
+          "note": "固定回收清單。"
+        },
+        {
+          "floor": "B3",
+          "type": "固定",
+          "item": "生鏽古刀（さびた古刀）",
+          "note": "格雷角色個人事件「刀の声」；務必先取。"
+        },
+        {
+          "floor": "B3",
+          "type": "頭目後",
+          "item": "500金＋長弓",
+          "note": "擊敗頭目後才出現。"
+        },
+        {
+          "floor": "B1–B3",
+          "type": "隨機",
+          "item": "隨機武器／防具／金錢",
+          "note": "可能重生，部分需寶箱搜尋Lv1或Lv2。"
+        }
+      ]
     },
     {
       "id": "D-10-04",
@@ -6944,7 +8158,33 @@
         }
       ],
       "mapType": "external_original_reference_image",
-      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_map_10_05.html"
+      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_map_10_05.html",
+      "landmarks": [
+        {
+          "floor": "區域待核",
+          "type": "機關",
+          "item": "寶箱搜尋Lv2 1次、解除陷阱Lv3 1次，可帶礦石搜尋與挖掘。",
+          "note": "依本站已有來源攻略文字歸類，未核對原始地圖精確座標。"
+        },
+        {
+          "floor": "B1",
+          "type": "攻略提示",
+          "item": "先拿地圖，再往下層進入危險火山地形。",
+          "note": "依本站已有來源攻略文字歸類，未核對原始地圖精確座標。"
+        },
+        {
+          "floor": "B3",
+          "type": "隨機",
+          "item": "100金＋隨機防具或Jewel；300金＋隨機武器或Jewel。",
+          "note": "依本站已有來源攻略文字歸類，未核對原始地圖精確座標。"
+        },
+        {
+          "floor": "B3",
+          "type": "機關",
+          "item": "炎獣の皮可經寶箱搜尋Lv2遇到，帶警報陷阱，不保證每次出現。",
+          "note": "依本站已有來源攻略文字歸類，未核對原始地圖精確座標。"
+        }
+      ]
     },
     {
       "id": "D-10-05",
@@ -7052,7 +8292,15 @@
         }
       ],
       "mapType": "external_original_reference_image",
-      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_map_11_03.html"
+      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_map_11_03.html",
+      "landmarks": [
+        {
+          "floor": "區域待核",
+          "type": "頭目",
+          "item": "深處擊敗頭目取得ブラックダイア，離開後仍可能接著遭遇後續戰鬥（原版實走記載）。",
+          "note": "依本站已有來源攻略文字歸類，未核對原始地圖精確座標。"
+        }
+      ]
     },
     {
       "id": "D-11-03",
@@ -7090,7 +8338,15 @@
         }
       ],
       "mapType": "external_original_reference_image",
-      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_map_11_01.html"
+      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_map_11_01.html",
+      "landmarks": [
+        {
+          "floor": "B4",
+          "type": "攻略提示",
+          "item": "木：迷途森林；火：托馬耶火山B4；土：大坑B5；水：水龍神殿B3；金：先收齊前四顆，找妖精森林深處妖精取得。",
+          "note": "依本站已有來源攻略文字歸類，未核對原始地圖精確座標。"
+        }
+      ]
     },
     {
       "id": "D-11-04",
@@ -7161,7 +8417,27 @@
         }
       ],
       "mapType": "external_original_reference_image",
-      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_map_11_05.html"
+      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_map_11_05.html",
+      "landmarks": [
+        {
+          "floor": "區域待核",
+          "type": "攻略提示",
+          "item": "可取奇蹟之藥（奇蹟の薬），依原站標示為固定獎勵。",
+          "note": "依本站已有來源攻略文字歸類，未核對原始地圖精確座標。"
+        },
+        {
+          "floor": "區域待核",
+          "type": "頭目",
+          "item": "擊敗指定頭目後才能取得星幽大衣（アストラルコート）與漆黑魔道衣（漆黒の魔道衣）。",
+          "note": "依本站已有來源攻略文字歸類，未核對原始地圖精確座標。"
+        },
+        {
+          "floor": "區域待核",
+          "type": "頭目",
+          "item": "區域3有分別標記的頭目路線；請對照原始地圖的BOSS位置，不要以單一箭頭假定全部走完。",
+          "note": "依本站已有來源攻略文字歸類，未核對原始地圖精確座標。"
+        }
+      ]
     },
     {
       "id": "D-11-06",
@@ -7639,7 +8915,21 @@
       "stage": "水龍神殿",
       "risk": "瀑布區關閉為重大可錯過條件。",
       "quality": "已參照2005巴哈原文或2005原版資料，後期持續校對；未經PS2實機驗證",
-      "gallery": []
+      "gallery": [],
+      "landmarks": [
+        {
+          "floor": "瀑布",
+          "type": "攻略提示",
+          "item": "分層取得水龍赤玉、綠玉、黃玉與青玉；開四玉門前先檢查瀑布區域。",
+          "note": "依本站已有來源攻略文字歸類，未核對原始地圖精確座標。"
+        },
+        {
+          "floor": "瀑布",
+          "type": "攻略提示",
+          "item": "四玉裝置全啟動或打倒水龍，可能關閉瀑布通路；無法保證能再補拿。",
+          "note": "依本站已有來源攻略文字歸類，未核對原始地圖精確座標。"
+        }
+      ]
     },
     {
       "id": "PS2-ROUTE-018",
@@ -7691,7 +8981,21 @@
       "stage": "騎士團領",
       "risk": "別把燭台房當一般迷宮岔路一直繞。",
       "quality": "已參照2005巴哈原文或2005原版資料，後期持續校對；未經PS2實機驗證",
-      "gallery": []
+      "gallery": [],
+      "landmarks": [
+        {
+          "floor": "區域待核",
+          "type": "機關",
+          "item": "走到有六支蠟燭的機關房，把六支都點亮。",
+          "note": "依本站已有來源攻略文字歸類，未核對原始地圖精確座標。"
+        },
+        {
+          "floor": "區域待核",
+          "type": "機關",
+          "item": "帶解除陷阱、寶箱搜尋，注意幻獣剣與羅刹の剛剣等固定裝備。",
+          "note": "依本站已有來源攻略文字歸類，未核對原始地圖精確座標。"
+        }
+      ]
     },
     {
       "id": "PS2-ROUTE-020",
@@ -7718,7 +9022,21 @@
       "stage": "瓦隆島",
       "risk": "沒技能不是遇到無解地形。",
       "quality": "已參照2005巴哈原文或2005原版資料，後期持續校對；未經PS2實機驗證",
-      "gallery": []
+      "gallery": [],
+      "landmarks": [
+        {
+          "floor": "區域待核",
+          "type": "機關",
+          "item": "出發前在城鎮設定仕掛けサーチ（機關搜尋）至少Lv1。",
+          "note": "依本站已有來源攻略文字歸類，未核對原始地圖精確座標。"
+        },
+        {
+          "floor": "區域待核",
+          "type": "機關",
+          "item": "地下1樓調查隱藏牆並發動技能後才會開通路。",
+          "note": "依本站已有來源攻略文字歸類，未核對原始地圖精確座標。"
+        }
+      ]
     },
     {
       "id": "PS2-ROUTE-021",
@@ -7744,7 +9062,15 @@
       "stage": "水晶湖",
       "risk": "頭目名稱存在文獻差異，待PS2實機交叉確認。",
       "quality": "已參照2005巴哈原文或2005原版資料，後期持續校對；未經PS2實機驗證",
-      "gallery": []
+      "gallery": [],
+      "landmarks": [
+        {
+          "floor": "區域待核",
+          "type": "頭目",
+          "item": "不同舊攻略對頭目有大章魚／幽靈船等敘述，暫以「進入結界前存檔」為實用準備，不斷言頭目唯一種族。",
+          "note": "依本站已有來源攻略文字歸類，未核對原始地圖精確座標。"
+        }
+      ]
     },
     {
       "id": "PS2-ROUTE-022",
@@ -7901,7 +9227,27 @@
       "stage": "里高島",
       "risk": "部分寶箱可能為隨機重生",
       "quality": "PS2 原版既有研究；非完整截圖地圖",
-      "gallery": []
+      "gallery": [],
+      "landmarks": [
+        {
+          "floor": "B1",
+          "type": "隨機",
+          "item": "B1：Jewel、地圖、隨機武器／防具；B2：金錢與武器。",
+          "note": "依本站已有來源攻略文字歸類，未核對原始地圖精確座標。"
+        },
+        {
+          "floor": "B3",
+          "type": "頭目",
+          "item": "B3：固定寶箱有「さびた古刀」（格雷主角與刀之聲相關）、1000 金；擊倒頭目後還有長弓寶箱。",
+          "note": "依本站已有來源攻略文字歸類，未核對原始地圖精確座標。"
+        },
+        {
+          "floor": "區域待核",
+          "type": "隨機",
+          "item": "隨機寶箱和其重生性別和固定寶箱混為一談。",
+          "note": "依本站已有來源攻略文字歸類，未核對原始地圖精確座標。"
+        }
+      ]
     },
     {
       "id": "PS2-041-DINOSAUR",
