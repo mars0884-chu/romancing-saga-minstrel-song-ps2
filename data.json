@@ -1,6 +1,6 @@
 {
   "project": "2005 PS2 Romancing SaGa Minstrel Song — Traditional Chinese Taiwan",
-  "version": "0.4.8-ps2-legible-map-index-real-game-images-chapter-guides",
+  "version": "0.4.9-real-offline-cache-audited",
   "updated": "2026-10-17",
   "sources": [
     {
@@ -92,7 +92,7 @@
       "name": "極限攻略｜迷宮地圖總覽",
       "url": "https://kyokugen.info/minsaga/minstrel_map_00.html",
       "kind": "原版兼新版",
-      "note": "外站地圖不直接複製"
+      "note": "原作者網站明確註明請勿未授權轉載，本專案僅使用第三方來源連結與個人瀏覽器離線快取，不公開複製／重製圖片。"
     },
     {
       "id": "KYO-CLASS",
@@ -1430,6 +1430,13 @@
       "url": "https://ameblo.jp/manaitan1/entry-12885756740.html",
       "kind": "真實遊戲截圖，非自製圖",
       "note": "僅遠端引用玩家圖片連結；不是本站所有圖，若原站禁止外站載入以來源頁為準。"
+    },
+    {
+      "id": "SQUARE-IMAGE-GUIDELINE",
+      "name": "Square Enix《Minstrel Song Remastered》圖片發布守則",
+      "url": "https://www.jp.square-enix.com/game/guideline/saga_minstrelsong/",
+      "kind": "2024-08-01 修訂之官方權利規範",
+      "note": "此日文版指南限定日本居住個人，並有非商用、標示著作權等限制；不得以此推定全球無條件轉載或製作公開離線圖集之權利。"
     }
   ],
   "records": [
@@ -8694,13 +8701,8 @@
       ],
       "stage": "100%前後",
       "risk": "三地路線為2005玩家心得，非每周目保證同樣流程。",
-      "quality": "已比對 2005 PS2 來源；非實機或所有可能路線驗證",
-      "gallery": [
-        {
-          "src": "assets/diagrams/three-destinations.svg",
-          "caption": "非實際地形：三大地點｜取得情報順序（2005 PS2 原版流程示意）（路線／機關示意，非遊戲地形地圖）。"
-        }
-      ]
+      "quality": "已比對 2005 PS2 來源；非實機或所有可能路線驗證；已移除自製圖案，依文字及遊戲來源查證。",
+      "gallery": []
     },
     {
       "id": "PS2-GUIDE-006",
@@ -9366,13 +9368,8 @@
       ],
       "stage": "里高島",
       "risk": "戰鬥勝利數與進樓層時機需留意",
-      "quality": "參考 PS2 地圖研究；仍須在原版實測",
-      "gallery": [
-        {
-          "src": "assets/diagrams/dinosaur-eggs.svg",
-          "caption": "非實際地形：恐龍蛋｜戰鬥勝利區間（2005 PS2 原版流程示意）（路線／機關示意，非遊戲地形地圖）。"
-        }
-      ]
+      "quality": "參考 PS2 地圖研究；仍須在原版實測；已移除自製圖案，依文字及遊戲來源查證。",
+      "gallery": []
     },
     {
       "id": "PS2-041-REGION-TIPS",
