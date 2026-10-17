@@ -1,4 +1,4 @@
-"""v0.4.9 quality gates: original source imagery, full hero routes, offline text, responsive viewer."""
+"""v0.5.0 quality gates: original source imagery, full hero routes, offline text, responsive viewer."""
 from pathlib import Path
 import json, re, subprocess, time
 from urllib.parse import urlparse
@@ -12,7 +12,7 @@ sw=(root/'sw.js').read_text(encoding='utf-8')
 match=re.search(r'<script id="guide-data" type="application/json">(.*?)</script>',html,re.S)
 assert match and json.loads(match.group(1))==D, "Embedded JSON differs from data.json"
 assert D['version'].startswith('0.4.9'),D['version']
-assert 'minstrel-ps2-2005-v0.4.9' in sw and 'minstrel-ps2-2005-v0.4.9' in html
+assert 'minstrel-ps2-2005-v0.5.0' in sw and 'minstrel-ps2-2005-v0.5.0' in html
 recs=D['records']
 heroes=[r for r in recs if r['section']=='主角']
 regions=[r for r in recs if r['section']=='地圖']
@@ -25,6 +25,10 @@ assert all(all('ids' in chapter and chapter['ids'] for chapter in r['heroChapter
 assert all('square-enix.com' in r['heroSource'] for r in heroes)
 assert len(regions)==11 and all(r['gallery'][0]['src']=='https://kyokugen.info/minsaga/pic/13853.jpg' for r in regions)
 assert len(dungeons)==52, len(dungeons)
+assert len([r for r in recs if r['section']=='地點'])==22
+assert all(len(r.get('regionNodes',[]))>0 for r in regions)
+assert 'offline.html' not in sw
+assert 'offline.html' not in html
 assert all(r['gallery'][0]['src'].startswith('https://kyokugen.info/minsaga/map/') and r['gallery'][0]['src'].endswith('.jpeg') for r in dungeons)
 assert all(r.get('mapSourceUrl','').startswith('https://kyokugen.info/minsaga/') for r in dungeons)
 assert len(gear)==9
@@ -97,6 +101,14 @@ try:
    assert int(page.locator('#zoomLabel').inner_text().strip('%')) >= (375 if width<700 else 180)
    page.locator('#mapClose').click()
    assert not page.locator('#mapDialog').evaluate('(x)=>x.open')
+   page.get_by_role('button',name='區域索引',exact=True).click()
+   page.locator('#search').fill('バファル')
+   assert page.locator('.region-card .region-nodes').count()==1
+   assert page.locator('.region-card .place-jump').count()>=8
+   page.locator('.region-card .place-jump[data-jump="LOC-07-01"]').click()
+   assert page.locator('.place-card').count()>=1
+   assert 'メルビル' in page.locator('.place-card').inner_text()
+   assert '真實遊戲地圖' in page.locator('.place-card').inner_text()
    page.get_by_role('button',name='迷宮',exact=True).click()
    page.locator('#search').fill('財宝の穴')
    assert page.locator('.dungeon-card .image-pin').count()>=1
@@ -110,10 +122,10 @@ try:
    page.locator('#search').fill('')
    # Base assets must be present before the network is disabled.
    # Third-party image CDN responses are not mocked: synthetic images are prohibited by project policy.
-   assert page.locator('a[download][href="./offline.html"]').count()==1
+   assert page.locator('a[download][href="./offline.html"]').count()==0
    assert page.evaluate('window.IMAGE_URLS===undefined')
    cache_count=page.evaluate("""async () => {
-       const c=await caches.open('minstrel-ps2-2005-v0.4.9');
+       const c=await caches.open('minstrel-ps2-2005-v0.5.0');
        return (await Promise.all([
            c.match('./index.html'),c.match('./data.json'),c.match('./assets/icon-192.png')
        ])).filter(Boolean).length
@@ -156,31 +168,4 @@ try:
   b.close()
 finally:
  server.terminate();server.wait()
-# Verify offline.html without HTTP, a Service Worker, or any external image requests.
-with sync_playwright() as p:
- b=p.chromium.launch(headless=True,args=['--no-sandbox'])
- ctx=b.new_context(viewport={'width':390,'height':844})
- ctx.set_offline(True)
- page=ctx.new_page()
- errors=[]
- page.on('pageerror',lambda e:errors.append(str(e)))
- page.goto((root/'offline.html').as_uri(),wait_until='domcontentloaded')
- assert '232' in page.locator('#count').inner_text()
- assert page.locator('header img').evaluate('(x)=>x.complete && x.naturalWidth>0')
- assert page.locator('img[src^="https://"]').count()==0
- page.get_by_role('button',name='主角',exact=True).click()
- page.locator('#search').fill('アルベルト')
- assert '伊斯瑪斯' in page.locator('#cards').inner_text()
- assert '完整' in page.locator('#cards').inner_text() or '第五章' in page.locator('#cards').inner_text()
- page.get_by_role('button',name='迷宮',exact=True).click()
- page.locator('#search').fill('水竜の神殿')
- assert '水之精靈珠' in page.locator('#cards').inner_text()
- assert '寶箱' in page.locator('#cards').inner_text()
- page.get_by_role('button',name='金手指',exact=True).click()
- page.locator('#search').fill('')
- assert page.locator('#cards .card').count()>=8
- assert not errors,errors
- ctx.close()
- b.close()
-print('OFFLINE FILE file:// text / cover / Japanese search / dungeon treasures / cheats: PASS')
-print('PASS ALL (standalone text works with zero network; PWA original images cache only if host permits; iPhone Edge untested)')
+print('PASS ALL (PWA text/offline search + 22 detailed town pages; original images require host cache)')
