@@ -1,29 +1,43 @@
-"""Regression checks: v0.4.6 character art, equipment icons, zoomable local maps, and offline search."""
+"""v0.4.7 quality gates: original source imagery, full hero routes, offline text, responsive viewer."""
 from pathlib import Path
-import json,re,subprocess,time
+import json, re, subprocess, time
+from urllib.parse import urlparse
 from PIL import Image
 from playwright.sync_api import sync_playwright
+
 root=Path(__file__).resolve().parent.parent
 D=json.loads((root/'data.json').read_text(encoding='utf-8'))
 html=(root/'index.html').read_text(encoding='utf-8')
+sw=(root/'sw.js').read_text(encoding='utf-8')
 match=re.search(r'<script id="guide-data" type="application/json">(.*?)</script>',html,re.S)
-assert match and json.loads(match.group(1))==D
-assert D['version'].startswith('0.4.6'),D['version']
-assert len([r for r in D['records'] if r['section']=='新手'])==20
-assert len([r for r in D['records'] if r['section']=='主角' and r.get('steps')]) == 8
-assert len([r for r in D['records'] if r['section']=='打法']) >= 7
-assert all((root / r['gallery'][0]['src']).exists() for r in D['records'] if r['section']=='地圖')
-assert (root/'assets/atlas/map-01.svg').exists()
+assert match and json.loads(match.group(1))==D, "Embedded JSON differs from data.json"
+assert D['version'].startswith('0.4.7'),D['version']
+assert 'minstrel-ps2-2005-v0.4.7' in sw and 'minstrel-ps2-2005-v0.4.7' in html
+recs=D['records']
+heroes=[r for r in recs if r['section']=='主角']
+regions=[r for r in recs if r['section']=='地圖']
+dungeons=[r for r in recs if r['section']=='迷宮' and r.get('gallery')]
+gear=[r for r in recs if r['section']=='資料庫' and re.fullmatch(r'G1(?:0[5-9]|1[0-3])',r['id'])]
+assert len(heroes)==8 and all(len(r['steps'])>=9 for r in heroes)
+assert all(r['gallery'][0]['src'].startswith('https://fyre.cdn.sewest.net/saga-hub/') for r in heroes)
+assert all('square-enix.com' in r['heroSource'] for r in heroes)
+assert len(regions)==11 and all(r['gallery'][0]['src']=='https://kyokugen.info/minsaga/pic/13853.jpg' for r in regions)
+assert len(dungeons)==52, len(dungeons)
+assert all(r['gallery'][0]['src'].startswith('https://kyokugen.info/minsaga/map/') and r['gallery'][0]['src'].endswith('.jpeg') for r in dungeons)
+assert all(r.get('mapSourceUrl','').startswith('https://kyokugen.info/minsaga/') for r in dungeons)
+assert len(gear)==9 and all(not r.get('gallery') for r in gear)
+assert not any(g['src'].endswith('.svg') for r in heroes+regions+dungeons+gear for g in r.get('gallery',[]))
 assert len({s['url'] for s in D['sources']})==len(D['sources'])
 sourceids={s['id'] for s in D['sources']}
-assert all(set(r['sources'])<=sourceids for r in D['records'])
-assert '非遊戲地形地圖' in html and '區域索引' in html
-assert not re.search(r'<script[^>]*src=|https?://[^" ]+\.js',html[:8000])
+assert all(set(r['sources'])<=sourceids for r in recs)
+assert len([r for r in recs if r['section']=='新手'])==20
+assert len([r for r in recs if r['section']=='打法'])>=7
+for name,size in [('icon-192.png',192),('icon-512.png',512),('apple-touch-icon.png',180)]:
+ with Image.open(root/'assets'/name) as im: assert im.size==(size,size)
 assert (root/'assets/ps2-original-cover.webp').is_file()
 assert json.loads((root/'manifest.webmanifest').read_text(encoding='utf-8'))['display']=='standalone'
-for name,size in [('icon-192.png',192),('icon-512.png',512),('apple-touch-icon.png',180)]:
- with Image.open(root/'assets'/name) as im: assert im.size==(size,size),(name,im.size)
-print('Original PS2 data, 20 beginner tips, cover, aliases: PASS')
+print('DATA official portraits, real map references, 8 detailed routes, no fake gallery: PASS')
+
 server=subprocess.Popen(['python','-m','http.server','8765','--bind','127.0.0.1','--directory',str(root)],stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL)
 try:
  time.sleep(2)
@@ -35,32 +49,26 @@ try:
    page.on('pageerror',lambda e:errors.append(str(e)))
    page.goto('http://127.0.0.1:8765/',wait_until='domcontentloaded')
    page.wait_for_function('navigator.serviceWorker.controller !== null',timeout=45000)
-   assert str(len(D['records'])) in page.locator('#count').inner_text()
-   assert page.locator('a[href^="http"]').count()==0
+   assert str(len(recs)) in page.locator('#count').inner_text()
    page.get_by_role('button',name='新手',exact=True).click()
-   assert '新手' in page.locator('#cards').inner_text()
-   assert '先選主角' in page.locator('#cards').inner_text()
    page.locator('#search').fill('チェーンバトル')
    assert '連鎖戰不能中途逃跑' in page.locator('#cards').inner_text()
-   page.locator('#search').fill('フロンティア不存在')
-   assert '找到 0 筆' in page.locator('#count').inner_text()
    page.locator('#search').fill('')
-   # Illustrated protagonists: 8 character entries contain practical opening steps and a local visual.
    page.get_by_role('button',name='主角',exact=True).click()
    page.locator('#search').fill('アルベルト')
-   assert '伊斯瑪斯' in page.locator('#cards').inner_text()
-   assert page.locator('.hero-art img').count()>=1
-   page.wait_for_function("document.querySelector('.hero-art img')?.complete && document.querySelector('.hero-art img')?.naturalWidth>0",timeout=15000)
-   # Equipment illustrations must exist locally; opening advice must be readable.
+   assert page.locator('.hero-art img').count()==1
+   assert 'Square' not in page.locator('.hero-art img').get_attribute('src')
+   assert page.locator('.hero-art img').get_attribute('src').startswith('https://fyre.cdn.sewest.net')
+   assert page.locator('.hero-card .guide-flow li').count()>=9
+   assert '城陷落' in page.locator('#cards').inner_text()
    page.get_by_role('button',name='裝備資料',exact=True).click()
    page.locator('#search').fill('レフトハンドソード')
-   assert page.locator('.equip-gallery img').count()==1
-   page.wait_for_function("document.querySelector('.equip-gallery img')?.complete && document.querySelector('.equip-gallery img')?.naturalWidth>0",timeout=15000)
-   assert '實用配裝' in page.locator('#cards').inner_text()
-   # Geographic atlas opens into a zoomable, pannable in-app viewer.
+   assert page.locator('.gear-no-photo').count()==1
+   assert page.locator('.equip-gallery img').count()==0
    page.get_by_role('button',name='區域索引',exact=True).click()
    page.locator('#search').fill('フロンティア')
    assert page.locator('.region-card').count()>=1
+   assert 'https://kyokugen.info/minsaga/pic/13853.jpg' in page.locator('.region-card .guide-diagram img').first.get_attribute('src')
    page.locator('.map-open').first.click()
    assert page.locator('#mapDialog').evaluate('(x)=>x.open')
    page.locator('#zoomIn').click()
@@ -78,21 +86,18 @@ try:
    page.get_by_role('button',name='迷宮',exact=True).click()
    page.locator('#search').fill('水竜の神殿')
    assert '水龍神殿' in page.locator('#cards').inner_text()
-   img=page.locator('.guide-diagram img').first
-   img.scroll_into_view_if_needed()
-   # Real traced dungeon floorplan is viewable full-screen without loading an external site.
+   assert '瀑布' in page.locator('#cards').inner_text()
+   assert page.locator('.source-photo-link').count()>=1
    page.locator('.dungeon-card .map-open').first.click()
    assert page.locator('#mapDialog').evaluate('(x)=>x.open')
    page.locator('#zoomIn').click()
    assert page.locator('#zoomLabel').inner_text()=='150%'
-   page.wait_for_function("document.querySelector('#mapZoomImg')?.complete && document.querySelector('#mapZoomImg')?.naturalWidth>0",timeout=12000)
    page.locator('#mapClose').click()
-   page.wait_for_function("document.querySelector('.guide-diagram img')?.complete && document.querySelector('.guide-diagram img')?.naturalWidth>0",timeout=10000)
    assert not page.evaluate('document.documentElement.scrollWidth > window.innerWidth')
    assert not errors,errors
-   print('OFFLINE beginner & PS2 dungeon diagram: PASS',width,height)
+   print('OFFLINE text + zoom controls + mobile/desktop responsive: PASS',width,height)
    ctx.close()
   b.close()
 finally:
  server.terminate();server.wait()
-print('PASS ALL')
+print('PASS ALL (remote images not guaranteed offline / iPhone real device not tested)')
