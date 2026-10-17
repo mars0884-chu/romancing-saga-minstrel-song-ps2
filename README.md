@@ -27,3 +27,8 @@
 ### 官方海外個人使用規範
 - https://www.square-enix-games.com/en_US/documents/romancing-saga-minstrel-song-remastered-live-streaming-and-video-image-posting-guidelines
 - 非日本個人可依條件在非商業個人網頁／部落格使用遊戲實機截圖與官方英語站素材；需標示版權，禁止將已發布影片或圖片另製成獨立圖冊再散布。玩家部落格截圖不因此自動成為開放授權。
+
+## 新增可放大逐層地形來源圖
+- 水龍神殿9張、迷途森林白天5張及夜晚4張、銀之洞窟3張，共21張原作者實際地形標註圖。每張有分層中文與日文名稱及一鍵放大來源，約700×400px；不是本站生成的圖片或原封不動的3D遊戲截圖。
+- SAMURAI GAMERS 來源：https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event31/ 、https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event16/ 、https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event17/ 、https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event48/ 。
+- 外部圖片未重新上傳到公開GitHub，斷網成功需先在個人瀏覽器快取成功，不保證第三方站不阻擋連入。

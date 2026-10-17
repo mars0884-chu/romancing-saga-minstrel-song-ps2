@@ -1633,6 +1633,34 @@
       "url": "https://www.square-enix-games.com/en_US/documents/romancing-saga-minstrel-song-remastered-live-streaming-and-video-image-posting-guidelines",
       "kind": "適用海外個人非商用網頁的官方條件授權",
       "note": "允許海外個人使用官方網站及個人遊戲實拍圖片於非商用個人網頁，需標示權利；不允許把其他作者已發布的圖片另行收集打包成圖冊等二次散布。第三方攻略地圖仍依各原作者條款處理。"
+    },
+    {
+      "id": "SG-MAP-D-02-02",
+      "name": "SAMURAI GAMERS｜水竜の神殿 逐樓層出入口實際路線圖",
+      "url": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event31/",
+      "kind": "第三方攻略地形路線圖",
+      "note": "來源為作者依遊戲地形製作的樓層標註圖，不是本站生成、不是原封不動3D畫面。圖片僅外部載入及私人瀏覽器快取，未打包進公開repo。"
+    },
+    {
+      "id": "SG-MAP-D-07-03",
+      "name": "SAMURAI GAMERS｜迷いの森（昼） 逐樓層出入口實際路線圖",
+      "url": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event16/",
+      "kind": "第三方攻略地形路線圖",
+      "note": "來源為作者依遊戲地形製作的樓層標註圖，不是本站生成、不是原封不動3D畫面。圖片僅外部載入及私人瀏覽器快取，未打包進公開repo。"
+    },
+    {
+      "id": "SG-MAP-D-07-04",
+      "name": "SAMURAI GAMERS｜迷いの森（夜） 逐樓層出入口實際路線圖",
+      "url": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event17/",
+      "kind": "第三方攻略地形路線圖",
+      "note": "來源為作者依遊戲地形製作的樓層標註圖，不是本站生成、不是原封不動3D畫面。圖片僅外部載入及私人瀏覽器快取，未打包進公開repo。"
+    },
+    {
+      "id": "SG-MAP-D-09-03",
+      "name": "SAMURAI GAMERS｜シルバーの洞窟 逐樓層出入口實際路線圖",
+      "url": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event48/",
+      "kind": "第三方攻略地形路線圖",
+      "note": "來源為作者依遊戲地形製作的樓層標註圖，不是本站生成、不是原封不動3D畫面。圖片僅外部載入及私人瀏覽器快取，未打包進公開repo。"
     }
   ],
   "records": [
@@ -7098,7 +7126,12 @@
         "【地下 B2】收集綠玉（緑玉）與黃玉（黄玉），確認各樓層相連的通道與回程出口。",
         "【地下 B3】拿藍玉（青玉）與水之精靈珠（水の精霊珠；妖精森林任務），再處理四玉機關。",
         "【寶箱辨識】瀑布／B3 的武器、金錢、精靈石之杖可能是隨機箱；不要誤當作每次固定取得。",
-        "【重要分歧】水龍的委託與是否擊敗水龍會改變開門及瀑布條件，做選擇前獨立存檔。"
+        "【重要分歧】水龍的委託與是否擊敗水龍會改變開門及瀑布條件，做選擇前獨立存檔。",
+        "【樓層原圖】下方新增9張有出入口與樓層名稱的實際攻略來源圖，請先找相同日文名稱的分層圖，精確寶箱資訊見本頁固定／隨機索引。",
+        "【詳細入口】南艾斯塔米爾PUB查失蹤少女→北艾斯塔米爾處理拐帶者→塔爾米塔住宿至夜晚→從宮殿前祕道進塞克特宮殿。",
+        "【塞克特宮殿】先避開巡邏、打倒トゥマン影武者，再到馬拉爾湖乘船，經神殿B1到水龍之間。",
+        "【B1地形分岔】新圖實際標出瑪拉爾湖入口、水龍瀑布、B2、B3與水龍石像之間五個出口；先確認通道名稱再移動。",
+        "【頭目戰與抉擇】擊退トゥマンガード、トゥマン後，水龍給出接受交換、離開或挑戰的分岔；先存檔避免封鎖瀑布及水棲生態任務。"
       ],
       "sources": [
         "KYO-DUN-02",
@@ -7107,7 +7140,8 @@
         "FFSKY-2005-LATE",
         "BH05-FAIRY",
         "KYO-WATER-PUZZLE",
-        "KYO-FAIRY-ORIG"
+        "KYO-FAIRY-ORIG",
+        "SG-MAP-D-02-02"
       ],
       "tags": [
         "迷宮",
@@ -7177,7 +7211,72 @@
           "note": "依原版地圖放入四玉開門，會影響瀑布回訪。"
         }
       ],
-      "regionId": "MAP-02"
+      "regionId": "MAP-02",
+      "floorMaps": [
+        {
+          "floor": "B1",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E6%B0%B4%E7%AB%9C%E3%81%AE%E7%A5%9E%E6%AE%BF_%E5%9C%B0%E4%B8%8B1%E9%9A%8E.jpg",
+          "caption": "SAMURAI GAMERS原作者逐樓層路線圖：地下1階，圖內有實際出入口／樓層標示。",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event31/",
+          "sourceStatus": "第三方原始攻略圖，未取得公開二次散布授權，線上顯示與個人快取。"
+        },
+        {
+          "floor": "B2",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E6%B0%B4%E7%AB%9C%E3%81%AE%E7%A5%9E%E6%AE%BF_%E5%9C%B0%E4%B8%8B2%E9%9A%8E.jpg",
+          "caption": "SAMURAI GAMERS原作者逐樓層路線圖：地下2階，圖內有實際出入口／樓層標示。",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event31/",
+          "sourceStatus": "第三方原始攻略圖，未取得公開二次散布授權，線上顯示與個人快取。"
+        },
+        {
+          "floor": "B3",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E6%B0%B4%E7%AB%9C%E3%81%AE%E7%A5%9E%E6%AE%BF_%E5%9C%B0%E4%B8%8B3%E9%9A%8E.jpg",
+          "caption": "SAMURAI GAMERS原作者逐樓層路線圖：地下3階，圖內有實際出入口／樓層標示。",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event31/",
+          "sourceStatus": "第三方原始攻略圖，未取得公開二次散布授權，線上顯示與個人快取。"
+        },
+        {
+          "floor": "水竜像の間",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E6%B0%B4%E7%AB%9C%E3%81%AE%E7%A5%9E%E6%AE%BF_%E6%B0%B4%E7%AB%9C%E5%83%8F%E3%81%AE%E9%96%93.jpg",
+          "caption": "SAMURAI GAMERS原作者逐樓層路線圖：水竜像の間，圖內有實際出入口／樓層標示。",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event31/",
+          "sourceStatus": "第三方原始攻略圖，未取得公開二次散布授權，線上顯示與個人快取。"
+        },
+        {
+          "floor": "水竜の滝",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E6%B0%B4%E7%AB%9C%E3%81%AE%E7%A5%9E%E6%AE%BF_%E6%B0%B4%E7%AB%9C%E3%81%AE%E6%BB%9D.jpg",
+          "caption": "SAMURAI GAMERS原作者逐樓層路線圖：水竜の滝，圖內有實際出入口／樓層標示。",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event31/",
+          "sourceStatus": "第三方原始攻略圖，未取得公開二次散布授權，線上顯示與個人快取。"
+        },
+        {
+          "floor": "滝の出口1",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E6%B0%B4%E7%AB%9C%E3%81%AE%E7%A5%9E%E6%AE%BF_%E6%BB%9D%E3%81%AE%E5%87%BA%E5%8F%A31.jpg",
+          "caption": "SAMURAI GAMERS原作者逐樓層路線圖：滝の出口1，圖內有實際出入口／樓層標示。",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event31/",
+          "sourceStatus": "第三方原始攻略圖，未取得公開二次散布授權，線上顯示與個人快取。"
+        },
+        {
+          "floor": "滝の出口2",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E6%B0%B4%E7%AB%9C%E3%81%AE%E7%A5%9E%E6%AE%BF_%E6%BB%9D%E3%81%AE%E5%87%BA%E5%8F%A32.jpg",
+          "caption": "SAMURAI GAMERS原作者逐樓層路線圖：滝の出口2，圖內有實際出入口／樓層標示。",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event31/",
+          "sourceStatus": "第三方原始攻略圖，未取得公開二次散布授權，線上顯示與個人快取。"
+        },
+        {
+          "floor": "滝の出口3",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E6%B0%B4%E7%AB%9C%E3%81%AE%E7%A5%9E%E6%AE%BF_%E6%BB%9D%E3%81%AE%E5%87%BA%E5%8F%A33.jpg",
+          "caption": "SAMURAI GAMERS原作者逐樓層路線圖：滝の出口3，圖內有實際出入口／樓層標示。",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event31/",
+          "sourceStatus": "第三方原始攻略圖，未取得公開二次散布授權，線上顯示與個人快取。"
+        },
+        {
+          "floor": "滝の出口4",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E6%B0%B4%E7%AB%9C%E3%81%AE%E7%A5%9E%E6%AE%BF_%E6%BB%9D%E3%81%AE%E5%87%BA%E5%8F%A34.jpg",
+          "caption": "SAMURAI GAMERS原作者逐樓層路線圖：滝の出口4，圖內有實際出入口／樓層標示。",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event31/",
+          "sourceStatus": "第三方原始攻略圖，未取得公開二次散布授權，線上顯示與個人快取。"
+        }
+      ]
     },
     {
       "id": "D-02-03",
@@ -8436,12 +8535,15 @@
         "進入與探索：依序參照女巫、森林事件；白天與夜晚路線及寶物不同。",
         "【晝夜差異】迷途森林有晝間與夜間兩種實際迷宮圖，克蘿蒂雅隊伍與阿姆特／艾莉絲象徵及迷途蝴蝶進行中與否會影響晝夜。",
         "【日間固定箱】木之精靈珠、歐爾屋內100金＋Jewel，歐爾呼喚事件後可取得歐爾之杖與帽子。",
-        "【夜間固定箱】夜光草、骸骨墜飾（ムクロのペンダント）、木之精靈珠；不要拿日間圖找夜間道具。"
+        "【夜間固定箱】夜光草、骸骨墜飾（ムクロのペンダント）、木之精靈珠；不要拿日間圖找夜間道具。",
+        "【樓層原圖】下方新增5張有出入口與樓層名稱的實際攻略來源圖，請先找相同日文名稱的分層圖，精確寶箱資訊見本頁固定／隨機索引。",
+        "【白天路口】分層圖的第1區左上通第3區、右上通第2區、下方回世界地圖；歐爾屋獨立一張出入口圖。"
       ],
       "sources": [
         "KYO-DUN-07",
         "BH-MAP-SKILLS",
-        "PS2-MAP-BAFAL_FOREST"
+        "PS2-MAP-BAFAL_FOREST",
+        "SG-MAP-D-07-03"
       ],
       "tags": [
         "迷宮",
@@ -8475,6 +8577,43 @@
           "item": "夜光草、ムクロのペンダント、木の精霊珠",
           "note": "迷途蝴蝶事件關聯，和日間條件不同。"
         }
+      ],
+      "floorMaps": [
+        {
+          "floor": "白天1",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E8%BF%B7%E3%81%84%E3%81%AE%E6%A3%AE_%E6%98%BC1.jpg",
+          "caption": "SAMURAI GAMERS原作者逐樓層路線圖：昼1，圖內有實際出入口／樓層標示。",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event16/",
+          "sourceStatus": "第三方原始攻略圖，未取得公開二次散布授權，線上顯示與個人快取。"
+        },
+        {
+          "floor": "白天2",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E8%BF%B7%E3%81%84%E3%81%AE%E6%A3%AE_%E6%98%BC2.jpg",
+          "caption": "SAMURAI GAMERS原作者逐樓層路線圖：昼2，圖內有實際出入口／樓層標示。",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event16/",
+          "sourceStatus": "第三方原始攻略圖，未取得公開二次散布授權，線上顯示與個人快取。"
+        },
+        {
+          "floor": "白天3",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E8%BF%B7%E3%81%84%E3%81%AE%E6%A3%AE_%E6%98%BC3.jpg",
+          "caption": "SAMURAI GAMERS原作者逐樓層路線圖：昼3，圖內有實際出入口／樓層標示。",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event16/",
+          "sourceStatus": "第三方原始攻略圖，未取得公開二次散布授權，線上顯示與個人快取。"
+        },
+        {
+          "floor": "白天4",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E8%BF%B7%E3%81%84%E3%81%AE%E6%A3%AE_%E6%98%BC4.jpg",
+          "caption": "SAMURAI GAMERS原作者逐樓層路線圖：昼4，圖內有實際出入口／樓層標示。",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event16/",
+          "sourceStatus": "第三方原始攻略圖，未取得公開二次散布授權，線上顯示與個人快取。"
+        },
+        {
+          "floor": "白天_オウルの庵",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E8%BF%B7%E3%81%84%E3%81%AE%E6%A3%AE_%E6%98%BC_%E3%82%AA%E3%82%A6%E3%83%AB%E3%81%AE%E5%BA%B5.jpg",
+          "caption": "SAMURAI GAMERS原作者逐樓層路線圖：昼_オウルの庵，圖內有實際出入口／樓層標示。",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event16/",
+          "sourceStatus": "第三方原始攻略圖，未取得公開二次散布授權，線上顯示與個人快取。"
+        }
       ]
     },
     {
@@ -8486,13 +8625,16 @@
       "steps": [
         "地圖技能：藥草搜尋、採集。",
         "關聯事件：迷途蝴蝶。",
-        "進入與探索：追著蝴蝶進入夜間森林，取得骷髏墜飾與夜光草並返回委託人。"
+        "進入與探索：追著蝴蝶進入夜間森林，取得骷髏墜飾與夜光草並返回委託人。",
+        "【樓層原圖】下方新增4張有出入口與樓層名稱的實際攻略來源圖，請先找相同日文名稱的分層圖，精確寶箱資訊見本頁固定／隨機索引。",
+        "【夜間另圖】夜間1～4區逐區標出連通，不可用白天路口推算夜間事件、固定寶箱。"
       ],
       "sources": [
         "KYO-DUN-07",
         "BH-MAP-SKILLS",
         "FFSKY-2005-LATE",
-        "PS2-MAP-BAFAL_FOREST"
+        "PS2-MAP-BAFAL_FOREST",
+        "SG-MAP-D-07-04"
       ],
       "tags": [
         "迷宮",
@@ -8512,7 +8654,37 @@
       ],
       "mapType": "external_original_reference_image",
       "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_map_7_03.html",
-      "regionId": "MAP-07"
+      "regionId": "MAP-07",
+      "floorMaps": [
+        {
+          "floor": "夜晚1",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E8%BF%B7%E3%81%84%E3%81%AE%E6%A3%AE_%E5%A4%9C1.jpg",
+          "caption": "SAMURAI GAMERS原作者逐樓層路線圖：夜1，圖內有實際出入口／樓層標示。",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event17/",
+          "sourceStatus": "第三方原始攻略圖，未取得公開二次散布授權，線上顯示與個人快取。"
+        },
+        {
+          "floor": "夜晚2",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E8%BF%B7%E3%81%84%E3%81%AE%E6%A3%AE_%E5%A4%9C2.jpg",
+          "caption": "SAMURAI GAMERS原作者逐樓層路線圖：夜2，圖內有實際出入口／樓層標示。",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event17/",
+          "sourceStatus": "第三方原始攻略圖，未取得公開二次散布授權，線上顯示與個人快取。"
+        },
+        {
+          "floor": "夜晚3",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E8%BF%B7%E3%81%84%E3%81%AE%E6%A3%AE_%E5%A4%9C3.jpg",
+          "caption": "SAMURAI GAMERS原作者逐樓層路線圖：夜3，圖內有實際出入口／樓層標示。",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event17/",
+          "sourceStatus": "第三方原始攻略圖，未取得公開二次散布授權，線上顯示與個人快取。"
+        },
+        {
+          "floor": "夜晚4",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E8%BF%B7%E3%81%84%E3%81%AE%E6%A3%AE_%E5%A4%9C4.jpg",
+          "caption": "SAMURAI GAMERS原作者逐樓層路線圖：夜4，圖內有實際出入口／樓層標示。",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event17/",
+          "sourceStatus": "第三方原始攻略圖，未取得公開二次散布授權，線上顯示與個人快取。"
+        }
+      ]
     },
     {
       "id": "D-07-05",
@@ -8827,14 +8999,19 @@
         "【B2】固定隨機金、兩個100金＋Jewel箱；警報及遭遇型陷阱要先準備解除。",
         "【B3】有數個金額500～2000的隨機箱，以及蟲アメの指輪、キレイ石の指輪等獎勵候選；某些箱會再生。",
         "【B1～B3】拿完初期各箱後可能再刷出隨機金箱，不能把全部座標視為固定。",
-        "【事件】探索海賊希爾芭的財寶（海賊シルバーの財宝）時，隱藏牆比普通地形更重要；跟著原版地圖上的機關符號處理。"
+        "【事件】探索海賊希爾芭的財寶（海賊シルバーの財宝）時，隱藏牆比普通地形更重要；跟著原版地圖上的機關符號處理。",
+        "【樓層原圖】下方新增3張有出入口與樓層名稱的實際攻略來源圖，請先找相同日文名稱的分層圖，精確寶箱資訊見本頁固定／隨機索引。",
+        "【B1】原圖左側接B2、右下通叢林東部；先用機關搜尋找隱路。",
+        "【B2】右側通B1、左上通B3，先處理隨機陷阱再深入。",
+        "【B3】下方回B2，左側可折返叢林東部；B1高階箱3000金＋シルバーハンマー需寶箱搜尋Lv5及開鎖。"
       ],
       "sources": [
         "KYO-DUN-09",
         "BH-MAP-SKILLS",
         "KYO-MAP-ABILITY",
         "KYO-OLD-FAQ",
-        "PS2-KYO-SILVER"
+        "PS2-KYO-SILVER",
+        "SG-MAP-D-09-03"
       ],
       "tags": [
         "迷宮",
@@ -8886,7 +9063,30 @@
           "note": "多組可能再生。"
         }
       ],
-      "regionId": "MAP-09"
+      "regionId": "MAP-09",
+      "floorMaps": [
+        {
+          "floor": "B1",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E3%82%B7%E3%83%AB%E3%83%90%E3%83%BC%E3%81%AE%E6%B4%9E%E7%AA%9F_%E5%9C%B0%E4%B8%8B1%E9%9A%8E.jpg",
+          "caption": "SAMURAI GAMERS原作者逐樓層路線圖：地下1階，圖內有實際出入口／樓層標示。",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event48/",
+          "sourceStatus": "第三方原始攻略圖，未取得公開二次散布授權，線上顯示與個人快取。"
+        },
+        {
+          "floor": "B2",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E3%82%B7%E3%83%AB%E3%83%90%E3%83%BC%E3%81%AE%E6%B4%9E%E7%AA%9F_%E5%9C%B0%E4%B8%8B2%E9%9A%8E.jpg",
+          "caption": "SAMURAI GAMERS原作者逐樓層路線圖：地下2階，圖內有實際出入口／樓層標示。",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event48/",
+          "sourceStatus": "第三方原始攻略圖，未取得公開二次散布授權，線上顯示與個人快取。"
+        },
+        {
+          "floor": "B3",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E3%82%B7%E3%83%AB%E3%83%90%E3%83%BC%E3%81%AE%E6%B4%9E%E7%AA%9F_%E5%9C%B0%E4%B8%8B3%E9%9A%8E.jpg",
+          "caption": "SAMURAI GAMERS原作者逐樓層路線圖：地下3階，圖內有實際出入口／樓層標示。",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event48/",
+          "sourceStatus": "第三方原始攻略圖，未取得公開二次散布授權，線上顯示與個人快取。"
+        }
+      ]
     },
     {
       "id": "D-09-04",

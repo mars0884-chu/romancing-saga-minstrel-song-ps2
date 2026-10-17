@@ -35,6 +35,9 @@ assert len(gear)==9
 assert len([r for r in gear if r.get('equipmentPhotoSource') and r.get('gallery')])==6
 assert len([r for r in gear if not r.get('gallery')])==3
 assert len([r for r in recs if r['section']=='迷宮' and r.get('landmarks')])>=30
+assert sum(len(r.get('floorMaps',[])) for r in recs)==21
+assert 'selectedId=target.id' in html
+assert 'jp.samurai-gamers.com' in sw
 assert len([r for r in recs if r.get('imageHotspots')])==3
 assert 'IMAGE_HOSTS' in sw and 'e.request.destination' in sw
 assert 'saveImages()' in html and 'imageCoverage()' in html
@@ -118,6 +121,13 @@ try:
    assert page.locator('#mapPins .image-pin').count()>=1
    page.locator('#mapPins .image-pin').first.click()
    assert 'さびた古刀' in page.locator('#mapPinDetail').inner_text()
+   page.locator('#mapClose').click()
+   page.get_by_role('button',name='迷宮',exact=True).click()
+   page.locator('#search').fill('水竜の神殿')
+   assert page.locator('.dungeon-card .floor-fig').count()==9
+   page.locator('.dungeon-card .floor-fig .map-open').first.click()
+   assert page.locator('#mapDialog').evaluate('(x)=>x.open')
+   assert 'samurai-gamers.com' in page.locator('#mapRaw').get_attribute('href')
    page.locator('#mapClose').click()
    page.locator('#search').fill('')
    # Base assets must be present before the network is disabled.
