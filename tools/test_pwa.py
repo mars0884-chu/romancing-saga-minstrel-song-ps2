@@ -110,6 +110,7 @@ try:
    page.locator('#search').fill('')
    # Base assets must be present before the network is disabled.
    # Third-party image CDN responses are not mocked: synthetic images are prohibited by project policy.
+   assert page.locator('a[download][href="./offline.html"]').count()==1
    assert page.evaluate('window.IMAGE_URLS===undefined')
    cache_count=page.evaluate("""async () => {
        const c=await caches.open('minstrel-ps2-2005-v0.4.9');
