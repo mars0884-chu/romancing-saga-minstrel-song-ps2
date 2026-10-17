@@ -11,7 +11,7 @@ html=(root/'index.html').read_text(encoding='utf-8')
 sw=(root/'sw.js').read_text(encoding='utf-8')
 match=re.search(r'<script id="guide-data" type="application/json">(.*?)</script>',html,re.S)
 assert match and json.loads(match.group(1))==D, "Embedded JSON differs from data.json"
-assert D['version'].startswith('0.4.7'),D['version']
+assert D['version'].startswith('0.4.8'),D['version']
 assert 'minstrel-ps2-2005-v0.4.8' in sw and 'minstrel-ps2-2005-v0.4.8' in html
 recs=D['records']
 heroes=[r for r in recs if r['section']=='主角']
@@ -19,7 +19,7 @@ regions=[r for r in recs if r['section']=='地圖']
 dungeons=[r for r in recs if r['section']=='迷宮' and r.get('gallery')]
 gear=[r for r in recs if r['section']=='資料庫' and re.fullmatch(r'G1(?:0[5-9]|1[0-3])',r['id'])]
 assert len(heroes)==8 and all(len(r['steps'])>=9 for r in heroes)
-assert all(r['gallery'][0]['src'].startswith('https://www.jp.square-enix.com/saga_minstrelsong/assets/img/chara') for r in heroes)
+assert all(r['gallery'][0]['src'].endswith('_chara.png') and r['gallery'][1]['src'].endswith('_img.jpg') for r in heroes)
 assert all(len(r.get('heroChapters',[]))==5 for r in heroes)
 assert all(all('ids' in chapter and chapter['ids'] for chapter in r['heroChapters']) for r in heroes)
 assert all('square-enix.com' in r['heroSource'] for r in heroes)
@@ -41,7 +41,7 @@ for name,size in [('icon-192.png',192),('icon-512.png',512),('apple-touch-icon.p
  with Image.open(root/'assets'/name) as im: assert im.size==(size,size)
 assert (root/'assets/ps2-original-cover.webp').is_file()
 assert json.loads((root/'manifest.webmanifest').read_text(encoding='utf-8'))['display']=='standalone'
-print('DATA official game screenshots, six real equipment menus, original maps, chapter navigator, floor loot index: PASS')
+print('DATA original official portraits and game screenshots, six real equipment menus, original maps, chapter navigator, floor loot index: PASS')
 
 server=subprocess.Popen(['python','-m','http.server','8765','--bind','127.0.0.1','--directory',str(root)],stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL)
 try:
@@ -62,9 +62,11 @@ try:
    page.get_by_role('button',name='主角',exact=True).click()
    page.locator('#search').fill('アルベルト')
    assert page.locator('.hero-art img').count()==1
-   assert page.locator('.hero-art img').get_attribute('src').startswith('https://www.jp.square-enix.com/saga_minstrelsong/assets/img/chara')
+   assert page.locator('.hero-art img').get_attribute('src').endswith('_chara.png')
+   assert page.locator('.hero-game img').count()==1
    assert page.locator('.hero-chapters .chapter').count()==5
    assert page.locator('.hero-art .map-open').count()==1
+   assert page.locator('.hero-game .map-open').count()==1
    assert page.locator('.quest-jump').count()>15
    assert page.locator('.hero-card .guide-flow li').count()>=9
    assert '城陷落' in page.locator('#cards').inner_text()
