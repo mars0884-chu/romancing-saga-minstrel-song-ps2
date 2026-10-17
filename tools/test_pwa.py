@@ -11,7 +11,7 @@ html=(root/'index.html').read_text(encoding='utf-8')
 sw=(root/'sw.js').read_text(encoding='utf-8')
 match=re.search(r'<script id="guide-data" type="application/json">(.*?)</script>',html,re.S)
 assert match and json.loads(match.group(1))==D, "Embedded JSON differs from data.json"
-assert D['version'].startswith('0.4.9'),D['version']
+assert D['version'].startswith('0.5.0'),D['version']
 assert 'minstrel-ps2-2005-v0.5.0' in sw and 'minstrel-ps2-2005-v0.5.0' in html
 recs=D['records']
 heroes=[r for r in recs if r['section']=='主角']
