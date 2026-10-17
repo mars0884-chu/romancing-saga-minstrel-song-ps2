@@ -8,7 +8,7 @@
 - 新增2張可明確對應地點的玩家實際遊戲畫面：梅爾維爾的 Remastered 城鎮地圖、戈東戈的遊戲場景；來源附於卡片，原圖仍是連線外部網址，未打包進公開 GitHub。
 - 擴充梅爾維爾下水道寶箱及日夜迷途森林的不同寶箱位置／條件。
 - 不需要獨立離線文字HTML：從畫面和 PWA 預載清單刪除入口；移除 offline.html 實體檔。主要網站文字仍在首次連線後可離線使用。
-- 图片權利：Square Enix 的日本版分享規則有條件且限日本在住個人；其餘個人攻略網站未明禁不等於同意公開再散布。此 repo 仍為公開 GitHub Pages，因此不直接把第三方實機圖批量複製成公開可下載素材。
+- 图片權利：Square Enix 英文版圖片指引適用海外個人非商用網站與遊戲截圖，需標示來源與權利；日文版指引限日本在住個人；其餘個人攻略網站未明禁不等於同意公開再散布。此 repo 仍為公開 GitHub Pages，因此不直接把第三方實機圖批量複製成公開可下載素材。
 - 圖片可否離線由個別裝置外部來源快取數量決定；沒有成功快取不宣稱斷網有圖。部分原圖低畫質，單靠放大不能變清楚。
 
 ## 待完成
@@ -23,3 +23,7 @@
 - https://kyokugen.info/minsaga/minstrel_map_7_03.html （迷途森林日夜分歧與固定箱）
 - https://note.com/nishiken28/n/n1758578c5836 （真實梅爾維爾地圖截圖）
 - https://sekaijyusaya.hatenablog.com/entry/2022/12/04/180922 （真實戈東戈場景）
+
+### 官方海外個人使用規範
+- https://www.square-enix-games.com/en_US/documents/romancing-saga-minstrel-song-remastered-live-streaming-and-video-image-posting-guidelines
+- 非日本個人可依條件在非商業個人網頁／部落格使用遊戲實機截圖與官方英語站素材；需標示版權，禁止將已發布影片或圖片另製成獨立圖冊再散布。玩家部落格截圖不因此自動成為開放授權。

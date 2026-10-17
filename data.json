@@ -1626,6 +1626,13 @@
       "url": "https://www.jp.square-enix.com/saga_minstrelsong/manualall/manual/page06.html",
       "kind": "官方實際遊戲UI圖文",
       "note": "官方高畫質介面圖片和遊戲內可切換區域地圖的示例；使用指引限日本在住個人，未取得台灣公開網站再散布授權。"
+    },
+    {
+      "id": "SQUARE-EN-GUIDELINES-2023",
+      "name": "Square Enix 官方國際版圖片分享守則｜適用日本以外個人",
+      "url": "https://www.square-enix-games.com/en_US/documents/romancing-saga-minstrel-song-remastered-live-streaming-and-video-image-posting-guidelines",
+      "kind": "適用海外個人非商用網頁的官方條件授權",
+      "note": "允許海外個人使用官方網站及個人遊戲實拍圖片於非商用個人網頁，需標示權利；不允許把其他作者已發布的圖片另行收集打包成圖冊等二次散布。第三方攻略地圖仍依各原作者條款處理。"
     }
   ],
   "records": [
@@ -2133,7 +2140,8 @@
         "FAQ-WALK",
         "HERO-ROUTE-1",
         "HERO-ART-1",
-        "OFFICIAL-GAME-SCREENS"
+        "OFFICIAL-GAME-SCREENS",
+        "SQUARE-EN-GUIDELINES-2023"
       ],
       "tags": [
         "貴族",
@@ -2242,7 +2250,8 @@
         "KYO-CHAR",
         "HERO-ROUTE-2",
         "HERO-ART-2",
-        "OFFICIAL-GAME-SCREENS"
+        "OFFICIAL-GAME-SCREENS",
+        "SQUARE-EN-GUIDELINES-2023"
       ],
       "tags": [
         "遊牧民",
@@ -2351,7 +2360,8 @@
         "FAQ-GRAY",
         "HERO-ROUTE-3",
         "HERO-ART-3",
-        "OFFICIAL-GAME-SCREENS"
+        "OFFICIAL-GAME-SCREENS",
+        "SQUARE-EN-GUIDELINES-2023"
       ],
       "tags": [
         "冒險者",
@@ -2460,7 +2470,8 @@
         "KYO-CHAR",
         "HERO-ROUTE-4",
         "HERO-ART-4",
-        "OFFICIAL-GAME-SCREENS"
+        "OFFICIAL-GAME-SCREENS",
+        "SQUARE-EN-GUIDELINES-2023"
       ],
       "tags": [
         "森林",
@@ -2569,7 +2580,8 @@
         "KYO-CHAR",
         "HERO-ROUTE-5",
         "HERO-ART-5",
-        "OFFICIAL-GAME-SCREENS"
+        "OFFICIAL-GAME-SCREENS",
+        "SQUARE-EN-GUIDELINES-2023"
       ],
       "tags": [
         "盜賊",
@@ -2679,7 +2691,8 @@
         "KYO-CHAR",
         "HERO-ROUTE-6",
         "HERO-ART-6",
-        "OFFICIAL-GAME-SCREENS"
+        "OFFICIAL-GAME-SCREENS",
+        "SQUARE-EN-GUIDELINES-2023"
       ],
       "tags": [
         "雪原",
@@ -2788,7 +2801,8 @@
         "KYO-CHAR",
         "HERO-ROUTE-7",
         "HERO-ART-7",
-        "OFFICIAL-GAME-SCREENS"
+        "OFFICIAL-GAME-SCREENS",
+        "SQUARE-EN-GUIDELINES-2023"
       ],
       "tags": [
         "船長",
@@ -2896,7 +2910,8 @@
         "NEOSEEK",
         "HERO-ROUTE-8",
         "HERO-ART-8",
-        "OFFICIAL-GAME-SCREENS"
+        "OFFICIAL-GAME-SCREENS",
+        "SQUARE-EN-GUIDELINES-2023"
       ],
       "tags": [
         "舞者",
