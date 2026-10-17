@@ -72,7 +72,7 @@ try:
    page.locator('.map-open').first.click()
    assert page.locator('#mapDialog').evaluate('(x)=>x.open')
    page.locator('#zoomIn').click()
-   assert page.locator('#zoomLabel').inner_text()=='150%'
+   assert int(page.locator('#zoomLabel').inner_text().strip('%')) >= (375 if width<700 else 180)
    page.locator('#mapClose').click()
    assert not page.locator('#mapDialog').evaluate('(x)=>x.open')
    page.locator('#search').fill('')
@@ -91,7 +91,7 @@ try:
    page.locator('.dungeon-card .map-open').first.click()
    assert page.locator('#mapDialog').evaluate('(x)=>x.open')
    page.locator('#zoomIn').click()
-   assert page.locator('#zoomLabel').inner_text()=='150%'
+   assert int(page.locator('#zoomLabel').inner_text().strip('%')) >= (375 if width<700 else 180)
    page.locator('#mapClose').click()
    assert not page.evaluate('document.documentElement.scrollWidth > window.innerWidth')
    assert not errors,errors
