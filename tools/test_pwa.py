@@ -155,4 +155,31 @@ try:
   b.close()
 finally:
  server.terminate();server.wait()
-print('PASS ALL (text/navigation offline; originals cache if fetched successfully; iPhone Edge hardware untested)')
+# Verify offline.html without HTTP, a Service Worker, or any external image requests.
+with sync_playwright() as p:
+ b=p.chromium.launch(headless=True,args=['--no-sandbox'])
+ ctx=b.new_context(viewport={'width':390,'height':844})
+ ctx.set_offline(True)
+ page=ctx.new_page()
+ errors=[]
+ page.on('pageerror',lambda e:errors.append(str(e)))
+ page.goto((root/'offline.html').as_uri(),wait_until='domcontentloaded')
+ assert '232' in page.locator('#count').inner_text()
+ assert page.locator('header img').evaluate('(x)=>x.complete && x.naturalWidth>0')
+ assert page.locator('img[src^="https://"]').count()==0
+ page.get_by_role('button',name='主角',exact=True).click()
+ page.locator('#search').fill('アルベルト')
+ assert '伊斯瑪斯' in page.locator('#cards').inner_text()
+ assert '完整' in page.locator('#cards').inner_text() or '第五章' in page.locator('#cards').inner_text()
+ page.get_by_role('button',name='迷宮',exact=True).click()
+ page.locator('#search').fill('水竜の神殿')
+ assert '水之精靈珠' in page.locator('#cards').inner_text()
+ assert '寶箱' in page.locator('#cards').inner_text()
+ page.get_by_role('button',name='金手指',exact=True).click()
+ page.locator('#search').fill('')
+ assert page.locator('#cards .card').count()>=8
+ assert not errors,errors
+ ctx.close()
+ b.close()
+print('OFFLINE FILE file:// text / cover / Japanese search / dungeon treasures / cheats: PASS')
+print('PASS ALL (standalone text works with zero network; PWA original images cache only if host permits; iPhone Edge untested)')
