@@ -2298,6 +2298,34 @@
       "url": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event01/",
       "kind": "原站地形圖，外部連結不重新散布",
       "note": "砂漠の廃墟與ニーサの洞窟共5張樓層路線圖，約700px原始尺寸，放大不增加像素細節"
+    },
+    {
+      "id": "JBE-REAL-MAP-2026",
+      "name": "SAMURAI GAMERS｜ジュエルビースト四區段實際路線圖",
+      "url": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event39/",
+      "kind": "日文原站公開可讀取攻略",
+      "note": "保留原站圖片網址，非本站重製；PS2 封印條件研究暫定"
+    },
+    {
+      "id": "JBE-PS2-RESEARCH",
+      "name": "極限攻略｜ジュエルビースト研究暫定版",
+      "url": "https://kyokugen.info/minsaga/minstrel_jewelbeast_z.html",
+      "kind": "日文原站公開可讀取攻略",
+      "note": "保留原站圖片網址，非本站重製；PS2 封印條件研究暫定"
+    },
+    {
+      "id": "JBE-ORIGINAL-MAP",
+      "name": "極限攻略｜ジュエルビースト原版地圖與寶箱",
+      "url": "https://kyokugen.info/minsaga/minstrel_map_1_08.html",
+      "kind": "日文原站公開可讀取攻略",
+      "note": "保留原站圖片網址，非本站重製；PS2 封印條件研究暫定"
+    },
+    {
+      "id": "JBE-BASIC-EVENT",
+      "name": "極限攻略｜ジュエルビースト事件",
+      "url": "https://kyokugen.info/minsaga/minstrel_story_1_06.html",
+      "kind": "日文原站公開可讀取攻略",
+      "note": "保留原站圖片網址，非本站重製；PS2 封印條件研究暫定"
     }
   ],
   "records": [
@@ -4350,14 +4378,34 @@
       "ja": "ジュエルビースト！",
       "summary": "弗隆提亞",
       "steps": [
-        "從水龍相關任務或暗殺者公會取得情報→進入封印洞窟→挑戰寶石獸。"
+        "【不是必打主線】寶石獸（ジュエルビースト）比普通沙魯因更難，不必第一周目硬打；想保住邊境的ヤシ、サオキ、ウエストエンド則要提早安排。",
+        "【解鎖一】水龍的「モンスターを増やせ！（水棲）」完成後再詢問水龍，得知洞窟並觸發正式寶石獸事件。",
+        "【解鎖二】進度70％前完成アサシンギルド可由迷你翁聽到地名，但未必登錄同名日誌；進度過高才完成公會，可能拿不到入口情報。",
+        "【準備能力】需要ジャンプLv1至少2次、クライミングLv0至少8次，數量含往返；寶石獸仍在洞穴時，別依賴後方出口快速離開。",
+        "【第一區：結界洞】進入大御柱結界洞先拿洞窟地圖，辨認四根封印柱，各要啟動守衛戰。",
+        "【四柱戰】每根柱子都是ラミア＋腐竜×4，總計四次戰鬥。拉米亞的ショックウェイヴ很危險，可用盾／ディフレクト保護法師。",
+        "【群怪打法】腐龍可用合成火の鳥或聖杯の聖なる輝き清理；クラック／クイックチェッカー可嘗試控場，オーヴァドライヴ則需要足夠BP。",
+        "【第二區：崩柱】四柱全打掉後往北，使用跳躍、攀爬前往崩れ大御柱上與大御柱到達地。",
+        "【守衛戰】下柱後有石化獣×4、コカトリス×2，先準備抗石化與連續戰回復。",
+        "【最深處未醒】寶石獸沉睡時可提前佈回復及強化，約HP降至2／3以下才開始行動；戰前保留BP。",
+        "【最深處已醒】ジュエルブラスター可造成全體火冷雷與能量傷害，マルチプレックスアイ帶麻痺／凝視；推薦リヴァイヴァ、防麻痺及降腕力／知力。",
+        "【戰術不能混用】合成火の鳥適合打腐龍，但寶石獸本體術攻效果不佳；改以強力武技、回復術為主，避免整隊只靠法術輸出。",
+        "【邊境侵攻順序】通常為甦醒、移動、ヤシ開拓村、サオキ開拓村、ウエストエンド；特殊固定敵清除數量及時間經過點會延後，各百分比只是研究參考。",
+        "【事前可處理】ヤシ、サオキ、ヴァンパイア洞窟固定守衛與四柱、石化獸戰會影響覺醒；PS2封印模型是暫定，不能把某百分比套用所有存檔。",
+        "【箱子分開記】結界洞固定地圖；崩柱上兩個3000金＋ジュエル與ジュエルリング為固定候選點、隨機出現，不保證每周目三箱齊出。",
+        "【失敗風險】對正式寶石獸事件逃跑或戰敗可能促進侵攻；想保村先用不同存檔，初周戰力不夠可後周目再來。",
+        "【逐層地圖】卡片下方四張依次是結界洞、崩柱、大御柱到達地與最深處的真實 Remastered 導覽圖，只有作者已有標示之位置才當作座標。"
       ],
       "sources": [
         "EV-12",
         "KYO-EVENTS",
         "KYO-RESEARCH",
         "KYO-TIME-LIST",
-        "PS2-SURUME-EVENT"
+        "PS2-SURUME-EVENT",
+        "JBE-REAL-MAP-2026",
+        "JBE-PS2-RESEARCH",
+        "JBE-ORIGINAL-MAP",
+        "JBE-BASIC-EVENT"
       ],
       "tags": [
         "高難度"
@@ -4369,6 +4417,32 @@
       "relatedIds": [
         "BOSS-JEWEL-BEAST-EXP",
         "D-01-05"
+      ],
+      "floorMaps": [
+        {
+          "floor": "大御柱結界洞",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E3%82%B8%E3%83%A5%E3%82%A8%E3%83%AB%E3%83%93%E3%83%BC%E3%82%B9%E3%83%88_%E5%A4%A7%E5%BE%A1%E6%9F%B1%E7%B5%90%E7%95%8C%E6%B4%9E.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event39/",
+          "caption": "Remastered 原始遊戲內導覽地圖｜大御柱結界洞，約700×394像素，點擊放大但不會創造原圖沒有的細節。"
+        },
+        {
+          "floor": "崩落大御柱上",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E3%82%B8%E3%83%A5%E3%82%A8%E3%83%AB%E3%83%93%E3%83%BC%E3%82%B9%E3%83%88_%E5%B4%A9%E3%82%8C%E5%A4%A7%E5%BE%A1%E6%9F%B1%E4%B8%8A.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event39/",
+          "caption": "Remastered 原始遊戲內導覽地圖｜崩落大御柱上，約700×394像素，點擊放大但不會創造原圖沒有的細節。"
+        },
+        {
+          "floor": "大御柱到達地",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E3%82%B8%E3%83%A5%E3%82%A8%E3%83%AB%E3%83%93%E3%83%BC%E3%82%B9%E3%83%88_%E5%A4%A7%E5%BE%A1%E6%9F%B1%E5%88%B0%E9%81%94%E5%9C%B0.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event39/",
+          "caption": "Remastered 原始遊戲內導覽地圖｜大御柱到達地，約700×394像素，點擊放大但不會創造原圖沒有的細節。"
+        },
+        {
+          "floor": "最深處",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E3%82%B8%E3%83%A5%E3%82%A8%E3%83%AB%E3%83%93%E3%83%BC%E3%82%B9%E3%83%88_%E6%9C%80%E6%B7%B1%E9%83%A8.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event39/",
+          "caption": "Remastered 原始遊戲內導覽地圖｜最深處，約700×394像素，點擊放大但不會創造原圖沒有的細節。"
+        }
       ]
     },
     {
@@ -8239,21 +8313,20 @@
       "ja": "ジュエルビースト",
       "summary": "寶石獸／邊境地區毀滅。可由暗殺者公會或水棲怪物調整任務探得位置；洞窟能否進入與怪獸甦醒時程分開判斷。",
       "steps": [
-        "【地點情報】完成暗殺者公會，或完成「讓水棲怪增加」（モンスターを増やせ！水棲）後取得寶石獸情報。",
-        "【時程注意】原站記載暗殺者公會到75%以上才結束可能不會直接出現洞窟地名，別錯把頭目甦醒條件當成地名解鎖。",
-        "【必須能力】跳躍Lv1至少2次、攀爬至少8次；攀爬需考慮去回雙程。",
-        "【地下洞】大御柱結界洞有固定地圖，先取得再走崩落大御柱。",
-        "【崩柱頂端】來源列兩組3000金＋Jewel與ジュエルリング，固定候選點但箱是否出現仍有隨機條件。",
-        "【背面出口】寶石獸即使在睡眠狀態也可能封住後門，要先準備回程探索技能。",
-        "【頭目】寶石獸是高難度敵人，開戰前保留存檔、安排補師與抗性，首次造訪不必硬拚。",
-        "【補核發現限制】完成「アサシンギルド」可揭露，但若到劇情進度75%以上才完成可能不會出現；另可經「モンスターを増やせ（水棲）」後取得線索。",
-        "【補核必需】需ジャンプLv1兩次、クライミングLv0八次（含路線往返需求）；若寶石獸仍在洞內，不可假設後方出口能直接使用。",
-        "【補核寶箱】大御柱結界洞有固定地圖；崩塌大御柱上有兩組3000金＋ジュエル、ジュエルリング，箱位雖被原攻略列固定，實際出現仍可能隨機。"
+        "【入口】低進度完成暗殺者公會，或完成水龍水棲增殖取得洞窟情報；事件筆記是否出現與是否能進洞不完全相同。",
+        "【必要能力】ジャンプLv1二次、クライミングLv0八次（含回程）。",
+        "【大御柱結界洞】拾固定地圖後逐一觸發四根柱子的ラミア＋腐竜×4，全部獲勝才打開下段路線。",
+        "【崩落大御柱上】北側通路需跳躍與攀爬；可出現兩組3000金＋ジュエル與ジュエルリング，實際出現不保證。",
+        "【大御柱到達地】打石化獣×4、コカトリス×2，抗石化與復活術很重要。",
+        "【最深部】如怪獸沉睡，留時間上防護；如甦醒，可能全體ジュエルブラスター連轟，優先持續回復。",
+        "【圖面】按順序瀏覽下方四張原遊戲地形圖；圖片原始尺寸有限，不是站內自行生成的高解析度地圖。"
       ],
       "sources": [
         "KYO-DUN-01",
         "BH-MAP-SKILLS",
-        "PS2-MAP-FRONTIER_JEWELBEAST"
+        "PS2-MAP-FRONTIER_JEWELBEAST",
+        "JBE-REAL-MAP-2026",
+        "JBE-ORIGINAL-MAP"
       ],
       "tags": [
         "迷宮",
@@ -8308,7 +8381,34 @@
       "regionId": "MAP-01",
       "auditUpdated": "2026-10-18",
       "relatedIds": [
-        "BOSS-JEWEL-BEAST-EXP"
+        "BOSS-JEWEL-BEAST-EXP",
+        "G027"
+      ],
+      "floorMaps": [
+        {
+          "floor": "大御柱結界洞",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E3%82%B8%E3%83%A5%E3%82%A8%E3%83%AB%E3%83%93%E3%83%BC%E3%82%B9%E3%83%88_%E5%A4%A7%E5%BE%A1%E6%9F%B1%E7%B5%90%E7%95%8C%E6%B4%9E.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event39/",
+          "caption": "Remastered 原始遊戲內導覽地圖｜大御柱結界洞，約700×394像素，點擊放大但不會創造原圖沒有的細節。"
+        },
+        {
+          "floor": "崩落大御柱上",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E3%82%B8%E3%83%A5%E3%82%A8%E3%83%AB%E3%83%93%E3%83%BC%E3%82%B9%E3%83%88_%E5%B4%A9%E3%82%8C%E5%A4%A7%E5%BE%A1%E6%9F%B1%E4%B8%8A.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event39/",
+          "caption": "Remastered 原始遊戲內導覽地圖｜崩落大御柱上，約700×394像素，點擊放大但不會創造原圖沒有的細節。"
+        },
+        {
+          "floor": "大御柱到達地",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E3%82%B8%E3%83%A5%E3%82%A8%E3%83%AB%E3%83%93%E3%83%BC%E3%82%B9%E3%83%88_%E5%A4%A7%E5%BE%A1%E6%9F%B1%E5%88%B0%E9%81%94%E5%9C%B0.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event39/",
+          "caption": "Remastered 原始遊戲內導覽地圖｜大御柱到達地，約700×394像素，點擊放大但不會創造原圖沒有的細節。"
+        },
+        {
+          "floor": "最深處",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E3%82%B8%E3%83%A5%E3%82%A8%E3%83%AB%E3%83%93%E3%83%BC%E3%82%B9%E3%83%88_%E6%9C%80%E6%B7%B1%E9%83%A8.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event39/",
+          "caption": "Remastered 原始遊戲內導覽地圖｜最深處，約700×394像素，點擊放大但不會創造原圖沒有的細節。"
+        }
       ]
     },
     {
@@ -13861,7 +13961,8 @@
       "summary": "此頭目可能比普通最終BOSS更難；要先解除四座封印、清固定敵群。沉睡狀態下會等到一定損傷才醒來，利用這段時間布置強化與爆發。",
       "sources": [
         "KYO-JEWEL-EVENT",
-        "KYO-JEWEL-RESEARCH"
+        "KYO-JEWEL-RESEARCH",
+        "JBE-REAL-MAP-2026"
       ],
       "quality": "原攻略明註部分覺醒數值與條件屬暫定研究，本站保留不確定性，絕不宣稱保證醒不來。",
       "steps": [
@@ -13870,7 +13971,9 @@
         "【最深處阻擋】接著面對石化獣×4、コカトリス×2等固定敵，全部解決才能直達ジュエルビースト。",
         "【沉睡優勢】頭目尚未覺醒時，初期有一段不會行動的區間，先用ウェポンブレス、武装弦楽祭等提升戰力，再一波集中攻擊；醒來後難度大增。",
         "【群戰應對】四腐龍與拉米亞戰鬥可用クラック／クイックチェッカー造成行動限制，搭配火の鳥或其他廣域術；オーヴァドライヴ與聖杯是原作者提出的可用戰法，但高BP和補給都需事先準備。",
-        "【新手決策】如果第一周目無法完成，不必強行挑戰；完成其他劇情後利用NEW GAME+繼承再來。不要把研究頁的暫定覺醒LV或HP當作已確認固定值。"
+        "【新手決策】如果第一周目無法完成，不必強行挑戰；完成其他劇情後利用NEW GAME+繼承再來。不要把研究頁的暫定覺醒LV或HP當作已確認固定值。",
+        "【身體傷害與術法差別】封印戰的火鳥術主要對腐龍群有效；寶石獸本體術法抗性高，應改用高威力武技、降低腕力或知力輔助。",
+        "【全體與狀態防護】ジュエルブラスター的多屬性全體傷害宜用リヴァイヴァ和耐性裝備處理，マルチプレックスアイ麻痺／凝視需避免補師失能。"
       ],
       "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_story_1_06.html"
     },
