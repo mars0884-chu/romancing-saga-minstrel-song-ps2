@@ -10,7 +10,7 @@ html=(root/'index.html').read_text(encoding='utf-8')
 sw=(root/'sw.js').read_text(encoding='utf-8')
 m=re.search(r'<script id="guide-data" type="application/json">(.*?)</script>',html,re.S)
 assert m and json.loads(m.group(1))==d,"首頁資料與data.json不一致"
-assert d['version'].startswith('0.9.5') and 'minstrel-ps2-2005-v0.9.6' in html and 'minstrel-ps2-2005-v0.9.6' in sw
+assert d['version'].startswith('0.9.6') and 'minstrel-ps2-2005-v0.9.6' in html and 'minstrel-ps2-2005-v0.9.6' in sw
 R=d['records'];ids={r['id'] for r in R};sourceids={r['id'] for r in d['sources']}
 assert len(R)>=279
 assert len(next(r for r in R if r['id']=='G019')['steps']) >= 18
