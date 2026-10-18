@@ -23,10 +23,6 @@ jobs:
           python -m playwright install --with-deps chromium
       - name: Test responsive offline PWA and guide indexes
         run: python tools/test_pwa.py
-      - name: Test multi-file downloadable offline ZIP integrity
-        run: python tools/build_offline_zip.py
-      - name: Test extracted ZIP while disconnected (desktop and mobile)
-        run: python tools/test_offline_zip.py
   deploy:
     needs: verify
     runs-on: ubuntu-latest
@@ -35,8 +31,6 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
-      - name: Build multi-file offline ZIP for GitHub Pages
-        run: python tools/build_offline_zip.py
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
@@ -68,29 +62,15 @@ jobs:
           echo "::error::Public Pages version mismatch or network error after 12 attempts"
           exit 1
 
-      - name: Verify LIVE downloadable offline ZIP
+
+      - name: Verify LIVE map and guide assets for direct PWA loading
         shell: bash
         env:
           LIVE_URL: ${{ steps.deployment.outputs.page_url }}
         run: |
           set -euo pipefail
-          for attempt in $(seq 1 10); do
-            if curl --fail --location --max-time 35 --silent --show-error "${LIVE_URL%/}/offline-guide.zip?sha=${GITHUB_SHA}" -o /tmp/minstrel-offline-guide.zip \
-              && python - <<'PY'
-          from zipfile import ZipFile
-          import json
-          with ZipFile('/tmp/minstrel-offline-guide.zip') as z:
-              assert z.testzip() is None
-              names=z.namelist()
-              assert sum(x.startswith('minstrel-song-offline/assets/') for x in names)>=100
-              data=json.loads(z.read('minstrel-song-offline/data.json'))
-              assert len(data['records'])>=279
-          print('LIVE offline ZIP VERIFIED',len(data['records']),'records',len(names),'packaged files')
-          PY
-            then
-              exit 0
-            fi
-            sleep 10
+          for image in assets/floorplans/final-trial.svg assets/heroes/g001.svg assets/atlas/map-01.svg; do
+            curl --fail --location --max-time 30 --silent --show-error "${LIVE_URL%/}/$image?sha=${GITHUB_SHA}" -o /tmp/minstrel-pwa-asset
+            grep -q '<svg' /tmp/minstrel-pwa-asset
           done
-          echo "::error::Public Pages offline-guide.zip missing or invalid"
-          exit 1
+          echo "LIVE PWA map and hero assets VERIFIED"
