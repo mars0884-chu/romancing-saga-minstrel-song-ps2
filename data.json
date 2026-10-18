@@ -1,6 +1,6 @@
 {
   "project": "Romancing SaGa -Minstrel Song- Remastered｜PS2 2005 來源對照｜Traditional Chinese Taiwan",
-  "version": "0.6.2-remastered-events-offline",
+  "version": "0.6.3-35-more-authentic-area-maps",
   "updated": "2026-10-18",
   "sources": [
     {
@@ -1787,6 +1787,13 @@
       "kind": "原版／Remastered 事件流程核對",
       "url": "https://kyokugen.info/minsaga/minstrel_jewelbeast_z.html",
       "note": "保留日文、來源、版本及未證實數據"
+    },
+    {
+      "id": "SAMURAI-EMPEROR-47",
+      "name": "SAMURAI GAMERS｜皇帝の奇病、叢林十張＋雙月神殿二十五張分區原始圖",
+      "kind": "Remastered 實際樓層地圖與遊戲流程",
+      "url": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event47/",
+      "note": "樓層圖直接外連原作者網站，700–797px寬；有內容但未達高清重新繪製，斷網視裝置圖片快取而定。"
     }
   ],
   "records": [
@@ -9366,7 +9373,8 @@
       "sources": [
         "KYO-DUN-09",
         "BH-MAP-SKILLS",
-        "PS2-KYO-JUNGLE-DETAIL"
+        "PS2-KYO-JUNGLE-DETAIL",
+        "SAMURAI-EMPEROR-47"
       ],
       "tags": [
         "迷宮",
@@ -9431,7 +9439,69 @@
         }
       ],
       "regionId": "MAP-09",
-      "auditUpdated": "2026-10-18"
+      "auditUpdated": "2026-10-18",
+      "floorMaps": [
+        {
+          "floor": "叢林腹地入口｜奧地入口",
+          "caption": "實際遊戲地圖整理圖｜ジャングル奥地_奥地入口。原圖700×400px，並非高解析截圖；出口與分區標記依原作者，來源：SAMURAI GAMERS。",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E3%82%B8%E3%83%A3%E3%83%B3%E3%82%B0%E3%83%AB%E5%A5%A5%E5%9C%B0_%E5%A5%A5%E5%9C%B0%E5%85%A5%E5%8F%A3.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event47/"
+        },
+        {
+          "floor": "叢林洞窟A",
+          "caption": "實際遊戲地圖整理圖｜ジャングルの洞窟_洞窟A。原圖700×400px，並非高解析截圖；出口與分區標記依原作者，來源：SAMURAI GAMERS。",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E3%82%B8%E3%83%A3%E3%83%B3%E3%82%B0%E3%83%AB%E3%81%AE%E6%B4%9E%E7%AA%9F_%E6%B4%9E%E7%AA%9FA.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event47/"
+        },
+        {
+          "floor": "叢林洞窟B",
+          "caption": "實際遊戲地圖整理圖｜ジャングルの洞窟_洞窟B。原圖700×400px，並非高解析截圖；出口與分區標記依原作者，來源：SAMURAI GAMERS。",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E3%82%B8%E3%83%A3%E3%83%B3%E3%82%B0%E3%83%AB%E3%81%AE%E6%B4%9E%E7%AA%9F_%E6%B4%9E%E7%AA%9FB.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event47/"
+        },
+        {
+          "floor": "叢林洞窟C",
+          "caption": "實際遊戲地圖整理圖｜ジャングルの洞窟_洞窟C。原圖700×400px，並非高解析截圖；出口與分區標記依原作者，來源：SAMURAI GAMERS。",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E3%82%B8%E3%83%A3%E3%83%B3%E3%82%B0%E3%83%AB%E3%81%AE%E6%B4%9E%E7%AA%9F_%E6%B4%9E%E7%AA%9FC.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event47/"
+        },
+        {
+          "floor": "叢林洞窟D",
+          "caption": "實際遊戲地圖整理圖｜ジャングルの洞窟_洞窟D。原圖700×400px，並非高解析截圖；出口與分區標記依原作者，來源：SAMURAI GAMERS。",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E3%82%B8%E3%83%A3%E3%83%B3%E3%82%B0%E3%83%AB%E3%81%AE%E6%B4%9E%E7%AA%9F_%E6%B4%9E%E7%AA%9FD.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event47/"
+        },
+        {
+          "floor": "叢林腹地北部",
+          "caption": "實際遊戲地圖整理圖｜ジャングル奥地_北部。原圖700×400px，並非高解析截圖；出口與分區標記依原作者，來源：SAMURAI GAMERS。",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E3%82%B8%E3%83%A3%E3%83%B3%E3%82%B0%E3%83%AB%E5%A5%A5%E5%9C%B0_%E5%8C%97%E9%83%A8.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event47/"
+        },
+        {
+          "floor": "叢林腹地西部",
+          "caption": "實際遊戲地圖整理圖｜ジャングル奥地_西部。原圖700×400px，並非高解析截圖；出口與分區標記依原作者，來源：SAMURAI GAMERS。",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E3%82%B8%E3%83%A3%E3%83%B3%E3%82%B0%E3%83%AB%E5%A5%A5%E5%9C%B0_%E8%A5%BF%E9%83%A8.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event47/"
+        },
+        {
+          "floor": "叢林腹地東部",
+          "caption": "實際遊戲地圖整理圖｜ジャングル奥地_東部。原圖700×400px，並非高解析截圖；出口與分區標記依原作者，來源：SAMURAI GAMERS。",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E3%82%B8%E3%83%A3%E3%83%B3%E3%82%B0%E3%83%AB%E5%A5%A5%E5%9C%B0_%E6%9D%B1%E9%83%A8.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event47/"
+        },
+        {
+          "floor": "叢林腹地西南側",
+          "caption": "實際遊戲地圖整理圖｜ジャングル奥地_南西側。原圖700×400px，並非高解析截圖；出口與分區標記依原作者，來源：SAMURAI GAMERS。",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E3%82%B8%E3%83%A3%E3%83%B3%E3%82%B0%E3%83%AB%E5%A5%A5%E5%9C%B0_%E5%8D%97%E8%A5%BF%E5%81%B4.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event47/"
+        },
+        {
+          "floor": "叢林腹地中央部",
+          "caption": "實際遊戲地圖整理圖｜ジャングル奥地_中央部1。原圖700×400px，並非高解析截圖；出口與分區標記依原作者，來源：SAMURAI GAMERS。",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E3%82%B8%E3%83%A3%E3%83%B3%E3%82%B0%E3%83%AB%E5%A5%A5%E5%9C%B0_%E4%B8%AD%E5%A4%AE%E9%83%A81.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event47/"
+        }
+      ]
     },
     {
       "id": "D-09-03",
@@ -9557,7 +9627,13 @@
         "【B4】擊退昆蟲系等指定組合，回收霊獣石の兜、素早さの薬。",
         "【B6】擊倒獸系神獸後可取得霊獣石の鎧；留意敵種與機關觸發關係。",
         "【B7】到最深處處理ゾディアック戰，取得固定ムーンストーン。",
-        "【時限提醒】皇帝怪病支線有進度限制；神殿路線和寶箱請一次規劃完。"
+        "【時限提醒】皇帝怪病支線有進度限制；神殿路線和寶箱請一次規劃完。",
+        "【神殿B1】清除不定系敵人使地板機關啟動，進部屋B打倒全室敵人後拿霊獣石の腕輪；部屋A連結叢林奧地中央部。",
+        "【神殿B2】清除昆虫系敵人，再調查出現ACTION提示的地板；部屋E獲得プロテクトリング，部屋F獲得体力の薬。",
+        "【神殿B3】清除ハ虫類系敵人使地板機關啟動，部屋I取得ガーディアンリング，部屋J取得霊獣石の具足。",
+        "【神殿B4】清除不死系敵人啟動地板機關，部屋M取得素早さの薬，部屋N取得霊獣石の兜。",
+        "【神殿B5～B7】B5藍色標記地板可到B7；B6北邊房間需打倒神獣，獲得霊獣石の鎧。先把支線房間裝備領齊再進B7。",
+        "【神殿B7】進最深處之前存檔；ゾディアック可能使用冷氣攻擊，準備耐冷裝備和セルフバーニング，第二回合後可用骨砕き降低腕力。擊敗後回收ムーンストーン。"
       ],
       "sources": [
         "KYO-DUN-09",
@@ -9568,7 +9644,8 @@
         "BH05-ALBERT",
         "BH05-CHAIN",
         "EV-06",
-        "PS2-MAP-TWIN-MOONS"
+        "PS2-MAP-TWIN-MOONS",
+        "SAMURAI-EMPEROR-47"
       ],
       "tags": [
         "迷宮",
@@ -9630,6 +9707,60 @@
           "type": "頭目",
           "item": "ゾディアック、ムーンストーン",
           "note": "皇帝怪病支線，原版時限要留意。"
+        },
+        {
+          "floor": "B1・部屋B",
+          "type": "固定",
+          "item": "霊獣石の腕輪",
+          "note": "清除部屋B全敵人後寶箱出現"
+        },
+        {
+          "floor": "B2・部屋E",
+          "type": "固定",
+          "item": "プロテクトリング",
+          "note": "需先開啟對應機關"
+        },
+        {
+          "floor": "B2・部屋F",
+          "type": "固定",
+          "item": "体力の薬",
+          "note": "固定分支房間"
+        },
+        {
+          "floor": "B3・部屋I",
+          "type": "固定",
+          "item": "ガーディアンリング",
+          "note": "清除該區敵人"
+        },
+        {
+          "floor": "B3・部屋J",
+          "type": "固定",
+          "item": "霊獣石の具足",
+          "note": "固定分支房間"
+        },
+        {
+          "floor": "B4・部屋M",
+          "type": "固定",
+          "item": "素早さの薬",
+          "note": "固定分支房間"
+        },
+        {
+          "floor": "B4・部屋N",
+          "type": "固定",
+          "item": "霊獣石の兜",
+          "note": "固定分支房間"
+        },
+        {
+          "floor": "B6・北側",
+          "type": "頭目",
+          "item": "神獣／霊獣石の鎧",
+          "note": "擊敗神獸取得裝備"
+        },
+        {
+          "floor": "B7・最深處",
+          "type": "頭目",
+          "item": "ゾディアック／ムーンストーン",
+          "note": "注意冷氣傷害、存檔後挑戰"
         }
       ],
       "imageHotspots": [
@@ -9641,7 +9772,159 @@
           "provenance": "https://kyokugen.info/minsaga/map/walon_pyramid.jpeg"
         }
       ],
-      "regionId": "MAP-09"
+      "regionId": "MAP-09",
+      "floorMaps": [
+        {
+          "floor": "神殿部屋A",
+          "caption": "Remastered 實際地圖地形／門位｜二つの月の神殿_部屋A。原圖約797×449px，放大僅便於檢視。來源：SAMURAI GAMERS。",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E4%BA%8C%E3%81%A4%E3%81%AE%E6%9C%88%E3%81%AE%E7%A5%9E%E6%AE%BF_%E9%83%A8%E5%B1%8BA.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event47/"
+        },
+        {
+          "floor": "神殿部屋B",
+          "caption": "Remastered 實際地圖地形／門位｜二つの月の神殿_部屋B。原圖約797×449px，放大僅便於檢視。來源：SAMURAI GAMERS。",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E4%BA%8C%E3%81%A4%E3%81%AE%E6%9C%88%E3%81%AE%E7%A5%9E%E6%AE%BF_%E9%83%A8%E5%B1%8BB.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event47/"
+        },
+        {
+          "floor": "神殿部屋C",
+          "caption": "Remastered 實際地圖地形／門位｜二つの月の神殿_部屋C。原圖約797×449px，放大僅便於檢視。來源：SAMURAI GAMERS。",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E4%BA%8C%E3%81%A4%E3%81%AE%E6%9C%88%E3%81%AE%E7%A5%9E%E6%AE%BF_%E9%83%A8%E5%B1%8BC.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event47/"
+        },
+        {
+          "floor": "神殿部屋D",
+          "caption": "Remastered 實際地圖地形／門位｜二つの月の神殿_部屋D。原圖約797×449px，放大僅便於檢視。來源：SAMURAI GAMERS。",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E4%BA%8C%E3%81%A4%E3%81%AE%E6%9C%88%E3%81%AE%E7%A5%9E%E6%AE%BF_%E9%83%A8%E5%B1%8BD.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event47/"
+        },
+        {
+          "floor": "神殿部屋E",
+          "caption": "Remastered 實際地圖地形／門位｜二つの月の神殿_部屋E。原圖約797×449px，放大僅便於檢視。來源：SAMURAI GAMERS。",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E4%BA%8C%E3%81%A4%E3%81%AE%E6%9C%88%E3%81%AE%E7%A5%9E%E6%AE%BF_%E9%83%A8%E5%B1%8BE.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event47/"
+        },
+        {
+          "floor": "神殿部屋F",
+          "caption": "Remastered 實際地圖地形／門位｜二つの月の神殿_部屋F。原圖約797×449px，放大僅便於檢視。來源：SAMURAI GAMERS。",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E4%BA%8C%E3%81%A4%E3%81%AE%E6%9C%88%E3%81%AE%E7%A5%9E%E6%AE%BF_%E9%83%A8%E5%B1%8BF.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event47/"
+        },
+        {
+          "floor": "神殿部屋G",
+          "caption": "Remastered 實際地圖地形／門位｜二つの月の神殿_部屋G。原圖約797×449px，放大僅便於檢視。來源：SAMURAI GAMERS。",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E4%BA%8C%E3%81%A4%E3%81%AE%E6%9C%88%E3%81%AE%E7%A5%9E%E6%AE%BF_%E9%83%A8%E5%B1%8BG.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event47/"
+        },
+        {
+          "floor": "神殿部屋H",
+          "caption": "Remastered 實際地圖地形／門位｜二つの月の神殿_部屋H。原圖約797×449px，放大僅便於檢視。來源：SAMURAI GAMERS。",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E4%BA%8C%E3%81%A4%E3%81%AE%E6%9C%88%E3%81%AE%E7%A5%9E%E6%AE%BF_%E9%83%A8%E5%B1%8BH.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event47/"
+        },
+        {
+          "floor": "神殿部屋I",
+          "caption": "Remastered 實際地圖地形／門位｜二つの月の神殿_部屋I。原圖約797×449px，放大僅便於檢視。來源：SAMURAI GAMERS。",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E4%BA%8C%E3%81%A4%E3%81%AE%E6%9C%88%E3%81%AE%E7%A5%9E%E6%AE%BF_%E9%83%A8%E5%B1%8BI.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event47/"
+        },
+        {
+          "floor": "神殿部屋J",
+          "caption": "Remastered 實際地圖地形／門位｜二つの月の神殿_部屋J。原圖約797×449px，放大僅便於檢視。來源：SAMURAI GAMERS。",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E4%BA%8C%E3%81%A4%E3%81%AE%E6%9C%88%E3%81%AE%E7%A5%9E%E6%AE%BF_%E9%83%A8%E5%B1%8BJ.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event47/"
+        },
+        {
+          "floor": "神殿部屋K",
+          "caption": "Remastered 實際地圖地形／門位｜二つの月の神殿_部屋K。原圖約797×449px，放大僅便於檢視。來源：SAMURAI GAMERS。",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E4%BA%8C%E3%81%A4%E3%81%AE%E6%9C%88%E3%81%AE%E7%A5%9E%E6%AE%BF_%E9%83%A8%E5%B1%8BK.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event47/"
+        },
+        {
+          "floor": "神殿部屋L",
+          "caption": "Remastered 實際地圖地形／門位｜二つの月の神殿_部屋L。原圖約797×449px，放大僅便於檢視。來源：SAMURAI GAMERS。",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E4%BA%8C%E3%81%A4%E3%81%AE%E6%9C%88%E3%81%AE%E7%A5%9E%E6%AE%BF_%E9%83%A8%E5%B1%8BL.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event47/"
+        },
+        {
+          "floor": "神殿部屋M",
+          "caption": "Remastered 實際地圖地形／門位｜二つの月の神殿_部屋M。原圖約797×449px，放大僅便於檢視。來源：SAMURAI GAMERS。",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E4%BA%8C%E3%81%A4%E3%81%AE%E6%9C%88%E3%81%AE%E7%A5%9E%E6%AE%BF_%E9%83%A8%E5%B1%8BM.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event47/"
+        },
+        {
+          "floor": "神殿部屋N",
+          "caption": "Remastered 實際地圖地形／門位｜二つの月の神殿_部屋N。原圖約797×449px，放大僅便於檢視。來源：SAMURAI GAMERS。",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E4%BA%8C%E3%81%A4%E3%81%AE%E6%9C%88%E3%81%AE%E7%A5%9E%E6%AE%BF_%E9%83%A8%E5%B1%8BN.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event47/"
+        },
+        {
+          "floor": "神殿部屋O",
+          "caption": "Remastered 實際地圖地形／門位｜二つの月の神殿_部屋O。原圖約797×449px，放大僅便於檢視。來源：SAMURAI GAMERS。",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E4%BA%8C%E3%81%A4%E3%81%AE%E6%9C%88%E3%81%AE%E7%A5%9E%E6%AE%BF_%E9%83%A8%E5%B1%8BO.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event47/"
+        },
+        {
+          "floor": "神殿部屋P",
+          "caption": "Remastered 實際地圖地形／門位｜二つの月の神殿_部屋P。原圖約797×449px，放大僅便於檢視。來源：SAMURAI GAMERS。",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E4%BA%8C%E3%81%A4%E3%81%AE%E6%9C%88%E3%81%AE%E7%A5%9E%E6%AE%BF_%E9%83%A8%E5%B1%8BP.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event47/"
+        },
+        {
+          "floor": "神殿部屋Q",
+          "caption": "Remastered 實際地圖地形／門位｜二つの月の神殿_部屋Q。原圖約797×449px，放大僅便於檢視。來源：SAMURAI GAMERS。",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E4%BA%8C%E3%81%A4%E3%81%AE%E6%9C%88%E3%81%AE%E7%A5%9E%E6%AE%BF_%E9%83%A8%E5%B1%8BQ.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event47/"
+        },
+        {
+          "floor": "神殿地下1階",
+          "caption": "Remastered 實際地圖地形／門位｜二つの月の神殿_地下1階。原圖約797×449px，放大僅便於檢視。來源：SAMURAI GAMERS。",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E4%BA%8C%E3%81%A4%E3%81%AE%E6%9C%88%E3%81%AE%E7%A5%9E%E6%AE%BF_%E5%9C%B0%E4%B8%8B1%E9%9A%8E.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event47/"
+        },
+        {
+          "floor": "神殿地下2階",
+          "caption": "Remastered 實際地圖地形／門位｜二つの月の神殿_地下2階。原圖約797×449px，放大僅便於檢視。來源：SAMURAI GAMERS。",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E4%BA%8C%E3%81%A4%E3%81%AE%E6%9C%88%E3%81%AE%E7%A5%9E%E6%AE%BF_%E5%9C%B0%E4%B8%8B2%E9%9A%8E.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event47/"
+        },
+        {
+          "floor": "神殿地下3階",
+          "caption": "Remastered 實際地圖地形／門位｜二つの月の神殿_地下3階。原圖約797×449px，放大僅便於檢視。來源：SAMURAI GAMERS。",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E4%BA%8C%E3%81%A4%E3%81%AE%E6%9C%88%E3%81%AE%E7%A5%9E%E6%AE%BF_%E5%9C%B0%E4%B8%8B3%E9%9A%8E.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event47/"
+        },
+        {
+          "floor": "神殿地下4階",
+          "caption": "Remastered 實際地圖地形／門位｜二つの月の神殿_地下4階。原圖約797×449px，放大僅便於檢視。來源：SAMURAI GAMERS。",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E4%BA%8C%E3%81%A4%E3%81%AE%E6%9C%88%E3%81%AE%E7%A5%9E%E6%AE%BF_%E5%9C%B0%E4%B8%8B4%E9%9A%8E.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event47/"
+        },
+        {
+          "floor": "神殿地下5階",
+          "caption": "Remastered 實際地圖地形／門位｜二つの月の神殿_地下5階。原圖約797×449px，放大僅便於檢視。來源：SAMURAI GAMERS。",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E4%BA%8C%E3%81%A4%E3%81%AE%E6%9C%88%E3%81%AE%E7%A5%9E%E6%AE%BF_%E5%9C%B0%E4%B8%8B5%E9%9A%8E.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event47/"
+        },
+        {
+          "floor": "神殿地下6階",
+          "caption": "Remastered 實際地圖地形／門位｜二つの月の神殿_地下6階。原圖約797×449px，放大僅便於檢視。來源：SAMURAI GAMERS。",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E4%BA%8C%E3%81%A4%E3%81%AE%E6%9C%88%E3%81%AE%E7%A5%9E%E6%AE%BF_%E5%9C%B0%E4%B8%8B6%E9%9A%8E.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event47/"
+        },
+        {
+          "floor": "神殿地下7階",
+          "caption": "Remastered 實際地圖地形／門位｜二つの月の神殿_地下7階。原圖約797×449px，放大僅便於檢視。來源：SAMURAI GAMERS。",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E4%BA%8C%E3%81%A4%E3%81%AE%E6%9C%88%E3%81%AE%E7%A5%9E%E6%AE%BF_%E5%9C%B0%E4%B8%8B7%E9%9A%8E.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event47/"
+        },
+        {
+          "floor": "神殿最深處",
+          "caption": "Remastered 實際地圖地形／門位｜二つの月の神殿_最奥部。原圖約797×449px，放大僅便於檢視。來源：SAMURAI GAMERS。",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E4%BA%8C%E3%81%A4%E3%81%AE%E6%9C%88%E3%81%AE%E7%A5%9E%E6%AE%BF_%E6%9C%80%E5%A5%A5%E9%83%A8.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event47/"
+        }
+      ]
     },
     {
       "id": "D-10-01",
@@ -12181,6 +12464,31 @@
         "【新手決策】如果第一周目無法完成，不必強行挑戰；完成其他劇情後利用NEW GAME+繼承再來。不要把研究頁的暫定覺醒LV或HP當作已確認固定值。"
       ],
       "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_story_1_06.html"
+    },
+    {
+      "id": "QUEST-EMPEROR-ILLNESS-FULL",
+      "section": "任務",
+      "title": "皇帝的奇病｜二つの月の神殿七層與報酬三選一",
+      "ja": "皇帝の奇病／二つの月の神殿／ムーンストーン",
+      "stage": "事件Rank9～13｜限時",
+      "summary": "先完成ゲッコ族與古文書取得兩種符號，進二つの月の神殿解樓層地板機關，打倒ゾディアック後領月之石，再向索菲亞或內維爾回報；報酬武器、防具、金錢三選一。",
+      "sources": [
+        "SAMURAI-EMPEROR-47"
+      ],
+      "quality": "事件與各層機關、寶箱由SAMURAI GAMERS Remastered 原文核實；多數逐層地形圖源約797×449px，未授權再上傳。",
+      "mapSourceUrl": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event47/",
+      "steps": [
+        "【期限與條件】事件Rank9～13可做；Rank14以上或敗給ミニオン・ワイル會以未解決結束，請提前存檔。",
+        "【前置】完成ゲッコ族及古文書，取得アムトのシンボル及エリスのシンボル；兩個符號是入二つの月の神殿的必要條件。",
+        "【梅爾維爾情報】先去エロール神殿找ソフィア談皇帝生病，再去警備隊詰所、PUB的張貼告示、帝國圖書館確認命運石與ムーンストーン線索。",
+        "【走叢林到入口】前往ジャングル奥地中央部，從洞窟A通路進二つの月の神殿；事前與ミニオン・ワイル戰鬥，對方主要使用術，利用イドブレイク／脳削り降智力及癒しの水確保續戰。",
+        "【B1～B4】各層必須擊敗指定敵人種類，才會啟動ACTION地板：B1不定系、B2昆蟲系、B3爬蟲系、B4不死系。",
+        "【支線寶箱】B1部屋B：霊獣石の腕輪；B2部屋E：プロテクトリング、F：体力の薬；B3 I：ガーディアンリング、J：霊獣石の具足；B4 M：素早さの薬、N：霊獣石の兜。",
+        "【B5～B7】B5藍色標記可往B7；想拿全裝備，B6北部先打神獣回收霊獣石の鎧，然後再進B7最深處。",
+        "【最深處BOSS】ゾディアック以冷氣為威脅，建議抗寒防具及セルフバーニング；對手中後段物理攻擊可用骨砕き降低腕力，戰鬥前先保存進度。",
+        "【完成】拿到ムーンストーン後回梅爾維爾找ソフィア或內維爾（ネビル），引導到皇帝面前。",
+        "【獎勵三選一】エスパーダ・ロペラ（武器）、アラ・メルビラーナ（防具）、10000金擇一；原攻略推薦細劍エスパーダ・ロペラ較適合長期裝備。不要選「何もいらない」，否則無法領任何報酬。"
+      ]
     }
   ],
   "excluded": [
