@@ -52,10 +52,10 @@ jobs:
             if curl --fail --location --max-time 20 --silent --show-error "${LIVE_URL%/}/index.html?sha=${GITHUB_SHA}" -o /tmp/minstrel-live-index.html \
               && curl --fail --location --max-time 20 --silent --show-error "${LIVE_URL%/}/sw.js?sha=${GITHUB_SHA}" -o /tmp/minstrel-live-sw.js \
               && curl --fail --location --max-time 20 --silent --show-error "${LIVE_URL%/}/data.json?sha=${GITHUB_SHA}" -o /tmp/minstrel-live-data.json \
-              && grep -q "minstrel-ps2-2005-v0.7.1" /tmp/minstrel-live-index.html \
-              && grep -q "minstrel-ps2-2005-v0.7.1" /tmp/minstrel-live-sw.js \
-              && python -c 'import json;d=json.load(open("/tmp/minstrel-live-data.json"));assert d["version"].startswith("0.7.1"),d["version"];assert len(d["records"])>=263;print("Live guide records:",len(d["records"]))'; then
-              echo "LIVE DEPLOY VERIFIED: public HTML, SW and guide JSON are v0.7.1"
+              && grep -q "minstrel-ps2-2005-v0.8.0" /tmp/minstrel-live-index.html \
+              && grep -q "minstrel-ps2-2005-v0.8.0" /tmp/minstrel-live-sw.js \
+              && python -c 'import json;d=json.load(open("/tmp/minstrel-live-data.json"));assert d["version"].startswith("0.8.0"),d["version"];assert len(d["records"])>=263;print("Live guide records:",len(d["records"]))'; then
+              echo "LIVE DEPLOY VERIFIED: public HTML, SW and guide JSON are v0.8.0"
               exit 0
             fi
             echo "Live Pages not propagated (attempt ${attempt}/12); retry in 10 seconds."
