@@ -1,8 +1,8 @@
 {
   "id": "./",
-  "name": "復活邪神：吟遊詩人之歌｜2005 PS2 離線攻略",
-  "short_name": "吟遊詩人PS2",
-  "description": "2005 PS2 原版攻略及金手指（內建內容，不用連外）",
+  "name": "復活邪神：吟遊詩人之歌 Remastered｜圖文離線攻略",
+  "short_name": "吟遊詩人攻略",
+  "description": "Remastered／PS2 對照的繁中圖文攻略、迷宮地形、寶箱機關、主角流程、金手指與個人圖片離線快取",
   "lang": "zh-TW",
   "start_url": "./index.html",
   "scope": "./",
