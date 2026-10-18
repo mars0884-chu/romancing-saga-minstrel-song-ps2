@@ -1,4 +1,4 @@
-# 《復活邪神：吟遊詩人之歌 Remastered》繁體中文攻略｜v0.9.4
+# 《復活邪神：吟遊詩人之歌 Remastered》繁體中文攻略｜v0.9.5
 
 正式 PWA：https://mars0884-chu.github.io/romancing-saga-minstrel-song-ps2/
 
@@ -18,7 +18,7 @@ GitHub 獨立倉庫：https://github.com/mars0884-chu/romancing-saga-minstrel-so
 - 不重複樓層／分區圖 82 張；不同外部圖片URL 159 個。
 - GitHub Actions 2026-10-18 圖片HTTP／Pillow稽核：159 張皆可由執行器成功讀取及解析，但只有 3 張達 1280×720。此項不保證外部圖持續可讀，**不等於 iPhone Edge 斷網驗收**。
 
-## v0.9.4 改動
+## v0.9.5 改動
 - 52 條任務／主角／迷宮的相關攻略直接跳轉，解決原有簡短卡片未連到詳細流程的問題。
 - 發布後測試不再固定寫死舊資料版本；會比較正式網站 HTML、Service Worker 和**完整** data.json 是否與本次提交相同，避免明明部署成功卻因版本檢查留在上一版而失敗。
 - 新增返回與相關跳轉的桌機／手機自動測試。
@@ -29,3 +29,8 @@ GitHub 獨立倉庫：https://github.com/mars0884-chu/romancing-saga-minstrel-so
 - 來源圖放大僅提升觀看尺寸，不會生出原圖沒有的細節；不把自畫格狀圖當真正遊戲地圖。
 
 © 1992, 2005, 2022 SQUARE ENIX CO., LTD. All Rights Reserved. ILLUSTRATION: TOMOMI KOBAYASHI.
+
+## 四天王交換鏈更新
+- 37 條新增核實步驟，完整連接アイスソード→火神防御輪→疾風の靴→あまぐもの腕輪→水竜，指出擊倒四天王影響後續生態支線。
+- 強化G030海底神殿與G104ルーイ護衛，補解鎖條件、掉落、B3戰鬥與獎勵。
+- 新增四種怪物增殖獎勵、保留Remastered 90%後周目差異警告。

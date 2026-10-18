@@ -1,5 +1,5 @@
-/* v0.9.4: offline base guide + personal browser cache of original images; no public redistribution. */
-const KEY='minstrel-ps2-2005-v0.9.4';
+/* v0.9.5: offline base guide + personal browser cache of original images; no public redistribution. */
+const KEY='minstrel-ps2-2005-v0.9.5';
 const IMG_KEY='minstrel-ps2-2005-images-v1';
 const FILES=['./','./index.html','./data.json','./manifest.webmanifest','./assets/ps2-original-cover.webp','./assets/icon-192.png','./assets/icon-512.png','./assets/apple-touch-icon.png'];
 const IMAGE_HOSTS=new Set(['www.jp.square-enix.com','kyokugen.info','cdn-ak.f.st-hatena.com','blog-imgs-161.fc2.com','stat.ameba.jp','assets.st-note.com','jp.samurai-gamers.com']);
