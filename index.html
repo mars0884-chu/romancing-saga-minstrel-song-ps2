@@ -176,7 +176,7 @@ $('mapPins').onclick=e=>{const pin=e.target.closest('[data-hotspot]');if(pin)$('
 md.addEventListener('click',e=>{if(e.target===md)md.close()});
 $('search').oninput=e=>{selectedId='';q=e.target.value.trim();limit=16;render()};$('more').onclick=()=>{limit+=20;render()};$('cards').onclick=e=>{const back=e.target.closest('#backToList');if(back){if(history.state?.minstrelDetail)history.back();else restoreList();return}const all=e.target.closest('#backToAll');if(all){detailStack.length=0;selectedId='';q='';cat='全部';$('search').value='';syncTabs();render();return}let pin=e.target.closest('[data-hotspot]');if(pin){let msg=pin.closest('.guide-diagram')?.querySelector('.hotspot-explain');if(msg)msg.textContent=pin.dataset.hotspot;return;}let j=e.target.closest('[data-jump]');if(j){const target=RECORDS.find(x=>x.id===j.dataset.jump);if(target){detailStack.push({cat,q,selectedId,limit});history.pushState({minstrelDetail:true},'',location.pathname+location.search+'#guide-'+encodeURIComponent(target.id));selectedId=target.id;cat=target.section;q=target.title;limit=16;$('search').value=q;const label=cat==='資料庫'?'裝備資料':cat==='地圖'?'區域索引':cat==='地點'?'城鎮村莊':cat==='來源'?'資料來源':cat;for(const tab of $('tabs').children)tab.setAttribute('aria-pressed',String(tab.textContent===label));render();$('cards').scrollIntoView({behavior:'smooth',block:'start'});}return}let view=e.target.closest('[data-map]');if(view){openMap(view.dataset.map,view.dataset.caption);return}let b=e.target.closest('[data-copy]');if(!b)return;let rec=RECORDS.find(x=>x.id===b.dataset.copy);if(!rec)return;let val=rec.steps.join('\n');if(navigator.clipboard?.writeText){navigator.clipboard.writeText(val).then(()=>{b.textContent='已複製';}).catch(()=>{b.textContent='請長按選取代碼'})}else{b.textContent='請長按選取代碼'}};
 
-/* v0.6.0: 本機可搜尋的實際迷宮、寶箱與機關詳解，保留日文原名 */
+/* v0.6.1: 本機可搜尋的實際迷宮、寶箱與機關詳解，保留日文原名 */
 const additional=[
 {id:'AUDIT-WEST-CAVE',section:'迷宮',title:'西之洞窟｜寶箱與探索技能',ja:'西の洞窟',stage:'巴爾哈蘭特｜實際樓層表',summary:'雪原步行到達。B1 固定寶箱與 B1–B2 隨機可再生寶箱分開查閱；傳送點後方沒有物品。',sources:['KY-WC'],quality:'已核對極限攻略樓層寶箱表；原圖位置尚未逐點定位',steps:['入口：由雪原步行進入西の洞窟。建議先裝備跳躍（ジャンプ）Lv2，共有6處使用機會，及寶箱搜尋（宝箱サーチ）Lv1。','B1固定：地圖（地図）、珠寶（ジュエル）、500金＋哥德式鎧甲（ゴシックアーマー）。','B1–B2隨機再生：100金＋隨機武器或防具、100金＋珠寶、300金＋隨機武器；需寶箱搜尋Lv1，並非每次探索都能一次收齊。','B1的傳送點另一端沒有物品，不必為了尋寶在該處反覆繞路。','若要逐點核對出口及寶箱符號，開啟原作者的完整地圖頁；本站不猜測圖上座標。'],mapSourceUrl:'https://kyokugen.info/minsaga/minstrel_map_6_03.html',landmarks:[{floor:'B1',type:'固定',item:'地圖、ジュエル',note:'固定箱，與隨機箱分開'},{floor:'B1',type:'固定',item:'500金＋ゴシックアーマー',note:'固定箱'},{floor:'B1–B2',type:'隨機',item:'100／300金＋裝備或ジュエル',note:'寶箱搜尋Lv1，可能再生'}]},
 {id:'AUDIT-FROZEN-CASTLE',section:'迷宮',title:'凍結湖與冰封城｜五燭台機關攻略',ja:'凍結湖／凍った城',stage:'巴爾哈蘭特｜事件與機關',summary:'「凍結湖の妖精」後經雪原坂道A開放。五燭台顏色相同才能打開對應鐵柵，1F冰塊不能直接搬除。',sources:['KY-FC'],quality:'已核對原攻略機關敘述與寶箱表；圖上座標待驗證',steps:['解鎖：完成「凍結湖の妖精」後，從雪原的バルハラント坂道A通過，冰封城外側冰層才會解除。','1F冰塊不能靠直接搬開通過；改走可通行的路線並操作燭台。','燭台操作：拿搖桿跑向燭台再離開，火焰顏色依紅→綠→藍循環。將五個燭台調成相同顏色，就能打開對應顏色的鐵柵。','建議準備寶箱搜尋Lv1、陷阱解除及開鎖；後兩者建議等級會依劇情進度提高。','凍結湖隨機金錢箱與冰封城隨機寶箱分別判定；冰封城可能出現地圖、鬼人の大ナタ、チェインメイル、プロテクトリング，不能當成固定座標。'],mapSourceUrl:'https://kyokugen.info/minsaga/minstrel_map_6_06.html',landmarks:[{floor:'凍った城',type:'機關',item:'五燭台同色',note:'紅→綠→藍循環，對應鐵柵開啟'},{floor:'1F',type:'機關',item:'冰塊無法直接搬移',note:'需走其他路徑'},{floor:'城內',type:'隨機',item:'鬼人の大ナタ／チェインメイル／プロテクトリング',note:'位置隨機，開鎖陷阱條件變動'}]}
@@ -190,18 +190,31 @@ DATA.sources.push({id:'KY-FC',name:'極限攻略｜凍結湖／凍った城',kin
 DATA.sources.push({id:'KY-FAIRY',name:'極限攻略｜凍結湖の妖精',kind:'任務流程',url:'https://kyokugen.info/minsaga/minstrel_story_4_03.html',note:'發生條件、任務路線及取得獎勵'});DATA.sources.push({id:'KY-CASTLE',name:'極限攻略｜凍りついた城',kind:'事件流程',url:'https://kyokugen.info/minsaga/minstrel_story_4_04.html',note:'黑曜石之劍與玩家日誌條件'});for(const r of additional){if(!RECORDS.some(x=>x.id===r.id))RECORDS.push(r)}
 for(const source of DATA.sources){SOURCE[source.id]=source}
 
-window.addEventListener('popstate',()=>{if(detailStack.length)restoreList();else{selectedId='';q='';cat='全部';$('search').value='';syncTabs();render()}});$('version').textContent='v0.6.0';render();
-const CACHE='minstrel-ps2-2005-v0.6.0',IMG_CACHE='minstrel-ps2-2005-images-v1';
+window.addEventListener('popstate',()=>{if(detailStack.length)restoreList();else{selectedId='';q='';cat='全部';$('search').value='';syncTabs();render()}});$('version').textContent='v0.6.1';render();
+const CACHE='minstrel-ps2-2005-v0.6.1',IMG_CACHE='minstrel-ps2-2005-images-v1';
 const IMAGE_URLS=[...new Set(RECORDS.flatMap(r=>[...(r.gallery||[]).map(g=>g.src),...(r.floorMaps||[]).map(f=>f.src)]).filter(s=>/^https:\/\//.test(s)))];
 async function imageCoverage(){const cache=await caches.open(IMG_CACHE);let stored=0;for(const u of IMAGE_URLS){if(await cache.match(u))stored++;}return {stored,total:IMAGE_URLS.length}}
 async function checkOffline(){try{if(!('serviceWorker'in navigator)||!('caches'in window))throw Error('瀏覽器沒有離線快取');await navigator.serviceWorker.ready;let cache=await caches.open(CACHE);if(!await cache.match('./index.html'))throw Error('尚未儲存攻略文字');const c=await imageCoverage();$('offlineStatus').textContent=`離線文字 ${RECORDS.length} 筆已保存；圖片快取 ${c.stored}/${c.total} 張（須斷網開圖實測）。`+(c.stored<c.total?' 部分圖片仍需連線或原站允許下載。':' 快取已齊，請關閉網路實際開圖驗證。');$('offlineStatus').className=c.stored===c.total?'ready':'';$('saveOffline').textContent=c.stored===c.total?'離線圖文已保存':'儲存離線圖文';return c.stored===c.total}catch(e){$('offlineStatus').textContent=`離線狀態：${e.message}。保持連線後按儲存。`;$('saveOffline').textContent='儲存離線圖文';return false}}
 function preloadImage(url,timeout=12000){return new Promise(resolve=>{const img=new Image();let done=false;const settle=ok=>{if(done)return;done=true;clearTimeout(timer);img.onload=null;img.onerror=null;resolve(ok)};const timer=setTimeout(()=>settle(false),timeout);img.onload=()=>settle(img.naturalWidth>0&&img.naturalHeight>0);img.onerror=()=>settle(false);img.src=url;})}
+async function verifyCachedImages(){
+ if(!navigator.serviceWorker.controller)return {skipped:true,readable:0,attempted:0,bad:[]};
+ const cache=await caches.open(IMG_CACHE),urls=[];
+ for(const url of IMAGE_URLS){if(await cache.match(url))urls.push(url)}
+ let pos=0,readable=0,bad=[],done=0;
+ const workers=Array.from({length:3},async()=>{while(pos<urls.length){
+  const url=urls[pos++],ok=await preloadImage(url,12000);
+  done++;if(ok)readable++;else bad.push(url);
+  if(done%8===0||done===urls.length)$('offlineStatus').textContent='正在檢查原圖實際可顯示 '+done+'/'+urls.length+'；可讀 '+readable+'，失敗 '+bad.length;
+ }});
+ await Promise.all(workers);return {skipped:false,readable,attempted:urls.length,bad};
+}
+
 async function saveImages(){
  const controller=(await navigator.serviceWorker.ready).active||navigator.serviceWorker.controller;
  if(!controller)throw Error('離線圖片儲存程式未就緒');
  const ch=new MessageChannel();
  return await new Promise((resolve,reject)=>{
- let last=null;const timeout=setTimeout(()=>reject(Error('離線圖片存檔超時，已成功的圖片仍會保留，下次可續存')),360000);
+ let last=null;const timeout=setTimeout(()=>reject(Error('離線圖片存檔超時，已成功的圖片仍會保留，下次可續存')),540000);
  ch.port1.onmessage=e=>{
   const d=e.data||{};if(d.type==='IMAGE_PROGRESS'){
    $('offlineStatus').textContent='離線圖片處理 '+d.done+'/'+d.total+'；已快取 '+d.success+'；失敗 '+d.failed+'（可再按儲存續傳）';
@@ -212,7 +225,7 @@ async function saveImages(){
  });
 }
 
-$('saveOffline').onclick=async()=>{const b=$('saveOffline');b.disabled=true;b.textContent='正在儲存圖文…';try{if(!('serviceWorker'in navigator))throw Error('瀏覽器不支援離線安裝');const reg=await navigator.serviceWorker.register('./sw.js');await navigator.serviceWorker.ready;const worker=reg.active||reg.waiting||reg.installing;if(!worker)throw Error('離線服務未啟動');const ch=new MessageChannel();const base=await new Promise((resolve,reject)=>{const timer=setTimeout(()=>reject(Error('文字資源等待逾時')),45000);ch.port1.onmessage=e=>{clearTimeout(timer);resolve(e.data)};worker.postMessage({type:'CACHE_GUIDE'},[ch.port2])});if(!base.ok)throw Error(base.error||'文字儲存失敗');if(!navigator.onLine){await checkOffline();return}const images=await saveImages();const full=await checkOffline();if(!full){$('offlineStatus').textContent=`文字已保存；圖片快取 ${images.success}/${IMAGE_URLS.length} 張，失敗 ${images.failed.length} 張，可再按儲存續傳。已快取圖片仍請斷網開圖確認。`;$('saveOffline').textContent='重試未完成圖片';}}catch(e){$('offlineStatus').textContent=`未完成離線圖文：${e.message}`;$('saveOffline').textContent='重新儲存離線圖文';}finally{b.disabled=false}};
+$('saveOffline').onclick=async()=>{const b=$('saveOffline');b.disabled=true;b.textContent='正在儲存圖文…';try{if(!('serviceWorker'in navigator))throw Error('瀏覽器不支援離線安裝');const reg=await navigator.serviceWorker.register('./sw.js');await navigator.serviceWorker.ready;const worker=reg.active||reg.waiting||reg.installing;if(!worker)throw Error('離線服務未啟動');const ch=new MessageChannel();const base=await new Promise((resolve,reject)=>{const timer=setTimeout(()=>reject(Error('文字資源等待逾時')),45000);ch.port1.onmessage=e=>{clearTimeout(timer);resolve(e.data)};worker.postMessage({type:'CACHE_GUIDE'},[ch.port2])});if(!base.ok)throw Error(base.error||'文字儲存失敗');if(!navigator.onLine){await checkOffline();return}const images=await saveImages();const full=await checkOffline();const verified=await verifyCachedImages();$('offlineStatus').textContent=`離線文字已保存；圖片快取 ${images.success}/${IMAGE_URLS.length} 張，失敗 ${images.failed.length} 張。`+(verified.skipped?' 首次安裝尚未受新版離線服務控制，重新開啟本站才能核對圖片。':` 實際載入可讀 ${verified.readable}/${verified.attempted} 張，顯示失敗 ${verified.bad.length} 張。`)+(full?' 仍建議斷網重開確認。':' 未完成圖片可再次按儲存續傳。');if(!full||verified.bad?.length)$('saveOffline').textContent='重試未完成圖片';}catch(e){$('offlineStatus').textContent=`未完成離線圖文：${e.message}`;$('saveOffline').textContent='重新儲存離線圖文';}finally{b.disabled=false}};
 if('serviceWorker'in navigator&&location.protocol.startsWith('http')){navigator.serviceWorker.register('./sw.js').then(()=>navigator.serviceWorker.ready).then(()=>checkOffline()).catch(()=>{$('offlineStatus').textContent='離線服務註冊失敗，仍可在連線時閱讀本站資料。'})}
 window.addEventListener('offline',()=>{$('onlineFlag').textContent='目前離線 · 搜尋照常可用'});window.addEventListener('online',()=>{$('onlineFlag').textContent='不需要外部網站，即可查看攻略'});
 })();
