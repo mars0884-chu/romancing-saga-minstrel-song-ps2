@@ -1,4 +1,4 @@
-"""PWA v0.8.0 靜態資料、搜尋、返回、地圖放大、桌機/手機與離線文字驗收。"""
+"""PWA v0.8.1 靜態資料、搜尋、返回、地圖放大、桌機/手機與離線文字驗收。"""
 from pathlib import Path
 import json,re,subprocess,time
 from playwright.sync_api import sync_playwright
@@ -10,13 +10,16 @@ html=(root/'index.html').read_text(encoding='utf-8')
 sw=(root/'sw.js').read_text(encoding='utf-8')
 m=re.search(r'<script id="guide-data" type="application/json">(.*?)</script>',html,re.S)
 assert m and json.loads(m.group(1))==d,"首頁資料與data.json不一致"
-assert d['version'].startswith('0.8.0') and 'minstrel-ps2-2005-v0.8.0' in html and 'minstrel-ps2-2005-v0.8.0' in sw
+assert d['version'].startswith('0.8.1') and 'minstrel-ps2-2005-v0.8.1' in html and 'minstrel-ps2-2005-v0.8.1' in sw
 R=d['records'];ids={r['id'] for r in R};sourceids={r['id'] for r in d['sources']}
 assert len(R)>=270 and len(ids)==len(R)
 assert all(set(r.get('sources',[]))<=sourceids for r in R)
 assert len([r for r in R if r['section']=='地圖'])==11
 assert len([r for r in R if r['section']=='地點'])==22
 assert len([r for r in R if r['section']=='同伴' and r['id'].startswith('RS-')])==5
+assert len([r for r in R if r['id']=='D-03-02'][0]['floorMaps'])==11
+assert len([r for r in R if r['id']=='D-04-03'][0]['floorMaps'])==5
+assert len([r for r in R if r['id']=='D-05-01'][0]['floorMaps'])==2
 assert len([r for r in R if r['id'].startswith('D-')])==53
 assert len([r for r in R if r['section']=='主角' and r['id'].startswith('G00')])==8
 assert sum(len(r.get('floorMaps',[])) for r in R) >=64

@@ -1,6 +1,6 @@
 {
   "project": "Romancing SaGa -Minstrel Song- Remastered｜PS2 2005 來源對照｜Traditional Chinese Taiwan",
-  "version": "0.8.0-five-remastered-companions",
+  "version": "0.8.1-eighteen-confirmed-original-maps",
   "updated": "2026-10-18",
   "sources": [
     {
@@ -1864,6 +1864,27 @@
       "url": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event56/",
       "kind": "可公開閱讀／Remastered 原文攻略",
       "note": "最終試練與冥府條件"
+    },
+    {
+      "id": "SAM-SCARB-06",
+      "name": "SAMURAI GAMERS｜勇気の証與スカーブ山11張區域圖",
+      "kind": "實際遊戲地形／機關與事件流程",
+      "url": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event06/",
+      "note": "個人查閱與原站出處；未經原圖作者許可不包入公開GitHub。"
+    },
+    {
+      "id": "SAM-FAIRY-24",
+      "name": "SAMURAI GAMERS｜凍結湖の妖精與砂漠廢墟／ニーサ洞窟5張圖",
+      "kind": "實際遊戲地形／機關與事件流程",
+      "url": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event24/",
+      "note": "個人查閱與原站出處；未經原圖作者許可不包入公開GitHub。"
+    },
+    {
+      "id": "SAM-KNIGHTS-26",
+      "name": "SAMURAI GAMERS｜騎士団の誇りにかけて、砦跡破裂地板兩圖",
+      "kind": "實際遊戲地形／機關與事件流程",
+      "url": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event26/",
+      "note": "個人查閱與原站出處；未經原圖作者許可不包入公開GitHub。"
     }
   ],
   "records": [
@@ -3374,14 +3395,21 @@
         "騎士團的榮耀為早期時限事件，不等同90%後「提奧多爾失常」。",
         "2005巴哈：若想讓提奧多爾與拉斐爾一起暫時加入，會議前最好保留兩個隊伍空位。",
         "要塞遺跡二樓右側的地板刻意跑動使其崩落；再往下掉到地下最深處迎戰頭目。",
-        "原版攻略記載同行與否可能影響獎勵（2000金或1000金）；未經實機重新驗證。"
+        "原版攻略記載同行與否可能影響獎勵（2000金或1000金）；未經實機重新驗證。",
+        "【限期】通常事件Rank3～7；アルベルト或シフ當主角可更早開啟。Rank8以上離開騎士團領到其他城鎮，可能無法繼續完成。",
+        "【加入兩騎士】在オイゲンシュタット王座與ハインリヒ對話選「一緒について行く」，到ミルザブール與テオドール交談後選「一緒に戦おう！」。要讓テオドール＋ラファエル一同加入，會議結束時隊伍最多只能有3人。",
+        "【被拒仍可補救】若當初隊伍太滿，可前往砦跡1F入口找兩人，選「助けてやるか」邀其加入；乘船會使兩人自動離隊，先完成任務。",
+        "【隱藏B1走法】砦跡2F跑向破裂地板（一般步行不會塌），落至1F後再於有裂痕處跑動落下B1。現已放入兩張原作者實際畫面圈選位置。",
+        "【頭目】在B1對上リザードスカウト＋リザードマン×2＋プテリクス×2；先集中削減高傷害前列，保持回復，再回ミルザブール王座結算。",
+        "【獎勵與後續】曾讓テオドール入隊可得2000金＋ジュエル，完全不加入只得1000金＋ジュエル。選項可能影響後續コンスタンツ誘拐完成條件。"
       ],
       "sources": [
         "EV-04",
         "KYO-TIME-LIST",
         "FFSKY-DRY",
         "PS2-SURUME-EVENT",
-        "BH05-KNIGHTS"
+        "BH05-KNIGHTS",
+        "SAM-KNIGHTS-26"
       ],
       "tags": [
         "有時限",
@@ -3451,7 +3479,12 @@
       "summary": "梅爾維爾",
       "steps": [
         "在梅爾維爾追查尼維爾委託；具體分歧看原站。",
-        "尼維爾委託需先有相關接觸旗標，原版研究列出先完成早期相關事件的條件。"
+        "尼維爾委託需先有相關接觸旗標，原版研究列出先完成早期相關事件的條件。",
+        "【限期與前置】Rank6以上，皇帝の奇病尚未進行中且ジャン不在隊伍；先做変死事件発生或ゴールドマイン襲擊等指定前置。",
+        "【密語】梅爾維爾エリザベス宮殿找ネビル選「ジャンを助けよう！」；到ローバーン莫妮卡家回答「東の風、雨」→「ネビル」。",
+        "【地下入口】去民家選「いや、帰らない」→「ガキの使いじゃない！」，調查戸棚，打ローバーンガード。",
+        "【救ジャン】前進觸發移動牆與落穴，打敗ランドサーペント等怪物離開公屋敷地下，返回莫妮卡家得5000金＋ジュエル。",
+        "【Remastered 專屬】委託完成後可以邀モニカ入隊；本站『同伴』有詳細獨立卡與她家位置實景圖。"
       ],
       "sources": [
         "KYO-TIME-LIST",
@@ -5074,12 +5107,18 @@
       "ja": "凍結湖の妖精",
       "summary": "凍結湖妖精相關任務，涉及沙漠地下水系。",
       "steps": [
-        "在凍結湖接取，再探索カクラム砂漠及湖之村，完成妖精請求。"
+        "在凍結湖接取，再探索カクラム砂漠及湖之村，完成妖精請求。",
+        "【劇情進度】約Rank22後，自バルハラント雪原東南側坡道往凍結湖，找到妖精選「任せなさい！」取得妖精髮絲。",
+        "【卡庫拉姆沙漠】從砂漠中央部進砂漠の廃墟地下1階，經地下2階轉入ニーサの洞窟1階、2階，往湖の町。",
+        "【實際圖】沙漠廢墟B1/B2、尼薩洞窟1F/2F、沙漠地下B1五張原作者地形圖已加入『沙漠地下尼薩神殿』迷宮卡，可按圖上的出口箭頭逐層對照。",
+        "【橋上完成】到湖の町橋中央使用ACTION把妖精頭髮放進湖中，回收ジュエル；返回可處理凍りついた城。",
+        "【警告】此任務事件Rank與對死神觸發的冰城筆記條件不同，不要只靠『能進城』判斷是否完成妖精任務。"
       ],
       "sources": [
         "KYO-EVENTS",
         "KYO-TIME-LIST",
-        "FAQ-EVENT"
+        "FAQ-EVENT",
+        "SAM-FAIRY-24"
       ],
       "tags": [
         "PS2 原版",
@@ -5479,13 +5518,19 @@
         "【主事件】取得タイニィフェザーの羽根後，「勇気の証」本身就算完成；不等於打倒四天王。",
         "【後續選擇】和提尼飛瑟對話選願意聽取委託，可啟動火神防禦輪（火神防御輪）。",
         "【連鎖分支】若先接受阿迪利斯的疾風之靴委託，會多出代為傳話的選項，可串起四天王交換鏈。",
-        "【另一分支】已有火神防禦輪可直接交付；選擇戰鬥則需準備對抗提尼飛瑟，應先分開存檔。"
+        "【另一分支】已有火神防禦輪可直接交付；選擇戰鬥則需準備對抗提尼飛瑟，應先分開存檔。",
+        "【入口】クリスタルシティ的PUB向兩名男子取得スカーブ山資訊；往クリスタルパレス謁見ナイトハルト取得羽根線索與地圖。隊伍有アルベルト時可能無法向ナイトハルト詢問。",
+        "【行前技能】攀爬クライミング Lv1～Lv5，依樓層坡壁需求；若要收箱另帶宝箱サーチ、カギ開け，別只靠世界地圖就想走到山頂。",
+        "【分區路線】斯卡布山入口→洞穴1～7與山路五合目、八合目→頂上。本站逐區附原作者實際地形圖；多分岔會通到不同穴口，放大後依出口標示比對。",
+        "【任務達成】山頂與タイニィフェザー見面，取得羽根（タイニィフェザーの羽根）與ジュエル；不可先在「疾風の靴」路線殺掉タイニィフェザー，否則不能完成。",
+        "【後續】可依對話選「せっかくだから聞いてやる」或「アディリスの用件で来た」，開啟「火神防御輪」；保留羽根以免影響後續道具需求。"
       ],
       "sources": [
         "KYO-EVENTS",
         "KYO-TIME-LIST",
         "FAQ-EVENT",
-        "NEW-KYO-COURAGE"
+        "NEW-KYO-COURAGE",
+        "SAM-SCARB-06"
       ],
       "tags": [
         "PS2 原版",
@@ -7843,7 +7888,8 @@
       "sources": [
         "KYO-DUN-03",
         "BH-MAP-SKILLS",
-        "PS2-MAP-ROSALIA_SCURVE"
+        "PS2-MAP-ROSALIA_SCURVE",
+        "SAM-SCARB-06"
       ],
       "tags": [
         "迷宮",
@@ -7863,7 +7909,75 @@
       ],
       "mapType": "external_original_reference_image",
       "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_map_3_07.html",
-      "regionId": "MAP-03"
+      "regionId": "MAP-03",
+      "floorMaps": [
+        {
+          "floor": "斯卡布山 登山口",
+          "caption": "スカーブ山_登山口｜原作者實際 Remastered 遊戲內地形或機關圖（約700px）；地名和出口依原圖標示，非自繪。",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E3%82%B9%E3%82%AB%E3%83%BC%E3%83%96%E5%B1%B1_%E7%99%BB%E5%B1%B1%E5%8F%A3.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event06/"
+        },
+        {
+          "floor": "斯卡布山 穴1",
+          "caption": "スカーブ山_穴1｜原作者實際 Remastered 遊戲內地形或機關圖（約700px）；地名和出口依原圖標示，非自繪。",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E3%82%B9%E3%82%AB%E3%83%BC%E3%83%96%E5%B1%B1_%E7%A9%B41.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event06/"
+        },
+        {
+          "floor": "斯卡布山 穴2",
+          "caption": "スカーブ山_穴2｜原作者實際 Remastered 遊戲內地形或機關圖（約700px）；地名和出口依原圖標示，非自繪。",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E3%82%B9%E3%82%AB%E3%83%BC%E3%83%96%E5%B1%B1_%E7%A9%B42.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event06/"
+        },
+        {
+          "floor": "斯卡布山 穴3",
+          "caption": "スカーブ山_穴3｜原作者實際 Remastered 遊戲內地形或機關圖（約700px）；地名和出口依原圖標示，非自繪。",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E3%82%B9%E3%82%AB%E3%83%BC%E3%83%96%E5%B1%B1_%E7%A9%B43.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event06/"
+        },
+        {
+          "floor": "斯卡布山 穴4",
+          "caption": "スカーブ山_穴4｜原作者實際 Remastered 遊戲內地形或機關圖（約700px）；地名和出口依原圖標示，非自繪。",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E3%82%B9%E3%82%AB%E3%83%BC%E3%83%96%E5%B1%B1_%E7%A9%B44.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event06/"
+        },
+        {
+          "floor": "斯卡布山 穴5",
+          "caption": "スカーブ山_穴5｜原作者實際 Remastered 遊戲內地形或機關圖（約700px）；地名和出口依原圖標示，非自繪。",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E3%82%B9%E3%82%AB%E3%83%BC%E3%83%96%E5%B1%B1_%E7%A9%B45.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event06/"
+        },
+        {
+          "floor": "斯卡布山 穴6",
+          "caption": "スカーブ山_穴6｜原作者實際 Remastered 遊戲內地形或機關圖（約700px）；地名和出口依原圖標示，非自繪。",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E3%82%B9%E3%82%AB%E3%83%BC%E3%83%96%E5%B1%B1_%E7%A9%B46.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event06/"
+        },
+        {
+          "floor": "斯卡布山 穴7",
+          "caption": "スカーブ山_穴7｜原作者實際 Remastered 遊戲內地形或機關圖（約700px）；地名和出口依原圖標示，非自繪。",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E3%82%B9%E3%82%AB%E3%83%BC%E3%83%96%E5%B1%B1_%E7%A9%B47.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event06/"
+        },
+        {
+          "floor": "斯卡布山 五合目",
+          "caption": "スカーブ山_五合目｜原作者實際 Remastered 遊戲內地形或機關圖（約700px）；地名和出口依原圖標示，非自繪。",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E3%82%B9%E3%82%AB%E3%83%BC%E3%83%96%E5%B1%B1_%E4%BA%94%E5%90%88%E7%9B%AE.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event06/"
+        },
+        {
+          "floor": "斯卡布山 八合目",
+          "caption": "スカーブ山_八合目｜原作者實際 Remastered 遊戲內地形或機關圖（約700px）；地名和出口依原圖標示，非自繪。",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E3%82%B9%E3%82%AB%E3%83%BC%E3%83%96%E5%B1%B1_%E5%85%AB%E5%90%88%E7%9B%AE.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event06/"
+        },
+        {
+          "floor": "斯卡布山 頂上",
+          "caption": "スカーブ山_頂上｜原作者實際 Remastered 遊戲內地形或機關圖（約700px）；地名和出口依原圖標示，非自繪。",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E3%82%B9%E3%82%AB%E3%83%BC%E3%83%96%E5%B1%B1_%E9%A0%82%E4%B8%8A.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event06/"
+        }
+      ]
     },
     {
       "id": "D-03-03",
@@ -8146,7 +8260,8 @@
         "KYO-DUN-04",
         "BH-MAP-SKILLS",
         "BH05-ICE",
-        "PS2-MAP-DRYLANDS_NIECA"
+        "PS2-MAP-DRYLANDS_NIECA",
+        "SAM-FAIRY-24"
       ],
       "tags": [
         "迷宮",
@@ -8166,7 +8281,39 @@
       ],
       "mapType": "external_original_reference_image",
       "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_map_4_07.html",
-      "regionId": "MAP-04"
+      "regionId": "MAP-04",
+      "floorMaps": [
+        {
+          "floor": "沙漠廢墟 B1",
+          "caption": "砂漠の廃墟_地下1階｜原作者實際 Remastered 遊戲內地形或機關圖（約700px）；地名和出口依原圖標示，非自繪。",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E7%A0%82%E6%BC%A0%E3%81%AE%E5%BB%83%E5%A2%9F_%E5%9C%B0%E4%B8%8B1%E9%9A%8E.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event24/"
+        },
+        {
+          "floor": "沙漠廢墟 B2",
+          "caption": "砂漠の廃墟_地下2階｜原作者實際 Remastered 遊戲內地形或機關圖（約700px）；地名和出口依原圖標示，非自繪。",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E7%A0%82%E6%BC%A0%E3%81%AE%E5%BB%83%E5%A2%9F_%E5%9C%B0%E4%B8%8B2%E9%9A%8E.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event24/"
+        },
+        {
+          "floor": "尼薩洞窟 1F",
+          "caption": "ニーサの洞窟_1階｜原作者實際 Remastered 遊戲內地形或機關圖（約700px）；地名和出口依原圖標示，非自繪。",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E3%83%8B%E3%83%BC%E3%82%B5%E3%81%AE%E6%B4%9E%E7%AA%9F_1%E9%9A%8E.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event24/"
+        },
+        {
+          "floor": "尼薩洞窟 2F",
+          "caption": "ニーサの洞窟_2階｜原作者實際 Remastered 遊戲內地形或機關圖（約700px）；地名和出口依原圖標示，非自繪。",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E3%83%8B%E3%83%BC%E3%82%B5%E3%81%AE%E6%B4%9E%E7%AA%9F_2%E9%9A%8E.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event24/"
+        },
+        {
+          "floor": "卡庫拉姆沙漠地下 B1",
+          "caption": "カクラム砂漠の地下_地下1階｜原作者實際 Remastered 遊戲內地形或機關圖（約700px）；地名和出口依原圖標示，非自繪。",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E3%82%AB%E3%82%AF%E3%83%A9%E3%83%A0%E7%A0%82%E6%BC%A0%E3%81%AE%E5%9C%B0%E4%B8%8B_%E5%9C%B0%E4%B8%8B1%E9%9A%8E.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event24/"
+        }
+      ]
     },
     {
       "id": "D-04-04",
@@ -8330,7 +8477,8 @@
         "KYO-DUN-05",
         "BH-MAP-SKILLS",
         "PS2-KYO-FORT",
-        "BH05-KNIGHTS"
+        "BH05-KNIGHTS",
+        "SAM-KNIGHTS-26"
       ],
       "tags": [
         "迷宮",
@@ -8440,7 +8588,21 @@
         }
       ],
       "regionId": "MAP-05",
-      "auditUpdated": "2026-10-18"
+      "auditUpdated": "2026-10-18",
+      "floorMaps": [
+        {
+          "floor": "要塞 2F→1F 破裂地板①",
+          "caption": "砦跡・地下1階の行き方｜原作者實際 Remastered 遊戲內地形或機關圖（約700px）；地名和出口依原圖標示，非自繪。",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E7%A0%A6%E8%B7%A1%E3%83%BB%E5%9C%B0%E4%B8%8B1%E9%9A%8E%E3%81%AE%E8%A1%8C%E3%81%8D%E6%96%B9.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event26/"
+        },
+        {
+          "floor": "要塞 1F→B1 破裂地板②",
+          "caption": "砦跡・地下1階の行き方2｜原作者實際 Remastered 遊戲內地形或機關圖（約700px）；地名和出口依原圖標示，非自繪。",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E7%A0%A6%E8%B7%A1%E3%83%BB%E5%9C%B0%E4%B8%8B1%E9%9A%8E%E3%81%AE%E8%A1%8C%E3%81%8D%E6%96%B92.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event26/"
+        }
+      ]
     },
     {
       "id": "D-05-02",
@@ -12771,6 +12933,10 @@
         {
           "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E3%83%A2%E3%83%8B%E3%82%AB%E3%81%AE%E5%AE%B6%E3%81%8C%E3%81%82%E3%82%8B%E5%A0%B4%E6%89%80.jpg",
           "caption": "原作者 Remastered 城鎮地圖實際截圖：莫妮卡的家位置；© SQUARE ENIX，圖源 SAMURAI GAMERS，非本站自繪。"
+        },
+        {
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E6%B0%91%E5%AE%B6%E3%81%8C%E3%81%82%E3%82%8B%E5%A0%B4%E6%89%80.jpg",
+          "caption": "ローバーン民宅實際遊戲城鎮定位畫面：戸棚地下機關入口，圖源 SAMURAI GAMERS，非自行生成。"
         }
       ],
       "mapSourceUrl": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event15/"
@@ -12883,6 +13049,10 @@
         {
           "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E3%83%A2%E3%83%8B%E3%82%AB%E3%81%AE%E5%AE%B6%E3%81%8C%E3%81%82%E3%82%8B%E5%A0%B4%E6%89%80.jpg",
           "caption": "ローバーン莫妮卡宅邸：官方遊戲城鎮定位畫面，圖源 SAMURAI GAMERS。"
+        },
+        {
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E6%B0%91%E5%AE%B6%E3%81%8C%E3%81%82%E3%82%8B%E5%A0%B4%E6%89%80.jpg",
+          "caption": "ローバーン民宅實際遊戲城鎮定位畫面：戸棚地下機關入口，圖源 SAMURAI GAMERS，非自行生成。"
         }
       ],
       "mapSourceUrl": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event15/"
