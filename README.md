@@ -1,34 +1,54 @@
-# 《復活邪神：吟遊詩人之歌》v0.5.0 ｜城鎮村落／洞窟逐點索引
+# 復活邪神：吟遊詩人之歌 Remastered｜繁中圖文攻略 v0.6.1
 
-網站：https://mars0884-chu.github.io/romancing-saga-minstrel-song-ps2/
+**公開網站（GitHub Pages）：** https://mars0884-chu.github.io/romancing-saga-minstrel-song-ps2/
 
-## 改版
-- 11 區域索引加上逐點入口，從大地圖進入城鎮、村莊、洞窟／迷宮，不再只有區域一張世界圖。現有59筆迷宮與新增22筆城鎮位置全部掛在各自的區域底下。
-- 新增「城鎮村莊」標籤：已核實22個單獨地點攻略來源頁，分別記錄繁中／日文名稱、進入條件、NPC／任務、附近迷宮、實際圖資狀態。**沒有證據的地圖不憑空畫**。
-- 新增2張可明確對應地點的玩家實際遊戲畫面：梅爾維爾的 Remastered 城鎮地圖、戈東戈的遊戲場景；來源附於卡片，原圖仍是連線外部網址，未打包進公開 GitHub。
-- 擴充梅爾維爾下水道寶箱及日夜迷途森林的不同寶箱位置／條件。
-- 不需要獨立離線文字HTML：從畫面和 PWA 預載清單刪除入口；移除 offline.html 實體檔。主要網站文字仍在首次連線後可離線使用。
-- 图片權利：Square Enix 英文版圖片指引適用海外個人非商用網站與遊戲截圖，需標示來源與權利；日文版指引限日本在住個人；其餘個人攻略網站未明禁不等於同意公開再散布。此 repo 仍為公開 GitHub Pages，因此不直接把第三方實機圖批量複製成公開可下載素材。
-- 圖片可否離線由個別裝置外部來源快取數量決定；沒有成功快取不宣稱斷網有圖。部分原圖低畫質，單靠放大不能變清楚。
+> 本專案僅處理《Romancing SaGa -Minstrel Song- Remastered》及 2005 PS2 原作對照資料。不得與其他任何 repository 混合。此站雖供個人使用，但 GitHub Pages 網址本身仍是公開存取，並非私密頁面。
 
-## 待完成
-- 大量村莊還沒有單獨的高解析遊戲內地圖／定位截圖，無法靠文字或別村圖冒充。
-- 59座迷宮的所有樓層與寶箱精確圖上位置尚未逐點驗證；仍有部分攻略僅事件綱要。
-- iPhone Edge 真機離線圖片和觸控縮放未實測。
-- 2022 Remastered 專屬可玩同伴、追加任務、強化BOSS仍未完成專屬編排。
+## 本輪真正寫入網站的改動（2026-10-18）
 
-## 新增外部研究線索
-- https://kyokugen.info/minsaga/minstrel_map_0.html （廣域與單點頁完整目錄）
-- https://kyokugen.info/minsaga/minstrel_map_7_01.html （梅爾維爾下水道／宮殿寶箱）
-- https://kyokugen.info/minsaga/minstrel_map_7_03.html （迷途森林日夜分歧與固定箱）
-- https://note.com/nishiken28/n/n1758578c5836 （真實梅爾維爾地圖截圖）
-- https://sekaijyusaya.hatenablog.com/entry/2022/12/04/180922 （真實戈東戈場景）
+1. 保留原有 11 區域→城鎮村莊 22 筆→迷宮 59 筆的可點選導覽，沿用回上一層、全部攻略、瀏覽器上一頁功能。
+2. **11 座迷宮**的來源樓層表再增補 **37 條**通關／地圖能力／寶箱步驟及 **42 筆**固定／隨機／機關條目。補核範圍包括ヤシの洞窟、サオキの洞窟、ヴァンパイアの洞窟、ジュエルビースト、セケト宮殿、魔の島、砦跡、邪教の廃墟、南の洞窟、ジャングル、財宝の穴。
+3. 八位主角共補 **40 條**逐步序章、隱藏路線、易漏金錢箱、隊友、支線分歧、離開條件，均有各自日文原攻略頁，不只放攻略外連。
+4. 收錄 Remastered 與原 PS2 差異：追加可入隊同伴、倍速、迷你地圖、NEW GAME+、追加職業與強化 BOSS；PS2 金手指不可套用 Remastered。
+5. 搜尋擴充至樓層、寶箱物品、機關條件、逐層圖說文字、日文名稱。手機圖覽取消像素化強制濾鏡，維持單圖 1x～8x 放大、水平與垂直捲動。
+6. **PWA 更新**：Service Worker 主動抓取外部攻略圖（最多三個併發）、不中斷其他圖片的失敗重試、保存既有版本圖片、不再每次新版就清空全部原圖；主畫面可回報快取張數，再逐張檢查是否能成功解碼顯示。**最終斷網可靠度仍取決於來源回應、瀏覽器儲存限額及實機驗證。**
+7. 圖片版權標示放到首頁，保留第三方原作者來源，不把無獨立公開轉載許可的地形圖直接重新上傳至公開 GitHub；禁止搜尋引擎索引（但此設定不會讓 Pages 成為私人網站）。
 
-### 官方海外個人使用規範
-- https://www.square-enix-games.com/en_US/documents/romancing-saga-minstrel-song-remastered-live-streaming-and-video-image-posting-guidelines
-- 非日本個人可依條件在非商業個人網頁／部落格使用遊戲實機截圖與官方英語站素材；需標示版權，禁止將已發布影片或圖片另製成獨立圖冊再散布。玩家部落格截圖不因此自動成為開放授權。
+## 現有素材與內容盤點
 
-## 新增可放大逐層地形來源圖
-- 水龍神殿9張、迷途森林白天5張及夜晚4張、銀之洞窟3張，共21張原作者實際地形標註圖。每張有分層中文與日文名稱及一鍵放大來源，約700×400px；不是本站生成的圖片或原封不動的3D遊戲截圖。
-- SAMURAI GAMERS 來源：https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event31/ 、https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event16/ 、https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event17/ 、https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event48/ 。
-- 外部圖片未重新上傳到公開GitHub，斷網成功需先在個人瀏覽器快取成功，不保證第三方站不阻擋連入。
+- 257 筆主要攻略 JSON 記錄內嵌於 `index.html`；另有前次加入的 4 筆迷宮／任務補充由 JS 在載入時加入。
+- 59 筆迷宮主紀錄，其中 52 筆有可對應地點的真實外部地形圖。
+- 21 張額外分層來源圖：水竜の神殿 9、迷いの森白天 5、夜間 4、シルバーの洞窟 3。
+- 現有圖像請求共 108 筆（包含官方人物原畫及場景、外部真實地形圖）；**不是108張已驗證離線圖**，不能當作全部下載成功。
+- 含繁中／日文雙語索引，原站連結列在各筆來源，未確認座標不得虛構圖上釘點。
+- `data.json` 目前為舊版索引片段，非完整資料；主要實際運作資料為 `index.html` 的 `guide-data`。內容與程式分拆仍是後續交接改善項目。
+
+## 離線操作與限制
+
+- 第一次連線進站，點選「儲存離線圖文」；程式會先儲存首頁／資料／PWA，再從 Service Worker 批次請求原站圖片。
+- 失敗圖片可再次點按續存；圖片下載成功不一定代表可離線顯示，程式會再次載入檢查並回報可讀數。
+- 想確認真正離線，需在桌機／手機斷網後重新開啟網站，搜尋文字、開啟已快取的原始圖、縮放並返回列表。
+- 若外站封鎖取圖、圖片失效、iOS 清理儲存空間或瀏覽器容量不足，該張圖片可能仍無法離線。**目前尚未完成實機全圖驗證，不能宣稱100%全圖離線。**
+- 不提供獨立 `offline.html`；一律由正式 PWA 離線瀏覽。
+
+## 來源與使用授權
+
+- 原始迷宮地圖、寶箱索引：https://kyokugen.info/minsaga/minstrel_map_0.html
+- 八主角日文初始事件：https://kyokugen.info/minsaga/minstrel_story_100.html
+- 部分迷宮逐層圖片：https://jp.samurai-gamers.com/saga_minstrelsong_re/
+- Square Enix 日本以外個人使用規範：https://www.square-enix-games.com/en_US/documents/romancing-saga-minstrel-song-remastered-live-streaming-and-video-image-posting-guidelines
+- Remastered 官方繁中介紹：https://www.playstation.com/zh-hant-tw/games/romancing-saga-minstrel-song-remastered/
+- 巴哈姆特中文版新增同伴線索：https://home.gamer.com.tw/artwork.php?sn=5692621
+
+© 1992, 2005, 2022 SQUARE ENIX CO., LTD. All Rights Reserved. ILLUSTRATION: TOMOMI KOBAYASHI.
+
+「極限攻略」明示請勿未經許可轉載；本站不將該站圖包重新發布到 GitHub。Square Enix 允許符合條件的非商用個人分享，不代表其他攻略站自製圖可自由複製。
+
+## 尚未達標，絕不假稱完成
+
+- 59 迷宮全部樓層的逐圖座標、所有村莊高解析單獨地圖、全部裝備真實遊戲截圖未補齊。
+- Remastered 專屬所有新角色入隊流程與強化BOSS特殊打法仍需實際資料和實機核實。
+- iPhone Edge 的全圖離線、觸控縮放與桌機斷網端到端測試，尚未取得真機證據。
+- GitHub Pages 的正式可訪問狀態若無法經公開 HTTPS 成功讀取並核對版號，**只算 GitHub 已推送，部署驗證未完成**。
+
+本次 GitHub 文件與 JavaScript 靜態語法檢查可驗證，**不等於瀏覽器端到端驗收**。
