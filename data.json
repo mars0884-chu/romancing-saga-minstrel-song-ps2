@@ -1,6 +1,6 @@
 {
   "project": "Romancing SaGa -Minstrel Song- Remastered｜PS2 2005 來源對照｜Traditional Chinese Taiwan",
-  "version": "0.6.3-35-more-authentic-area-maps",
+  "version": "0.7.0-integrated-authentic-maps",
   "updated": "2026-10-18",
   "sources": [
     {
@@ -1794,6 +1794,13 @@
       "kind": "Remastered 實際樓層地圖與遊戲流程",
       "url": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event47/",
       "note": "樓層圖直接外連原作者網站，700–797px寬；有內容但未達高清重新繪製，斷網視裝置圖片快取而定。"
+    },
+    {
+      "id": "SAMURAI-FINAL-55",
+      "name": "SAMURAI GAMERS｜最終試練四區地形圖與十二頭目",
+      "kind": "Remastered 遊戲攻略與真實區域地圖",
+      "url": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event55/",
+      "note": "原作者圖檔700x400左右，外部來源／個人瀏覽器快取，不公開重新散布。十二場戰鬥分區與弱點由本頁核對。"
     }
   ],
   "records": [
@@ -8110,12 +8117,21 @@
         "進入與探索：劇情進度到達後，由吟遊詩人說出最終試煉線索；和冥府、古老之城條件分開確認。",
         "先在酒館聽詩人提及「最終試煉」，然後從加雷薩草原往西抵達太陽塔。",
         "試煉內共有十二組頭目，依序清除；中途無法隨意退出，進入前先儲存進度。",
-        "值得留意的固定獎勵：擊倒フローズンボディ後的「メチスの手甲」，擊倒キング・モク後的「エリスの弓」，以及擊倒アムルアムト後的「レフトハンドソード」。"
+        "值得留意的固定獎勵：擊倒フローズンボディ後的「メチスの手甲」，擊倒キング・モク後的「エリスの弓」，以及擊倒アムルアムト後的「レフトハンドソード」。",
+        "【開啟條件】Rank20以上且エロール恩寵值200以上，在PUB向吟遊詩人聽英雄與眾神最終試煉的故事，必須尚未正式接下「決戦！サルーイン」；想走三種最終分歧請先跑此路線。",
+        "【前往入口】到ガレサステップ的太陽祭壇，進入光之階梯；最終試煉分四區，需挑戰12場固定怪物，沒有地圖能力門檻。",
+        "【第1區】オーガチャンピオン：以降低腕力對應物理、降智力對應ナパーム；フローズンボディ：可嘗試スタン／スネア／石化並準備風術防禦；グレンデル：セルフバーニング抵禦部分接觸技，酸霧要處理體力防禦。",
+        "【第2區】ザラタン：用降低體力對付のしかかり與ロックキャノン；キング・モク：注意デルタ・ペトラ，隊伍排位將中央設後列並做抗術防護；ジャスコニィ：注意超高水圧砲，準備水術抵抗與防妨礙行動能力。",
+        "【第3區】デストロイヤー：高溫氣體、大噴火和火術，先換耐火裝備，避免直接接觸セルフバーニング；アムルアムト：以抗光／幻術、アンチマジック抵禦，スターライトビット可由シールドブレイカー破壞。",
+        "【第4區】ウィルムファウンダー：提高射突防禦並降低敵人腕力；アラストル：需抗暗術、減腕力，注意ブラックアイス反擊；ゴールドドラゴン：同時準備火炎、吹雪、雷擊耐性，調整隊列減少範圍傷害。",
+        "【結束與分歧】四區戰鬥全部結束後與エロール對話得知サルーイン位置；事件日誌會加入「決戦！サルーイン」，之後本周目其他終盤分歧可能受限。",
+        "【限定報酬】流程中可獲得メチスの手甲、エリスの弓、レフトハンドソード；若只看到頭目而漏寶箱，請依四區來源地圖逐區檢查。"
       ],
       "sources": [
         "KYO-DUN-04",
         "BH-MAP-SKILLS",
-        "PS2-KYO-FINAL"
+        "PS2-KYO-FINAL",
+        "SAMURAI-FINAL-55"
       ],
       "tags": [
         "迷宮",
@@ -8143,7 +8159,33 @@
           "note": "依本站已有來源攻略文字歸類，未核對原始地圖精確座標。"
         }
       ],
-      "regionId": "MAP-04"
+      "regionId": "MAP-04",
+      "floorMaps": [
+        {
+          "floor": "最終試煉第1區",
+          "caption": "最終試練_エリア1｜SAMURAI GAMERS 原作者實際遊戲區域標註圖（約700×400），可放大，非本站繪製。",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E6%9C%80%E7%B5%82%E8%A9%A6%E7%B7%B4_%E3%82%A8%E3%83%AA%E3%82%A21.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event55/"
+        },
+        {
+          "floor": "最終試煉第2區",
+          "caption": "最終試練_エリア2｜SAMURAI GAMERS 原作者實際遊戲區域標註圖（約700×400），可放大，非本站繪製。",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E6%9C%80%E7%B5%82%E8%A9%A6%E7%B7%B4_%E3%82%A8%E3%83%AA%E3%82%A22.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event55/"
+        },
+        {
+          "floor": "最終試煉第3區",
+          "caption": "最終試練_エリア3｜SAMURAI GAMERS 原作者實際遊戲區域標註圖（約700×400），可放大，非本站繪製。",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E6%9C%80%E7%B5%82%E8%A9%A6%E7%B7%B4_%E3%82%A8%E3%83%AA%E3%82%A23.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event55/"
+        },
+        {
+          "floor": "最終試煉第4區",
+          "caption": "最終試練_エリア4｜SAMURAI GAMERS 原作者實際遊戲區域標註圖（約700×400），可放大，非本站繪製。",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E6%9C%80%E7%B5%82%E8%A9%A6%E7%B7%B4_%E3%82%A8%E3%83%AA%E3%82%A24.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event55/"
+        }
+      ]
     },
     {
       "id": "D-04-05",
@@ -9278,7 +9320,7 @@
       ],
       "stage": "珊瑚海",
       "risk": "入口與地圖技能主要依2005巴哈清單／日文原版舊站，個別層數、寶箱與獎勵仍待全量複核。",
-      "quality": "2005原版歷史資料+迷宮頁，部分路線已驗證；尚未完成逐張地圖與任務關聯的完整驗收",
+      "quality": "2005原版歷史資料+迷宮頁，部分路線已驗證；尚未完成逐張地圖與任務關聯的完整驗收；原來源未有可信的海峽單張地形圖，不以其他地圖冒充。",
       "gallery": [],
       "regionId": "MAP-08"
     },
@@ -10923,7 +10965,13 @@
       ],
       "sources": [
         "KYO-WATER-PUZZLE",
-        "KYO-FAIRY-ORIG"
+        "KYO-FAIRY-ORIG",
+        "KYO-DUN-02",
+        "BH-MAP-SKILLS",
+        "PS2-GOR-WATER",
+        "FFSKY-2005-LATE",
+        "BH05-FAIRY",
+        "SG-MAP-D-02-02"
       ],
       "tags": [
         "2005 PS2原版",
@@ -10933,7 +10981,12 @@
       "stage": "水龍神殿",
       "risk": "瀑布區關閉為重大可錯過條件。",
       "quality": "已參照2005巴哈原文或2005原版資料，後期持續校對；未經PS2實機驗證",
-      "gallery": [],
+      "gallery": [
+        {
+          "src": "https://kyokugen.info/minsaga/map/kjaragt_shuilung.jpeg",
+          "caption": "對應迷宮共用的原作者真實地形圖：水竜の神殿｜2005 原版地圖作者實際攻略圖（寶箱、機關、樓層記號依圖說），外站圖片連線載入；不是本站自畫，不是遊戲內 3D 畫面擷取。"
+        }
+      ],
       "landmarks": [
         {
           "floor": "瀑布",
@@ -10948,7 +11001,8 @@
           "note": "依本站已有來源攻略文字歸類，未核對原始地圖精確座標。"
         }
       ],
-      "regionId": "MAP-ROUTE"
+      "regionId": "MAP-ROUTE",
+      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_map_2_07.html"
     },
     {
       "id": "PS2-ROUTE-018",
@@ -10964,7 +11018,9 @@
       ],
       "sources": [
         "BH05-ICE",
-        "KYO-ICE-PUZZLE"
+        "KYO-ICE-PUZZLE",
+        "KYO-DUN-06",
+        "BH-MAP-SKILLS"
       ],
       "tags": [
         "2005 PS2原版",
@@ -10974,8 +11030,14 @@
       "stage": "凍結湖",
       "risk": "機關後有劇情選項，建議分開存檔。",
       "quality": "已參照2005巴哈原文或2005原版資料，後期持續校對；未經PS2實機驗證",
-      "gallery": [],
-      "regionId": "MAP-ROUTE"
+      "gallery": [
+        {
+          "src": "https://kyokugen.info/minsaga/map/valhalland_frozen.jpeg",
+          "caption": "對應迷宮共用的原作者真實地形圖：凍結湖／凍りついた城｜2005 原版地圖作者實際攻略圖（寶箱、機關、樓層記號依圖說），外站圖片連線載入；不是本站自畫，不是遊戲內 3D 畫面擷取。"
+        }
+      ],
+      "regionId": "MAP-ROUTE",
+      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_map_6_06.html"
     },
     {
       "id": "PS2-ROUTE-019",
@@ -10991,7 +11053,11 @@
       ],
       "sources": [
         "KYO-OLD-FAQ",
-        "PS2-KYO-CULT"
+        "PS2-KYO-CULT",
+        "KYO-DUN-05",
+        "BH-MAP-SKILLS",
+        "PS2-ALISATO-2005",
+        "BH05-THEO"
       ],
       "tags": [
         "2005 PS2原版",
@@ -11001,7 +11067,12 @@
       "stage": "騎士團領",
       "risk": "別把燭台房當一般迷宮岔路一直繞。",
       "quality": "已參照2005巴哈原文或2005原版資料，後期持續校對；未經PS2實機驗證",
-      "gallery": [],
+      "gallery": [
+        {
+          "src": "https://kyokugen.info/minsaga/map/knight_paganruins.jpeg",
+          "caption": "對應迷宮共用的原作者真實地形圖：邪教の廃墟｜2005 原版地圖作者實際攻略圖（寶箱、機關、樓層記號依圖說），外站圖片連線載入；不是本站自畫，不是遊戲內 3D 畫面擷取。"
+        }
+      ],
       "landmarks": [
         {
           "floor": "區域待核",
@@ -11016,7 +11087,8 @@
           "note": "依本站已有來源攻略文字歸類，未核對原始地圖精確座標。"
         }
       ],
-      "regionId": "MAP-ROUTE"
+      "regionId": "MAP-ROUTE",
+      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_map_5_06.html"
     },
     {
       "id": "PS2-ROUTE-020",
@@ -11033,7 +11105,11 @@
       "sources": [
         "KYO-OLD-FAQ",
         "KYO-MAP-ABILITY",
-        "BH05-SILVER"
+        "BH05-SILVER",
+        "KYO-DUN-09",
+        "BH-MAP-SKILLS",
+        "PS2-KYO-SILVER",
+        "SG-MAP-D-09-03"
       ],
       "tags": [
         "2005 PS2原版",
@@ -11043,7 +11119,12 @@
       "stage": "瓦隆島",
       "risk": "沒技能不是遇到無解地形。",
       "quality": "已參照2005巴哈原文或2005原版資料，後期持續校對；未經PS2實機驗證",
-      "gallery": [],
+      "gallery": [
+        {
+          "src": "https://kyokugen.info/minsaga/map/walon_silver.jpeg",
+          "caption": "對應迷宮共用的原作者真實地形圖：シルバーの洞窟｜2005 原版地圖作者實際攻略圖（寶箱、機關、樓層記號依圖說），外站圖片連線載入；不是本站自畫，不是遊戲內 3D 畫面擷取。"
+        }
+      ],
       "landmarks": [
         {
           "floor": "區域待核",
@@ -11058,7 +11139,8 @@
           "note": "依本站已有來源攻略文字歸類，未核對原始地圖精確座標。"
         }
       ],
-      "regionId": "MAP-ROUTE"
+      "regionId": "MAP-ROUTE",
+      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_map_9_06.html"
     },
     {
       "id": "PS2-ROUTE-021",
@@ -11074,7 +11156,11 @@
       ],
       "sources": [
         "BH05-AQUAMARINE",
-        "KYO-OLD-FAQ"
+        "KYO-OLD-FAQ",
+        "KYO-DUN-03",
+        "BH-MAP-SKILLS",
+        "PS2-ALISATO-2005",
+        "PS2-KYO-CRYSTAL"
       ],
       "tags": [
         "2005 PS2原版",
@@ -11084,7 +11170,12 @@
       "stage": "水晶湖",
       "risk": "頭目名稱存在文獻差異，待PS2實機交叉確認。",
       "quality": "已參照2005巴哈原文或2005原版資料，後期持續校對；未經PS2實機驗證",
-      "gallery": [],
+      "gallery": [
+        {
+          "src": "https://kyokugen.info/minsaga/map/rosalia_crystal.jpeg",
+          "caption": "對應迷宮共用的原作者真實地形圖：クリスタルレイク｜2005 原版地圖作者實際攻略圖（寶箱、機關、樓層記號依圖說），外站圖片連線載入；不是本站自畫，不是遊戲內 3D 畫面擷取。"
+        }
+      ],
       "landmarks": [
         {
           "floor": "區域待核",
@@ -11093,7 +11184,8 @@
           "note": "依本站已有來源攻略文字歸類，未核對原始地圖精確座標。"
         }
       ],
-      "regionId": "MAP-ROUTE"
+      "regionId": "MAP-ROUTE",
+      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_map_3_06.html"
     },
     {
       "id": "PS2-ROUTE-022",
@@ -11239,7 +11331,10 @@
       ],
       "sources": [
         "KYO-DUN-10",
-        "PS2-EICOS-CHEST"
+        "PS2-EICOS-CHEST",
+        "BH-MAP-SKILLS",
+        "BH05-KATANA",
+        "PS2-KYO-TREASURE"
       ],
       "tags": [
         "財宝の穴",
@@ -11250,7 +11345,12 @@
       "stage": "里高島",
       "risk": "部分寶箱可能為隨機重生",
       "quality": "PS2 原版既有研究；非完整截圖地圖",
-      "gallery": [],
+      "gallery": [
+        {
+          "src": "https://kyokugen.info/minsaga/map/ligau_treasure.jpeg",
+          "caption": "對應迷宮共用的原作者真實地形圖：財宝の穴｜2005 原版地圖作者實際攻略圖（寶箱、機關、樓層記號依圖說），外站圖片連線載入；不是本站自畫，不是遊戲內 3D 畫面擷取。"
+        }
+      ],
       "landmarks": [
         {
           "floor": "B1",
@@ -11271,7 +11371,8 @@
           "note": "依本站已有來源攻略文字歸類，未核對原始地圖精確座標。"
         }
       ],
-      "regionId": "MAP-041"
+      "regionId": "MAP-041",
+      "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_map_10_04.html"
     },
     {
       "id": "PS2-041-DINOSAUR",
