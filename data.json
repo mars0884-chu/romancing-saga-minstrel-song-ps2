@@ -1,6 +1,6 @@
 {
   "project": "Romancing SaGa -Minstrel Song- Remastered｜PS2 2005 來源對照｜Traditional Chinese Taiwan",
-  "version": "0.9.2-events-and-image-audit",
+  "version": "0.9.3-verified-original-map-links",
   "updated": "2026-10-18",
   "sources": [
     {
@@ -2102,6 +2102,27 @@
       "url": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event/",
       "kind": "不同周目條件與報酬",
       "note": "Rank可受自由探索與戰鬥變化"
+    },
+    {
+      "id": "SG-AUDIT-BUTTERFLY",
+      "name": "SAMURAI GAMERS｜迷いの蝶夜間四區與完整委託",
+      "url": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event17/",
+      "kind": "Remastered 原作者事件攻略＋真實日夜分區地形圖",
+      "note": "修復與原作者連結相符的實際圖片檔名；需實測可讀、不可自動認定高清。"
+    },
+    {
+      "id": "SG-AUDIT-OWL",
+      "name": "SAMURAI GAMERS｜オウルの呼び声白天五區與流程",
+      "url": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event16/",
+      "kind": "Remastered 原作者事件攻略＋真實日夜分區地形圖",
+      "note": "修復與原作者連結相符的實際圖片檔名；需實測可讀、不可自動認定高清。"
+    },
+    {
+      "id": "SG-AUDIT-MANUSCRIPT",
+      "name": "SAMURAI GAMERS｜古文書五冊翻譯與兩種神殿象徵",
+      "url": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event46/",
+      "kind": "Remastered 原作者事件攻略＋真實日夜分區地形圖",
+      "note": "修復與原作者連結相符的實際圖片檔名；需實測可讀、不可自動認定高清。"
     }
   ],
   "records": [
@@ -3732,13 +3753,20 @@
         "在梅爾維爾酒館留意有關蝴蝶的委託，調查委託人的住處。",
         "夜間追逐發光蝴蝶進入迷途森林；取得ムクロペンダント（骷髏墜飾）與夜光草。",
         "回到梅爾維爾將物品交回委託人。",
-        "迷途蝴蝶可在後期重新調查，但會受同區域連鎖事件影響。"
+        "迷途蝴蝶可在後期重新調查，但會受同區域連鎖事件影響。",
+        "【解鎖條件】劇情事件Rank7以上，而且ネビルの依頼、皇帝の奇病與メルビル襲撃計画沒有正在進行中，才能順利接「迷いの蝶」。",
+        "【在梅爾維爾接任務】先查PUB內的告示，會自動移動到委託夫妻的民家門口；進去與夫妻對話，再走出房子。",
+        "【夜晚追蝴蝶】離開民宅後城市變成夜晚，會遇發光蝴蝶並自動進入迷いの森（夜）；不需要拿白天森林地圖亂猜夜間出口。",
+        "【夜間迷宮】順著蝴蝶方向穿過夜間1～4區，本站已補真正的四張日文原始分區圖；想順手採集可先配薬草サーチ及薬草採取。",
+        "【取得物品】森林深處取得夜光草與ムクロのペンダント（骸骨墜飾），物品都要拿齊，不能只看到蝴蝶就回頭。",
+        "【回報領獎】回メルビル民家找夫妻對話，得到1000金與ジュエル；此事件沒有原攻略列出的硬性失敗選項。"
       ],
       "sources": [
         "KYO-TIME-LIST",
         "KYO-EVENTS",
         "FFSKY-2005-LATE",
-        "PS2-SURUME-EVENT"
+        "PS2-SURUME-EVENT",
+        "SG-AUDIT-BUTTERFLY"
       ],
       "tags": [
         "35%起"
@@ -3756,12 +3784,19 @@
       "summary": "迷路森林",
       "steps": [
         "沿克蘿蒂雅相關劇情進入森林深處。",
-        "與現行混合站部分30%資料不一致；採明指PS2原版研究的40%。"
+        "與現行混合站部分30%資料不一致；採明指PS2原版研究的40%。",
+        "【進場條件】イベントRank8以上且隊伍中有クローディア；已完成ネビルの依頼時最早Rank6可開始。主角是否為克蘿蒂雅會影響隊友離隊畫面。",
+        "【聽見呼喚】與クローディア同行，在非ウソ、ウェイプ、ゴドンゴ、タラール族の村、バイゼルハイム、巨人の里的其他城鎮旅館住宿，觸發オウル呼喚。",
+        "【關鍵對話】クローディア表示要去時，一定選「一緒に行く」；選「行かせる／行かせない」可能讓她離隊，從而影響該任務繼續。",
+        "【白天地圖】穿越迷いの森（昼）的1～4分區走到オウルの庵，本站五張原作者圖已核對圖片檔名；房屋位置相對森林入口靠左上。",
+        "【最後見面】在庵裡和オウル交談，取得オウルの杖與オウルの笠。不要只聽他說話就忘記把裝備撿起。",
+        "【克蘿蒂雅特殊】她為主角時，離開オウルの庵時ブラウ與シルベン會離隊，裝備及術法規劃要提前處理。"
       ],
       "sources": [
         "KYO-TIME-LIST",
         "KYO-EVENTS",
-        "PS2-SURUME-EVENT"
+        "PS2-SURUME-EVENT",
+        "SG-AUDIT-OWL"
       ],
       "tags": [
         "40%起"
@@ -5252,7 +5287,12 @@
         "【前置】先完成「ゲッコ族」，之後回ゲッコ族の村向族人詢問古文書。",
         "【取得古文書】到ウソ的PUB招ホーク，獲得古文書；若在別處招入隊，請核對是否已有該道具。",
         "【翻譯】去メルビル的帝國圖書館，將古代語辭典五卷全部讀完，解讀古文書獲得ジュエル。",
-        "【任務連鎖】這是「皇帝の奇病」前置，應在中期時限內完成，不要先大量刷怪。"
+        "【任務連鎖】這是「皇帝の奇病」前置，應在中期時限內完成，不要先大量刷怪。",
+        "【免費取得古文書】先在ゲッコ族村取得線索，去ウソPUB邀ホーク加入可取得古文書；如果只選『譲ってもらう』可能要付15000金，請先確認對話選項。",
+        "【完整翻譯】到メルビル帝國圖書館讀完古代語辞典五冊，中途退出可能要重新閱讀全部五冊。",
+        "【アムトのシンボル】去北エスタミルアムト神殿問神官；若未取得，先透過神殿相關行動增加恩寵，再重新對話。",
+        "【エリスのシンボル】從迷いの森オウル的庵再往北找シリル；Rank9以上且恩寵滿足條件才可能進入夜晚森林大樹根部取得象徵。",
+        "【互斥提醒】『迷いの蝶』進行時可能擋住前往シリル的路，先完成夜光草委託再取エリス象徵，才能避免卡住皇帝怪病的前置。"
       ],
       "sources": [
         "KYO-EVENTS",
@@ -5260,7 +5300,8 @@
         "FAQ-EVENT",
         "BH05-ALBERT",
         "BH05-MID1",
-        "VERIFY-QUEST-G084"
+        "VERIFY-QUEST-G084",
+        "SG-AUDIT-MANUSCRIPT"
       ],
       "tags": [
         "PS2 原版",
@@ -9583,7 +9624,8 @@
         "KYO-DUN-07",
         "BH-MAP-SKILLS",
         "PS2-MAP-BAFAL_FOREST",
-        "SG-MAP-D-07-03"
+        "SG-MAP-D-07-03",
+        "SG-AUDIT-OWL"
       ],
       "tags": [
         "迷宮",
@@ -9594,7 +9636,7 @@
       ],
       "stage": "巴法爾帝國",
       "risk": "入口與地圖技能主要依2005巴哈清單／日文原版舊站，個別層數、寶箱與獎勵仍待全量複核。",
-      "quality": "2005原版歷史資料+迷宮頁，部分路線已驗證；尚未完成逐張地圖與任務關聯的完整驗收",
+      "quality": "原圖連結已依2026-10-18作者頁面校正檔名（去掉不應有的『森_昼／森_夜』底線），仍須GitHub遠端影像稽核確認HTTP及解碼；原圖本身約700px等級，不是高清圖。",
       "gallery": [
         {
           "src": "https://kyokugen.info/minsaga/map/bafal_forest.jpeg",
@@ -9621,35 +9663,35 @@
       "floorMaps": [
         {
           "floor": "白天1",
-          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E8%BF%B7%E3%81%84%E3%81%AE%E6%A3%AE_%E6%98%BC1.jpg",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E8%BF%B7%E3%81%84%E3%81%AE%E6%A3%AE%E6%98%BC1.jpg",
           "caption": "SAMURAI GAMERS原作者逐樓層路線圖：昼1，圖內有實際出入口／樓層標示。",
           "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event16/",
           "sourceStatus": "第三方原始攻略圖，未取得公開二次散布授權，線上顯示與個人快取。"
         },
         {
           "floor": "白天2",
-          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E8%BF%B7%E3%81%84%E3%81%AE%E6%A3%AE_%E6%98%BC2.jpg",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E8%BF%B7%E3%81%84%E3%81%AE%E6%A3%AE%E6%98%BC2.jpg",
           "caption": "SAMURAI GAMERS原作者逐樓層路線圖：昼2，圖內有實際出入口／樓層標示。",
           "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event16/",
           "sourceStatus": "第三方原始攻略圖，未取得公開二次散布授權，線上顯示與個人快取。"
         },
         {
           "floor": "白天3",
-          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E8%BF%B7%E3%81%84%E3%81%AE%E6%A3%AE_%E6%98%BC3.jpg",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E8%BF%B7%E3%81%84%E3%81%AE%E6%A3%AE%E6%98%BC3.jpg",
           "caption": "SAMURAI GAMERS原作者逐樓層路線圖：昼3，圖內有實際出入口／樓層標示。",
           "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event16/",
           "sourceStatus": "第三方原始攻略圖，未取得公開二次散布授權，線上顯示與個人快取。"
         },
         {
           "floor": "白天4",
-          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E8%BF%B7%E3%81%84%E3%81%AE%E6%A3%AE_%E6%98%BC4.jpg",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E8%BF%B7%E3%81%84%E3%81%AE%E6%A3%AE%E6%98%BC4.jpg",
           "caption": "SAMURAI GAMERS原作者逐樓層路線圖：昼4，圖內有實際出入口／樓層標示。",
           "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event16/",
           "sourceStatus": "第三方原始攻略圖，未取得公開二次散布授權，線上顯示與個人快取。"
         },
         {
           "floor": "白天_オウルの庵",
-          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E8%BF%B7%E3%81%84%E3%81%AE%E6%A3%AE_%E6%98%BC_%E3%82%AA%E3%82%A6%E3%83%AB%E3%81%AE%E5%BA%B5.jpg",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E8%BF%B7%E3%81%84%E3%81%AE%E6%A3%AE%E6%98%BC_%E3%82%AA%E3%82%A6%E3%83%AB%E3%81%AE%E5%BA%B5.jpg",
           "caption": "SAMURAI GAMERS原作者逐樓層路線圖：昼_オウルの庵，圖內有實際出入口／樓層標示。",
           "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event16/",
           "sourceStatus": "第三方原始攻略圖，未取得公開二次散布授權，線上顯示與個人快取。"
@@ -9674,7 +9716,8 @@
         "BH-MAP-SKILLS",
         "FFSKY-2005-LATE",
         "PS2-MAP-BAFAL_FOREST",
-        "SG-MAP-D-07-04"
+        "SG-MAP-D-07-04",
+        "SG-AUDIT-BUTTERFLY"
       ],
       "tags": [
         "迷宮",
@@ -9685,7 +9728,7 @@
       ],
       "stage": "巴法爾帝國",
       "risk": "入口與地圖技能主要依2005巴哈清單／日文原版舊站，個別層數、寶箱與獎勵仍待全量複核。",
-      "quality": "2005原版歷史資料+迷宮頁，部分路線已驗證；尚未完成逐張地圖與任務關聯的完整驗收",
+      "quality": "原圖連結已依2026-10-18作者頁面校正檔名（去掉不應有的『森_昼／森_夜』底線），仍須GitHub遠端影像稽核確認HTTP及解碼；原圖本身約700px等級，不是高清圖。",
       "gallery": [
         {
           "src": "https://kyokugen.info/minsaga/map/bafal_forest_dark.jpeg",
@@ -9698,28 +9741,28 @@
       "floorMaps": [
         {
           "floor": "夜晚1",
-          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E8%BF%B7%E3%81%84%E3%81%AE%E6%A3%AE_%E5%A4%9C1.jpg",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E8%BF%B7%E3%81%84%E3%81%AE%E6%A3%AE%E5%A4%9C1.jpg",
           "caption": "SAMURAI GAMERS原作者逐樓層路線圖：夜1，圖內有實際出入口／樓層標示。",
           "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event17/",
           "sourceStatus": "第三方原始攻略圖，未取得公開二次散布授權，線上顯示與個人快取。"
         },
         {
           "floor": "夜晚2",
-          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E8%BF%B7%E3%81%84%E3%81%AE%E6%A3%AE_%E5%A4%9C2.jpg",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E8%BF%B7%E3%81%84%E3%81%AE%E6%A3%AE%E5%A4%9C2.jpg",
           "caption": "SAMURAI GAMERS原作者逐樓層路線圖：夜2，圖內有實際出入口／樓層標示。",
           "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event17/",
           "sourceStatus": "第三方原始攻略圖，未取得公開二次散布授權，線上顯示與個人快取。"
         },
         {
           "floor": "夜晚3",
-          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E8%BF%B7%E3%81%84%E3%81%AE%E6%A3%AE_%E5%A4%9C3.jpg",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E8%BF%B7%E3%81%84%E3%81%AE%E6%A3%AE%E5%A4%9C3.jpg",
           "caption": "SAMURAI GAMERS原作者逐樓層路線圖：夜3，圖內有實際出入口／樓層標示。",
           "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event17/",
           "sourceStatus": "第三方原始攻略圖，未取得公開二次散布授權，線上顯示與個人快取。"
         },
         {
           "floor": "夜晚4",
-          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E8%BF%B7%E3%81%84%E3%81%AE%E6%A3%AE_%E5%A4%9C4.jpg",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E8%BF%B7%E3%81%84%E3%81%AE%E6%A3%AE%E5%A4%9C4.jpg",
           "caption": "SAMURAI GAMERS原作者逐樓層路線圖：夜4，圖內有實際出入口／樓層標示。",
           "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event17/",
           "sourceStatus": "第三方原始攻略圖，未取得公開二次散布授權，線上顯示與個人快取。"
