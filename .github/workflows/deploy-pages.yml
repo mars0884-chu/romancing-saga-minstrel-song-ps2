@@ -25,6 +25,8 @@ jobs:
         run: python tools/test_pwa.py
       - name: Test multi-file downloadable offline ZIP integrity
         run: python tools/build_offline_zip.py
+      - name: Test extracted ZIP while disconnected (desktop and mobile)
+        run: python tools/test_offline_zip.py
   deploy:
     needs: verify
     runs-on: ubuntu-latest
