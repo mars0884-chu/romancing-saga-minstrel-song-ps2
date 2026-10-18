@@ -1,4 +1,4 @@
-"""PWA v0.9.5 靜態資料、搜尋、返回、地圖放大、桌機/手機與離線文字驗收。"""
+"""PWA v0.9.6 靜態資料、搜尋、返回、地圖放大、桌機/手機與離線文字驗收。"""
 from pathlib import Path
 import json,re,subprocess,time
 from playwright.sync_api import sync_playwright
@@ -10,9 +10,15 @@ html=(root/'index.html').read_text(encoding='utf-8')
 sw=(root/'sw.js').read_text(encoding='utf-8')
 m=re.search(r'<script id="guide-data" type="application/json">(.*?)</script>',html,re.S)
 assert m and json.loads(m.group(1))==d,"首頁資料與data.json不一致"
-assert d['version'].startswith('0.9.5') and 'minstrel-ps2-2005-v0.9.5' in html and 'minstrel-ps2-2005-v0.9.5' in sw
+assert d['version'].startswith('0.9.5') and 'minstrel-ps2-2005-v0.9.6' in html and 'minstrel-ps2-2005-v0.9.6' in sw
 R=d['records'];ids={r['id'] for r in R};sourceids={r['id'] for r in d['sources']}
-assert len(R)>=276
+assert len(R)>=279
+assert len(next(r for r in R if r['id']=='G019')['steps']) >= 18
+assert len(next(r for r in R if r['id']=='G014')['steps']) >= 10
+assert len(next(r for r in R if r['id']=='G046')['steps']) >= 12
+assert len(next(r for r in R if r['id']=='G089')['steps']) >= 12
+assert 'runOfflineSync(false)' in html, 'PWA must start image cache automatically'
+assert 'minstrel-ps2-2005-v0.9.6-local-maps2' in sw and 'minstrel-ps2-2005-v0.9.6-local-maps2' in html
 assert len(next(r for r in R if r['id']=='G016')['steps'])>=9
 assert len(next(r for r in R if r['id']=='G017')['steps'])>=8
 assert len(next(r for r in R if r['id']=='G084')['steps'])>=12
@@ -93,7 +99,7 @@ try:
    for image_path in local_images:
     result=page.evaluate("""async p=>{const r=await fetch(p);return {ok:r.ok,bytes:(await r.text()).length}}""",image_path)
     assert result['ok'] and result['bytes']>100, f'offline local image failure: {image_path}: {result}'
-   image_cache_count=page.evaluate("""async()=>{const k=(await caches.keys()).find(n=>n.includes('local-maps1'));return k?(await (await caches.open(k)).keys()).length:0}""")
+   image_cache_count=page.evaluate("""async()=>{const k=(await caches.keys()).find(n=>n.includes('local-maps2'));return k?(await (await caches.open(k)).keys()).length:0}""")
    assert image_cache_count>=111,f'Expected 103 local graphics plus guide assets in offline cache; got {image_cache_count}'
    assert not page.evaluate('document.documentElement.scrollWidth > innerWidth+1')
    assert not errors,errors
