@@ -1,5 +1,5 @@
-/* v0.9.5: offline base guide + personal browser cache of original images; no public redistribution. */
-const KEY='minstrel-ps2-2005-v0.9.5-local-maps1';
+/* v0.9.6: PWA automatically loads searchable data and installs local guide images; permitted third-party images are cached on-device. */
+const KEY='minstrel-ps2-2005-v0.9.6-local-maps2';
 const IMG_KEY='minstrel-ps2-2005-images-v1';
 const FILES=['./','./index.html','./data.json','./manifest.webmanifest','./assets/ps2-original-cover.webp','./assets/icon-192.png','./assets/icon-512.png','./assets/apple-touch-icon.png',
 "./assets/atlas/map-01.svg",
