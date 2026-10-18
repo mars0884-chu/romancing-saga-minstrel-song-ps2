@@ -37,3 +37,29 @@ jobs:
           path: .
       - id: deployment
         uses: actions/deploy-pages@v4
+      - name: Verify LIVE GitHub Pages HTML, PWA, and synchronized guide version
+        shell: bash
+        env:
+          LIVE_URL: ${{ steps.deployment.outputs.page_url }}
+        run: |
+          set -euo pipefail
+          echo "Live Pages URL: ${LIVE_URL}"
+          if [[ -z "${LIVE_URL}" || "${LIVE_URL}" != https://* ]]; then
+            echo "::error::No valid https Pages URL was returned"
+            exit 1
+          fi
+          for attempt in $(seq 1 12); do
+            if curl --fail --location --max-time 20 --silent --show-error "${LIVE_URL%/}/index.html?sha=${GITHUB_SHA}" -o /tmp/minstrel-live-index.html \
+              && curl --fail --location --max-time 20 --silent --show-error "${LIVE_URL%/}/sw.js?sha=${GITHUB_SHA}" -o /tmp/minstrel-live-sw.js \
+              && curl --fail --location --max-time 20 --silent --show-error "${LIVE_URL%/}/data.json?sha=${GITHUB_SHA}" -o /tmp/minstrel-live-data.json \
+              && grep -q "minstrel-ps2-2005-v0.7.0" /tmp/minstrel-live-index.html \
+              && grep -q "minstrel-ps2-2005-v0.7.0" /tmp/minstrel-live-sw.js \
+              && python -c 'import json;d=json.load(open("/tmp/minstrel-live-data.json"));assert d["version"].startswith("0.7.0"),d["version"];assert len(d["records"])>=263;print("Live guide records:",len(d["records"]))'; then
+              echo "LIVE DEPLOY VERIFIED: public HTML, SW and guide JSON are v0.7.0"
+              exit 0
+            fi
+            echo "Live Pages not propagated (attempt ${attempt}/12); retry in 10 seconds."
+            sleep 10
+          done
+          echo "::error::Public Pages version mismatch or network error after 12 attempts"
+          exit 1
