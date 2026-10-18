@@ -1,5 +1,5 @@
-/* v0.6.0: offline base guide + personal browser cache of original images; no public redistribution. */
-const KEY='minstrel-ps2-2005-v0.6.0';
+/* v0.6.1: offline base guide + personal browser cache of original images; no public redistribution. */
+const KEY='minstrel-ps2-2005-v0.6.1';
 const IMG_KEY='minstrel-ps2-2005-images-v1';
 const FILES=['./','./index.html','./data.json','./manifest.webmanifest','./assets/ps2-original-cover.webp','./assets/icon-192.png','./assets/icon-512.png','./assets/apple-touch-icon.png'];
 const IMAGE_HOSTS=new Set(['www.jp.square-enix.com','kyokugen.info','cdn-ak.f.st-hatena.com','blog-imgs-161.fc2.com','stat.ameba.jp','assets.st-note.com','jp.samurai-gamers.com']);
@@ -33,7 +33,7 @@ async function saveOfflineImages(urls,port){
  let index=0,done=0,success=0,failed=[];
  async function saveOne(url){
   if(await imageCache.match(url))return true;
-  const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),18000);
+  const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),12000);
   try{
    const response=await fetch(new Request(url,{mode:'no-cors',credentials:'omit',referrerPolicy:'no-referrer',cache:'reload',signal:controller.signal}));
    if(!response.ok&&response.type!=='opaque')return false;
