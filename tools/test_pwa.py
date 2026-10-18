@@ -88,6 +88,13 @@ try:
    page.locator('#search').fill('最終試練')
    assert 'オーガチャンピオン' in page.locator('#cards').inner_text()
    assert page.locator('.floor-fig').count()==4
+   # Verify genuine same-origin image bytes can be read without network, not just visible remote thumbnails.
+   local_images=['assets/floorplans/final-trial.svg','assets/atlas/map-01.svg','assets/heroes/g001.svg','assets/equipment/g105.svg']
+   for image_path in local_images:
+    result=page.evaluate("""async p=>{const r=await fetch(p);return {ok:r.ok,bytes:(await r.text()).length}}""",image_path)
+    assert result['ok'] and result['bytes']>100, f'offline local image failure: {image_path}: {result}'
+   image_cache_count=page.evaluate("""async()=>{const k=(await caches.keys()).find(n=>n.includes('local-maps1'));return k?(await (await caches.open(k)).keys()).length:0}""")
+   assert image_cache_count>=111,f'Expected 103 local graphics plus guide assets in offline cache; got {image_cache_count}'
    assert not page.evaluate('document.documentElement.scrollWidth > innerWidth+1')
    assert not errors,errors
    print('PWA responsive + back + zoom + offline searchable guide: PASS',width,height)
