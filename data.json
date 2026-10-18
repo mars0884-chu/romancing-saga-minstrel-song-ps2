@@ -2291,6 +2291,13 @@
       "url": "https://kyokugen.info/minsaga/minstrel_map_4_04.html",
       "kind": "地圖/隨機寶箱",
       "note": "已讀取原始公開攻略頁，中文重述；圖片需由原站連結確認授權"
+    },
+    {
+      "id": "SAM-TOPAZ-ORIGINAL-MAPS",
+      "name": "SAMURAI GAMERS｜タラール族消失 真實樓層圖",
+      "url": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event01/",
+      "kind": "原站地形圖，外部連結不重新散布",
+      "note": "砂漠の廃墟與ニーサの洞窟共5張樓層路線圖，約700px原始尺寸，放大不增加像素細節"
     }
   ],
   "records": [
@@ -4094,7 +4101,34 @@
       "gallery": [],
       "relatedIds": [
         "QUEST-EMPEROR-ILLNESS-FULL",
-        "D-09-04"
+        "D-09-04",
+        "STR-006"
+      ],
+      "floorMaps": [
+        {
+          "floor": "神殿地下1階",
+          "caption": "雙月神殿｜神殿地下1階 原始攻略樓層圖；寶箱機關對照本任務與迷宮分層清單。點圖放大；原始圖片版權歸來源作者。",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E4%BA%8C%E3%81%A4%E3%81%AE%E6%9C%88%E3%81%AE%E7%A5%9E%E6%AE%BF_%E5%9C%B0%E4%B8%8B1%E9%9A%8E.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event47/"
+        },
+        {
+          "floor": "神殿地下2階",
+          "caption": "雙月神殿｜神殿地下2階 原始攻略樓層圖；寶箱機關對照本任務與迷宮分層清單。點圖放大；原始圖片版權歸來源作者。",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E4%BA%8C%E3%81%A4%E3%81%AE%E6%9C%88%E3%81%AE%E7%A5%9E%E6%AE%BF_%E5%9C%B0%E4%B8%8B2%E9%9A%8E.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event47/"
+        },
+        {
+          "floor": "神殿地下4階",
+          "caption": "雙月神殿｜神殿地下4階 原始攻略樓層圖；寶箱機關對照本任務與迷宮分層清單。點圖放大；原始圖片版權歸來源作者。",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E4%BA%8C%E3%81%A4%E3%81%AE%E6%9C%88%E3%81%AE%E7%A5%9E%E6%AE%BF_%E5%9C%B0%E4%B8%8B4%E9%9A%8E.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event47/"
+        },
+        {
+          "floor": "神殿地下7階",
+          "caption": "雙月神殿｜神殿地下7階 原始攻略樓層圖；寶箱機關對照本任務與迷宮分層清單。點圖放大；原始圖片版權歸來源作者。",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E4%BA%8C%E3%81%A4%E3%81%AE%E6%9C%88%E3%81%AE%E7%A5%9E%E6%AE%BF_%E5%9C%B0%E4%B8%8B7%E9%9A%8E.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event47/"
+        }
       ]
     },
     {
@@ -5811,7 +5845,8 @@
         "KYO-TIME-LIST",
         "FAQ-EVENT",
         "KYO-TOPAZ-DEEP",
-        "KYO-TOPAZ-MAP-DEEP"
+        "KYO-TOPAZ-MAP-DEEP",
+        "SAM-TOPAZ-ORIGINAL-MAPS"
       ],
       "tags": [
         "PS2 原版",
@@ -5824,6 +5859,38 @@
       "gallery": [],
       "relatedIds": [
         "D-04-03"
+      ],
+      "floorMaps": [
+        {
+          "floor": "沙漠廢墟 B1",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E7%A0%82%E6%BC%A0%E3%81%AE%E5%BB%83%E5%A2%9F_%E5%9C%B0%E4%B8%8B1%E9%9A%8E.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event01/",
+          "caption": "原始 Remastered 攻略樓層地圖｜沙漠廢墟 B1。來源 SAMURAI GAMERS；非本站重繪，圖片在原站提供，手機點擊可放大。"
+        },
+        {
+          "floor": "沙漠廢墟 B2",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E7%A0%82%E6%BC%A0%E3%81%AE%E5%BB%83%E5%A2%9F_%E5%9C%B0%E4%B8%8B2%E9%9A%8E.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event01/",
+          "caption": "原始 Remastered 攻略樓層地圖｜沙漠廢墟 B2。來源 SAMURAI GAMERS；非本站重繪，圖片在原站提供，手機點擊可放大。"
+        },
+        {
+          "floor": "尼薩洞窟 1F",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E3%83%8B%E3%83%BC%E3%82%B5%E3%81%AE%E6%B4%9E%E7%AA%9F_1%E9%9A%8E.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event01/",
+          "caption": "原始 Remastered 攻略樓層地圖｜尼薩洞窟 1F。來源 SAMURAI GAMERS；非本站重繪，圖片在原站提供，手機點擊可放大。"
+        },
+        {
+          "floor": "尼薩洞窟 2F",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E3%83%8B%E3%83%BC%E3%82%B5%E3%81%AE%E6%B4%9E%E7%AA%9F_2%E9%9A%8E.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event01/",
+          "caption": "原始 Remastered 攻略樓層地圖｜尼薩洞窟 2F。來源 SAMURAI GAMERS；非本站重繪，圖片在原站提供，手機點擊可放大。"
+        },
+        {
+          "floor": "卡庫拉姆沙漠地下 B1",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E3%82%AB%E3%82%AF%E3%83%A9%E3%83%A0%E7%A0%82%E6%BC%A0%E3%81%AE%E5%9C%B0%E4%B8%8B_%E5%9C%B0%E4%B8%8B1%E9%9A%8E.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event01/",
+          "caption": "原始 Remastered 攻略樓層地圖｜卡庫拉姆沙漠地下 B1。來源 SAMURAI GAMERS；非本站重繪，圖片在原站提供，手機點擊可放大。"
+        }
       ]
     },
     {
