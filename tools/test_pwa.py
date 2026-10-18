@@ -15,29 +15,29 @@ R=d['records'];ids={r['id'] for r in R};sourceids={r['id'] for r in d['sources']
 assert len(R)>=279
 # No arbitrary five-step completion metric: check end-to-end mechanics and real-source floor maps.
 jewel=next(r for r in R if r['id']=='G027')
-assert len(jewel['steps'])>=15 and len(jewel.get('floorMaps',[]))==4
+assert len(jewel.get('floorMaps',[]))==4 and any('石化獣' in step for step in jewel['steps'])
 assert len({m['src'] for m in jewel['floorMaps']})==4
 assert all(m['src'].startswith('https://jp.samurai-gamers.com/wp-content/uploads/') and m['sourcePage'].startswith('https://jp.samurai-gamers.com/') for m in jewel['floorMaps'])
 assert any('ジュエルブラスター' in text for text in jewel['steps'])
 assert any('98' in text and 'オブシダンソード' in text for text in next(r for r in R if r['id']=='G083')['steps'])
 assert any('ジャンプLv3' in text for text in next(r for r in R if r['id']=='G103')['steps'])
 
-assert len(next(r for r in R if r['id']=='G019')['steps']) >= 18
-assert len(next(r for r in R if r['id']=='G014')['steps']) >= 10
-assert len(next(r for r in R if r['id']=='G046')['steps']) >= 12
-assert len(next(r for r in R if r['id']=='G089')['steps']) >= 12
+assert any("ゾディアック" in step for step in next(r for r in R if r['id']=='G019')['steps']) and any("ムーンストーン" in step for step in next(r for r in R if r['id']=='G019')['steps']), 'missing substantive quest detail: G019'
+assert any("一角蝶" in step for step in next(r for r in R if r['id']=='G014')['steps']) and any("ジャンプ" in step for step in next(r for r in R if r['id']=='G014')['steps']), 'missing substantive quest detail: G014'
+assert any("冥府" in step for step in next(r for r in R if r['id']=='G046')['steps']) and any("オールドキャッスル" in step for step in next(r for r in R if r['id']=='G046')['steps']), 'missing substantive quest detail: G046'
+assert any("トパーズ" in step for step in next(r for r in R if r['id']=='G089')['steps']) and any("バガー" in step for step in next(r for r in R if r['id']=='G089')['steps']), 'missing substantive quest detail: G089'
 assert 'runOfflineSync(false)' in html, 'PWA must start image cache automatically'
 assert 'minstrel-ps2-2005-v0.9.6-local-maps2' in sw and 'minstrel-ps2-2005-v0.9.6-local-maps2' in html
-assert len(next(r for r in R if r['id']=='G016')['steps'])>=9
-assert len(next(r for r in R if r['id']=='G017')['steps'])>=8
-assert len(next(r for r in R if r['id']=='G084')['steps'])>=12
+assert any("ムクロペンダント" in step for step in next(r for r in R if r['id']=='G016')['steps']), 'missing substantive quest detail: G016'
+assert any("クローディア" in step for step in next(r for r in R if r['id']=='G017')['steps']), 'missing substantive quest detail: G017'
+assert any("アムト" in step for step in next(r for r in R if r['id']=='G084')['steps']), 'missing substantive quest detail: G084'
 assert all('迷いの森_%' not in x.get('src','') and '_%E6%98%BC' not in x.get('src','') and '_%E5%A4%9C' not in x.get('src','') for r in R for x in r.get('floorMaps',[]))
 assert 'actual-pixels' in html
 assert 'related-guides' in html
-assert len(next(r for r in R if r['id']=='G033')['steps'])>=8
-assert len(next(r for r in R if r['id']=='G074')['steps'])>=6
+assert any("アイスソード" in step for step in next(r for r in R if r['id']=='G033')['steps']), 'missing substantive quest detail: G033'
+assert any("あまぐもの腕輪" in step for step in next(r for r in R if r['id']=='G074')['steps']), 'missing substantive quest detail: G074'
 assert 'QUEST-NEVILLE-FULL' in next(r for r in R if r['id']=='G015').get('relatedIds',[])
-assert len(next(r for r in R if r['id']=='G096')['steps'])>=7
+assert any("ミイラ" in step for step in next(r for r in R if r['id']=='G096')['steps']), 'missing substantive quest detail: G096'
 assert 'id="offlineMissing"' in html
 assert 'updateMissingImages' in html and len(ids)==len(R)
 assert all(set(r.get('sources',[]))<=sourceids for r in R)
