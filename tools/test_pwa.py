@@ -1,4 +1,4 @@
-"""PWA v0.7.0 靜態資料、搜尋、返回、地圖放大、桌機/手機與離線文字驗收。"""
+"""PWA v0.7.1 靜態資料、搜尋、返回、地圖放大、桌機/手機與離線文字驗收。"""
 from pathlib import Path
 import json,re,subprocess,time
 from playwright.sync_api import sync_playwright
@@ -10,7 +10,7 @@ html=(root/'index.html').read_text(encoding='utf-8')
 sw=(root/'sw.js').read_text(encoding='utf-8')
 m=re.search(r'<script id="guide-data" type="application/json">(.*?)</script>',html,re.S)
 assert m and json.loads(m.group(1))==d,"首頁資料與data.json不一致"
-assert d['version'].startswith('0.7.0') and 'minstrel-ps2-2005-v0.7.0' in html and 'minstrel-ps2-2005-v0.7.0' in sw
+assert d['version'].startswith('0.7.1') and 'minstrel-ps2-2005-v0.7.1' in html and 'minstrel-ps2-2005-v0.7.1' in sw
 R=d['records'];ids={r['id'] for r in R};sourceids={r['id'] for r in d['sources']}
 assert len(R)>=263 and len(ids)==len(R)
 assert all(set(r.get('sources',[]))<=sourceids for r in R)
@@ -18,7 +18,7 @@ assert len([r for r in R if r['section']=='地圖'])==11
 assert len([r for r in R if r['section']=='地點'])==22
 assert len([r for r in R if r['id'].startswith('D-')])==53
 assert len([r for r in R if r['section']=='主角' and r['id'].startswith('G00')])==8
-assert sum(len(r.get('floorMaps',[])) for r in R)>=60
+assert sum(len(r.get('floorMaps',[])) for r in R) >=64
 assert len([r for r in R if r['id']=='D-04-04'][0]['floorMaps'])==4
 assert len([r for r in R if r['id']=='D-09-04'][0]['floorMaps'])==25
 for name,expected in [('icon-192.png',192),('icon-512.png',512),('apple-touch-icon.png',180)]:

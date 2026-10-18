@@ -1,6 +1,6 @@
 {
   "project": "Romancing SaGa -Minstrel Song- Remastered｜PS2 2005 來源對照｜Traditional Chinese Taiwan",
-  "version": "0.7.0-integrated-authentic-maps",
+  "version": "0.7.1-castle-quest-real-maps",
   "updated": "2026-10-18",
   "sources": [
     {
@@ -1801,6 +1801,13 @@
       "kind": "Remastered 遊戲攻略與真實區域地圖",
       "url": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event55/",
       "note": "原作者圖檔700x400左右，外部來源／個人瀏覽器快取，不公開重新散布。十二場戰鬥分區與弱點由本頁核對。"
+    },
+    {
+      "id": "SAMURAI-THEODORE-28",
+      "name": "SAMURAI GAMERS｜テオドール乱心攻略、城內三層與秘密通道",
+      "url": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event28/",
+      "kind": "Remastered 主線後期任務與真實遊戲城內地圖",
+      "note": "2022年12月12日文章；真實地形圖保持連線來源及個人離線快取，不公開打包原圖。"
     }
   ],
   "records": [
@@ -8435,12 +8442,21 @@
       "steps": [
         "地圖技能：開鎖Lv2。",
         "關聯事件：提奧多爾失常。",
-        "進入與探索：相關城堡事件結束後回頭開寶箱通常更容易（2005 巴哈玩家心得）。"
+        "進入與探索：相關城堡事件結束後回頭開寶箱通常更容易（2005 巴哈玩家心得）。",
+        "【城堡入場】劇情進度Rank18以上可開始「テオドール乱心」，先由ブルエーレ城內遇騎士團使者，再至オイゲンシュタット槍兵具店前詢問兩組婦女。",
+        "【情報】與オイゲンシュタット謁見部屋ハインリヒ、二樓西側ラファエル私室中的コンスタンツ交談；之後可邀請ラファエル，但從ミルザブール搭船會自動離隊。",
+        "【地下秘密通道】到ミルザブール東側使用騎士団の鍵，進入地下秘密通道；依本站城內1F地圖可分辨武器庫A／B、王座謁見房與地下通道岔路。",
+        "【私室地圖】進城之後先到テオドール的私室撿地上地圖，擊敗出現的ジャム後，城內敵人會消失，建議這時再全城探索。",
+        "【邪教廢墟】從私室地圖開啟邪教の廃墟，穿過迷宮到テオドール牢獄打倒レッドドラゴン；依迷宮卡片先準備カギ開け、宝箱サーチ、ワナ解除。",
+        "【真假辨認】如果帶コンスタンツ同行，第一次選擇可能失敗，不死系戰鬥後由她自動找出真身；沒有她同行就看場景中央石像面向哪個テオドール，該方向才是真人。",
+        "【最後戰鬥】帶真テオドール回到バイゼルハイム，迎戰イフリート(B)，出發前準備抗火、防禦、回復與合適BP技能。",
+        "【獎勵】回ミルザブール城謁見室與フラーマ對話，取得騎士団の鍵、ルビー、10000金與ジュエル；解鎖後續「伝説の竜騎士」，也可回ラファエル私室找コンスタンツ拿お守り。"
       ],
       "sources": [
         "KYO-DUN-05",
         "BH-MAP-SKILLS",
-        "PS2-MAP-KNIGHT_MIRSABURG"
+        "PS2-MAP-KNIGHT_MIRSABURG",
+        "SAMURAI-THEODORE-28"
       ],
       "tags": [
         "迷宮",
@@ -8460,7 +8476,33 @@
       ],
       "mapType": "external_original_reference_image",
       "mapSourceUrl": "https://kyokugen.info/minsaga/minstrel_map_5_01.html",
-      "regionId": "MAP-05"
+      "regionId": "MAP-05",
+      "floorMaps": [
+        {
+          "floor": "城堡一樓走廊／地下入口",
+          "caption": "ミルザブール城内_1階廊下｜真實 Remastered 畫面地形圖，原作者 SAMURAI GAMERS；請依標示找出口與私室，非本站繪圖。",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E3%83%9F%E3%83%AB%E3%82%B6%E3%83%96%E3%83%BC%E3%83%AB%E5%9F%8E%E5%86%85_1%E9%9A%8E%E5%BB%8A%E4%B8%8B.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event28/"
+        },
+        {
+          "floor": "城堡二樓",
+          "caption": "ミルザブール城内_2階｜真實 Remastered 畫面地形圖，原作者 SAMURAI GAMERS；請依標示找出口與私室，非本站繪圖。",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E3%83%9F%E3%83%AB%E3%82%B6%E3%83%96%E3%83%BC%E3%83%AB%E5%9F%8E%E5%86%85_2%E9%9A%8E.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event28/"
+        },
+        {
+          "floor": "城堡三樓",
+          "caption": "ミルザブール城内_3階｜真實 Remastered 畫面地形圖，原作者 SAMURAI GAMERS；請依標示找出口與私室，非本站繪圖。",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E3%83%9F%E3%83%AB%E3%82%B6%E3%83%96%E3%83%BC%E3%83%AB%E5%9F%8E%E5%86%85_3%E9%9A%8E.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event28/"
+        },
+        {
+          "floor": "城堡東側秘密通道位置",
+          "caption": "ミルザブール城内・秘密通路の場所｜真實 Remastered 畫面地形圖，原作者 SAMURAI GAMERS；請依標示找出口與私室，非本站繪圖。",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E3%83%9F%E3%83%AB%E3%82%B6%E3%83%96%E3%83%BC%E3%83%AB%E5%9F%8E%E5%86%85%E3%83%BB%E7%A7%98%E5%AF%86%E9%80%9A%E8%B7%AF%E3%81%AE%E5%A0%B4%E6%89%80.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event28/"
+        }
+      ]
     },
     {
       "id": "D-05-04",
@@ -12589,6 +12631,55 @@
         "【最深處BOSS】ゾディアック以冷氣為威脅，建議抗寒防具及セルフバーニング；對手中後段物理攻擊可用骨砕き降低腕力，戰鬥前先保存進度。",
         "【完成】拿到ムーンストーン後回梅爾維爾找ソフィア或內維爾（ネビル），引導到皇帝面前。",
         "【獎勵三選一】エスパーダ・ロペラ（武器）、アラ・メルビラーナ（防具）、10000金擇一；原攻略推薦細劍エスパーダ・ロペラ較適合長期裝備。不要選「何もいらない」，否則無法領任何報酬。"
+      ]
+    },
+    {
+      "id": "QUEST-THEODORE-2026-DETAIL",
+      "section": "任務",
+      "title": "提奧多爾失常｜城內三層與邪教廢墟完整攻略",
+      "ja": "テオドール乱心／ミルザブール城内／邪教の廃墟",
+      "stage": "Rank18以上｜後期重要任務",
+      "summary": "ブルエーレ使者→オイゲンシュタット→ミルザブール東側秘密通道→邪教廢墟→辨認真人→イフリート(B)→ルビー；含城內四張實際地形圖。",
+      "sources": [
+        "SAMURAI-THEODORE-28"
+      ],
+      "quality": "SAMURAI GAMERS 原始 Remastered 攻略頁逐項核對，保留日文原名，非實機拍攝重繪。",
+      "steps": [
+        "【城堡入場】劇情進度Rank18以上可開始「テオドール乱心」，先由ブルエーレ城內遇騎士團使者，再至オイゲンシュタット槍兵具店前詢問兩組婦女。",
+        "【情報】與オイゲンシュタット謁見部屋ハインリヒ、二樓西側ラファエル私室中的コンスタンツ交談；之後可邀請ラファエル，但從ミルザブール搭船會自動離隊。",
+        "【地下秘密通道】到ミルザブール東側使用騎士団の鍵，進入地下秘密通道；依本站城內1F地圖可分辨武器庫A／B、王座謁見房與地下通道岔路。",
+        "【私室地圖】進城之後先到テオドール的私室撿地上地圖，擊敗出現的ジャム後，城內敵人會消失，建議這時再全城探索。",
+        "【邪教廢墟】從私室地圖開啟邪教の廃墟，穿過迷宮到テオドール牢獄打倒レッドドラゴン；依迷宮卡片先準備カギ開け、宝箱サーチ、ワナ解除。",
+        "【真假辨認】如果帶コンスタンツ同行，第一次選擇可能失敗，不死系戰鬥後由她自動找出真身；沒有她同行就看場景中央石像面向哪個テオドール，該方向才是真人。",
+        "【最後戰鬥】帶真テオドール回到バイゼルハイム，迎戰イフリート(B)，出發前準備抗火、防禦、回復與合適BP技能。",
+        "【獎勵】回ミルザブール城謁見室與フラーマ對話，取得騎士団の鍵、ルビー、10000金與ジュエル；解鎖後續「伝説の竜騎士」，也可回ラファエル私室找コンスタンツ拿お守り。"
+      ],
+      "mapSourceUrl": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event28/",
+      "floorMaps": [
+        {
+          "floor": "城堡一樓走廊／地下入口",
+          "caption": "ミルザブール城内_1階廊下｜真實 Remastered 畫面地形圖，原作者 SAMURAI GAMERS；請依標示找出口與私室，非本站繪圖。",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E3%83%9F%E3%83%AB%E3%82%B6%E3%83%96%E3%83%BC%E3%83%AB%E5%9F%8E%E5%86%85_1%E9%9A%8E%E5%BB%8A%E4%B8%8B.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event28/"
+        },
+        {
+          "floor": "城堡二樓",
+          "caption": "ミルザブール城内_2階｜真實 Remastered 畫面地形圖，原作者 SAMURAI GAMERS；請依標示找出口與私室，非本站繪圖。",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E3%83%9F%E3%83%AB%E3%82%B6%E3%83%96%E3%83%BC%E3%83%AB%E5%9F%8E%E5%86%85_2%E9%9A%8E.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event28/"
+        },
+        {
+          "floor": "城堡三樓",
+          "caption": "ミルザブール城内_3階｜真實 Remastered 畫面地形圖，原作者 SAMURAI GAMERS；請依標示找出口與私室，非本站繪圖。",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E3%83%9F%E3%83%AB%E3%82%B6%E3%83%96%E3%83%BC%E3%83%AB%E5%9F%8E%E5%86%85_3%E9%9A%8E.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event28/"
+        },
+        {
+          "floor": "城堡東側秘密通道位置",
+          "caption": "ミルザブール城内・秘密通路の場所｜真實 Remastered 畫面地形圖，原作者 SAMURAI GAMERS；請依標示找出口與私室，非本站繪圖。",
+          "src": "https://jp.samurai-gamers.com/wp-content/uploads/2022/12/%E3%83%9F%E3%83%AB%E3%82%B6%E3%83%96%E3%83%BC%E3%83%AB%E5%9F%8E%E5%86%85%E3%83%BB%E7%A7%98%E5%AF%86%E9%80%9A%E8%B7%AF%E3%81%AE%E5%A0%B4%E6%89%80.jpg",
+          "sourcePage": "https://jp.samurai-gamers.com/saga_minstrelsong_re/rsmsr-event28/"
+        }
       ]
     }
   ],
