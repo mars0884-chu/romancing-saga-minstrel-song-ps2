@@ -52,10 +52,8 @@ jobs:
             if curl --fail --location --max-time 20 --silent --show-error "${LIVE_URL%/}/index.html?sha=${GITHUB_SHA}" -o /tmp/minstrel-live-index.html \
               && curl --fail --location --max-time 20 --silent --show-error "${LIVE_URL%/}/sw.js?sha=${GITHUB_SHA}" -o /tmp/minstrel-live-sw.js \
               && curl --fail --location --max-time 20 --silent --show-error "${LIVE_URL%/}/data.json?sha=${GITHUB_SHA}" -o /tmp/minstrel-live-data.json \
-              && grep -q "minstrel-ps2-2005-v0.9.3" /tmp/minstrel-live-index.html \
-              && grep -q "minstrel-ps2-2005-v0.9.3" /tmp/minstrel-live-sw.js \
-              && python -c 'import json;d=json.load(open("/tmp/minstrel-live-data.json"));assert d["version"].startswith("0.9.2"),d["version"];assert len(d["records"])>=263;print("Live guide records:",len(d["records"]))'; then
-              echo "LIVE DEPLOY VERIFIED: public HTML, SW and guide JSON are v0.9.3"
+              && python -c 'import json,pathlib; p=pathlib.Path; local=json.loads(p("data.json").read_text(encoding="utf-8")); live=json.loads(p("/tmp/minstrel-live-data.json").read_text(encoding="utf-8")); assert live==local, "published data.json differs from commit"; token="minstrel-ps2-2005-v"+local["version"].split("-",1)[0]; assert token in p("/tmp/minstrel-live-index.html").read_text(encoding="utf-8"), "homepage version mismatch"; assert token in p("/tmp/minstrel-live-sw.js").read_text(encoding="utf-8"), "SW version mismatch"; print("LIVE DEPLOY VERIFIED:",token,"records:",len(live["records"]))'; then
+              echo "LIVE DEPLOY VERIFIED: public HTML, SW and guide JSON match this commit"
               exit 0
             fi
             echo "Live Pages not propagated (attempt ${attempt}/12); retry in 10 seconds."

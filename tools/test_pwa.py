@@ -1,4 +1,4 @@
-"""PWA v0.9.3 靜態資料、搜尋、返回、地圖放大、桌機/手機與離線文字驗收。"""
+"""PWA v0.9.4 靜態資料、搜尋、返回、地圖放大、桌機/手機與離線文字驗收。"""
 from pathlib import Path
 import json,re,subprocess,time
 from playwright.sync_api import sync_playwright
@@ -10,7 +10,7 @@ html=(root/'index.html').read_text(encoding='utf-8')
 sw=(root/'sw.js').read_text(encoding='utf-8')
 m=re.search(r'<script id="guide-data" type="application/json">(.*?)</script>',html,re.S)
 assert m and json.loads(m.group(1))==d,"首頁資料與data.json不一致"
-assert d['version'].startswith('0.9.3') and 'minstrel-ps2-2005-v0.9.3' in html and 'minstrel-ps2-2005-v0.9.3' in sw
+assert d['version'].startswith('0.9.4') and 'minstrel-ps2-2005-v0.9.4' in html and 'minstrel-ps2-2005-v0.9.4' in sw
 R=d['records'];ids={r['id'] for r in R};sourceids={r['id'] for r in d['sources']}
 assert len(R)>=276
 assert len(next(r for r in R if r['id']=='G016')['steps'])>=9
@@ -18,6 +18,8 @@ assert len(next(r for r in R if r['id']=='G017')['steps'])>=8
 assert len(next(r for r in R if r['id']=='G084')['steps'])>=12
 assert all('迷いの森_%' not in x.get('src','') and '_%E6%98%BC' not in x.get('src','') and '_%E5%A4%9C' not in x.get('src','') for r in R for x in r.get('floorMaps',[]))
 assert 'actual-pixels' in html
+assert 'related-guides' in html
+assert 'QUEST-NEVILLE-FULL' in next(r for r in R if r['id']=='G015').get('relatedIds',[])
 assert len(next(r for r in R if r['id']=='G096')['steps'])>=7
 assert 'id="offlineMissing"' in html
 assert 'updateMissingImages' in html and len(ids)==len(R)
@@ -59,6 +61,13 @@ try:
    page.locator('#backToList').click()
    page.wait_for_timeout(300)
    assert page.locator('.region-card').count()>0, '上一層返回失敗'
+   page.get_by_role('button',name='任務',exact=True).click()
+   page.locator('#search').fill('ネビルの依頼')
+   assert page.locator('[data-jump="QUEST-NEVILLE-FULL"]').count()>=1
+   page.locator('[data-jump="QUEST-NEVILLE-FULL"]').first.click()
+   assert page.locator('#backToList').count()==1
+   page.locator('#backToList').click()
+   page.wait_for_timeout(300)
    page.get_by_role('button',name='同伴',exact=True).click()
    page.locator('#search').fill('モニカ')
    assert '東の風、雨' in page.locator('#cards').inner_text()
