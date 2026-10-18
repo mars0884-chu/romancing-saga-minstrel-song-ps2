@@ -13,6 +13,15 @@ assert m and json.loads(m.group(1))==d,"首頁資料與data.json不一致"
 assert d['version'].startswith('0.9.6') and 'minstrel-ps2-2005-v0.9.6' in html and 'minstrel-ps2-2005-v0.9.6' in sw
 R=d['records'];ids={r['id'] for r in R};sourceids={r['id'] for r in d['sources']}
 assert len(R)>=279
+# No arbitrary five-step completion metric: check end-to-end mechanics and real-source floor maps.
+jewel=next(r for r in R if r['id']=='G027')
+assert len(jewel['steps'])>=15 and len(jewel.get('floorMaps',[]))==4
+assert len({m['src'] for m in jewel['floorMaps']})==4
+assert all(m['src'].startswith('https://jp.samurai-gamers.com/wp-content/uploads/') and m['sourcePage'].startswith('https://jp.samurai-gamers.com/') for m in jewel['floorMaps'])
+assert any('ジュエルブラスター' in text for text in jewel['steps'])
+assert any('98' in text and 'オブシダンソード' in text for text in next(r for r in R if r['id']=='G083')['steps'])
+assert any('ジャンプLv3' in text for text in next(r for r in R if r['id']=='G103')['steps'])
+
 assert len(next(r for r in R if r['id']=='G019')['steps']) >= 18
 assert len(next(r for r in R if r['id']=='G014')['steps']) >= 10
 assert len(next(r for r in R if r['id']=='G046')['steps']) >= 12
@@ -101,6 +110,12 @@ try:
     assert result['ok'] and result['bytes']>100, f'offline local image failure: {image_path}: {result}'
    image_cache_count=page.evaluate("""async()=>{const k=(await caches.keys()).find(n=>n.includes('local-maps2'));return k?(await (await caches.open(k)).keys()).length:0}""")
    assert image_cache_count>=111,f'Expected 103 local graphics plus guide assets in offline cache; got {image_cache_count}'
+   # Check Japanese search and floor panels are available offline without ZIP and without a save button.
+   page.get_by_role('button',name='任務',exact=True).click()
+   page.locator('#search').fill('ジュエルビースト')
+   assert page.locator('#cards .item').count()>0
+   assert 'ラミア' in page.locator('#cards').inner_text()
+   assert page.locator('.floor-fig').count()>=4, 'Four source-backed Jewel Beast maps missing from offline UI'
    assert not page.evaluate('document.documentElement.scrollWidth > innerWidth+1')
    assert not errors,errors
    print('PWA responsive + back + zoom + offline searchable guide: PASS',width,height)
