@@ -13,6 +13,17 @@ assert m and json.loads(m.group(1))==d,"首頁資料與data.json不一致"
 assert d['version'].startswith('0.9.6') and 'minstrel-ps2-2005-v0.9.6' in html and 'minstrel-ps2-2005-v0.9.6' in sw
 R=d['records'];ids={r['id'] for r in R};sourceids={r['id'] for r in d['sources']}
 assert len(R)>=279
+assert len(d['sources'])>=350
+assert all((root/'docs'/name).exists() for name in ('DEVELOPMENT_LOG.md','MAINTENANCE_GUIDE.md','RESTART_PROMPT.md','RECOVERY_CHECKPOINT_2026-10-19.md')), 'GitHub handoff documents missing'
+melville=next(r for r in R if r['id']=='G029')
+assert len(melville.get('floorMaps',[]))==2 and len({x['src'] for x in melville['floorMaps']})==2
+assert any('ブチ破る！' in step for step in melville['steps'])
+assert any('大空飛竜' in step and '暴風' in step for step in melville['steps'])
+assert any('オキナスのバンダナ' in step for step in melville['steps'])
+assert any('ワナ解除' in step and 'Lv4' in step for step in next(r for r in R if r['id']=='D-07-02')['steps'])
+assert all(id in sourceids for id in melville['sources']), 'Missing source evidence for raid'
+assert not (root/'offline-guide.zip').exists(), 'ZIP is not the delivery path'
+
 # No arbitrary five-step completion metric: check end-to-end mechanics and real-source floor maps.
 jewel=next(r for r in R if r['id']=='G027')
 assert len(jewel.get('floorMaps',[]))==4 and any('石化獣' in step for step in jewel['steps'])
@@ -102,6 +113,14 @@ try:
    page.get_by_role('button',name='迷宮',exact=True).click()
    page.locator('#search').fill('最終試練')
    assert 'オーガチャンピオン' in page.locator('#cards').inner_text()
+   # Open PWA directly while disconnected; source-backed Melville maps and search remain available as metadata.
+   page.get_by_role('button',name='任務',exact=True).click()
+   page.locator('#search').fill('メルビル襲撃計画')
+   assert 'ブチ破る！' in page.locator('#cards').inner_text()
+   assert page.locator('.floor-fig').count()>=2, 'Melville dungeon maps lost offline'
+   page.get_by_role('button',name='迷宮',exact=True).click()
+   page.locator('#search').fill('最終試練')
+
    assert page.locator('.floor-fig').count()==4
    # Verify genuine same-origin image bytes can be read without network, not just visible remote thumbnails.
    local_images=['assets/floorplans/final-trial.svg','assets/atlas/map-01.svg','assets/heroes/g001.svg','assets/equipment/g105.svg']
