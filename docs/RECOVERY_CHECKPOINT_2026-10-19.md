@@ -3,7 +3,7 @@
 - 正式倉庫：https://github.com/mars0884-chu/romancing-saga-minstrel-song-ps2
 - 正式網站：https://mars0884-chu.github.io/romancing-saga-minstrel-song-ps2/
 - 主分支：`main`，內容源自 `data.json`、`index.html`、`sw.js`。
-- 備份分支預定：`backup/2026-10-19-pwa-handoff`（以完成當輪部署與測試後、在主分支最新完整 SHA 上建立。是否已建成以 GitHub 分支頁查驗，不得只憑本段判定）。
+- 已建立備份分支：`backup/2026-10-19-pwa-handoff`（已由 GitHub API 確認存在；請比對分支指向與本次最終提交）。
 - 版本：`v0.9.7-pwa-handoff-melville`，Service Worker 安裝快取 `v0.9.7-local-maps3`，第三方圖片 cache key 保持不變。
 - 資料：279 筆攻略、350 筆來源（2026-10-19 更新），中日雙語、地圖與金手指資料同一份 JSON。
 - 顯示：PWA 點開即載入網站內嵌資料；站內檔案透過 SW 預存，第三方原站真圖部分要看裝置是否能快取。
@@ -19,3 +19,6 @@
 2. 回復／修改後，更新 `data.json` 和 `index.html` 內嵌 `guide-data` **完全一致**。
 3. 桌機和手機斷網 PWA 測試、原圖來源稽核、正式 Pages 部署驗證全部成功後才發布。
 4. 禁止混用或更動任何非本遊戲的 repo；不使用 ZIP；不使用固定攻略步數衡量完成。
+
+### 2026-10-19 真實圖品質與可讀性實測
+GitHub Actions 報告：162 URLs、110 可讀、52 因 GitHub 執行器 network_error（非404）、1280×720以上3張。52張 URL 與稽核網址全部在 `docs/IMAGE_AUDIT_2026-10-19.md`。來源圖並非全部高解析或全部可離線。

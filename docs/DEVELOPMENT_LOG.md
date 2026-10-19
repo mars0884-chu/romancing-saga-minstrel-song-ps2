@@ -57,3 +57,7 @@
 
 ## 2026-10-19 v0.9.7 PWA 快取同步
 - 網站、資料、Service Worker、Playwright 測試統一更新為 v0.9.7；站內快取鍵改為 local-maps3，圖片個人快取鍵不變。正式發布通過與否以最終 SHA 的 GitHub Actions 為準，不以這段文字代替驗收。
+
+## 2026-10-19 圖片稽核確認的缺口與固定備份
+- 圖片稽核工作 `https://github.com/mars0884-chu/romancing-saga-minstrel-song-ps2/actions/runs/39243217200` 本身是 success，但日誌回報 **162 個不同圖片 URL：110 readable、52 network_error、高解析度僅3**。52個錯誤均來自 `kyokugen.info`，不是HTTP404，不能判定來源不存在，詳 `docs/IMAGE_AUDIT_2026-10-19.md`。
+- PWA v0.9.7 官方部署與瀏覽器自動驗收在 `054f17c2eabaaeb93006c88c2a1b227b7aa75d12` 曾通過。建立 GitHub 固定備份分支 `backup/2026-10-19-pwa-handoff`，後續請以 GitHub refs 確認最終指向，不要假設分支永遠等於最新 `main`。
