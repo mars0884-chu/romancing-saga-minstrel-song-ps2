@@ -1,7 +1,7 @@
 {
   "project": "Romancing SaGa -Minstrel Song- Remastered｜PS2 2005 來源對照｜Traditional Chinese Taiwan",
   "version": "0.9.6-pwa-direct-detail",
-  "updated": "2026-10-18",
+  "updated": "2026-10-19",
   "sources": [
     {
       "id": "BH-INDEX",
@@ -2445,6 +2445,13 @@
       "url": "https://eicos.blog.fc2.com/blog-entry-64.html",
       "kind": "原版寶箱實測研究",
       "note": "確認固定配置與隨機配置及不會再生的箱子；不能把所有隨機內容畫作固定座標"
+    },
+    {
+      "id": "SAGA-REMASTER-MELVILLE-BRANCH-20261019",
+      "name": "ロマンシングサガ情報掲示板｜メルビル襲撃計画分岐與報酬",
+      "url": "https://saga-remaster.com/?p=368",
+      "kind": "Remastered 玩家實際流程",
+      "note": "交叉核對通報路線、霍克對決、特殊頭巾與報酬；與極限攻略部分順序／獎勵解釋不同"
     }
   ],
   "records": [
@@ -4621,6 +4628,7 @@
       "summary": "梅爾維爾",
       "steps": [
         "【兩條觸發路線要先選】「メルビル襲撃計画」有進度約70％以上的提前揭發通報路線，與進度約80％以上再次進入メルビル的強制襲擊路線。想取得後續パイレーツコースト通路，應優先在強制襲擊前完成通報。",
+        "【Remastered 早期例外】SAMURAI GAMERS 記載若已完成「皇帝の奇病」，在一般70％通報時間前也可能開啟提早舉報（事件Rank9～13）；此為 Remastered 來源說法，實際需看當前下水道海賊門是否可調查，不能把70％寫成所有版本唯一門檻。",
         "【通報第一步：入地下】從梅爾維爾1F警備隊詰所左側、或2Fウコム神殿右側入下水道；先在固定地圖寶箱領取地下地圖，避免在交錯通道迷路。",
         "【通報第二步：找海賊アジト】沿地下水道找到海賊據點，對密門選「ブチ破る！」闖入，打敗約5名海賊（不同攻略來源有5／6名記載差異，以遊戲當前戰鬥畫面為準）。",
         "【通報第三步：回地上】回到メルビル1F的警備隊詰所與衛兵談話，舉報海賊襲擊計畫，這是海盜海岸後續交通的關鍵分歧旗標。",
@@ -4647,7 +4655,8 @@
         "KYO-MELVILLE-RAID-DEEP-20261019",
         "KYO-MELVILLE-SEWER-20261019",
         "SAM-MELVILLE-RAID-20261019",
-        "EICOS-MELVILLE-BOX-20261019"
+        "EICOS-MELVILLE-BOX-20261019",
+        "SAGA-REMASTER-MELVILLE-BRANCH-20261019"
       ],
       "tags": [
         "80%起"
