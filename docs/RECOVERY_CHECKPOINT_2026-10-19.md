@@ -4,6 +4,7 @@
 - 正式網站：https://mars0884-chu.github.io/romancing-saga-minstrel-song-ps2/
 - 主分支：`main`，內容源自 `data.json`、`index.html`、`sw.js`。
 - 備份分支預定：`backup/2026-10-19-pwa-handoff`（以完成當輪部署與測試後、在主分支最新完整 SHA 上建立。是否已建成以 GitHub 分支頁查驗，不得只憑本段判定）。
+- 版本：`v0.9.7-pwa-handoff-melville`，Service Worker 安裝快取 `v0.9.7-local-maps3`，第三方圖片 cache key 保持不變。
 - 資料：279 筆攻略、350 筆來源（2026-10-19 更新），中日雙語、地圖與金手指資料同一份 JSON。
 - 顯示：PWA 點開即載入網站內嵌資料；站內檔案透過 SW 預存，第三方原站真圖部分要看裝置是否能快取。
 - 真實地圖：已連結寶石獸四區段、黃玉／沙漠、雙月神殿、梅爾維爾下水道與伊莉莎白宮殿等原作者地形圖；沒有全部高清，更沒有取得所有圖的公開重散布授權。

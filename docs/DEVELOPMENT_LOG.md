@@ -54,3 +54,6 @@
 6. 務必更新本文件、`docs/RESTART_PROMPT.md`、`README.md` 與網站測試，最後核對當次 SHA。
 
 **本機清理紀錄（2026-10-19）**：此對話工作容器 `/mnt/data` 檢查為空，也沒有本遊戲專案 checkout。GitHub 上的檔案是 repo 本身，不是使用者 Windows 電腦的檔案。ChatGPT 未取得使用者電腦的本機磁碟刪除權限，不能宣稱已刪除使用者所有電腦檔案；任何後續清理**絕不可掃掉其他專案、電腦資料或未驗證已備份的檔案**。
+
+## 2026-10-19 v0.9.7 PWA 快取同步
+- 網站、資料、Service Worker、Playwright 測試統一更新為 v0.9.7；站內快取鍵改為 local-maps3，圖片個人快取鍵不變。正式發布通過與否以最終 SHA 的 GitHub Actions 為準，不以這段文字代替驗收。

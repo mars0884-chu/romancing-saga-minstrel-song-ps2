@@ -1,4 +1,4 @@
-# 《復活邪神：吟遊詩人之歌 Remastered》PWA 直接查詢攻略
+# 《復活邪神：吟遊詩人之歌 Remastered》PWA v0.9.7｜開啟即查詢攻略
 
 **正式網址：** https://mars0884-chu.github.io/romancing-saga-minstrel-song-ps2/
 
