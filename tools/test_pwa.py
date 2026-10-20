@@ -1,4 +1,4 @@
-"""PWA v0.9.7 靜態資料、搜尋、返回、地圖放大、桌機/手機與離線文字驗收。"""
+"""PWA v0.9.8 靜態資料、搜尋、返回、地圖放大、桌機/手機與離線文字驗收。"""
 from pathlib import Path
 import json,re,subprocess,time
 from playwright.sync_api import sync_playwright
@@ -10,10 +10,23 @@ html=(root/'index.html').read_text(encoding='utf-8')
 sw=(root/'sw.js').read_text(encoding='utf-8')
 m=re.search(r'<script id="guide-data" type="application/json">(.*?)</script>',html,re.S)
 assert m and json.loads(m.group(1))==d,"首頁資料與data.json不一致"
-assert d['version'].startswith('0.9.7') and 'minstrel-ps2-2005-v0.9.7' in html and 'minstrel-ps2-2005-v0.9.7' in sw
+assert d['version'].startswith('0.9.7') and 'minstrel-ps2-2005-v0.9.8' in html and 'minstrel-ps2-2005-v0.9.8' in sw
 R=d['records'];ids={r['id'] for r in R};sourceids={r['id'] for r in d['sources']}
 assert len(R)>=279
 assert len(d['sources'])>=350
+assert len(d['sources'])>=357
+mine=next(r for r in R if r['id']=='G028')
+vault=next(r for r in R if r['id']=='G011')
+uhanji=next(r for r in R if r['id']=='G013')
+assert len(mine.get('floorMaps', [])) == 5 and len({x['src'] for x in mine['floorMaps']}) == 5
+assert all(x['sourcePage'].endswith('/rsmsr-event18/') for x in mine['floorMaps'])
+assert any('ゴールドドラゴン' in step and '不意打ち' in step for step in mine['steps'])
+assert any('30000金' in step for step in mine['steps'])
+assert any('15～' in step and '30％' in step for step in vault['steps'])
+assert any('未決' in step and '贓物' in step for step in vault['steps'])
+assert any('ウハンジ' in step and '水竜の神殿' in step for step in uhanji['steps'])
+assert any('やばい仕事大好き！' in step for step in uhanji['steps'])
+
 assert all((root/'docs'/name).exists() for name in ('DEVELOPMENT_LOG.md','MAINTENANCE_GUIDE.md','RESTART_PROMPT.md','RECOVERY_CHECKPOINT_2026-10-19.md')), 'GitHub handoff documents missing'
 melville=next(r for r in R if r['id']=='G029')
 assert len(melville.get('floorMaps',[]))==2 and len({x['src'] for x in melville['floorMaps']})==2
@@ -38,7 +51,7 @@ assert any("一角蝶" in step for step in next(r for r in R if r['id']=='G014')
 assert any("冥府" in step for step in next(r for r in R if r['id']=='G046')['steps']) and any("オールドキャッスル" in step for step in next(r for r in R if r['id']=='G046')['steps']), 'missing substantive quest detail: G046'
 assert any("トパーズ" in step for step in next(r for r in R if r['id']=='G089')['steps']) and any("バガー" in step for step in next(r for r in R if r['id']=='G089')['steps']), 'missing substantive quest detail: G089'
 assert 'runOfflineSync(false)' in html, 'PWA must start image cache automatically'
-assert 'minstrel-ps2-2005-v0.9.7-local-maps3' in sw and 'minstrel-ps2-2005-v0.9.7-local-maps3' in html
+assert 'minstrel-ps2-2005-v0.9.8-local-maps4' in sw and 'minstrel-ps2-2005-v0.9.8-local-maps4' in html
 assert any("ムクロペンダント" in step for step in next(r for r in R if r['id']=='G016')['steps']), 'missing substantive quest detail: G016'
 assert any("クローディア" in step for step in next(r for r in R if r['id']=='G017')['steps']), 'missing substantive quest detail: G017'
 assert any("アムト" in step for step in next(r for r in R if r['id']=='G084')['steps']), 'missing substantive quest detail: G084'
@@ -127,7 +140,7 @@ try:
    for image_path in local_images:
     result=page.evaluate("""async p=>{const r=await fetch(p);return {ok:r.ok,bytes:(await r.text()).length}}""",image_path)
     assert result['ok'] and result['bytes']>100, f'offline local image failure: {image_path}: {result}'
-   image_cache_count=page.evaluate("""async()=>{const k=(await caches.keys()).find(n=>n.includes('local-maps3'));return k?(await (await caches.open(k)).keys()).length:0}""")
+   image_cache_count=page.evaluate("""async()=>{const k=(await caches.keys()).find(n=>n.includes('local-maps4'));return k?(await (await caches.open(k)).keys()).length:0}""")
    assert image_cache_count>=111,f'Expected 103 local graphics plus guide assets in offline cache; got {image_cache_count}'
    # Check Japanese search and floor panels are available offline without ZIP and without a save button.
    page.get_by_role('button',name='任務',exact=True).click()
@@ -135,6 +148,12 @@ try:
    assert page.locator('#cards .item').count()>0
    assert 'ラミア' in page.locator('#cards').inner_text()
    assert page.locator('.floor-fig').count()>=4, 'Four source-backed Jewel Beast maps missing from offline UI'
+   page.get_by_role('button',name='任務',exact=True).click()
+   page.locator('#search').fill('鉱山襲撃')
+   assert 'ゴールドドラゴン' in page.locator('#cards').inner_text()
+   assert page.locator('.floor-fig').count() >= 5, 'Late mine genuine game maps not visible while offline'
+   page.locator('#search').fill('ウハンジの秘密')
+   assert '水竜の神殿' in page.locator('#cards').inner_text()
    assert not page.evaluate('document.documentElement.scrollWidth > innerWidth+1')
    assert not errors,errors
    print('PWA responsive + back + zoom + offline searchable guide: PASS',width,height)
