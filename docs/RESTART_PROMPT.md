@@ -42,3 +42,5 @@ research/ 及 data.json、index.html、sw.js、tools/test_pwa.py、
 若未來重啟：先讀 `docs/RECOVERY_CHECKPOINT_2026-10-20.md` 和 `research/goldmine-uhanji-2026-10-20.md`。舊版0.9.7的資料計數與圖片稽核僅供歷史對照，以當前GitHub main、最新data.json及圖片測試為準。最新基線為v0.9.8，任務G011/G028已分開、後期礦坑5張原站地圖與G013烏漢吉完整分歧已整合，不得回退改成早期金庫追賊流程。確認 `index.html`、`data.json` 同步且快取鍵一致，查同SHA GitHub Actions完成。使用者要的是PWA直接開啟查找，不是ZIP。離線原站真實圖片尚非全部經實體iPhone Edge證實。若本機工作目錄空，不能為了回應刪除要求而刪其他人的資料或其他專案。
 
 **可直接用的後續短提示詞：**「接手 mars0884-chu/romancing-saga-minstrel-song-ps2 的 main 與最新 docs/RECOVERY_CHECKPOINT_2026-10-20.md，繼續補真實高清原圖、逐層機關寶箱、完整角色任務與中日搜尋、PWA自動快取及斷網驗證；不能做ZIP、不能以五步當完成；請實際推送並等待同SHA全部Actions成功，更新GitHub開發歷程、可重啟提示詞、來源狀態與備份分支，只清理確認備份且僅屬本repo的本機暫存，最後完整回報。」
+
+**最新圖片稽核附記：** 2026-10-20 GitHub runner對167個URL全部可讀，但只有3張達1280×720；請讀 `docs/IMAGE_AUDIT_2026-10-20.md`，不可用runner成功宣稱iPhone Edge原圖全離線。

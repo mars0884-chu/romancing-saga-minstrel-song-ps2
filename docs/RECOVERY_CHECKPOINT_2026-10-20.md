@@ -12,3 +12,6 @@
 - 文件含來源出處、權利、未完成及失效／不可讀研究。不可因未標禁止轉載就公開重打包第三方圖。缺珊瑚海高清圖、礦坑B1真原圖、全部裝備圖與村莊實景、逐箱精確位置、真實iPhone Edge所有圖片斷網。
 - 2026-10-20實際檢查本輪工作容器/mnt/data為空，無臨時檔需刪；沒有使用者私人Windows/iPhone磁碟存取權，沒有備份或刪除那些不可讀的檔案。絕不能刪任何非本專案檔案。
 - **恢復操作**：先查GitHub main最新SHA及Actions；若需回復，使用本分支或main並校驗data.json＝首頁內嵌guide-data、SW key與test_pwa.py。CI驗收須verify-pwa、Audit Original Map Image URLs（綠燈不等於所有遠端圖成功）、Deploy Remastered PWA to GitHub Pages及正式live HTML/SW/JSON/圖可讀同SHA。不要要求非技術使用者貼程式或操作命令列。
+
+## 2026-10-20 最後有效測試紀錄
+在程式與研究已上主分支的commit eaa674912e0d18e6b532e723bf9de8a8c30c722d，GitHub Actions當次全部成功；部署：https://github.com/mars0884-chu/romancing-saga-minstrel-song-ps2/actions/runs/39408471054 ，PWA：https://github.com/mars0884-chu/romancing-saga-minstrel-song-ps2/actions/runs/39408471187 ，圖片稽核：https://github.com/mars0884-chu/romancing-saga-minstrel-song-ps2/actions/runs/39408471006 。舊版runner網路錯誤已在這次167/167恢復可讀（但僅3張高解析），詳 docs/IMAGE_AUDIT_2026-10-20.md 。本次新增純文檔之後的SHA，仍應重新核對Actions。
