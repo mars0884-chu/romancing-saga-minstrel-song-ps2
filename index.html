@@ -196,7 +196,7 @@ for(const source of DATA.sources){SOURCE[source.id]=source}
 window.addEventListener('popstate',()=>{if(detailStack.length)restoreList();else{selectedId='';q='';cat='全部';$('search').value='';syncTabs();render()}});const initialDetail=decodeURIComponent((location.hash.match(/^#guide-(.+)$/)||[])[1]||'');
 if(initialDetail){const direct=RECORDS.find(r=>r.id===initialDetail);if(direct){detailStack.push({cat:'全部',q:'',selectedId:'',limit:16});selectedId=direct.id;cat=direct.section;q=direct.title;$('search').value=q;}}
 $('version').textContent='v0.9.8';render();syncTabs();
-const CACHE='minstrel-ps2-2005-v0.9.8-local-maps3',IMG_CACHE='minstrel-ps2-2005-images-v1';
+const CACHE='minstrel-ps2-2005-v0.9.8-local-maps4',IMG_CACHE='minstrel-ps2-2005-images-v1';
 const IMAGE_URLS=[...new Set(RECORDS.flatMap(r=>[...(r.gallery||[]).map(g=>g.src),...(r.floorMaps||[]).map(f=>f.src)]).filter(s=>/^https:\/\//.test(s)))];
 async function imageCoverage(){const cache=await caches.open(IMG_CACHE);let stored=0;for(const u of IMAGE_URLS){if(await cache.match(u))stored++;}return {stored,total:IMAGE_URLS.length}}
 async function updateMissingImages(){
