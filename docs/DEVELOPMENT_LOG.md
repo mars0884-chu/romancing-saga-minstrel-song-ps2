@@ -61,3 +61,14 @@
 ## 2026-10-19 圖片稽核確認的缺口與固定備份
 - 圖片稽核工作 `https://github.com/mars0884-chu/romancing-saga-minstrel-song-ps2/actions/runs/39243217200` 本身是 success，但日誌回報 **162 個不同圖片 URL：110 readable、52 network_error、高解析度僅3**。52個錯誤均來自 `kyokugen.info`，不是HTTP404，不能判定來源不存在，詳 `docs/IMAGE_AUDIT_2026-10-19.md`。
 - PWA v0.9.7 官方部署與瀏覽器自動驗收在 `054f17c2eabaaeb93006c88c2a1b227b7aa75d12` 曾通過。建立 GitHub 固定備份分支 `backup/2026-10-19-pwa-handoff`，後續請以 GitHub refs 確認最終指向，不要假設分支永遠等於最新 `main`。
+
+## 2026-10-20 v0.9.8 實際更動與本機檔案處理
+
+1. 修正嚴重內容混用：`G011` 「ゴールドマイン襲撃事件」（15～未滿30％金庫賊案）和 `G028` 「鉱山襲撃」（70％後十怪與十五礦工），不可互用觸發、獎勵或圖片。
+2. `G028`／`D-07-05` 的地圖資料添加五張公開可讀的SAMURAI GAMERS Remastered原始地下礦坑遊戲地圖（2階A、3階A、2階B、3階B、2階C）。B1來源為lazy-load 1×1佔位圖，尚無核實本體；不要編造第六張。
+3. `G013` ウハンジの秘密補事件Rank0～5、ジャミル例外、アイシャ前置、神殿路線、女裝/性別免戰、回報與處決導致水竜の神殿委託受限。
+4. `data.json`和`index.html`內嵌guide-data同步；內容版號 v0.9.8，`sw.js`與HTML快取鍵設 v0.9.8-local-maps4，`tools/test_pwa.py`新增實際關鍵詞、5張原始礦坑地圖及斷網搜尋驗證。
+5. CI 最初因測試殘留`d['version'].startswith('0.9.7')`而失敗，已在commit `0f28a154ee6f9966bd14324864cbfe1fdcef8fc5`修正，並取得其獨立PWA、圖片稽核及正式部署成功紀錄；後續文書commit的最終結果仍必須同SHA重新驗證。
+6. 研究來源詳細與有效性在 `research/goldmine-uhanji-2026-10-20.md`；巴哈精確查找被其他遊戲污染，沒有確認新的屬於本作的全文，不可推論不存在。
+7. **清除工作容器**：2026-10-20以實際容器檢查 `/mnt/data` 為空，沒有專案checkout或可刪的工作檔；因此未執行刪除，僅保存GitHub已有的專案成果。使用者個人Windows磁碟和iPhone資料無存取權；絕不可宣稱已刪掉其本機檔案。
+8. 交接檔更新後以新備份分支 `backup/2026-10-20-pwa-v098-handoff`固定一個可恢復版本；以GitHub實際branch ref成功確認為準。不得修改非本遊戲repo。
